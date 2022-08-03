@@ -66,6 +66,7 @@ public class ToggleBetweenGroupsWithCube : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.name);
         if(other.tag=="Player")
             inside = true;
     }

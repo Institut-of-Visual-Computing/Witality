@@ -51,7 +51,6 @@ public class HandedInputSelector : MonoBehaviour
 
     void SetActiveController(OVRInput.Controller c)
     {
-        
         Transform t;
         if(c == OVRInput.Controller.LTouch)
         {
@@ -65,6 +64,5 @@ public class HandedInputSelector : MonoBehaviour
         }
         t.RotateAround(m_CameraRig.transform.position, Vector3.up, 90);
         m_InputModule.rayTransform = t;
-        
     }
 }
