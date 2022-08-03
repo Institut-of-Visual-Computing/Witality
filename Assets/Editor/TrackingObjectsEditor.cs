@@ -38,7 +38,7 @@ public class TrackingObjectsEditor : Editor
         {
             
             Transform obj = _target.transform.GetChild(i);
-            if (GUILayout.Button("Rotate Object " + i + ": " + _target.transform.GetChild(i).name + "\t" +(obj.rotation.eulerAngles.y + 90)%360 + "°"))
+            if (GUILayout.Button("Rotate Object " + i + ": " + _target.transform.GetChild(i).name + "\t" +Mathf.RoundToInt((obj.rotation.eulerAngles.y)%360) + "°"))
             {
                 
                 for (int c = 0; c < obj.childCount; c++)
