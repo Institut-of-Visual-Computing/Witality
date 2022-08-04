@@ -23,7 +23,7 @@ public class ToggleBetweenGroupsWithCube : MonoBehaviour
     void Start()
     {
         
-        loadingCube = transform.Find("outer").Find("inner");
+        loadingCube = transform.Find("inner");
     }
 
     // Update is called once per frame
@@ -66,14 +66,15 @@ public class ToggleBetweenGroupsWithCube : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
-        if(other.tag=="Player")
+        
+        if(other.GetComponentInParent<OVRHand>())
             inside = true;
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.GetComponentInParent<OVRHand>())
             inside = false;
     }
+   
 
 }

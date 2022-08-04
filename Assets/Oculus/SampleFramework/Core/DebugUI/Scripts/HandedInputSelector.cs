@@ -26,43 +26,36 @@ using System;
 
 public class HandedInputSelector : MonoBehaviour
 {
-    OVRCameraRig m_CameraRig;
-    OVRInputModule m_InputModule;
-    public OVRHand leftHand, rightHand;
+    public Transform m_CameraRig;
+    public OVRInputModule m_InputModule;
+    public OVRHand rightHand;
+    public LineRenderer ray;
 
-    void Start()
-    {
-        m_CameraRig = FindObjectOfType<OVRCameraRig>();
-        m_InputModule = FindObjectOfType<OVRInputModule>();
-    }
-
+    Transform t, index_tip, thumb_tip;
     void Update()
     {
-        if(OVRInput.GetActiveController() == OVRInput.Controller.LTouch)
+        
+        t = rightHand.PointerPose;
+        t.position += m_CameraRig.position;
+        t.RotateAround(m_CameraRig.position, Vector3.up, m_CameraRig.rotation.eulerAngles.y);
+
+        if(!index_tip)
+            index_tip = rightHand.transform.Find("Hand_IndexTip");
+        if(!thumb_tip)
+            thumb_tip = rightHand.transform.Find("Hand_ThumbTip");
+        if (index_tip && thumb_tip)
         {
-            SetActiveController(OVRInput.Controller.LTouch);
+            float pinch = Mathf.Min(Vector3.Distance(index_tip.position, thumb_tip.position), 0.05f) / 0.05f;
+            ray.startWidth = 0.01f + (1 - pinch) * 0.02f;
         }
-        else
-        {
-            SetActiveController(OVRInput.Controller.RTouch);
-        }
+        m_InputModule.rayTransform = t;
+
 
     }
 
-    void SetActiveController(OVRInput.Controller c)
+    private void OnDrawGizmos()
     {
-        Transform t;
-        if(c == OVRInput.Controller.LTouch)
-        {
-            //t = m_CameraRig.leftHandAnchor;
-            t = leftHand.PointerPose;
-        }
-        else
-        {
-            //t = m_CameraRig.rightHandAnchor;
-            t = rightHand.PointerPose;
-        }
-        t.RotateAround(m_CameraRig.transform.position, Vector3.up, 90);
-        m_InputModule.rayTransform = t;
+        Gizmos.DrawSphere(index_tip.position, 0.1f);
+        Gizmos.DrawSphere(thumb_tip.position, 0.1f);
     }
 }

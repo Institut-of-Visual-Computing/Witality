@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Calibration : MonoBehaviour
 {
-    public Transform calibCube, calibCubeShouldBe, hmd, ovrRig, realsense, fingerTipR, fingerTipL;
+    public Transform calibCube, calibCubeShouldBe, hmd, ovrRig, realsense, handR, handL;
 
 
 
@@ -17,7 +17,7 @@ public class Calibration : MonoBehaviour
         Quaternion rotateRealsense = Quaternion.FromToRotation(calibCube.forward, calibCubeShouldBe.forward);
 
         realsense.position += moveRealsense;
-        realsense.rotation *= rotateRealsense;
+        //realsense.rotation *= rotateRealsense;
 
         //ovrRig anpassen dass Fingertip stimmt
 
