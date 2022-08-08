@@ -19,16 +19,20 @@ public class ToggleBetweenGroupsWithCube : MonoBehaviour
     public bool inside;
     float scale = 0;
     bool changed = false;
+    List<Collider> inside_cld;
     // Start is called before the first frame update
     void Start()
     {
         
         loadingCube = transform.Find("inner");
+        inside_cld = new List<Collider>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        inside = inside_cld.Count > 0;
+
         if(inside && scale <= 1)
         {
             scale += Time.deltaTime / activationSpeed;
@@ -42,8 +46,9 @@ public class ToggleBetweenGroupsWithCube : MonoBehaviour
             
         }
 
-        if(scale < 0.5f)
+        if(changed && !inside)
         {
+            scale = 0;
             changed = false;
         }
         
@@ -66,14 +71,14 @@ public class ToggleBetweenGroupsWithCube : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        if(other.GetComponentInParent<OVRHand>())
-            inside = true;
+
+        if (other.GetComponentInParent<OVRHand>())
+            inside_cld.Add(other);
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.GetComponentInParent<OVRHand>())
-            inside = false;
+            inside_cld.Remove(other);
     }
    
 
