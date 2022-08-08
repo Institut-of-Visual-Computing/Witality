@@ -1,6 +1,6 @@
 
 using UnityEngine;
-
+using TMPro;
 public class ToggleGameObject : MonoBehaviour
 {
 
@@ -10,6 +10,8 @@ public class ToggleGameObject : MonoBehaviour
     [Space(15)]
     public int active = 1;
     public int lastActiveRoom;
+
+    public TextMeshProUGUI text;
     private void Start()
     {
         
@@ -55,5 +57,28 @@ public class ToggleGameObject : MonoBehaviour
         lastActiveRoom = i == 4 ? lastActiveRoom : i;
         active = i;
         set();
+    }
+
+    public void updateText()
+    {
+        text.text = "Wechsel\nzu\n" + (active == 4 ? int2Name(lastActiveRoom) : "Fragebogen");
+    }
+
+    string int2Name(int i)
+    {
+        return rooms[i].name;
+    }
+
+    public void cubeActivation()
+    {
+        if (active == 4)
+        {
+            activate(lastActiveRoom);
+
+        }
+        else
+        {
+            activate(4);
+        }
     }
 }

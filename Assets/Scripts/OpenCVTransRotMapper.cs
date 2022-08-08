@@ -8,15 +8,17 @@ public class OpenCVTransRotMapper : MonoBehaviour
 {
     OSCReceiver receiver;
     public Transform Camera_origin;
-    public Transform[] objects;
-    public int id_to_obj_offset = -1;
-
+    public Transform objects_parent;
+    Transform[] objects;
+    public bool deleteObjectsAfterTime;
+    public float deletionTime = 5f;
     [Range(0, 1)]
     public float rot_linear_interpolation = 0.85f, pos_linear_interpolation = 0;
 
     public bool upAndFwd = true;
     Vector3[] lastPos;
     Quaternion[] lastRot;
+    float[] lastTimeTracked;
 
     [Header("Calibration")]
     public Vector3 offset;
@@ -40,14 +42,23 @@ public class OpenCVTransRotMapper : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
-    {
+    public void Init()
+    {   
         receiver = GetComponent<OSCReceiver>();
         //init interpolation
         lastPos = new Vector3[50];
         lastRot = new Quaternion[50];
+        objects = new Transform[50];
+        lastTimeTracked = new float[50];
+        for (int i = 0; i < objects_parent.childCount; i++)
+        {
+            int id = int.Parse(objects_parent.GetChild(i).Find("id").GetComponent<Renderer>().material.name);
+            objects[id] = objects_parent.GetChild(i);
+        }
         for (int i = 0; i < objects.Length; i++)
         {
+            if (!objects[i])
+                continue;
             lastPos[i] = objects[i].position;
             lastRot[i] = objects[i].rotation;
         }
@@ -68,15 +79,17 @@ public class OpenCVTransRotMapper : MonoBehaviour
 
     private void Update()
     {
+        if (!receiver)
+            return;
+
         if (Input.GetKeyDown(toggleBorder))
-        {
-            borderActive = !borderActive;
-            showBorderPoints(borderActive);
-        }
+            toggleBorderPoints();
+
         if (borderActive)
-        {
             positionBorder();
-        }
+
+        if (deleteObjectsAfterTime)
+            deleteOldObjects(deletionTime);
     }
 
     public void Receive(extOSC.OSCMessage message)
@@ -101,7 +114,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
 
             //target object
             int id = data.id;
-            Transform o = objects[id + id_to_obj_offset];
+            Transform o = objects[id];
 
             //position
 
@@ -128,11 +141,13 @@ public class OpenCVTransRotMapper : MonoBehaviour
                 o.rotation = Quaternion.Lerp(Camera_origin.rotation * Quaternion.AngleAxis(theta, axis), lastRot[id], rot_linear_interpolation);
             }
             lastRot[id] = o.rotation;
+            lastTimeTracked[id] = Time.time;
         }
     }
 
-    public void showBorderPoints(bool activate)
+    public void toggleBorderPoints()
     {
+        borderActive = !borderActive;
         if (borders == null || borders.Length != 4)
         {
             borders = new GameObject[4];
@@ -149,11 +164,8 @@ public class OpenCVTransRotMapper : MonoBehaviour
 
         for (int i = 0; i < 4; i++)
         {
-            borders[i].SetActive(activate);
+            borders[i].SetActive(borderActive);
         }
-
-        Debug.Log("Border " + activate);
-
     }
 
     public void positionBorder()
@@ -168,6 +180,20 @@ public class OpenCVTransRotMapper : MonoBehaviour
             pos += offset;
 
             borders[i].transform.position = Camera_origin.position + Camera_origin.rotation * pos;
+        }
+    }
+
+    public void deleteOldObjects(float max_seconds)
+    {
+        for (int i = 0; i < 50; i++)
+        {
+            if (lastTimeTracked[i] == 0)
+                continue;
+            if( Time.time - lastTimeTracked[i] > max_seconds)
+            {
+                objects[i].position += Vector3.down * 10;
+                lastTimeTracked[i] = 0;
+            }
         }
     }
 }

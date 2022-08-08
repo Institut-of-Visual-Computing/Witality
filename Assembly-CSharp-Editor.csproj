@@ -116,6 +116,7 @@
     <Compile Include="Assets\extOSC\Scripts\Editor\Editors\UI\OSCRotaryEditor.cs" />
     <Compile Include="Assets\extOSC\Scripts\Editor\Editors\Components\OSCPingClientEditor.cs" />
     <Compile Include="Assets\extOSC\Scripts\Editor\OSCHierarchyIcon.cs" />
+    <Compile Include="Assets\Editor\TaskChangerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
