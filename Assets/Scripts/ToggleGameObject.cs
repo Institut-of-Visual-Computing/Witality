@@ -11,7 +11,7 @@ public class ToggleGameObject : MonoBehaviour
     public int active = 1;
     public int lastActiveRoom;
 
-    public TextMeshProUGUI text;
+    public TextMeshPro text;
     private void Start()
     {
         
@@ -50,6 +50,7 @@ public class ToggleGameObject : MonoBehaviour
             if(rooms[i] != null)
                 rooms[i].SetActive(i == active);
         }
+        updateText();
     }
     
     public void activate(int i)

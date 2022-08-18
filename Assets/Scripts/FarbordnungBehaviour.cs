@@ -117,8 +117,18 @@ public class FarbordnungBehaviour : MonoBehaviour
         transform.Find("Canvas/order").GetComponent<TextMeshProUGUI>().text = current_order;
     }
 
+    public void resetRotation()
+    {
+        for (int i = 0; i < 6; i++)
+        {
+            proben.GetChild(i).rotation = new Quaternion();
+            proben.GetChild(i).GetComponent<Rigidbody>().velocity = Vector3.zero;
+            proben.GetChild(i).GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        }
+    }
     public void save()
     {
         //TODO start_order & current_order
+        Debug.Log("Saved Farbordnung");
     }
 }

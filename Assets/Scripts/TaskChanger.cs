@@ -93,7 +93,7 @@ public class TaskChanger : MonoBehaviour
         switch (t)
         {
             case Task.Farbe_Rangordnung:
-                GameObject.Find("SceneChanger").SetActive(false);
+                //GameObject.Find("SceneChanger").SetActive(false);
                 break;
             case Task.Geschmack_Rangordnung:
                 break;

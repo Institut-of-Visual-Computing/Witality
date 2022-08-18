@@ -4,3 +4,4 @@
 #
 /[Ll]ibrary/
 /[Tt]emp/
+*.~lock*
