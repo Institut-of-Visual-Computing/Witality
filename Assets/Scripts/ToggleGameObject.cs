@@ -10,7 +10,7 @@ public class ToggleGameObject : MonoBehaviour
     [Space(15)]
     public int active = 1;
     public int lastActiveRoom;
-
+    public Toggle_Gameobject RayL, RayR;
     public TextMeshPro text;
     private void Start()
     {
@@ -76,10 +76,14 @@ public class ToggleGameObject : MonoBehaviour
         {
             activate(lastActiveRoom);
 
+            RayR.toggle(false);
+            RayL.toggle(false);
         }
         else
         {
             activate(4);
+            RayR.toggle(true);
+            RayL.toggle(true);
         }
     }
 }

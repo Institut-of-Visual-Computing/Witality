@@ -131,22 +131,39 @@ namespace Oculus.Interaction.Input.Filter
 
         protected virtual void Awake()
         {
-            _dataSourceHandle = isdk_DataSource_Create(_isdkExternalHandSourceId);
-            Assert.IsTrue(_dataSourceHandle >= 0, $"{_logPrefix} Unable to allocate external hand data source!");
+            try
+            {
+                _dataSourceHandle = isdk_DataSource_Create(_isdkExternalHandSourceId);
+                Assert.IsTrue(_dataSourceHandle >= 0, $"{_logPrefix} Unable to allocate external hand data source!");
 
-            _handModifierHandle = isdk_DataModifier_Create(_isdkOneEuroHandModifierId, _dataSourceHandle);
-            Assert.IsTrue(_handModifierHandle >= 0, $"{_logPrefix} Unable to allocate one euro hand data modifier!");
+                _handModifierHandle = isdk_DataModifier_Create(_isdkOneEuroHandModifierId, _dataSourceHandle);
+                Assert.IsTrue(_handModifierHandle >= 0, $"{_logPrefix} Unable to allocate one euro hand data modifier!");
+            }
+            catch (System.DllNotFoundException e)
+            {
+                e.ToString();
+            }
+          
         }
 
         protected virtual void OnDestroy()
         {
-            int result = -1;
+            
 
-            //Release the filter and source
-            result = isdk_DataSource_Destroy(_handModifierHandle);
-            Assert.AreEqual(_isdkSuccess, result);
-            result = isdk_DataSource_Destroy(_dataSourceHandle);
-            Assert.AreEqual(_isdkSuccess, result);
+            try
+            {
+                int result = -1;
+
+                //Release the filter and source
+                result = isdk_DataSource_Destroy(_handModifierHandle);
+                Assert.AreEqual(_isdkSuccess, result);
+                result = isdk_DataSource_Destroy(_dataSourceHandle);
+                Assert.AreEqual(_isdkSuccess, result);
+            }
+            catch (System.DllNotFoundException e)
+            {
+                e.ToString();
+            }
         }
 
         protected override void Apply(HandDataAsset handDataAsset)
