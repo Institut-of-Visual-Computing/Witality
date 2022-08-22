@@ -337,6 +337,9 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
+    <Compile Include="Assets\Scripts\MenuBehaviour.cs" />
+    <Compile Include="Assets\Scripts\MenuSceneLoader.cs" />
+    <Compile Include="Assets\Scripts\QuestionnaireBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />

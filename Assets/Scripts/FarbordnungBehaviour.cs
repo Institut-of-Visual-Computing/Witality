@@ -55,7 +55,7 @@ public class FarbordnungBehaviour : MonoBehaviour
     }
     void load_mats_farbordnung()
     {
-        color = (int)TaskChanger.instance.task_f;
+        color = (int)TaskChanger.instance.subtask;
         for (int x = 0; x < 6; x++)
         {
             string c = color == 0 ? "Gelb" : color ==  1 ? "Rose" : "Rot";

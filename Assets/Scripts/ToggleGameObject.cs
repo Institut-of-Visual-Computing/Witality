@@ -16,6 +16,7 @@ public class ToggleGameObject : MonoBehaviour
     {
         
         rooms = new GameObject[] { Weinkeller, Sensoriklabor, Konferenzraum, Vinothek, Questionnaire};
+        active = MenuSceneLoader.environment;
         activate(active);
     }
     // Update is called once per frame

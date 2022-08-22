@@ -45,10 +45,7 @@ public class TaskChanger : MonoBehaviour
     }
     
     [HideInInspector] public Task current_task;
-    [HideInInspector] public Task_variante_A task_a;  //aroma
-    [HideInInspector] public Task_variante_C task_c;  //cata
-    [HideInInspector] public Task_variante_F task_f;  //farbe
-    [HideInInspector] public Task_variante_G task_g;  //geschmack
+    [HideInInspector] public int subtask;
 
     
     //x: 1= farbe 2= geschmack 3 = aroma 4 = aroma 5 = cata
@@ -66,10 +63,13 @@ public class TaskChanger : MonoBehaviour
             Destroy(this);
         else
             instance = this;
+
+        current_task = MenuSceneLoader.task;
+        subtask = MenuSceneLoader.subtask;
+
     }
     void Start()
     {
-        
         activate(current_task);
     }
 
@@ -107,5 +107,22 @@ public class TaskChanger : MonoBehaviour
         
     }
 
+    public static System.Type Task2Subtask(Task t)
+    {
+        switch ((int)t)
+        {
+            case 0:
+                return typeof(Task_variante_F);
+            case 1:
+                return typeof(Task_variante_G);
+            case 2:
+            case 3:
+                return typeof(Task_variante_A);
+            case 4:
+                return typeof(Task_variante_C);
+            default:
+                return null;
+        }
+    }
   
 }

@@ -99,7 +99,6 @@
     <Compile Include="Assets\extOSC\Scripts\Editor\Editors\Components\OSCTransmitterSeparateVector3Editor.cs" />
     <Compile Include="Assets\extOSC\Scripts\Editor\Editors\UI\OSCPadEditor.cs" />
     <Compile Include="Assets\extOSC\Scripts\Editor\OSCDefinesManager.cs" />
-    <Compile Include="Assets\Editor\TaskChangerEditor.cs" />
     <Compile Include="Assets\extOSC\Scripts\Editor\Panels\OSCPanelPacketEditor.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Gradle\Editor\Utils.cs" />
     <Compile Include="Assets\extOSC\Scripts\Editor\Editors\Components\OSCTransmitterPingEditor.cs" />
