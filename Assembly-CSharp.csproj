@@ -213,6 +213,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\HandPose.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\EnableUnpremultipliedAlpha.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Packers\OSCPackerBlob.cs" />
+    <Compile Include="Assets\Scripts\HandFilterActivator.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimVisualLaser.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\MoviePlayerSample.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainButtonVisualController.cs" />
@@ -324,6 +325,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandler.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Packers\OSCPackerTrue.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Packers\OSCPacker.cs" />
+    <Compile Include="Assets\Scripts\Toggle_Gameobject.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventNull.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeToolView.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Packers\OSCPackerChar.cs" />
@@ -335,8 +337,6 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\Scripts\HandFilterActivator.cs" />
-    <Compile Include="Assets\Scripts\Toggle_Gameobject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
