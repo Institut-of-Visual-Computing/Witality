@@ -84,6 +84,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\AugmentedObject.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableRegistry.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\PassthroughPlayInEditor.cs" />
+    <Compile Include="Assets\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventVector4.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorSession.cs" />
@@ -114,6 +115,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs" />
     <Compile Include="Assets\Scripts\ToggleGameObject.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Informers\OSCTransmitterInformerColor.cs" />
+    <Compile Include="Assets\Scripts\MenuBehaviour.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEvent.cs" />
     <Compile Include="Assets\extOSC\Scripts\OSCReceiver.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventInt.cs" />
@@ -327,6 +329,7 @@
     <Compile Include="Assets\extOSC\Scripts\Core\Packers\OSCPacker.cs" />
     <Compile Include="Assets\Scripts\Toggle_Gameobject.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventNull.cs" />
+    <Compile Include="Assets\Scripts\QuestionnaireBehaviour.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeToolView.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Packers\OSCPackerChar.cs" />
     <Compile Include="Assets\extOSC\Scripts\OSCBindBundle.cs" />
@@ -337,9 +340,28 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\Scripts\MenuBehaviour.cs" />
-    <Compile Include="Assets\Scripts\MenuSceneLoader.cs" />
-    <Compile Include="Assets\Scripts\QuestionnaireBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\FocusInputFieldBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\SubmittingBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\MenuScripts\UIAnimationFadeBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\OrientationHelperBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\FocusInputFieldContainerBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\QuestionClasses\Questionaire.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\SetLanguageBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\SupportClasses.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\QuestionaireMechanics\TextInputQuestionElementBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\MenuScripts\AbstractUIAnimationBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\QuestionClasses\Question.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\QuestionClasses\QuestionElement.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\QuestionaireMechanics\AdditionalTextInputBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\MenuScripts\FastScrollRect.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\MenuScripts\UIAnimationMoveInAndOutBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\MainMenuBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\QuestionaireMechanics\QuestionBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\QuestionaireMechanics\CheckBoxQuestionElementBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\QuestionaireMechanics\AbstractQuestionElementBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\QuestionaireMechanics\RadioButtonQuestionElementBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\MenuScripts\UI_AbstractMenuBehaviour.cs" />
+    <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\MenuScripts\UIAnimationZoomBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />

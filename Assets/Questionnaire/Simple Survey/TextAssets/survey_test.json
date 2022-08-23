@@ -1,0 +1,23 @@
+{
+  "Questions" : [
+    {
+      "AnswerRequired" : true,
+      "QuestionTask" : "For testing purpouse",
+      "QuestionType" : "1",
+      "QuestionElements" : [
+        {
+          "IndexNumber" : 0,
+          "TextMessage" : "Yes",
+          "IsSelected" : false,
+          "HasTextInput" : false
+        },
+        {
+          "IndexNumber" : 1,
+          "TextMessage" : "No",
+          "IsSelected" : false,
+          "HasTextInput" : false
+        }
+      ]
+    }
+  ]
+}

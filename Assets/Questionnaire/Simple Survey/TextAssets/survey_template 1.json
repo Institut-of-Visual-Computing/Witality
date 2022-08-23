@@ -1,0 +1,73 @@
+{
+  "Questions" : [
+    {
+      "AnswerRequired" : true,
+      "QuestionTask" : "This is a Single Choice question (pick one from a bunch of answers)",
+      "QuestionType" : "1",
+      "QuestionElements" : [
+        {
+          "IndexNumber" : 0,
+          "TextMessage" : "Answer One",
+          "IsSelected" : false,
+          "HasTextInput" : false
+        },
+        {
+          "IndexNumber" : 1,
+          "TextMessage" : "Answer two",
+          "IsSelected" : false,
+          "HasTextInput" : false
+        },
+        {
+          "IndexNumber" : 2,
+          "TextMessage" : "Answer three, Here you have an additional text input",
+          "IsSelected" : false,
+          "HasTextInput" : true
+        }
+      ]
+    },
+    {
+      "AnswerRequired" : true,
+      "QuestionTask" : "Multiple Choice question (pick more than one from a bunch of answers",
+      "QuestionType" : "2",
+      "QuestionElements" : [
+        {
+          "IndexNumber" : 0,
+          "TextMessage" : "Answer one",
+          "IsSelected" : false,
+          "HasTextInput" : false
+        },
+        {
+          "IndexNumber" : 1,
+          "TextMessage" : "Answer two",
+          "IsSelected" : false,
+          "HasTextInput" : false
+        },
+        {
+          "IndexNumber" : 2,
+          "TextMessage" : "Answer three, Here you have an additional text input",
+          "IsSelected" : false,
+          "HasTextInput" : true
+        }
+      ]
+    },
+    {
+      "AnswerRequired" : true,
+      "QuestionTask" : "This is a Input Question, so nothing to choose from, just text Input. \"HasTextInput\" is always set to true",
+      "QuestionType" : "0",
+      "QuestionElements" : [
+        {
+          "IndexNumber" : 0,
+          "TextMessage" : "What do you eat for  breakfast?",
+          "IsSelected" : false,
+          "HasTextInput" : true
+        }   ,
+        {
+          "IndexNumber" : 0,
+          "TextMessage" : "Where do you live?",
+          "IsSelected" : false,
+          "HasTextInput" : false
+        }   
+      ]
+    }
+  ]
+}

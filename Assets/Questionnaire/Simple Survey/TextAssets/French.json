@@ -1,0 +1,53 @@
+{
+  "Language" : "Français",
+  "LanguageKeys" : [
+     {
+      "Key" : "start",
+      "Value" : "Lancer de sondage"
+    },
+    {
+      "Key" : "next",
+      "Value" : "plus"
+    },
+    {
+      "Key" : "previous",
+      "Value" : "retour"
+    },
+    {
+      "Key" : "submit",
+      "Value": "envoyer"
+    },
+    {
+      "Key" : "cancel",
+      "Value" : "annuler"
+    },
+    {
+      "Key" : "do_text_input",
+      "Value" : "Entrez le texte ici ..."
+    },
+    {
+      "Key" : "save",
+      "Value": "enregistrer"
+    },
+    {
+      "Key" : "input_required",
+      "Value" : "S'il vous plaît faire une entrée!"
+    },
+    {
+      "Key" : "sending_data",
+      "Value" : "Envoyer des données au serveur ..."
+    },
+    {
+      "Key" : "saved_locally",
+      "Value" : "Données stockées localement"
+    },
+    {
+      "Key" : "sent_to_server",
+      "Value" : "Envoyé avec succès au serveur"
+    },
+    {
+      "Key" : "OK",
+      "Value" : "OK"
+    }
+  ]
+}

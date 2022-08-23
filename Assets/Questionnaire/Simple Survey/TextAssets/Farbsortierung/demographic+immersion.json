@@ -1,0 +1,907 @@
+{
+  "Questions": [
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "User ID",
+      "QuestionType": "0",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "*Please state your User ID*",
+          "IsSelected": true,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Age",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "17 or younger",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "18-24",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "25-34",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "35-44",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "45-54",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "55-70",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "70 or older",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Gender",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Female",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "Male",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "Other",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Handedness",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "left-handed",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "right-handed",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "I feel fresh and rested.",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Strongly disagree",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "Disagree",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "Somewhat disagree",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "Neutral",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "Somewhat agree",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "Agree",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "Strongly agree",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "How often do you use Virtual Reality (VR) glasses?",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Daily",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "Weekly",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "Few times a month",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "Less often but I have already tried it",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "This is my first time",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "Agree",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "Strongly agree",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Please return back to the study.",
+      "QuestionType": "2",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "I finished the study part.",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "In the computer generated world I had a sense of ''being there'' \n 1: Not at all - 4: Neutral - 7: Very much",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Somehow I felt that the virtual world surrounded me. \n 1: Strongly disagree - 4: Neutral - 7: Strongly agree",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "I felt like I was just perceiving pictures. \n 1: Strongly disagree - 4: Neutral - 7: Strongly agree",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "I did not feel present in the virtual space. \n 1: Did not feel - 4: Neutral - 7: Felt present",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "I had a sense of acting in the virtual space, rather than operating something from outside. \n 1: Strongly disagree - 4: Neutral - 7: Strongly agree",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "I felt present in the virtual space. \n 1: Strongly disagree - 4: Neutral - 7: Strongly agree",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "How aware were you of the real world surrounding while navigating in the virtual world? (i.e. sounds, room temperature, other people, etc.)? \n 1: Not aware at all - 4: Neutral - 7: Extremely aware",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "I was **not** aware of my real environment.  \n 1: Strongly disagree - 4: Neutral - 7: Strongly agree",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "I still paid attention to the real environment.  \n 1: Strongly disagree - 4: Neutral - 7: Strongly agree",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "I was completely captivated by the virtual world. \n 1: Strongly disagree - 4: Neutral - 7: Strongly agree",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "How real did the virtual world seem to you? \n 1: Not real at all - 4: Neutral - 7: Completely real",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "How much did your experience in the virtual environment seem consistent with your real world experience? \n 1: Not consistent - 4: Neutral - 7: Very consistent",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "How real did the virtual world seem to you? \n 1: About as real as an imagined world - 4: Neutral - 7: Indistinguishable from the real world",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "The virtual world seemed more realistic than the real world. \n 1: Strongly disagree - 4: Neutral - 7: Strongly agree",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    }
+  ]
+}

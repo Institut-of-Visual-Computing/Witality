@@ -1,0 +1,53 @@
+{
+  "Language" : "Deutsch",
+  "LanguageKeys" : [
+    {
+      "Key" : "start",
+      "Value" : "Starte Umfrage"
+    },   
+    {
+      "Key" : "next",
+      "Value" : "Weiter"
+    },
+    {
+      "Key" : "previous",
+      "Value" : "Zurück"
+    },
+    {
+      "Key" : "submit",
+      "Value" : "Senden"
+    },
+    {
+      "Key" : "cancel",
+      "Value" : "Abbrechen"
+    },
+    {
+      "Key" : "do_text_input",
+      "Value" : "Text hier eingeben ..."
+    },
+    {
+      "Key" : "save",
+      "Value" : "Speichern"
+    },
+    {
+      "Key" : "input_required",
+      "Value" : "Bitte machen Sie eine Eingabe!"
+    },
+    {
+      "Key" : "sending_data",
+      "Value" : "Übermittle Daten an Server ..."
+    },
+    {
+      "Key" : "saved_locally",
+      "Value" : "Daten lokal gespeichert"
+    },
+    {
+      "Key" : "sent_to_server",
+      "Value" : ""
+    },
+    {
+      "Key" : "OK",
+      "Value" : "OK"
+    }
+  ]
+}

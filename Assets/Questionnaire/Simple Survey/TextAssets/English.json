@@ -1,0 +1,53 @@
+{
+  "Language" : "English",
+  "LanguageKeys" : [
+     {
+      "Key" : "start",
+      "Value" : "Start Survey"
+    },
+    {
+      "Key" : "next",
+      "Value" : "Next"
+    },
+    {
+      "Key" : "previous",
+      "Value" : "Previous"
+    },
+    {
+      "Key" : "submit",
+      "Value" : "Submit"
+    },
+    {
+      "Key" : "cancel",
+      "Value" : "Cancel"
+    },
+    {
+      "Key" : "do_text_input",
+      "Value" : "Input text here ..."
+    },
+    {
+      "Key" : "save",
+      "Value" : "Save"
+    },
+    {
+      "Key" : "input_required",
+      "Value" : "Please input something"
+    },
+    {
+      "Key" : "sending_data",
+      "Value" : "Submitting data to server ..."
+    },
+    {
+      "Key" : "saved_locally",
+      "Value" : "Data saved locally"
+    },
+    {
+      "Key" : "sent_to_server",
+      "Value" : "Successfully submitted!"
+    },
+    {
+      "Key" : "OK",
+      "Value" : "OK"
+    }
+  ]
+}

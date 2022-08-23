@@ -63,7 +63,7 @@ public class ToggleGameObject : MonoBehaviour
 
     public void updateText()
     {
-        text.text = "Wechsel\nzu\n" + (active == 4 ? int2Name(lastActiveRoom) : "Fragebogen");
+        text.text = "Wechsel zu\n" + (active == 4 ? int2Name(lastActiveRoom) : "Fragebogen");
     }
 
     string int2Name(int i)
