@@ -252,6 +252,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Probeglass ohne Marker (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3fa589efe2ff268408243f6a9ed67c3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c571d722ec962048a3a6763e285f176, type: 3}
 --- !u!4 &40431023 stripped
@@ -1966,6 +1971,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Probeglass ohne Marker (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 74357609e520b934aa6f487816dbdff1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c571d722ec962048a3a6763e285f176, type: 3}
 --- !u!4 &439009520 stripped
@@ -3416,6 +3426,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Probeglass ohne Marker (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9d6aac9d670dc754bb9a87322fef8ece, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c571d722ec962048a3a6763e285f176, type: 3}
 --- !u!4 &643697447 stripped
@@ -6616,6 +6631,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Probeglass ohne Marker (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d1af0a7acbe33b141af4d5e84b87778a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c571d722ec962048a3a6763e285f176, type: 3}
 --- !u!4 &1733769914 stripped
@@ -6989,6 +7009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Probeglass ohne Marker (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 850858442887ab64a95e8f7ed8eb54eb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c571d722ec962048a3a6763e285f176, type: 3}
 --- !u!4 &1792143725 stripped
@@ -9054,6 +9079,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Probeglass ohne Marker
       objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0b57c3edc79dcd94eaa6e319458fba84, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c571d722ec962048a3a6763e285f176, type: 3}
 --- !u!1001 &4697220862934320283
