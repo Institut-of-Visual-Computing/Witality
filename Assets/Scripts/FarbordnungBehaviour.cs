@@ -1,28 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+
+[RequireComponent(typeof(Rangordnung))]
 public class FarbordnungBehaviour : MonoBehaviour
 {
-    Vector3[] startPositions;
-    Transform proben;
-    public bool randomize = true;
-    string[] nr_gelb = { "389", "855", "622", "334", "088", "211" }, nr_rose = { "923", "567", "690", "457", "868", "224" }, nr_rot = {"101", "745", "978", "156", "512", "279"};
-    string current_order;
-    public string start_order;
-    int color; // 0 = gelb, 1 = rose, 2 = rot
-    // Start is called before the first frame update
+    public Vector3[] startPositions;
+    public Transform proben;
+    public int[] nr_weiﬂ = { 389, 855, 622, 334, 088, 211 }, nr_rose = { 923, 567, 690, 457, 868, 224 }, nr_rot = {101, 745, 978, 156, 512, 279};
+    Rangordnung rang;
+
     void Start()
     {
+        rang = GetComponent<Rangordnung>();
+        if (rang.order_correct == null)
+            rang.order_correct = TaskChanger.instance.subtask == 0 ? nr_weiﬂ : TaskChanger.instance.subtask == 1 ? nr_rose : nr_rot;
         createStartPositions();
-        read_order();
-        start_order = current_order;
+
     }
 
     private void Update()
     {
-        read_order();
-        for (int i = 0; i < 6; i++)
+        
+        for (int i = 0; i < proben.childCount; i++)
         {
             if (Vector3.Distance(startPositions[i], proben.GetChild(i).position) > 1)
                 resetPos(i);
@@ -34,39 +32,47 @@ public class FarbordnungBehaviour : MonoBehaviour
    
     void createStartPositions()
     {
-        proben = transform.Find("Proben");
-        startPositions = new Vector3[6];
+        proben = rang.obj_parent;
         load_mats_farbordnung();
+        startPositions = new Vector3[proben.childCount];
         startPositions = savePositions();
 
-        if (randomize)
+        for (int i = 0; i < proben.childCount; i++)
         {
-            
-            for (int i = 0; i < 6; i++)
+            for (int x = 0; x < proben.childCount; x++)
             {
                 int r = Random.Range(0, 6);
                 Vector3 temp = startPositions[i % 6];
                 startPositions[i % 6] = startPositions[r];
                 startPositions[r] = temp;
+                
             }
-            resetPos();
         }
+
+        resetPos();
         
     }
-    void load_mats_farbordnung()
+    
+    public void load_mats_farbordnung(int color = -1)
     {
-        color = (int)TaskChanger.instance.subtask;
-        for (int x = 0; x < 6; x++)
+        if(proben == null)
+            proben = transform.Find("Proben");
+        if (rang == null)
+            rang = GetComponent<Rangordnung>();
+        if(color == -1)
+            color = TaskChanger.instance.subtask;
+        string c = color == 0 ? "Weiﬂ" : color == 1 ? "Rose" : "Rot";
+        for (int x = 0; x < proben.childCount; x++)
         {
-            string c = color == 0 ? "Gelb" : color ==  1 ? "Rose" : "Rot";
             proben.GetChild(x).Find("color_probe_glass_fill").GetComponent<Renderer>().material = Resources.Load("Farb Rangordnung Mats/" + c + "/" + x, typeof(Material)) as Material;
-            proben.GetChild(x).Find("Canvas/text").GetComponent<TextMeshProUGUI>().text = color == 0 ? nr_gelb[x] : color == 1 ? nr_rose[x] : nr_rot[x];
         }
+        rang.apply_text();
+        rang.apply_order_text();
     }
     Vector3[] savePositions()
     {
-        Vector3[] res = new Vector3[6];
-        for (int i = 0; i < 6; i++)
+        Vector3[] res = new Vector3[proben.childCount];
+        for (int i = 0; i < proben.childCount; i++)
         {
             res[i] = proben.GetChild(i).position;
         }
@@ -74,7 +80,7 @@ public class FarbordnungBehaviour : MonoBehaviour
     }
     public void resetPos()
     {
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < proben.childCount; i++)
         {
             resetPos(i);
         }
@@ -87,48 +93,13 @@ public class FarbordnungBehaviour : MonoBehaviour
         proben.GetChild(i).GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
     }
 
-    public void read_order()
-    {
-        current_order = "";
-
-        List<int> id = new List<int>();
-        for (int i = 0; i < 6; i++)
-        {
-            id.Add(i);
-        }
-        
-        for (int i = 0; i < 6; i++)
-        {
-            int smallest_x = id[0];
-
-            for (int x = 0; x < id.Count; x++)
-            {
-                if(proben.GetChild(id[x]).position.x < proben.GetChild(smallest_x).position.x)
-                {
-                    smallest_x = id[x];
-                }
-            }
-            
-            current_order += proben.GetChild(smallest_x).Find("Canvas/text").GetComponent<TextMeshProUGUI>().text + "-";
-            id.Remove(smallest_x);
-        }
-        current_order = current_order.Substring(0, current_order.Length - 1);
-
-        transform.Find("Canvas/order").GetComponent<TextMeshProUGUI>().text = current_order;
-    }
-
     public void resetRotation()
     {
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < proben.childCount; i++)
         {
             proben.GetChild(i).rotation = new Quaternion();
             proben.GetChild(i).GetComponent<Rigidbody>().velocity = Vector3.zero;
             proben.GetChild(i).GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         }
-    }
-    public void save()
-    {
-        //TODO start_order & current_order
-        Debug.Log("Saved Farbordnung");
     }
 }

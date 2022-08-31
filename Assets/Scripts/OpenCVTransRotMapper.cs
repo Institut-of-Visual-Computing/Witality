@@ -24,13 +24,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
     public Vector3 offset;
     public Vector3 scaling = Vector3.one;
 
-    [Header("Border")]
-
-    public Material borderMat;
-    public KeyCode toggleBorder = KeyCode.B;
-    public Vector3 border;
-    public GameObject[] borders;
-    bool borderActive = false;
+   
     //Data is send in this format
     struct trackingData
     {
@@ -81,13 +75,6 @@ public class OpenCVTransRotMapper : MonoBehaviour
     {
         if (!receiver)
             return;
-
-        if (Input.GetKeyDown(toggleBorder))
-            toggleBorderPoints();
-
-        if (borderActive)
-            positionBorder();
-
         if (deleteObjectsAfterTime)
             deleteOldObjects(deletionTime);
     }
@@ -144,45 +131,6 @@ public class OpenCVTransRotMapper : MonoBehaviour
             lastTimeTracked[id] = Time.time;
         }
     }
-
-    public void toggleBorderPoints()
-    {
-        borderActive = !borderActive;
-        if (borders == null || borders.Length != 4)
-        {
-            borders = new GameObject[4];
-            for (int i = 0; i < 4; i++)
-            {
-                borders[i] = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                Destroy(borders[i].GetComponent<Collider>());
-                borders[i].transform.localScale = new Vector3(0.015f, 0.015f, 0.015f);
-                borders[i].GetComponent<Renderer>().material = borderMat;
-
-                //borders[i].transform.parent = HMD_cam;
-            }
-        }
-
-        for (int i = 0; i < 4; i++)
-        {
-            borders[i].SetActive(borderActive);
-        }
-    }
-
-    public void positionBorder()
-    {
-        for (int i = 0; i < 4; i++)
-        {
-            Vector3 pos = Vector3.zero;
-            pos.x = (i > 1) ? -border.x : border.x;
-            pos.y = (i % 2 == 0) ? -border.y : border.y;
-            pos.z = 0.3f;
-            pos.x *= scaling.x; pos.y *= scaling.y; pos.z *= scaling.z;
-            pos += offset;
-
-            borders[i].transform.position = Camera_origin.position + Camera_origin.rotation * pos;
-        }
-    }
-
     public void deleteOldObjects(float max_seconds)
     {
         for (int i = 0; i < 50; i++)

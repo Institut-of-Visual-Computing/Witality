@@ -4,18 +4,16 @@ using UnityEngine;
 using UnityEditor;
 
 [CustomEditor(typeof(Calibration))]
-
 public class CalibrationEditor : Editor
 {
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
+        Calibration calib = (Calibration)target;
 
-        if (GUILayout.Button("Calibrate"))
+        if(GUILayout.Button("Calibrate Cam"))
         {
-            Calibration _target = (Calibration)target;
-
-            _target.resetCalibration();
+            calib.CamCalib();
         }
     }
 }

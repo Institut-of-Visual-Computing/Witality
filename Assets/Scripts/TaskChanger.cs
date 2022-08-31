@@ -15,7 +15,7 @@ public class TaskChanger : MonoBehaviour
     }
     public enum Task_variante_F
     {
-        Gelb,
+        Weiﬂ,
         Rose,
         Rot
     }
@@ -44,8 +44,8 @@ public class TaskChanger : MonoBehaviour
         Rotwein_B
     }
     
-    [HideInInspector] public Task current_task;
-    [HideInInspector] public int subtask;
+    public Task current_task;
+    public int subtask;
 
     
     //x: 1= farbe 2= geschmack 3 = aroma 4 = aroma 5 = cata
