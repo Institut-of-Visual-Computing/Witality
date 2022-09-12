@@ -5526,3 +5526,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 587.359530 seconds.
+  path: Assets/Models/Wineglass.prefab
+  artifactKey: Guid(186e5ae17f7c4f44c99399a2e8f90099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wineglass.prefab using Guid(186e5ae17f7c4f44c99399a2e8f90099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef16590935f8b0d05d12e9a9f2e87ea') in 0.263878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1373.786741 seconds.
+  path: Assets/Models/Probeglass.prefab
+  artifactKey: Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass.prefab using Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3382b0258bb73736d136a2c1eff4130') in 0.038646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.119471 seconds.
+  path: Assets/Models/Probeglass.prefab
+  artifactKey: Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass.prefab using Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7595222d02dd0ba08b5b1d29cc90a87e') in 0.021002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.890337 seconds.
+  path: Assets/Models/Probeglass.prefab
+  artifactKey: Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass.prefab using Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ea165d274e4bb9ed535f514bc186f6') in 0.112355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.575302 seconds.
+  path: Assets/Models/CalibrationCube.prefab
+  artifactKey: Guid(61ba2360448c9b840849b592e19e99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CalibrationCube.prefab using Guid(61ba2360448c9b840849b592e19e99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0986877285ef60df13094b183fdb8d4f') in 0.041027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Wineglass.prefab
+  artifactKey: Guid(186e5ae17f7c4f44c99399a2e8f90099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wineglass.prefab using Guid(186e5ae17f7c4f44c99399a2e8f90099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509e4d31510819d5ca47c5abe7a40c34') in 0.045412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.329272 seconds.
+  path: Assets/Models/Probeglass.prefab
+  artifactKey: Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass.prefab using Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da609516c0842d8cc37d11e6bfe7506') in 0.020222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.474458 seconds.
+  path: Assets/Models/Probeglass.prefab
+  artifactKey: Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass.prefab using Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30cc3ace6f4572be9b3a3133de4fc29') in 0.016067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.362909 seconds.
+  path: Assets/Models/Probeglass.prefab
+  artifactKey: Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass.prefab using Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41660b2e71b1a2cdc46eb8d56b61b6dd') in 0.019412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.067525 seconds.
+  path: Assets/Models/Fbx/clipper_probe.fbx
+  artifactKey: Guid(5664f3c57ceea744f9f522662fc1724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Fbx/clipper_probe.fbx using Guid(5664f3c57ceea744f9f522662fc1724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab115e5f0b877b5ee1af91baabe5e627') in 0.095127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.885063 seconds.
+  path: Assets/Models/Probeglass.prefab
+  artifactKey: Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass.prefab using Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06627c52f856094083b8d8dbbe1edab6') in 0.019851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.893069 seconds.
+  path: Assets/Models/Probeglass ohne Marker.prefab
+  artifactKey: Guid(7c571d722ec962048a3a6763e285f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass ohne Marker.prefab using Guid(7c571d722ec962048a3a6763e285f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e510b512ae38f3a5db4fb7a5d6e9b27') in 0.061709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 423.444336 seconds.
+  path: Assets/Models/Fbx/Models_SelfCreated.blend
+  artifactKey: Guid(e7d454dd05032c64cad0473754883b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Fbx/Models_SelfCreated.blend using Guid(e7d454dd05032c64cad0473754883b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f9d8924f995e999a4e1c78b1da66c7') in 0.211388 seconds 
