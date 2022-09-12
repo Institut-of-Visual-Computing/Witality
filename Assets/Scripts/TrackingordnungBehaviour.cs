@@ -11,6 +11,7 @@ public class TrackingordnungBehaviour : MonoBehaviour
     public Transform tracking_obj;
     Rangordnung rang;
     public string[] scala_text;
+    public Transform orderAttacherCanvas;
     void Start()
     {
         rang = GetComponent<Rangordnung>();
@@ -19,9 +20,8 @@ public class TrackingordnungBehaviour : MonoBehaviour
     }
     public void load(int i)
     {
-        GameObject canvas = GameObject.Find("OrderAttacher/Canvas");
-        canvas.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Neutral";
-        canvas.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = scala_text[i];
+        orderAttacherCanvas.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Neutral";
+        orderAttacherCanvas.GetChild(2).GetComponent<TextMeshProUGUI>().text = scala_text[i];
     }
 
 }

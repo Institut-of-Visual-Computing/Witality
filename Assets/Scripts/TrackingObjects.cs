@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class TrackingObjects : MonoBehaviour
 {
+    [HideInInspector]
     public int[] ids;
+    public OpenCVTransRotMapper tracking_receiver;
 
     private void Start()
     {
-        GameObject.Find("TrackerReceiver").GetComponent<OpenCVTransRotMapper>().Init(transform);
+        tracking_receiver.Init(transform);
     }
 }

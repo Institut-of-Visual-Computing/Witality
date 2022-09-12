@@ -10,6 +10,8 @@ public class TrackingObjectsEditor : Editor
 
     public override void OnInspectorGUI()
     {
+        base.OnInspectorGUI();
+
         GUILayout.Label("");
         TrackingObjects _target = (TrackingObjects)target;
 

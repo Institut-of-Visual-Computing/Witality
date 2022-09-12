@@ -9,7 +9,6 @@ public class OpenCVTransRotMapper : MonoBehaviour
     OSCReceiver receiver;
     public Transform Camera_origin;
     public Transform objects_parent;
-    Transform[] objects;
     public bool deleteObjectsAfterTime;
     public float deletionTime = 5f;
     [Range(0, 1)]
@@ -20,9 +19,8 @@ public class OpenCVTransRotMapper : MonoBehaviour
     Quaternion[] lastRot;
     float[] lastTimeTracked;
 
-    [Header("Calibration")]
-    public Vector3 offset;
-    public Vector3 scaling = Vector3.one;
+    [Header("Read Only")]
+    public Transform[] objects;
 
    
     //Data is send in this format
@@ -48,7 +46,9 @@ public class OpenCVTransRotMapper : MonoBehaviour
         lastTimeTracked = new float[50];
         for (int i = 0; i < objects_parent.childCount; i++)
         {
-            int id = int.Parse(objects_parent.GetChild(i).Find("id").GetComponent<Renderer>().material.name);
+            string n = objects_parent.GetChild(i).Find("id").GetComponent<Renderer>().material.name;
+            n = n.Substring(0, 1);
+            int id = int.Parse(n);
             objects[id] = objects_parent.GetChild(i);
         }
         for (int i = 0; i < objects.Length; i++)
@@ -107,8 +107,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
 
             //position
 
-            Vector3 newPos = new Vector3(data.pos.x * scaling.x, data.pos.y * scaling.y, data.pos.z * scaling.z);
-            newPos += offset;
+            Vector3 newPos = new Vector3(data.pos.x , data.pos.y , data.pos.z);
             newPos = Camera_origin.position + Camera_origin.rotation * newPos;
             o.position = Vector3.Lerp(newPos, lastPos[id], pos_linear_interpolation);
             lastPos[id] = o.position;

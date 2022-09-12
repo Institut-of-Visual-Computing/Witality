@@ -126,7 +126,7 @@ public class MenuBehaviour : MonoBehaviour
                     case 2: //Bitter
                     case 3: //Salzig
                     default:
-                        return new int[] { 0, 0, 0, 0, 0, 0, 0 };
+                        return new int[] { 1, 2, 3, 4, 5, 6, 7 };
                 }
             case 2: //aroma r
                 switch (subtask.value)
@@ -138,7 +138,7 @@ public class MenuBehaviour : MonoBehaviour
                     case 4: //Pfirsich
                     case 5: //Kokos
                     default:
-                        return new int[] { 0, 0, 0, 0, 0, 0 };
+                        return new int[] { 1, 2, 3, 4, 5, 6 };
                 }
             case 3: //aroma e
                 switch (subtask.value)
@@ -150,7 +150,7 @@ public class MenuBehaviour : MonoBehaviour
                     case 4: //Pfirsich
                     case 5: //Kokos
                     default:
-                        return new int[] { 0 };
+                        return new int[] { 1 };
                 }
             case 4: //Cata
                 switch (subtask.value)
@@ -161,7 +161,7 @@ public class MenuBehaviour : MonoBehaviour
                     case 3: //Rot A
                     case 4: //Rot B
                     default:
-                        return new int[] { 0, 0 };
+                        return new int[] { 1, 2 };
                 }
             default:
                 return new int[] { 0, 0, 0, 0, 0, 0 };

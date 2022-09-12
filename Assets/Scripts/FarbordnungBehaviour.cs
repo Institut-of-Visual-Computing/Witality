@@ -5,8 +5,10 @@ public class FarbordnungBehaviour : MonoBehaviour
 {
     public Vector3[] startPositions;
     public Transform proben;
+    [HideInInspector]
     public int[] nr_weiﬂ = { 389, 855, 622, 334, 088, 211 }, nr_rose = { 923, 567, 690, 457, 868, 224 }, nr_rot = {101, 745, 978, 156, 512, 279};
     Rangordnung rang;
+    public Transform orderAttacherCanvas;
 
     void Start()
     {

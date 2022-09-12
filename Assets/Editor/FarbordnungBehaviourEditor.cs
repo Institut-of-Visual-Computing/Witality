@@ -31,9 +31,9 @@ public class FarbordnungBehaviourEditor : Editor
         GUILayout.EndHorizontal();
         if (GUILayout.Button("Update Order Attacher"))
         {
-            GameObject canvas = GameObject.Find("OrderAttacher/Canvas");
-            canvas.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "hell";
-            canvas.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "dunkel";
+
+            _target.orderAttacherCanvas.GetChild(1).GetComponent<TextMeshProUGUI>().text = "hell";
+            _target.orderAttacherCanvas.GetChild(2).GetComponent<TextMeshProUGUI>().text = "dunkel";
         }
     }
 }
