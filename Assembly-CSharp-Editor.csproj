@@ -117,6 +117,7 @@
     <Compile Include="Assets\extOSC\Scripts\Editor\Editors\Components\OSCPingClientEditor.cs" />
     <Compile Include="Assets\Editor\FarbordnungBehaviourEditor.cs" />
     <Compile Include="Assets\extOSC\Scripts\Editor\OSCHierarchyIcon.cs" />
+    <Compile Include="Assets\Editor\ToggleEnvironmentsEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

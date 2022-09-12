@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 
@@ -57,10 +58,12 @@ public class TaskChanger : MonoBehaviour
     //x: 1= farbe 2= geschmack 3 = aroma 4 = aroma 5 = cata
     //y: variante
     [Header("0 = Farbe | 1 = Geschmack | 2 = Aroma_r | 3 = Aroma_e | 4 = CATA")]
-    public MultiArray[] objects;
-
+    public GameObject[] objects;
 
     public static TaskChanger instance { get; private set;}
+    
+    
+    
     // Start is called before the first frame update
     private void Awake()
     {
@@ -78,16 +81,11 @@ public class TaskChanger : MonoBehaviour
         activate(current_task);
     }
 
-    void activate(Task t)
+    public void activate(Task t)
     {
         for (int x = 0; x < objects.Length; x++)
         {
-           
-            for (int y = 0; y < objects[x].Elements.Length; y++)
-            {
-                GameObject go = objects[x].Elements[y];
-                go.SetActive((int) t == x);
-            }
+            objects[x].SetActive((int)t == x);
         }
         switch (t)
         {
@@ -104,7 +102,10 @@ public class TaskChanger : MonoBehaviour
         }
         
     }
-
+    public void activate()
+    {
+        activate(current_task);
+    }
     public static System.Type Task2Subtask(Task t)
     {
         switch ((int)t)
@@ -123,4 +124,21 @@ public class TaskChanger : MonoBehaviour
         }
     }
   
+
+}
+
+[CustomEditor(typeof(TaskChanger))]
+public class TaskChangerEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        base.OnInspectorGUI();
+
+        TaskChanger t = (TaskChanger)target;
+
+        if(GUILayout.Button("Apply Task"))
+        {
+            t.activate();
+        }
+    }
 }

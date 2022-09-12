@@ -1,18 +1,19 @@
 
 using UnityEngine;
-using TMPro;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEditor;
+
+
 public class ToggleEnvironments : MonoBehaviour
 {
 
 
     public GameObject Weinkeller, Sensoriklabor, Konferenzraum, Vinothek;
-    GameObject[] rooms;
     [Space(15)]
     public int active = 1;
     private void Start()
     {
-        
-        rooms = new GameObject[] { Weinkeller, Sensoriklabor, Konferenzraum, Vinothek};
         active = MenuSceneLoader.environment;
         activate(active);
     }
@@ -39,11 +40,10 @@ public class ToggleEnvironments : MonoBehaviour
 
     void set()
     {
-        for (int i = 0; i < rooms.Length; i++)
-        {
-            if(rooms[i] != null)
-                rooms[i].SetActive(i == active);
-        }
+        Weinkeller.SetActive(active == 0);
+        Sensoriklabor.SetActive(active == 1);
+        Konferenzraum.SetActive(active == 2);
+        Vinothek.SetActive(active == 3);
     }
     
     public void activate(int i)
@@ -51,4 +51,6 @@ public class ToggleEnvironments : MonoBehaviour
         active = i;
         set();
     }
+
 }
+
