@@ -36,8 +36,10 @@ public class OpenCVTransRotMapper : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    public void Init()
-    {   
+    public void Init(Transform t = null)
+    {
+        if(t)
+            objects_parent = t;
         receiver = GetComponent<OSCReceiver>();
         //init interpolation
         lastPos = new Vector3[50];

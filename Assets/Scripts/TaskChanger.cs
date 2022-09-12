@@ -31,9 +31,15 @@ public class TaskChanger : MonoBehaviour
         Pilz,
         Nelke,
         Eisbonbon,
-        Blumig,
+        Kokos,
         Pfirsich,
-        Kokos
+        Blume,
+        Veilchen,
+        Ananas,
+        Orange,
+        Banane,
+        Vanille,
+        Erde
     }
     public enum Task_variante_C
     {
@@ -52,7 +58,6 @@ public class TaskChanger : MonoBehaviour
     //y: variante
     [Header("0 = Farbe | 1 = Geschmack | 2 = Aroma_r | 3 = Aroma_e | 4 = CATA")]
     public MultiArray[] objects;
-    public OpenCVTransRotMapper tracker;
 
 
     public static TaskChanger instance { get; private set;}
@@ -82,18 +87,11 @@ public class TaskChanger : MonoBehaviour
             {
                 GameObject go = objects[x].Elements[y];
                 go.SetActive((int) t == x);
-                TrackingObjects trackingObj = objects[x].Elements[y].GetComponent<TrackingObjects>();
-                if ((int)t == x && trackingObj)
-                {
-                    tracker.objects_parent = trackingObj.transform;
-                    tracker.Init();
-                }
             }
         }
         switch (t)
         {
             case Task.Farbe_Rangordnung:
-                //GameObject.Find("SceneChanger").SetActive(false);
                 break;
             case Task.Geschmack_Rangordnung:
                 break;

@@ -172,5 +172,8 @@ public class MainMenuBehaviour : MonoBehaviour {
         PreviousButton.GetComponentInChildren<Text>().text = CurrentDictionary.GetKeyValue("previous");
         CancelButton.GetComponentInChildren<Text>().text = CurrentDictionary.GetKeyValue("cancel");
     }
-
+    public void setQuestionaire(TextAsset q)
+    {
+        MainQuestionaire = q;
+    }
 }

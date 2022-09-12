@@ -48,7 +48,8 @@ public class Rangordnung : MonoBehaviour
     }
     public void apply_text()
     {
-        order_correct = MenuSceneLoader.codes;
+        if(MenuSceneLoader.codes != null)
+            order_correct = MenuSceneLoader.codes;
 
         for (int i = 0; i < obj_parent.childCount; i++)
         {
