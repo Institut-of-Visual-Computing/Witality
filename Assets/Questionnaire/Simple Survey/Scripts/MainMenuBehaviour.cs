@@ -55,7 +55,8 @@ public class MainMenuBehaviour : MonoBehaviour {
     void Start () {
 
         SetLanguage(LanguageDictionary.text);
-        ShowStartScreen();
+        //ShowStartScreen();
+
         //SubmitPanelPrefab.GetComponent<OVRRaycaster>().pointer = QuestionNotAnsweredPanelPrefab.GetComponent<OVRRaycaster>().pointer = QuestPointer;
         //SubmitPanelPrefab.GetComponent<Canvas>().worldCamera = QuestionNotAnsweredPanelPrefab.GetComponent<Canvas>().worldCamera = CanvasCamera;
 
@@ -175,5 +176,6 @@ public class MainMenuBehaviour : MonoBehaviour {
     public void setQuestionaire(TextAsset q)
     {
         MainQuestionaire = q;
+        StartQuestionaire();
     }
 }

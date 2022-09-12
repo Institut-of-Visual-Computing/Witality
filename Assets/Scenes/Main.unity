@@ -4419,7 +4419,12 @@ PrefabInstance:
         type: 3}
       propertyPath: MainQuestionaire
       value: 
-      objectReference: {fileID: 4900000, guid: 004087ae54273424cb3a96a92eea7648, type: 3}
+      objectReference: {fileID: 4900000, guid: 9abd8092e2091f440aca6ef3fc5af714, type: 3}
+    - target: {fileID: 8003958635126207832, guid: d8a0732fe5f47a842920f1ab8ef0d18f,
+        type: 3}
+      propertyPath: LanguageDictionary
+      value: 
+      objectReference: {fileID: 4900000, guid: c0f37c8c86dc04ae7af67b3bf2959ee8, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8a0732fe5f47a842920f1ab8ef0d18f, type: 3}
 --- !u!224 &644775905 stripped
@@ -7441,15 +7446,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   probandID: 0
-  show_questionnaire: 0
+  show_questionnaire: 1
   RayL: {fileID: 2095972643}
   RayR: {fileID: 1284992558}
   jsons:
-  - {fileID: 4900000, guid: 004087ae54273424cb3a96a92eea7648, type: 3}
-  - {fileID: 4900000, guid: 004087ae54273424cb3a96a92eea7648, type: 3}
-  - {fileID: 4900000, guid: 004087ae54273424cb3a96a92eea7648, type: 3}
-  - {fileID: 4900000, guid: 004087ae54273424cb3a96a92eea7648, type: 3}
-  - {fileID: 4900000, guid: 004087ae54273424cb3a96a92eea7648, type: 3}
+  - {fileID: 4900000, guid: 9abd8092e2091f440aca6ef3fc5af714, type: 3}
+  - {fileID: 4900000, guid: 9abd8092e2091f440aca6ef3fc5af714, type: 3}
+  - {fileID: 4900000, guid: 9abd8092e2091f440aca6ef3fc5af714, type: 3}
+  - {fileID: 4900000, guid: e36d2bc151baf344baf26d6c13041dd0, type: 3}
+  - {fileID: 4900000, guid: 9abd8092e2091f440aca6ef3fc5af714, type: 3}
   mainQuestionnaire: {fileID: 644775906}
 --- !u!1 &1576761208
 GameObject:
