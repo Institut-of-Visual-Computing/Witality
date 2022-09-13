@@ -59,7 +59,7 @@ public class TaskChanger : MonoBehaviour
     //y: variante
     [Header("0 = Farbe | 1 = Geschmack | 2 = Aroma_r | 3 = Aroma_e | 4 = CATA")]
     public GameObject[] objects;
-
+    public GameObject additional_obj_task_1, additional_obj_task_2;
     public static TaskChanger instance { get; private set;}
     
     
@@ -87,6 +87,8 @@ public class TaskChanger : MonoBehaviour
         {
             objects[x].SetActive((int)t == x);
         }
+        additional_obj_task_1.SetActive((int)t == 1);
+        additional_obj_task_2.SetActive((int)t == 2);
         switch (t)
         {
             case Task.Farbe_Rangordnung:

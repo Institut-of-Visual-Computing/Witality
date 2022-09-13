@@ -15,6 +15,8 @@ public class FarbordnungBehaviour : MonoBehaviour
         rang = GetComponent<Rangordnung>();
         if (rang.order_correct == null)
             rang.order_correct = TaskChanger.instance.subtask == 0 ? nr_weiﬂ : TaskChanger.instance.subtask == 1 ? nr_rose : nr_rot;
+
+        rang.order = new int[rang.order_correct.Length];
         createStartPositions();
 
     }

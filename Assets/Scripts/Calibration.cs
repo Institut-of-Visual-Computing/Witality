@@ -73,7 +73,7 @@ public class Calibration : MonoBehaviour
                 {
                     SwitchState(Idle);
                     info.text = "";
-                    if (tableDone && camDone)
+                    if (tableDone && (camDone || MenuSceneLoader.task == 0))
                         continueButton.SetActive(true);
                 }
                 break;

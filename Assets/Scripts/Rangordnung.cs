@@ -70,6 +70,8 @@ public class Rangordnung : MonoBehaviour
     }
     public void set_order(int child, int pos)
     {
+        if (order.Length != order_correct.Length)
+            order = new int[order_correct.Length];
         int id = int.Parse(getText(child));
         int prevIndex = System.Array.IndexOf(order, id);
         if (prevIndex >= 0)

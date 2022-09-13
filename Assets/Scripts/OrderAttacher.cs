@@ -21,9 +21,10 @@ public class OrderAttacher : MonoBehaviour
         showing = true;
         handL = Calibration.getFingerTip(handL);
         handR = Calibration.getFingerTip(handR);
-        for (int i = 0; i < transform.childCount; i++)
+        Transform buttons = transform.Find("Buttons");
+        for (int i = 0; i < buttons.childCount; i++)
         {
-            transform.GetChild(i).gameObject.SetActive(i <= rang.obj_parent.childCount);
+            buttons.GetChild(i).gameObject.SetActive(i < rang.obj_parent.childCount);
         }
     }
     

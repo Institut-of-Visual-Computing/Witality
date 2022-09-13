@@ -16,6 +16,7 @@ public class TrackingordnungBehaviour : MonoBehaviour
     {
         rang = GetComponent<Rangordnung>();
         rang.order_correct = MenuSceneLoader.codes;
+        rang.order = new int[rang.order.Length];
         load(MenuSceneLoader.subtask);
     }
     public void load(int i)

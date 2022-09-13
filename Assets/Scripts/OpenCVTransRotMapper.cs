@@ -104,7 +104,11 @@ public class OpenCVTransRotMapper : MonoBehaviour
             //target object
             int id = data.id;
             Transform o = objects[id];
-
+            if (o == null)
+            {
+                Debug.Log("Tracked ArUco Id: " + id + " without connected object!");
+                return;
+            }
             //position
 
             Vector3 newPos = new Vector3(data.pos.x , data.pos.y , data.pos.z);
