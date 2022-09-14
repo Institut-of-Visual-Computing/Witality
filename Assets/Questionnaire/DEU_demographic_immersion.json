@@ -782,7 +782,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie real erschien Ihnen die virtuelle Welt? <b>1:</b> Wie eine vorgestellte Welt - <b>7:</b> Nicht zu unterscheiden von der realen Welt",
+      "QuestionTask": "Wie real erschien Ihnen die virtuelle Welt? \n <b>1:</b> Wie eine vorgestellte Welt - <b>7:</b> Nicht zu unterscheiden von der realen Welt",
       "QuestionType": "1",
       "QuestionElements": [
         {
