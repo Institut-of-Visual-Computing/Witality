@@ -17,9 +17,14 @@ public class TrackingObjectsEditor : Editor
 
         int objectCount = _target.transform.childCount;
 
-        if (_target.ids == null)
+        if (_target.ids == null || objectCount != _target.ids.Length)
+        {
             _target.ids = new int[objectCount];
-
+            for (int i = 0; i < _target.ids.Length; i++)
+            {
+                _target.ids[i] = i;
+            }
+        }
 
         for (int i = 0; i < objectCount; i++)
         {

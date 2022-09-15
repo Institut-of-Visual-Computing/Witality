@@ -37,7 +37,7 @@ public class Rangordnung : MonoBehaviour
     }
     public void apply_order_text()
     {
-        for (int i = 0; i < obj_parent.childCount; i++)
+        for (int i = 0; i < order_correct.Length; i++)
         {
             string value = (System.Array.IndexOf(order, order_correct[i]) + 1) + ".";
             if (value == "0.")
@@ -51,7 +51,7 @@ public class Rangordnung : MonoBehaviour
         if(MenuSceneLoader.codes != null)
             order_correct = MenuSceneLoader.codes;
 
-        for (int i = 0; i < obj_parent.childCount; i++)
+        for (int i = 0; i < order_correct.Length; i++)
         {
             setText(i, order_correct[i].ToString("000."));
         }

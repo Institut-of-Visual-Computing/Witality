@@ -12,7 +12,7 @@ public class TrackingObjects : MonoBehaviour
     private void Start()
     {
         tracking_receiver.Init(transform);
-        for (int i = 0; i < transform.childCount; i++)
+        for (int i = 0; i < MenuSceneLoader.codes.Length; i++)
         {
             if (transform.GetChild(i).name == "CalibrationCube")
                 continue;
