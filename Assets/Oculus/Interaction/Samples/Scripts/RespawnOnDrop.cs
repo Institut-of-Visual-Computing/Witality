@@ -27,6 +27,7 @@ namespace Oculus.Interaction.Samples
     {
         [SerializeField]
         private float _yThresholdForRespawn;
+        public bool useDistance = false;
 
         [SerializeField]
         private UnityEvent _whenRespawned = new UnityEvent();
@@ -52,7 +53,7 @@ namespace Oculus.Interaction.Samples
 
         protected virtual void Update()
         {
-            if (transform.position.y < _yThresholdForRespawn)
+            if (!useDistance ? transform.position.y < _yThresholdForRespawn : Vector3.Distance(transform.position, _initialPosition) > _yThresholdForRespawn)
             {
                 transform.position = _initialPosition;
                 transform.rotation = _initialRotation;
