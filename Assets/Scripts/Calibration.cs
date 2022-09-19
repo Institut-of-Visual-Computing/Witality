@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 using static Calibration.CalibState;
 public class Calibration : MonoBehaviour
 {
     public Transform calibCube, calibCubeShould, hmd, realsense, handR, handL, tableEdge;
     public TextMeshProUGUI info;
+    public Image fingerHint;
     public CalibState state;
     float timer;
     Vector3 lastCubePos;
@@ -43,6 +44,7 @@ public class Calibration : MonoBehaviour
             case Table1:
                 info.text = "Bitte beide Zeigefinger an die Tischkante legen!\n";
                 info.text += (int)(6 - timer);
+                fingerHint.gameObject.SetActive(true);
                 if (timer >= 5)
                     SwitchState(Table2);
                 break;
@@ -50,6 +52,7 @@ public class Calibration : MonoBehaviour
             case Table2:
                 info.text = TableCalib();
                 SwitchState(toIdle);
+                fingerHint.gameObject.SetActive(false);
                 break;
            
             case Cam1:

@@ -22,6 +22,29 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
         SaveSurveyToJson saveSurvey = new SaveSurveyToJson(questionaire);
         string survey = JsonUtility.ToJson(saveSurvey);
 
+        #region Witality addons
+        //custom additions for Witality:
+        survey = survey.Substring(0, survey.Length - 2) + ","; //remove closing brackets add last ,
+        survey += "{\"Questions\":[\"Proband ID\"],\"Answers\":[\"" + MenuSceneLoader.probandID + "\"]},";
+        survey += "{\"Questions\":[\"Studie\"],\"Answers\":[\"" +  MenuSceneLoader.task + "\"]},";
+        survey += "{\"Questions\":[\"Studie Variante\"],\"Answers\":[\"" + System.Enum.GetName(TaskChanger.Task2Subtask(MenuSceneLoader.task) , MenuSceneLoader.subtask) + "\"]},";
+        survey += "{\"Questions\":[\"Umgebung\"],\"Answers\":[\"" + ToggleEnvironments.id2name(MenuSceneLoader.environment)+ "\"]},";
+
+        if(Rangordnung.instance != null)
+        {
+            survey += "{\"Questions\":[\"Rangordnung - Korrekt\"],\"Answers\":[\"";
+            survey += Rangordnung.instance.order_string(Rangordnung.instance.order_correct);
+            survey += "\"]},";
+
+            survey += "{\"Questions\":[\"Rangordnung - Abgabe\"],\"Answers\":[\"";
+            survey += Rangordnung.instance.order_string(Rangordnung.instance.order);
+            survey += "\"]},";
+        }
+
+
+        survey = survey.Substring(0, survey.Length - 1) + "]}"; //remove last ,
+        #endregion
+
         //how many saves so far?
         int savedCount = 0;
         if (PlayerPrefs.HasKey("SavedCount"))
@@ -46,8 +69,8 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
     {
         //save to disk 
         string sub = survey.Substring(63, 4);
-        print(sub);
         string fileName = "";
+        /*
         if (sub.Length != 4 || sub == "")
         {
             fileName = "results" + id.ToString("D4");
@@ -56,6 +79,10 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
         {
             fileName = sub;
         }
+        */
+        // file:    witality-<id>_task-<task>-<subtask>_room-<room>
+        // example: witality-014_task-1-0_room-1
+        fileName = "witality-" + MenuSceneLoader.probandID.ToString("000.") + "_" + MenuSceneLoader.task + "-" + System.Enum.GetName(TaskChanger.Task2Subtask(MenuSceneLoader.task), MenuSceneLoader.subtask) + "_" + ToggleEnvironments.id2name(MenuSceneLoader.environment);
 
         string path = Application.dataPath + "/" + "Logs";
 
@@ -67,7 +94,7 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
         string filePath = path + "/" + fileName + ".json";//Application.persistentDataPath + "/"+fileName + ".json";
         byte[] JsonStringBytes = Encoding.UTF8.GetBytes(survey);
         File.WriteAllBytes(filePath, JsonStringBytes);
-
+        
         
 
         InfoText.text += "\n\n" + MainMenuBehaviour.CurrentDictionary.GetKeyValue("File saved.", false);

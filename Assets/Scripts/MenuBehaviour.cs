@@ -150,7 +150,7 @@ public class MenuBehaviour : MonoBehaviour
                     case 4: //Pfirsich
                     case 5: //Kokos
                     default:
-                        return new int[] { 1 };
+                        return new int[] { 1, 2, 3, 4, 5, 6 };
                 }
             case 4: //Cata
                 switch (subtask.value)

@@ -52,5 +52,9 @@ public class ToggleEnvironments : MonoBehaviour
         set();
     }
 
+    public static string id2name(int i)
+    {
+        return i == 0 ? "Weinkeller" : i == 1 ? "Sensoriklabor" : i == 2 ? "Konferenzraum" : i == 3 ? "Vinothek" : "Error";
+    }
 }
 

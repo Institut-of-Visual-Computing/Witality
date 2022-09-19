@@ -13,20 +13,26 @@ public class Rangordnung : MonoBehaviour
     public int[] order;
     public int[] order_correct;
     public static bool isValid = false;
+    public static Rangordnung instance;
 
-    string order_string()
+    private void Start()
+    {
+        if (instance == null)
+            instance = this;
+    }
+    public string order_string(int[] array)
     {
         bool valid = true;
         string o = "";
-        for (int i = 0; i < order.Length; i++)
+        for (int i = 0; i < array.Length; i++)
         {
-            if(order[i] == 0)
+            if(array[i] == 0)
             {
                 valid = false;
             }
             else
             {
-                o += order[i].ToString("000.") + "-";
+                o += array[i].ToString("000.") + "-";
             }
             
         }
@@ -44,7 +50,7 @@ public class Rangordnung : MonoBehaviour
                 value = "";
             setText(i, value, "order");
         }
-        order_text.text = order_string();
+        order_text.text = order_string(order);
     }
     public void apply_text()
     {

@@ -75,16 +75,18 @@ public class SaveSurveyToJson {
     {
         List<int> SelectedAnswerIndexes = new List<int>();
         List<string> SelectedAnswers = new List<string>();
+        List<string> SelectedQuestions = new List<string>();
         for (int i = 0; i< question.GetQuestionCount(); i++)
         {
             //if (question.GetQuestionElement(i).IsSelected || question.QuestionType == QuestionTypes.TEXT_INPUT)
             //{
                 SelectedAnswerIndexes.Add(i);
                 SelectedAnswers.Add(question.GetQuestionElement(i).TextInputValue);
+                SelectedQuestions.Add(question.QuestionTask);
             //}
         }
 
-        Result result = new Result(index, SelectedAnswerIndexes, SelectedAnswers);
+        Result result = new Result(index, SelectedAnswerIndexes, SelectedAnswers, SelectedQuestions);
         return result;
     }
 
@@ -92,6 +94,7 @@ public class SaveSurveyToJson {
     {
         List<int> SelectedAnswerIndexes = new List<int>();
         List<string> SelectedAnswers = new List<string>();
+        List<string> SelectedQuestions = new List<string>();
         for (int i = 0; i < question.GetQuestionCount(); i++)
         {
             if (question.GetQuestionElement(i).IsSelected)
@@ -103,10 +106,11 @@ public class SaveSurveyToJson {
                  answerString += ": "+   question.GetQuestionElement(i).TextInputValue;
                 }
                 SelectedAnswers.Add(answerString);
+                SelectedQuestions.Add(question.QuestionTask);
             }
         }
 
-        Result result = new Result(index, SelectedAnswerIndexes, SelectedAnswers);
+        Result result = new Result(index, SelectedAnswerIndexes, SelectedAnswers, SelectedQuestions);
         return result;
     }
 }
@@ -116,11 +120,13 @@ public class Result
     int QuestionIndex;
   [SerializeField]  List<int> Indexes = new List<int>();
    [SerializeField] List<string> Answers = new List<string>();
+    [SerializeField] List<string> Questions = new List<string>();
 
-    public Result(int questionIndex,List<int> answerIndexes, List<string> answers)
+    public Result(int questionIndex,List<int> answerIndexes, List<string> answers, List<string> questions)
     {
         QuestionIndex = questionIndex;
         Indexes = answerIndexes;
         Answers = answers;
+        Questions = questions;
     }
 }

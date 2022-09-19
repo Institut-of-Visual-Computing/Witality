@@ -15,7 +15,7 @@ public class TrackingObjects : MonoBehaviour
         for (int i = 0; i < MenuSceneLoader.codes.Length; i++)
         {
             if (transform.GetChild(i).name == "CalibrationCube")
-                continue;
+                return;
             setText(i, MenuSceneLoader.codes[i].ToString("000."));
         }
     }
