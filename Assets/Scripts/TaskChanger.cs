@@ -27,6 +27,10 @@ public class TaskChanger : MonoBehaviour
         Bitter,
         Salzig
     }
+    public enum Task_variante_E
+    {
+        Alle_Aromen
+    }
     public enum Task_variante_A
     {
         Pilz,
@@ -44,9 +48,9 @@ public class TaskChanger : MonoBehaviour
     }
     public enum Task_variante_C
     {
-        Weiﬂwein_A,
-        Weiﬂwein_B,
-        Weiﬂwein_C,
+        Weiﬂwein_Riesling,
+        Weiﬂwein_Gew¸rztraminer,
+        Weiﬂwein_Grauburgunder,
         Rotwein_A,
         Rotwein_B
     }
@@ -89,19 +93,6 @@ public class TaskChanger : MonoBehaviour
         }
         additional_obj_task_1.SetActive((int)t == 1);
         additional_obj_task_2.SetActive((int)t == 2);
-        switch (t)
-        {
-            case Task.Farbe_Rangordnung:
-                break;
-            case Task.Geschmack_Rangordnung:
-                break;
-            case Task.Aroma_Rangordnung:
-                break;
-            case Task.Aroma_Erkennung:
-                break;
-            case Task.CATA:
-                break;
-        }
         
     }
     public void activate()
@@ -117,6 +108,7 @@ public class TaskChanger : MonoBehaviour
             case 1:
                 return typeof(Task_variante_G);
             case 2:
+                return typeof(Task_variante_E);
             case 3:
                 return typeof(Task_variante_A);
             case 4:

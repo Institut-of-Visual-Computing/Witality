@@ -122,21 +122,27 @@ public class MenuBehaviour : MonoBehaviour
                 switch (subtask.value)
                 {
                     case 0: //süß
+                        return new int[] { 0, 630, 871, 778, 575, 112, 334 };
                     case 1: //Sauer
+                        return new int[] { 0, 537, 704, 148, 241, 093, 482 };
                     case 2: //Bitter
                     case 3: //Salzig
                     default:
-                        return new int[] { 1, 2, 3, 4, 5, 6, 7 };
+                        return new int[] { 0, 1, 2, 3, 4, 5, 6};
                 }
             case 2: //aroma r
                 switch (subtask.value)
                 {
                     case 0: //Pilz
+                        return new int[] { 139, 750, 991, 602, 213 };
                     case 1: //Nelke
+                        return new int[] { 972, 361,065, 676, 528 };
                     case 2: //Eisbonbon
                     case 3: //Blumig
                     case 4: //Pfirsich
+                        return new int[] { 731, 342, 953, 120, 509} ;
                     case 5: //Kokos
+                        return new int[] { 898, 287, 046, 435, 583 };
                     default:
                         return new int[] { 1, 2, 3, 4, 5, 6 };
                 }
@@ -150,18 +156,23 @@ public class MenuBehaviour : MonoBehaviour
                     case 4: //Pfirsich
                     case 5: //Kokos
                     default:
-                        return new int[] { 1, 2, 3, 4, 5, 6 };
+                        return new int[] { 526, 431, 364, 107, 783, 850 };
                 }
             case 4: //Cata
                 switch (subtask.value)
                 {
                     case 0: //Weiß A
+                        return new int[] { 0, 131};
                     case 1: //Weiß B
+                        return new int[] { 0, 364};
                     case 2: //Weiß C
+                        return new int[] { 0, 597};
                     case 3: //Rot A
+                        return new int[] { 0, 983};
                     case 4: //Rot B
+                        return new int[] { 0, 644};
                     default:
-                        return new int[] { 1, 2 };
+                        return new int[] { 0, 1 };
                 }
             default:
                 return new int[] { 0, 0, 0, 0, 0, 0 };
