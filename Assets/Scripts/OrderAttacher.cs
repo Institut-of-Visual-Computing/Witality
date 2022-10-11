@@ -2,15 +2,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEditor;
+using Oculus.Interaction;
 
 public class OrderAttacher : MonoBehaviour
 {
     public static Rangordnung rang;
     public int chosenInt = -1;
     public float minApllyRadius = 0.01f;
-    public Transform handL, handR;
+    public Transform handL, handR, buttons;
     public bool showing;
-    public TextMeshProUGUI text;
+    public TextMeshProUGUI text,scalaLow,scalaHigh;
+    private void Start()
+    {
+        setScala((int)MenuSceneLoader.task, MenuSceneLoader.subtask);
+    }
+    public void setScala(int task, int subtask)
+    {
+        switch (task)
+        {
+            case 1:
+                scalaLow.text = "Neutral";
+                scalaHigh.text = System.Enum.GetName(typeof(TaskChanger.Task_variante_G), subtask);
+                break;
+            case 2:
+                scalaLow.text = "Neutral";
+                scalaHigh.text = System.Enum.GetName(typeof(TaskChanger.Task_variante_A), subtask);
+                break;
+            default:
+                scalaLow.text = "hell";
+                scalaHigh.text = "dunkel";
+                break;
+        }
+    }
     public void activated()
     {
         if (showing)
@@ -21,7 +45,6 @@ public class OrderAttacher : MonoBehaviour
         showing = true;
         handL = Calibration.getFingerTip(handL);
         handR = Calibration.getFingerTip(handR);
-        Transform buttons = transform.Find("Buttons");
         for (int i = 0; i < buttons.childCount; i++)
         {
             buttons.GetChild(i).gameObject.SetActive(i < rang.obj_parent.childCount);
@@ -59,12 +82,16 @@ public class OrderAttacher : MonoBehaviour
             if(distance < minApllyRadius)
             {
                 rang.set_order(index, chosenInt);
+                setDone(true, chosenInt);
                 chosenInt = -1;
                 text.text = "";
             }
         }
     }
-
+    public void setDone(bool done, int i)
+    {
+        buttons.GetChild(i).Find("Visuals/ButtonVisual/ButtonPanel").GetComponent<RoundedBoxProperties>().setColor(done);
+    }
     void deactivate()
     {
         chosenInt = -1;
@@ -73,4 +100,42 @@ public class OrderAttacher : MonoBehaviour
         text.text = "";
     }
 
+}
+
+[CustomEditor(typeof(OrderAttacher))]
+public class OrderAttacherEditor : Editor
+{
+    int t, st;
+    public override void OnInspectorGUI()
+    {
+        base.OnInspectorGUI();
+        OrderAttacher _target = ((OrderAttacher)target);
+
+        EditorGUILayout.LabelField(System.Enum.GetName(typeof(TaskChanger.Task), t));
+        t = EditorGUILayout.IntSlider(t, 0, 4);
+        if (t == 1)
+            st = EditorGUILayout.IntSlider(st, 0, 4);
+        if (t == 2)
+            st = EditorGUILayout.IntSlider(st, 0, 11);
+        if (GUILayout.Button("Set"))
+        {
+            _target.setScala(t, st);
+        }
+        EditorGUILayout.BeginHorizontal();
+        if (GUILayout.Button("All Done"))
+        {
+            for (int i = 0; i < _target.buttons.childCount; i++)
+            {
+                _target.setDone(true, i);
+            }
+        }
+        if (GUILayout.Button("All Undone"))
+        {
+            for (int i = 0; i < _target.buttons.childCount; i++)
+            {
+                _target.setDone(false, i);
+            }
+        }
+        EditorGUILayout.EndHorizontal();
+    }
 }

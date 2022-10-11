@@ -37,6 +37,9 @@ namespace Oculus.Interaction
 
         [SerializeField]
         private Color _color = Color.white;
+        
+        [SerializeField]
+        private Color _colorDone = Color.green;
 
         [SerializeField]
         private Color _borderColor = Color.black;
@@ -95,6 +98,11 @@ namespace Oculus.Interaction
             {
                 _color = value;
             }
+        }
+        public void setColor(bool done)
+        {
+            _color = done ? _colorDone : Color.white;
+            GetComponent<MaterialPropertyBlockEditor>().MaterialPropertyBlock.SetColor(_colorShaderID, _color);
         }
 
         public Color BorderColor

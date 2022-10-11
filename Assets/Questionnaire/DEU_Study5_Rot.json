@@ -181,36 +181,11 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte führen Sie die Studie durch.",
-      "QuestionType": "2",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "Erledigt",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
       "QuestionTask": "Probe",
       "QuestionType": "1",
       "QuestionElements": [
         {
           "IndexNumber": 0,
-          "TextMessage": "983",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "644",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
           "TextMessage": "322",
           "IsSelected": false,
           "HasTextInput": false
@@ -396,6 +371,19 @@
     },
     {
       "AnswerRequired": true,
+      "QuestionTask": "Probe",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 1,
+          "TextMessage": "644",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
       "QuestionTask": "Farbe",
       "QuestionType": "1",
       "QuestionElements": [
@@ -566,6 +554,19 @@
         {
           "IndexNumber": 9,
           "TextMessage": "Dominante Säure",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Probe",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 2,
+          "TextMessage": "983",
           "IsSelected": false,
           "HasTextInput": false
         }

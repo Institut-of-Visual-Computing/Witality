@@ -48,11 +48,8 @@ public class TaskChanger : MonoBehaviour
     }
     public enum Task_variante_C
     {
-        Weißwein_Riesling,
-        Weißwein_Gewürztraminer,
-        Weißwein_Grauburgunder,
-        Rotwein_A,
-        Rotwein_B
+        Weißwein,
+        Rotwein
     }
     
     public Task current_task;
@@ -108,9 +105,9 @@ public class TaskChanger : MonoBehaviour
             case 1:
                 return typeof(Task_variante_G);
             case 2:
-                return typeof(Task_variante_E);
-            case 3:
                 return typeof(Task_variante_A);
+            case 3:
+                return typeof(Task_variante_E);
             case 4:
                 return typeof(Task_variante_C);
             default:

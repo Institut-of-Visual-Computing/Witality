@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 25ae174f0bc6b074da4d845c814afbb3, type: 2}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.30908513, g: 0.3119805, b: 0.31581724, a: 1}
+  m_IndirectSpecularColor: {r: 0.30908456, g: 0.31197998, b: 0.3158168, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -525,7 +525,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &74857433
 Transform:
   m_ObjectHideFlags: 0
@@ -559,8 +559,11 @@ MonoBehaviour:
   minApllyRadius: 0.05
   handL: {fileID: 920588586}
   handR: {fileID: 879600739}
+  buttons: {fileID: 964305651}
   showing: 0
   text: {fileID: 489598965}
+  scalaLow: {fileID: 560788180}
+  scalaHigh: {fileID: 1767103147}
 --- !u!1001 &81477794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1687,6 +1690,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wineglass (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7317003207375415054, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
         type: 3}
       propertyPath: m_RootOrder
@@ -2654,6 +2662,96 @@ MonoBehaviour:
   submit_Button: {fileID: 1509743981}
   order: 000000000000000000000000000000000000000000000000
   order_correct: 85010000570300006e0200004e01000058000000d3000000
+--- !u!1001 &471578399
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1839407855}
+    m_Modifications:
+    - target: {fileID: 2074535869777275250, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 96d9c9e1d54c43a488f45c604c77c5d0, type: 2}
+    - target: {fileID: 7317003207375415054, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_Name
+      value: Wineglass (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317003207375415054, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2409
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.754
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 9088691601064677560, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e4c15769027d6814590f84df7621d3e2, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 186e5ae17f7c4f44c99399a2e8f90099, type: 3}
+--- !u!4 &471578400 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+    type: 3}
+  m_PrefabInstance: {fileID: 471578399}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &473574777
 GameObject:
   m_ObjectHideFlags: 0
@@ -4311,6 +4409,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8003958634938740530, guid: d8a0732fe5f47a842920f1ab8ef0d18f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8003958635126207832, guid: d8a0732fe5f47a842920f1ab8ef0d18f,
         type: 3}
       propertyPath: MainQuestionaire
@@ -4325,6 +4428,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8003958635952636102, guid: d8a0732fe5f47a842920f1ab8ef0d18f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8a0732fe5f47a842920f1ab8ef0d18f, type: 3}
@@ -4454,6 +4562,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wineglass (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317003207375415054, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
         type: 3}
@@ -5008,7 +5121,7 @@ PrefabInstance:
     - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.13
+      value: 0.0715
       objectReference: {fileID: 0}
     - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
         type: 3}
@@ -5055,6 +5168,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 9088691601064677560, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cfe5b574467e9f744876d9180cf9b5f3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 186e5ae17f7c4f44c99399a2e8f90099, type: 3}
 --- !u!4 &888959307 stripped
@@ -5540,6 +5658,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 9088691601064677560, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb6392786719211449c2553951bfa762, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 186e5ae17f7c4f44c99399a2e8f90099, type: 3}
 --- !u!4 &1036606354 stripped
@@ -5691,7 +5814,6 @@ MonoBehaviour:
   - Sauer
   - Bitter
   - Salzig
-  orderAttacherCanvas: {fileID: 461638122}
 --- !u!1001 &1132874619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6391,7 +6513,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ef36cad6dc12a8449ba2adfbd5fd3acb, type: 2}
+      objectReference: {fileID: 2100000, guid: 375c4013a04826f49b2918e9452ba626, type: 2}
     - target: {fileID: 6337113594742541860, guid: c11ebcd576746034b954fb5bc4a293c6,
         type: 3}
       propertyPath: m_Name
@@ -6400,7 +6522,7 @@ PrefabInstance:
     - target: {fileID: 8707607042110649917, guid: c11ebcd576746034b954fb5bc4a293c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8707607042110649917, guid: c11ebcd576746034b954fb5bc4a293c6,
         type: 3}
@@ -7930,6 +8052,91 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714996037}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1720738353
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1839407855}
+    m_Modifications:
+    - target: {fileID: 2074535869777275250, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 724c51e16f34dcb44b194d09da7c7a9b, type: 2}
+    - target: {fileID: 7317003207375415054, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_Name
+      value: Wineglass (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1552
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.754
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 9088691601064677560, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 238f267115f55154e8c5d7a407489e80, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 186e5ae17f7c4f44c99399a2e8f90099, type: 3}
+--- !u!4 &1720738354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7963394949649641826, guid: 186e5ae17f7c4f44c99399a2e8f90099,
+    type: 3}
+  m_PrefabInstance: {fileID: 1720738353}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1733769913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8693,6 +8900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1839407855}
   - component: {fileID: 1839407856}
+  - component: {fileID: 1839407857}
   m_Layer: 0
   m_Name: Task CATA
   m_TagString: Untagged
@@ -8714,6 +8922,8 @@ Transform:
   m_Children:
   - {fileID: 1036606354}
   - {fileID: 888959307}
+  - {fileID: 1720738354}
+  - {fileID: 471578400}
   - {fileID: 1326278002}
   m_Father: {fileID: 1680831272}
   m_RootOrder: 4
@@ -8730,8 +8940,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2051741187f9c0a4787b0753e0b50f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ids: 000000000100000002000000
+  ids: 0000000001000000020000000300000004000000
   tracking_receiver: {fileID: 1050185090}
+--- !u!114 &1839407857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839407854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3362a1c7267527844a98e3bf7a7af7bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1841924395
 GameObject:
   m_ObjectHideFlags: 0
@@ -9422,7 +9644,6 @@ MonoBehaviour:
   - Banane
   - Vanille
   - Erde
-  orderAttacherCanvas: {fileID: 461638122}
 --- !u!114 &2041492249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10480,6 +10701,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2010873541706443070}
+        m_TargetAssemblyTypeName: Oculus.Interaction.RoundedBoxProperties, Oculus.Interaction
+        m_MethodName: setColor
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   _whenUnselect:
     m_PersistentCalls:
       m_Calls: []
@@ -10572,6 +10805,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2010873541914648717}
+        m_TargetAssemblyTypeName: Oculus.Interaction.RoundedBoxProperties, Oculus.Interaction
+        m_MethodName: setColor
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   _whenUnselect:
     m_PersistentCalls:
@@ -10666,6 +10911,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2010873543205853572}
+        m_TargetAssemblyTypeName: Oculus.Interaction.RoundedBoxProperties, Oculus.Interaction
+        m_MethodName: setColor
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   _whenUnselect:
     m_PersistentCalls:
       m_Calls: []
@@ -10758,6 +11015,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2010873543102172805}
+        m_TargetAssemblyTypeName: Oculus.Interaction.RoundedBoxProperties, Oculus.Interaction
+        m_MethodName: setColor
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   _whenUnselect:
     m_PersistentCalls:
@@ -10852,6 +11121,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2010873543240453829}
+        m_TargetAssemblyTypeName: Oculus.Interaction.RoundedBoxProperties, Oculus.Interaction
+        m_MethodName: setColor
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   _whenUnselect:
     m_PersistentCalls:
       m_Calls: []
@@ -10945,6 +11226,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2010873543578658979}
+        m_TargetAssemblyTypeName: Oculus.Interaction.RoundedBoxProperties, Oculus.Interaction
+        m_MethodName: setColor
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   _whenUnselect:
     m_PersistentCalls:
       m_Calls: []
@@ -11037,6 +11330,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2010873543522340015}
+        m_TargetAssemblyTypeName: Oculus.Interaction.RoundedBoxProperties, Oculus.Interaction
+        m_MethodName: setColor
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   _whenUnselect:
     m_PersistentCalls:
@@ -11284,6 +11589,7 @@ MonoBehaviour:
   _width: 1
   _height: 1
   _color: {r: 1, g: 1, b: 1, a: 1}
+  _colorDone: {r: 0.36893588, g: 0.754717, b: 0.29547882, a: 1}
   _borderColor: {r: 0, g: 0, b: 0, a: 1}
   _radiusTopLeft: 0.3
   _radiusTopRight: 0.3
@@ -11307,6 +11613,7 @@ MonoBehaviour:
   _width: 1
   _height: 1
   _color: {r: 1, g: 1, b: 1, a: 1}
+  _colorDone: {r: 0.36893588, g: 0.754717, b: 0.29547882, a: 1}
   _borderColor: {r: 0, g: 0, b: 0, a: 1}
   _radiusTopLeft: 0.3
   _radiusTopRight: 0.3
@@ -11330,6 +11637,7 @@ MonoBehaviour:
   _width: 1
   _height: 1
   _color: {r: 1, g: 1, b: 1, a: 1}
+  _colorDone: {r: 0.36893588, g: 0.754717, b: 0.29547882, a: 1}
   _borderColor: {r: 0, g: 0, b: 0, a: 1}
   _radiusTopLeft: 0.3
   _radiusTopRight: 0.3
@@ -11353,6 +11661,7 @@ MonoBehaviour:
   _width: 1
   _height: 1
   _color: {r: 1, g: 1, b: 1, a: 1}
+  _colorDone: {r: 0.36893588, g: 0.754717, b: 0.29547882, a: 1}
   _borderColor: {r: 0, g: 0, b: 0, a: 1}
   _radiusTopLeft: 0.3
   _radiusTopRight: 0.3
@@ -11376,6 +11685,7 @@ MonoBehaviour:
   _width: 1
   _height: 1
   _color: {r: 1, g: 1, b: 1, a: 1}
+  _colorDone: {r: 0.36893588, g: 0.754717, b: 0.29547882, a: 1}
   _borderColor: {r: 0, g: 0, b: 0, a: 1}
   _radiusTopLeft: 0.3
   _radiusTopRight: 0.3
@@ -11399,6 +11709,7 @@ MonoBehaviour:
   _width: 1
   _height: 1
   _color: {r: 1, g: 1, b: 1, a: 1}
+  _colorDone: {r: 0.36893588, g: 0.754717, b: 0.29547882, a: 1}
   _borderColor: {r: 0, g: 0, b: 0, a: 1}
   _radiusTopLeft: 0.3
   _radiusTopRight: 0.3
@@ -11422,6 +11733,7 @@ MonoBehaviour:
   _width: 1
   _height: 1
   _color: {r: 1, g: 1, b: 1, a: 1}
+  _colorDone: {r: 0.36893588, g: 0.754717, b: 0.29547882, a: 1}
   _borderColor: {r: 0, g: 0, b: 0, a: 1}
   _radiusTopLeft: 0.3
   _radiusTopRight: 0.3

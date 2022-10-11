@@ -181,55 +181,12 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte führen Sie die Studie durch.",
-      "QuestionType": "2",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "Erledigt",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
       "QuestionTask": "Probe",
       "QuestionType": "1",
       "QuestionElements": [
         {
           "IndexNumber": 0,
-          "TextMessage": "526",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "431",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "364",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
           "TextMessage": "107",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "783",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "850",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -320,38 +277,8 @@
       "QuestionType": "1",
       "QuestionElements": [
         {
-          "IndexNumber": 0,
-          "TextMessage": "526",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
           "IndexNumber": 1,
-          "TextMessage": "431",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
           "TextMessage": "364",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "107",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "783",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "850",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -442,38 +369,8 @@
       "QuestionType": "1",
       "QuestionElements": [
         {
-          "IndexNumber": 0,
-          "TextMessage": "526",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "431",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
           "IndexNumber": 2,
-          "TextMessage": "364",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "107",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "783",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "850",
+          "TextMessage": "431",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -564,38 +461,8 @@
       "QuestionType": "1",
       "QuestionElements": [
         {
-          "IndexNumber": 0,
-          "TextMessage": "526",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "431",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "364",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
           "IndexNumber": 3,
-          "TextMessage": "107",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "783",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "850",
+          "TextMessage": "526",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -686,38 +553,8 @@
       "QuestionType": "1",
       "QuestionElements": [
         {
-          "IndexNumber": 0,
-          "TextMessage": "526",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "431",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "364",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "107",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
           "IndexNumber": 4,
           "TextMessage": "783",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "850",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -807,36 +644,6 @@
       "QuestionTask": "Probe",
       "QuestionType": "1",
       "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "526",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "431",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "364",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "107",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "783",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
         {
           "IndexNumber": 5,
           "TextMessage": "850",
