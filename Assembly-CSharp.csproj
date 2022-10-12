@@ -135,6 +135,7 @@
     <Compile Include="Assets\extOSC\Scripts\Core\IOSCBindBundle.cs" />
     <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\FocusInputFieldBehaviour.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\AppDeeplink\UI\CustomDebugUI.cs" />
+    <Compile Include="Assets\Scripts\CataBehaviour.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventString.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Misc\OSCReceiverGyro.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughController.cs" />
@@ -364,7 +365,6 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\Scripts\CataBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
