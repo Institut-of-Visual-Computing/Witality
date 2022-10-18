@@ -19,6 +19,7 @@
  */
 
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -53,10 +54,12 @@ namespace Oculus.Interaction
         private ITransformer _activeTransformer = null;
         private ITransformer OneGrabTransformer;
         private ITransformer TwoGrabTransformer;
-
+        public static List<int> grabbedArUcoId;
         protected override void Awake()
         {
             base.Awake();
+            if(grabbedArUcoId == null)
+                grabbedArUcoId = new List<int>();
             OneGrabTransformer = _oneGrabTransformer as ITransformer;
             TwoGrabTransformer = _twoGrabTransformer as ITransformer;
         }
@@ -89,7 +92,6 @@ namespace Oculus.Interaction
 
             this.EndStart(ref _started);
         }
-
         public override void ProcessPointerEvent(PointerEvent evt)
         {
             switch (evt.Type)
@@ -128,6 +130,8 @@ namespace Oculus.Interaction
             // End the transform on any existing transformer before we
             // begin the new one
             EndTransform();
+            if(!grabbedArUcoId.Contains(transform.GetSiblingIndex()))
+                grabbedArUcoId.Add(transform.GetSiblingIndex());
 
             int useGrabPoints = _selectingPoints.Count;
             if (_maxGrabPoints != -1)
@@ -168,6 +172,7 @@ namespace Oculus.Interaction
 
         private void EndTransform()
         {
+            grabbedArUcoId.Remove(transform.GetSiblingIndex());
             if (_activeTransformer == null)
             {
                 return;

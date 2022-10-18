@@ -2,6 +2,7 @@
 
 using UnityEngine;
 using extOSC;
+using Oculus.Interaction;
 
 [RequireComponent(typeof(OSCReceiver))]
 public class OpenCVTransRotMapper : MonoBehaviour
@@ -89,6 +90,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
             trackingData data = new trackingData();
             string[] msgs = msg.Replace('.', ',').Split(' ');
             data.id = int.Parse(msgs[0]);
+            bool overrideByGrabbable = Grabbable.grabbedArUcoId.Contains(data.id);
             data.pos = new Vector3(float.Parse(msgs[1]), float.Parse(msgs[2]), float.Parse(msgs[3]));
             data.pos.y *= -1;
             if (upAndFwd)
@@ -109,28 +111,33 @@ public class OpenCVTransRotMapper : MonoBehaviour
                 Debug.Log("Tracked ArUco Id: " + id + " without connected object!");
                 return;
             }
+            
             //position
 
             Vector3 newPos = new Vector3(data.pos.x , data.pos.y , data.pos.z);
             newPos = Camera_origin.position + Camera_origin.rotation * newPos;
-            o.position = Vector3.Lerp(newPos, lastPos[id], pos_linear_interpolation);
+            if(!overrideByGrabbable)
+                o.position = Vector3.Lerp(newPos, lastPos[id], pos_linear_interpolation);
             lastPos[id] = o.position;
 
             //rotation
-            if (upAndFwd)
+            if (!overrideByGrabbable)
             {
+                if (upAndFwd)
+                {
 
 
-                o.rotation = Quaternion.Lerp(Camera_origin.rotation * Quaternion.LookRotation(data.fwd, data.up), lastRot[id], rot_linear_interpolation);
+                    o.rotation = Quaternion.Lerp(Camera_origin.rotation * Quaternion.LookRotation(data.fwd, data.up), lastRot[id], rot_linear_interpolation);
 
-            }
-            else
-            {
-                Vector3 vector = data.rot;
-                float theta = vector.magnitude * 180f / Mathf.PI;
-                Vector3 axis = new Vector3(-vector.x, vector.y, -vector.z);
+                }
+                else
+                {
+                    Vector3 vector = data.rot;
+                    float theta = vector.magnitude * 180f / Mathf.PI;
+                    Vector3 axis = new Vector3(-vector.x, vector.y, -vector.z);
 
-                o.rotation = Quaternion.Lerp(Camera_origin.rotation * Quaternion.AngleAxis(theta, axis), lastRot[id], rot_linear_interpolation);
+                    o.rotation = Quaternion.Lerp(Camera_origin.rotation * Quaternion.AngleAxis(theta, axis), lastRot[id], rot_linear_interpolation);
+                }
             }
             lastRot[id] = o.rotation;
             lastTimeTracked[id] = Time.time;
@@ -140,11 +147,11 @@ public class OpenCVTransRotMapper : MonoBehaviour
     {
         for (int i = 0; i < 50; i++)
         {
-            if (lastTimeTracked[i] == 0)
+            if (lastTimeTracked[i] == 0 || Grabbable.grabbedArUcoId.Contains(i))
                 continue;
             if( Time.time - lastTimeTracked[i] > max_seconds)
             {
-                objects[i].position += Vector3.down * 10;
+                objects[i].position = Vector3.down * 5;
                 lastTimeTracked[i] = 0;
             }
         }
