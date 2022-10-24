@@ -3,6 +3,7 @@
 using UnityEngine;
 using extOSC;
 using Oculus.Interaction;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(OSCReceiver))]
 public class OpenCVTransRotMapper : MonoBehaviour
@@ -22,7 +23,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
 
     [Header("Read Only")]
     public Transform[] objects;
-
+    public List<int> grabbedIDs;
    
     //Data is send in this format
     struct trackingData
@@ -80,6 +81,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
             return;
         if (deleteObjectsAfterTime)
             deleteOldObjects(deletionTime);
+        grabbedIDs = Grabbable.grabbedArUcoId;
     }
 
     public void Receive(extOSC.OSCMessage message)

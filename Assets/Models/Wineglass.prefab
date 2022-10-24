@@ -645,7 +645,8 @@ MonoBehaviour:
   _pointableElement: {fileID: 7436610206363362402}
   _boundsCollider: {fileID: 7649152548153036881}
   _colliders:
-  - {fileID: 7149740808138073606}
+  - {fileID: 6531183643243360114}
+  - {fileID: 9085294585981134693}
 --- !u!54 &-7290267663229358796
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -691,7 +692,8 @@ GameObject:
   - component: {fileID: 4856619129910639434}
   - component: {fileID: 7444346211170719907}
   - component: {fileID: 6725957005975275760}
-  - component: {fileID: 7149740808138073606}
+  - component: {fileID: 6531183643243360114}
+  - component: {fileID: 9085294585981134693}
   m_Layer: 6
   m_Name: wine_glass
   m_TagString: Untagged
@@ -765,8 +767,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7149740808138073606
-MeshCollider:
+--- !u!136 &6531183643243360114
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -775,10 +777,23 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3343999668816391053, guid: e7d454dd05032c64cad0473754883b82, type: 3}
+  m_Radius: 0.84
+  m_Height: 3.3
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 3.31}
+--- !u!65 &9085294585981134693
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8886781195106158772}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.2, z: 1.54}
+  m_Center: {x: 0, y: 0, z: 0.93}
 --- !u!1 &9035572064288450835
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +834,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9035572064288450835}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.09424573, y: 0.08621839, z: 0.17050585}

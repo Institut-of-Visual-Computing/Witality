@@ -130,9 +130,7 @@ namespace Oculus.Interaction
             // End the transform on any existing transformer before we
             // begin the new one
             EndTransform();
-            if(!grabbedArUcoId.Contains(transform.GetSiblingIndex()))
-                grabbedArUcoId.Add(transform.GetSiblingIndex());
-
+            
             int useGrabPoints = _selectingPoints.Count;
             if (_maxGrabPoints != -1)
             {
@@ -156,7 +154,10 @@ namespace Oculus.Interaction
             {
                 return;
             }
-
+            if (!grabbedArUcoId.Contains(transform.GetSiblingIndex()))
+            {
+                grabbedArUcoId.Add(transform.GetSiblingIndex());
+            }
             _activeTransformer.BeginTransform();
         }
 
@@ -166,7 +167,6 @@ namespace Oculus.Interaction
             {
                 return;
             }
-
             _activeTransformer.UpdateTransform();
         }
 
