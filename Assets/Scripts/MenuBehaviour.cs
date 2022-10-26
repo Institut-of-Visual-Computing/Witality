@@ -168,4 +168,8 @@ public class MenuBehaviour : MonoBehaviour
                 return new int[] { 0, 0, 0, 0, 0, 0 };
         }
     }
+    public static bool CATA_isJoker(int i)
+    {
+        return i == 597 || i == 322;
+    }
 }

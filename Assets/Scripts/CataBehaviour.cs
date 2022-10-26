@@ -20,7 +20,12 @@ public class CataBehaviour : MonoBehaviour
         string c = color == 0 ? "Weiﬂ" : "Rot";
         for (int x = 0; x < (color == 0 ? 4 : 3); x++)
         {
-            transform.GetChild(x).Find("rotation/wine_glass_fill").GetComponent<Renderer>().material = Resources.Load( x == 0 ? "Cata Mats/Wasser" : "Cata Mats/" + c + "/" + x, typeof(Material)) as Material;
+            int id = x;
+            if(MenuBehaviour.CATA_isJoker( MenuSceneLoader.codes[id] ))
+            {
+                id = color == 0 ? 4 : 3; //setze joker material auf das passende Glas
+            }
+            transform.GetChild(x).Find("rotation/wine_glass_fill").GetComponent<Renderer>().material = Resources.Load( id == 0 ? "Cata Mats/Wasser" : "Cata Mats/" + c + "/" + id, typeof(Material)) as Material;
         }
         transform.GetChild(3).gameObject.SetActive(color == 0);
     }
