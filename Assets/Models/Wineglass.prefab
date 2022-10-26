@@ -646,7 +646,6 @@ MonoBehaviour:
   _boundsCollider: {fileID: 7649152548153036881}
   _colliders:
   - {fileID: 6531183643243360114}
-  - {fileID: 9085294585981134693}
 --- !u!54 &-7290267663229358796
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -777,10 +776,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.84
-  m_Height: 3.3
+  m_Radius: 0.82
+  m_Height: 3.61
   m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 3.31}
+  m_Center: {x: 0, y: 0, z: 1.87}
 --- !u!65 &9085294585981134693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -790,10 +789,10 @@ BoxCollider:
   m_GameObject: {fileID: 8886781195106158772}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.2, z: 1.54}
-  m_Center: {x: 0, y: 0, z: 0.93}
+  m_Size: {x: 1, y: 1, z: 2.77}
+  m_Center: {x: 0, y: 0, z: 1.38}
 --- !u!1 &9035572064288450835
 GameObject:
   m_ObjectHideFlags: 0
