@@ -7,17 +7,18 @@ using UnityEngine.UI;
 using static Calibration.CalibState;
 public class Calibration : MonoBehaviour
 {
-    public Transform calibCube, calibCubeShould, hmd, realsense, handR, handL, tableEdge;
+    public Transform[] calibCube, calibCubeShould;
+    public Transform hmd, realsense, handR, handL, tableEdge;
     public TextMeshProUGUI info;
     public Image fingerHint;
     public CalibState state;
     float timer;
-    Vector3 lastCubePos;
-    Quaternion lastCubeRot;
+    Vector3[] lastCubePos;
+    Quaternion[] lastCubeRot;
     public float CamPosSensivity, CamRotSensivity;
     public bool tableDone = false, camDone = false;
     public GameObject continueButton;
-
+    public static bool needCalibration = true;
     public enum CalibState
     {
         Idle,
@@ -27,8 +28,12 @@ public class Calibration : MonoBehaviour
         Cam1,
         Cam2,
     }
+    private void Start()
+    {
+        lastCubePos = new Vector3[calibCube.Length];
+        lastCubeRot = new Quaternion[calibCube.Length];
+    }
 
-    
     private void Update()
     {
         //Notfall Tastatur Input wenn Offset zu groß ist
@@ -58,12 +63,17 @@ public class Calibration : MonoBehaviour
             case Cam1:
                 info.text = "Kalibriere Kamera.\nBitte nichts verändern!\n";
                 info.text += (int)(4 - timer);
-                if ((lastCubePos - calibCube.position).magnitude > CamPosSensivity || Quaternion.Angle(lastCubeRot,calibCube.rotation) > CamRotSensivity)
-                    timer = 0;
+                for (int i = 0; i < calibCube.Length; i++)
+                {
+                    if ((lastCubePos[i] - calibCube[i].position).magnitude > CamPosSensivity || Quaternion.Angle(lastCubeRot[i], calibCube[i].rotation) > CamRotSensivity)
+                        timer = 0;
+
+                    lastCubePos[i] = calibCube[i].position;
+                    lastCubeRot[i] = calibCube[i].rotation;
+                }
+                
                 if (timer >= 3)
                     SwitchState(Cam2);
-                lastCubePos = calibCube.position;
-                lastCubeRot = calibCube.rotation;
                 break;
 
             case Cam2:
@@ -76,7 +86,7 @@ public class Calibration : MonoBehaviour
                 {
                     SwitchState(Idle);
                     info.text = "";
-                    if (tableDone && (camDone || MenuSceneLoader.task == 0))
+                    if (tableDone && (camDone || MenuSceneLoader.task == 0 || !needCalibration))
                         continueButton.SetActive(true);
                 }
                 break;
@@ -88,19 +98,45 @@ public class Calibration : MonoBehaviour
     #region Camera Calibration
     public string CamCalib()
     {
-        Quaternion cubeRot = calibCubeShould.rotation * Quaternion.Inverse(calibCube.rotation);
-        realsense.rotation = cubeRot * realsense.rotation;
+        Quaternion[] cubeRot = new Quaternion[calibCube.Length];
+        Vector3[] cubeMove = new Vector3[calibCube.Length];
+        for (int i = 0; i < calibCube.Length; i++)
+        {
+            cubeRot[i] = calibCubeShould[i].rotation * Quaternion.Inverse(calibCube[i].rotation);
+            cubeMove[i] = calibCubeShould[i].position - calibCube[i].position;
+        }
 
-        Vector3 cubeMove = calibCubeShould.position - calibCube.position;
-        realsense.position += cubeMove;
+        realsense.rotation = avg_q3(cubeRot[0], cubeRot[1], cubeRot[2]) * realsense.rotation;   //must change if not taking 3 cubes
+        realsense.position += avg_v(cubeMove);
 
         MenuSceneLoader.calibPosition_Camera = realsense.position;
         MenuSceneLoader.calibRotation_Camera = realsense.rotation;
+        PlayerPrefs.SetFloat("calibration_pos_x", realsense.position.x);
+        PlayerPrefs.SetFloat("calibration_pos_y", realsense.position.y);
+        PlayerPrefs.SetFloat("calibration_pos_z", realsense.position.z);
+        PlayerPrefs.SetFloat("calibration_rot_x", realsense.rotation.eulerAngles.x);
+        PlayerPrefs.SetFloat("calibration_rot_y", realsense.rotation.eulerAngles.y);
+        PlayerPrefs.SetFloat("calibration_rot_z", realsense.rotation.eulerAngles.z);
+        PlayerPrefs.Save();
         camDone = true;
         return "Kamera kalibriert!";
     }
+
+    Vector3 avg_v(Vector3[] v)
+    {
+        Vector3 sum = Vector3.zero;
+        for (int i = 0; i < v.Length; i++)
+        {
+            sum += v[i];
+        }
+        return sum / v.Length;
+    }
+    Quaternion avg_q3(Quaternion q1, Quaternion q2, Quaternion q3)
+    {
+        return Quaternion.Lerp( Quaternion.Lerp(q1,q2,0.5f), q3, 2f/3f);
+    }
     #endregion
-    
+
     #region Table Calibration
     public string TableCalib()
     {

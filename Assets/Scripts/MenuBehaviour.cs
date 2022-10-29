@@ -49,8 +49,8 @@ public class MenuBehaviour : MonoBehaviour
         MenuSceneLoader.probandID = int.Parse(probandID.text);
         MenuSceneLoader.task = (TaskChanger.Task) task.value;
         MenuSceneLoader.subtask = subtask.value;
-
-        SceneManager.LoadScene(withKalibration ? "Calibration" : "Main");
+        Calibration.needCalibration = withKalibration;
+        SceneManager.LoadScene("Calibration");
         SceneManager.UnloadSceneAsync("Menu");
     }
 
