@@ -5707,6 +5707,8 @@ MonoBehaviour:
   deletionTime: 5
   rot_linear_interpolation: 0.94
   pos_linear_interpolation: 0.2
+  pos_threshold: 0.1
+  rot_threshold: 15
   upAndFwd: 1
   objects: []
   grabbedIDs: 

@@ -15,7 +15,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
     public float deletionTime = 5f;
     [Range(0, 1)]
     public float rot_linear_interpolation = 0.85f, pos_linear_interpolation = 0;
-
+    public float pos_threshold = 0.005f, rot_threshold = 5f;
     public bool upAndFwd = true;
     Vector3[] lastPos;
     Quaternion[] lastRot;
@@ -118,8 +118,10 @@ public class OpenCVTransRotMapper : MonoBehaviour
 
             Vector3 newPos = new Vector3(data.pos.x , data.pos.y , data.pos.z);
             newPos = Camera_origin.position + Camera_origin.rotation * newPos;
-            if(!overrideByGrabbable)
-                o.position = Vector3.Lerp(newPos, lastPos[id], pos_linear_interpolation);
+            if(!overrideByGrabbable)    //object in hand
+                if (Vector3.Distance(newPos, o.position) > pos_threshold) //tracked pos threshold to last pos
+                    o.position = Vector3.Lerp(newPos, lastPos[id], pos_linear_interpolation);
+
             lastPos[id] = o.position;
 
             //rotation
@@ -128,9 +130,10 @@ public class OpenCVTransRotMapper : MonoBehaviour
                 if (upAndFwd)
                 {
 
-
-                    o.rotation = Quaternion.Lerp(Camera_origin.rotation * Quaternion.LookRotation(data.fwd, data.up), lastRot[id], rot_linear_interpolation);
-
+                    Quaternion newRot = Quaternion.Lerp(Camera_origin.rotation * Quaternion.LookRotation(data.fwd, data.up), lastRot[id], rot_linear_interpolation);
+                    if (Quaternion.Angle(newRot, o.rotation) > rot_threshold)
+                        o.rotation = newRot;
+                    
                 }
                 else
                 {
@@ -138,7 +141,9 @@ public class OpenCVTransRotMapper : MonoBehaviour
                     float theta = vector.magnitude * 180f / Mathf.PI;
                     Vector3 axis = new Vector3(-vector.x, vector.y, -vector.z);
 
-                    o.rotation = Quaternion.Lerp(Camera_origin.rotation * Quaternion.AngleAxis(theta, axis), lastRot[id], rot_linear_interpolation);
+                    Quaternion newRot = Quaternion.Lerp(Camera_origin.rotation * Quaternion.AngleAxis(theta, axis), lastRot[id], rot_linear_interpolation);
+                    if (Quaternion.Angle(newRot, o.rotation) > rot_threshold)
+                        o.rotation = newRot;
                 }
             }
             lastRot[id] = o.rotation;

@@ -1,0 +1,308 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Education' Language: 'de' Physical Memory: 16302 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Labor VC 2019/Desktop/Witality-Android
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54972
+Successfully changed project path to: C:/Users/Labor VC 2019/Desktop/Witality-Android
+C:/Users/Labor VC 2019/Desktop/Witality-Android
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 182.61 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 1.53 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Labor VC 2019/Desktop/Witality-Android/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   30.0.15.1215
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010199 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 157.36 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Domain Reload Profiling:
+	ReloadAssembly (859ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (158ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011980 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Labor VC 2019\Desktop\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Labor VC 2019\Desktop\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 160.54 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.74.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1783ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1407ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (790ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (161ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 6540 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.5 MB). Loaded Objects now: 6977.
+Memory consumption went from 262.6 MB to 262.1 MB.
+Total: 4.592800 ms (FindLiveObjects: 0.568100 ms CreateObjectMapping: 0.625600 ms MarkObjects: 3.055400 ms  DeleteObjects: 0.342700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 533062.037639 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Materials/childHut_support.mat
+  artifactKey: Guid(2f6b2993e3c40ac43a43ba65e4b1c334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Materials/childHut_support.mat using Guid(2f6b2993e3c40ac43a43ba65e4b1c334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a601ea94dbab8f717667e7228b255e2') in 0.484232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.288684 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Materials/whinebottle_cover.mat
+  artifactKey: Guid(837eae88008ff094d8f2d096436e5da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Materials/whinebottle_cover.mat using Guid(837eae88008ff094d8f2d096436e5da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264cef1a6c5021d93f2553bf1ed4b7d9') in 0.027200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/WindowStencilWriter.mat
+  artifactKey: Guid(90969dd5aecc40c438a178ce4c40aa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/WindowStencilWriter.mat using Guid(90969dd5aecc40c438a178ce4c40aa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ecb4637c449272f13b04d4594a68d5') in 0.017529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Models/windows.fbx
+  artifactKey: Guid(3d1c87883c71af1468ea223faf4d8c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Models/windows.fbx using Guid(3d1c87883c71af1468ea223faf4d8c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a10557d094b18d522cfeef4f94e523') in 0.075515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/WindowHole.mat
+  artifactKey: Guid(d59a9f09401dbba4e85df048fdd5aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/WindowHole.mat using Guid(d59a9f09401dbba4e85df048fdd5aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89457bd9512941d794dc68b23f4d781e') in 0.020335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Materials/whinebottle_label2.mat
+  artifactKey: Guid(e5feda7d68b0604458e4c998d60fc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Materials/whinebottle_label2.mat using Guid(e5feda7d68b0604458e4c998d60fc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb976cf7c5634968cb05cfe498a44f0') in 0.028543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Materials/whinebottle_cover2.mat
+  artifactKey: Guid(971ceb4bc6e10bf429a2009600ff19de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Materials/whinebottle_cover2.mat using Guid(971ceb4bc6e10bf429a2009600ff19de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a8639780d63a21899bf80569eca685') in 0.022034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Materials/whinebottle_glas.mat
+  artifactKey: Guid(e12c19729e2c347438944d2fd48793fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Materials/whinebottle_glas.mat using Guid(e12c19729e2c347438944d2fd48793fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ed67ea989221f46b70237309a09f46') in 0.026425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RMH Umgebung/Konferenzraum/Materials/windows_wGlass.mat
+  artifactKey: Guid(00ec845d0d8f1f449b970cd15fc73ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Konferenzraum/Materials/windows_wGlass.mat using Guid(00ec845d0d8f1f449b970cd15fc73ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70675874a35c8dd609bae4e23a65baba') in 0.176991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/WhiteUnlit.mat
+  artifactKey: Guid(89681c510a2d4144f82986df469f44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/WhiteUnlit.mat using Guid(89681c510a2d4144f82986df469f44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386aea406223a2d85b42afcfb70bec28') in 0.024570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081871 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Materials/tableA_wood.mat
+  artifactKey: Guid(774d163d6dafb7444837f15921b14d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Materials/tableA_wood.mat using Guid(774d163d6dafb7444837f15921b14d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd1bad7634b7544135e71dcdcdd3dfb') in 0.141050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Wood.mat
+  artifactKey: Guid(5dce1f8fd86e04f42a922b7a3ce2a2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Wood.mat using Guid(5dce1f8fd86e04f42a922b7a3ce2a2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e34a31e2e9d7c9033635aed3f90b042') in 0.023253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Materials/tableB_wood.mat
+  artifactKey: Guid(8e53c23e2512ce44f9dedb679bf88b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Materials/tableB_wood.mat using Guid(8e53c23e2512ce44f9dedb679bf88b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8f2b33ec5f71c07890b84b8ef70307') in 0.080107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/TriPlanarWorld.mat
+  artifactKey: Guid(6551c660b2c93764687b704adf6cb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/TriPlanarWorld.mat using Guid(6551c660b2c93764687b704adf6cb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e48db1f28156e6e46003fe5c70b5fed') in 0.030678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/WoodDark.mat
+  artifactKey: Guid(47dc5a096e1063a47b2d9afb0ecc8e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/WoodDark.mat using Guid(47dc5a096e1063a47b2d9afb0ecc8e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e8d6458deb6a37b203d8e6f3df75cf') in 0.021976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RMH Umgebung/Konferenzraum/Models/mainTable.fbx
+  artifactKey: Guid(6300f5d962f47064eb56e555ea3b0111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Konferenzraum/Models/mainTable.fbx using Guid(6300f5d962f47064eb56e555ea3b0111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b620dd1139ee158f4c73f7c8adf308b') in 0.059825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/WoodBlock.mat
+  artifactKey: Guid(163257dbf13bb9b4ebf2e088c4a50b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/WoodBlock.mat using Guid(163257dbf13bb9b4ebf2e088c4a50b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abfdbe54ed0695b6e172e32558fab1c') in 0.124064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.150927 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/MRDesk/Materials/MRDeskMat.mat
+  artifactKey: Guid(a835ac24fc2cad9439407885825362d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/MRDesk/Materials/MRDeskMat.mat using Guid(a835ac24fc2cad9439407885825362d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b3471d0cf9f61d652e9c5b2a9b29ad') in 0.034887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.095223 seconds.
+  path: Assets/RMH Umgebung/Konferenzraum/Materials/officeTable.mat
+  artifactKey: Guid(d2bd67e879648284ea7e78e5d8d12eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Konferenzraum/Materials/officeTable.mat using Guid(d2bd67e879648284ea7e78e5d8d12eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188dc0a586ef8ea076413aa23ea92a77') in 0.085539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Models/outerTableB.fbx
+  artifactKey: Guid(e635531c66971864cbca2f4131dc7ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Models/outerTableB.fbx using Guid(e635531c66971864cbca2f4131dc7ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5d9c671f536dc1e86d644b3636f260') in 0.046397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Materials/outerTableA.mat
+  artifactKey: Guid(85b3996316d29e24c878a7097faed6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Materials/outerTableA.mat using Guid(85b3996316d29e24c878a7097faed6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a76faeea1f295b57e942fed83e4506') in 0.081818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RMH Umgebung/Vinothek/Models/outerTableA.fbx
+  artifactKey: Guid(16cf9d4e514f95c4d95b04417fae5f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Vinothek/Models/outerTableA.fbx using Guid(16cf9d4e514f95c4d95b04417fae5f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad1c0d0613b7d72087e48a5fdca4087') in 0.060042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RMH Umgebung/Konferenzraum/Materials/officeTable_metal 1.mat
+  artifactKey: Guid(20668d559696e724b8fa8b3fd21b7fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RMH Umgebung/Konferenzraum/Materials/officeTable_metal 1.mat using Guid(20668d559696e724b8fa8b3fd21b7fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352ee04f9543610de6a1dc6f1e6350a3') in 0.034017 seconds 

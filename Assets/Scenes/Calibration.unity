@@ -1147,7 +1147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351374613}
   m_Layer: 0
-  m_Name: cube left
+  m_Name: CalibrationCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1405,6 +1405,8 @@ MonoBehaviour:
   deletionTime: 5
   rot_linear_interpolation: 0.85
   pos_linear_interpolation: 0
+  pos_threshold: 0
+  rot_threshold: 0
   upAndFwd: 1
   objects: []
   grabbedIDs: 
@@ -4631,7 +4633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1541660359}
   m_Layer: 0
-  m_Name: cube right
+  m_Name: CalibrationCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5730,7 +5732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2134585777}
   m_Layer: 0
-  m_Name: cube mid
+  m_Name: CalibrationCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
