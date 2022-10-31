@@ -32,6 +32,7 @@ public class Calibration : MonoBehaviour
     {
         lastCubePos = new Vector3[calibCube.Length];
         lastCubeRot = new Quaternion[calibCube.Length];
+        setActiveCalibCubes(false);
     }
 
     private void Update()
@@ -195,5 +196,15 @@ public class Calibration : MonoBehaviour
     {
         SceneManager.LoadScene("Main");
         SceneManager.UnloadSceneAsync("Calibration");
+    }
+    public void setActiveCalibCubes(bool active)
+    {
+        for (int i = 0; i < calibCube.Length; i++)
+        {
+            for (int j = 0; j < calibCube[i].childCount; j++)
+            {
+                calibCube[i].GetChild(j).gameObject.SetActive(active);
+            }
+        }
     }
 }
