@@ -106,7 +106,7 @@ public class Calibration : MonoBehaviour
             cubeMove[i] = calibCubeShould[i].position - calibCube[i].position;
         }
 
-        realsense.rotation = avg_q3(cubeRot[0], cubeRot[1], cubeRot[2]) * realsense.rotation;   //must change if not taking 3 cubes
+        realsense.rotation = avg_q(cubeRot) * realsense.rotation;
         realsense.position += avg_v(cubeMove);
 
         MenuSceneLoader.calibPosition_Camera = realsense.position;
@@ -131,9 +131,16 @@ public class Calibration : MonoBehaviour
         }
         return sum / v.Length;
     }
-    Quaternion avg_q3(Quaternion q1, Quaternion q2, Quaternion q3)
+    Quaternion avg_q(Quaternion[] q)
     {
-        return Quaternion.Lerp( Quaternion.Lerp(q1,q2,0.5f), q3, 2f/3f);
+        if (q == null || q.Length == 0)
+            return new Quaternion();
+        Quaternion avg = q[0];
+        for (int i = 1; i < q.Length; i++)
+        {
+            avg = Quaternion.Lerp(q[i], avg, 1 / (i + 1));
+        }
+        return avg;
     }
     #endregion
 
