@@ -5349,8 +5349,8 @@ MonoBehaviour:
   info: {fileID: 1858517449}
   fingerHint: {fileID: 69757667}
   state: 0
-  CamPosSensivity: 0.01
-  CamRotSensivity: 5
+  CamPosSensivity: 0.05
+  CamRotSensivity: 15
   tableDone: 0
   camDone: 0
   continueButton: {fileID: 1269070856}

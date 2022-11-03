@@ -1999,7 +1999,7 @@ PrefabInstance:
     - target: {fileID: 8030197382645210609, guid: d27ac1ffd4cdd7c40a39dcfa6012355c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8030197382645210610, guid: d27ac1ffd4cdd7c40a39dcfa6012355c,
         type: 3}
@@ -5822,8 +5822,8 @@ MonoBehaviour:
   deletionTime: 5
   rot_linear_interpolation: 0.94
   pos_linear_interpolation: 0.2
-  pos_threshold: 0.1
-  rot_threshold: 15
+  pos_threshold: 0.04
+  rot_threshold: 0.2
   upAndFwd: 1
   objects: []
   grabbedIDs: 
@@ -9651,7 +9651,7 @@ PrefabInstance:
     - target: {fileID: 8030197382645210609, guid: d27ac1ffd4cdd7c40a39dcfa6012355c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8030197382645210610, guid: d27ac1ffd4cdd7c40a39dcfa6012355c,
         type: 3}

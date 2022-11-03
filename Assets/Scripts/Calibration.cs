@@ -49,9 +49,9 @@ public class Calibration : MonoBehaviour
 
             case Table1:
                 info.text = "Bitte beide Zeigefinger an die Tischkante legen!\n";
-                info.text += (int)(6 - timer);
+                info.text += (int)(16 - timer);
                 fingerHint.gameObject.SetActive(true);
-                if (timer >= 5)
+                if (timer >= 15)
                     SwitchState(Table2);
                 break;
 
