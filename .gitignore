@@ -4,4 +4,7 @@
 #
 /[Ll]ibrary/
 /[Tt]emp/
+/[Ll]ogs/
+*.csproj
+.vs/
 *.~lock*

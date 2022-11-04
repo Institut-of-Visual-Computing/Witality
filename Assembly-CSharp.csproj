@@ -102,6 +102,7 @@
     <Compile Include="Assets\Material\Wobble.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Informers\OSCTransmitterInformerFloatToInt.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventBlob.cs" />
+    <Compile Include="Assets\Scripts\PositionMarkers.cs" />
     <Compile Include="Assets\extOSC\Scripts\Mapping\OSCMapMessage.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportSupport.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonController.cs" />
@@ -319,6 +320,7 @@
     <Compile Include="Assets\extOSC\Scripts\Components\Informers\OSCTransmitterInformerVector3.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Informers\OSCTransmitterInformerArray.cs" />
+    <Compile Include="Assets\Scripts\ToggleKeyInput.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\StartScene\Scripts\StartMenu.cs" />
     <Compile Include="Assets\extOSC\Scripts\OSCValue.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\FurnitureSpawner.cs" />
@@ -365,8 +367,6 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\Scripts\ToggleKeyInput.cs" />
-    <Compile Include="Assets\Scripts\PositionMarkers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
