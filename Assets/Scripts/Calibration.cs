@@ -86,7 +86,7 @@ public class Calibration : MonoBehaviour
                 if (timer >= 3)
                 {
                     SwitchState(Idle);
-                    info.text = "";
+                    info.text = "Kalibriere den Tisch und die Kamera solange bis es mit der physischen Welt übereinstimmt.";
                     if (tableDone && (camDone || MenuSceneLoader.task == 0 || !needCalibration))
                         continueButton.SetActive(true);
                 }
