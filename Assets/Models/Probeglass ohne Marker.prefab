@@ -511,6 +511,7 @@ MonoBehaviour:
   _oneGrabTransformer: {fileID: 0}
   _twoGrabTransformer: {fileID: 0}
   _maxGrabPoints: -1
+  lookingUpOnGrab: 0
 --- !u!114 &1792143728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,7 +721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cb8dbbb3c75df344a203bd0e5bfa70c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxWobble: 0.03
+  MaxWobble: 0.001
   WobbleSpeed: 1
   Recovery: 1
 --- !u!1 &6589876730789524763

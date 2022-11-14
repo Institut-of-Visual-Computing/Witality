@@ -15,7 +15,7 @@ C:/Users/paulk/Documents/Witality-Android
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58456
+58293
 Successfully changed project path to: C:/Users/paulk/Documents/Witality-Android
 C:/Users/paulk/Documents/Witality-Android
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/paulk/Documents/Witality-Android
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 862.34 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 1.01 ms.
+Refreshing native plugins compatible for Editor in 146.39 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path D:/Unity/Editors/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/paulk/Documents/Witality-Android/Assets
@@ -64,44 +64,143 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editors/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editors/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Editors/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editors/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/Editors/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.266533 seconds.
+Registered in 0.003306 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 147.87 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 140.21 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.729 seconds
+- Completed reload, in  0.639 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5730ms)
-		BeginReloadAssembly (3741ms)
+	ReloadAssembly (640ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1417ms)
-			LoadAssemblies (3740ms)
+		EndReloadAssembly (477ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (986ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (354ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (313ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
+				InitializePlatformSupportModulesInManaged (36ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (148ms)
+				RefreshPlugins (140ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (110ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011744 seconds.
+Registered in 0.009974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\paulk\Documents\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\paulk\Documents\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 130.95 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.74.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1278ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1090ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (609ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.8 MB). Loaded Objects now: 6984.
+Memory consumption went from 263.9 MB to 263.2 MB.
+Total: 3.749900 ms (FindLiveObjects: 0.500700 ms CreateObjectMapping: 0.451200 ms MarkObjects: 2.470100 ms  DeleteObjects: 0.326900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102328.069000 seconds.
+  path: Assets/Models/Wineglass.prefab
+  artifactKey: Guid(186e5ae17f7c4f44c99399a2e8f90099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wineglass.prefab using Guid(186e5ae17f7c4f44c99399a2e8f90099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4167db708b76a6a45e322ca19e6635') in 0.305358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.132114 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(a4165f6a1b452764f81047259318ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(a4165f6a1b452764f81047259318ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b1d7e5ad86e373a6adad6c44aa3f47') in 0.006876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.654593 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(869e4933344c2df488de37c5a641d6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(869e4933344c2df488de37c5a641d6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99721b74809e20e1b2d5d63d1fe66ee') in 0.005536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.786818 seconds.
+  path: Assets/Models/Probeglass ohne Marker.prefab
+  artifactKey: Guid(7c571d722ec962048a3a6763e285f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass ohne Marker.prefab using Guid(7c571d722ec962048a3a6763e285f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c98fc206341d6f639c8d718e11a6db') in 0.049439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.785235 seconds.
+  path: Assets/Models/Probeglass ohne Marker.prefab
+  artifactKey: Guid(7c571d722ec962048a3a6763e285f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass ohne Marker.prefab using Guid(7c571d722ec962048a3a6763e285f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfbae5c53efe8dde9bd0453c0cd4412') in 0.036238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.315193 seconds.
+  path: Assets/Models/Probeglass.prefab
+  artifactKey: Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass.prefab using Guid(6e1f5cf3994f8164a9d52c202408ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d78a02138eaaf79d83c29e6ca5e793') in 0.048945 seconds 
