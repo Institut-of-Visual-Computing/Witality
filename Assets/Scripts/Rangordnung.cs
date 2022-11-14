@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEditor;
+using System.Linq;
 
 public class Rangordnung : MonoBehaviour
 {
@@ -93,7 +94,50 @@ public class Rangordnung : MonoBehaviour
     {
         submit_Button.SetActive(isValid);
     }
-    
+
+    public void readFromPosition()
+    {
+        //created sorted list
+        Transform[] sorted = new Transform[order.Length];
+        for (int i = 0; i < sorted.Length; i++)
+        {
+            Transform mostLeft = null;
+
+            for (int j = 0; j < order.Length; j++)
+            {
+                Transform c = obj_parent.GetChild(j);
+                if (mostLeft == null)
+                    if (!sorted.Contains(c))
+                        mostLeft = c;
+                    else
+                        continue;
+
+
+                if (!sorted.Contains(c) && c.position.x < mostLeft.position.x)
+                    mostLeft = c;
+            }
+            sorted[i] = mostLeft;
+        }
+        //Debug
+        for (int i = 0; i < sorted.Length; i++)
+        {
+            Debug.Log(i + ": " + sorted[i].position.x);
+        }
+        //apply list onto order
+        for (int i = 0; i < sorted.Length; i++)
+        {
+            for (int j = 0; j < obj_parent.childCount; j++)
+            {
+                if (obj_parent.GetChild(j) == sorted[i])
+                {
+                    set_order(j, i);
+                    break;
+                }
+            }
+        }
+
+    }
+
 }
 
 

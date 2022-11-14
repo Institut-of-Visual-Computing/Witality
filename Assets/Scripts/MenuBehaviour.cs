@@ -51,7 +51,7 @@ public class MenuBehaviour : MonoBehaviour
         MenuSceneLoader.subtask = subtask.value;
         Calibration.needCalibration = withKalibration;
         SceneManager.LoadScene("Calibration");
-        SceneManager.UnloadSceneAsync("Menu");
+        //SceneManager.UnloadSceneAsync("Menu");
     }
 
     public void toggled(int i)

@@ -13,7 +13,7 @@ public class CalibrationEditor : Editor
 
         if(GUILayout.Button("Calibrate Cam"))
         {
-            calib.CamCalib();
+            calib.CamCalib(true);
         }
     }
 }

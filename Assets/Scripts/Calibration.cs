@@ -8,22 +8,28 @@ using static Calibration.CalibState;
 public class Calibration : MonoBehaviour
 {
     public Transform[] calibCube, calibCubeShould;
-    public Transform hmd, realsense, handR, handL, tableEdge;
+    public Transform hmd, realsense, handR, handL, tableEdge,tableSurface;
     public TextMeshProUGUI info;
-    public Image fingerHint;
     public CalibState state;
     float timer;
     Vector3[] lastCubePos;
     Quaternion[] lastCubeRot;
     public float CamPosSensivity, CamRotSensivity;
     public bool tableDone = false, camDone = false;
-    public GameObject continueButton;
+    public GameObject continueButton, Desk, cameraVisual;
     public static bool needCalibration = true;
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawSphere(getThumb(handL).position, 0.01f);
+        Gizmos.DrawSphere(getFingerTip(handL).position, 0.01f);
+    }
     public enum CalibState
     {
         Idle,
         Table1,
         Table2,
+        Table3,
+        Table4,
         toIdle,
         Cam1,
         Cam2,
@@ -48,22 +54,39 @@ public class Calibration : MonoBehaviour
                 return;
 
             case Table1:
-                info.text = "Bitte beide Zeigefinger an die Tischkante legen!\n";
-                info.text += (int)(16 - timer);
-                fingerHint.gameObject.SetActive(true);
-                if (timer >= 15)
+                showHints(tableSurface,true);
+                info.text = "Bitte die Hände flach auf den Tisch legen!\n";
+                info.text += (int)(6 - timer);
+                if (timer >= 5)
                     SwitchState(Table2);
                 break;
 
             case Table2:
-                info.text = TableCalib();
-                SwitchState(toIdle);
-                fingerHint.gameObject.SetActive(false);
+                Desk.SetActive(true);
+                info.text = TableCalib(true);
+                showHints(tableSurface, false);
+                SwitchState(Table3);
                 break;
-           
+
+            case Table3:
+                showHints(tableEdge, true);
+                info.text = "Bitt die Hände flach an die Tischkante halten!\n";
+                info.text += (int)(6 - timer);
+                if (timer >= 5)
+                    SwitchState(Table4);
+                break;
+
+            case Table4:
+                info.text = TableCalib(false);
+                showHints(tableEdge, false);
+                SwitchState(toIdle);
+                break;
+
             case Cam1:
-                info.text = "Kalibriere Kamera.\nBitte nichts verändern!\n";
-                info.text += (int)(4 - timer);
+                cameraVisual.SetActive(true);
+                setActiveCalibCubes(true);
+                info.text = CamCalib(false);
+                info.text += "\n" + (int)(4 - timer);
                 for (int i = 0; i < calibCube.Length; i++)
                 {
                     if ((lastCubePos[i] - calibCube[i].position).magnitude > CamPosSensivity || Quaternion.Angle(lastCubeRot[i], calibCube[i].rotation) > CamRotSensivity)
@@ -78,12 +101,12 @@ public class Calibration : MonoBehaviour
                 break;
 
             case Cam2:
-                info.text = CamCalib();
+                info.text = CamCalib(true);
                 SwitchState(toIdle);
                 break;
 
             case toIdle:
-                if (timer >= 3)
+                if (timer >= 2)
                 {
                     SwitchState(Idle);
                     info.text = "Kalibriere den Tisch und die Kamera solange bis es mit der physischen Welt übereinstimmt.";
@@ -97,8 +120,23 @@ public class Calibration : MonoBehaviour
         }
     }
     #region Camera Calibration
-    public string CamCalib()
+    public string CamCalib(bool save)
     {
+        if (save)
+        {
+            MenuSceneLoader.calibPosition_Camera = realsense.position;
+            MenuSceneLoader.calibRotation_Camera = realsense.rotation;
+            PlayerPrefs.SetFloat("calibration_pos_x", realsense.position.x);
+            PlayerPrefs.SetFloat("calibration_pos_y", realsense.position.y);
+            PlayerPrefs.SetFloat("calibration_pos_z", realsense.position.z);
+            PlayerPrefs.SetFloat("calibration_rot_x", realsense.rotation.eulerAngles.x);
+            PlayerPrefs.SetFloat("calibration_rot_y", realsense.rotation.eulerAngles.y);
+            PlayerPrefs.SetFloat("calibration_rot_z", realsense.rotation.eulerAngles.z);
+            PlayerPrefs.Save();
+            camDone = true;
+            return "Kamera kalibriert!";
+        }
+
         Quaternion[] cubeRot = new Quaternion[calibCube.Length];
         Vector3[] cubeMove = new Vector3[calibCube.Length];
         for (int i = 0; i < calibCube.Length; i++)
@@ -110,17 +148,8 @@ public class Calibration : MonoBehaviour
         realsense.rotation = avg_q(cubeRot) * realsense.rotation;
         realsense.position += avg_v(cubeMove);
 
-        MenuSceneLoader.calibPosition_Camera = realsense.position;
-        MenuSceneLoader.calibRotation_Camera = realsense.rotation;
-        PlayerPrefs.SetFloat("calibration_pos_x", realsense.position.x);
-        PlayerPrefs.SetFloat("calibration_pos_y", realsense.position.y);
-        PlayerPrefs.SetFloat("calibration_pos_z", realsense.position.z);
-        PlayerPrefs.SetFloat("calibration_rot_x", realsense.rotation.eulerAngles.x);
-        PlayerPrefs.SetFloat("calibration_rot_y", realsense.rotation.eulerAngles.y);
-        PlayerPrefs.SetFloat("calibration_rot_z", realsense.rotation.eulerAngles.z);
-        PlayerPrefs.Save();
-        camDone = true;
-        return "Kamera kalibriert!";
+        return "Kalibriere...";
+        
     }
 
     Vector3 avg_v(Vector3[] v)
@@ -146,22 +175,43 @@ public class Calibration : MonoBehaviour
     #endregion
 
     #region Table Calibration
-    public string TableCalib()
+    public string TableCalib(bool height)
     {
-        handL = getFingerTip(handL);
-        handR = getFingerTip(handR);
-        
-        Vector3 l2r = handR.position - handL.position;
-        Vector3 edge = tableEdge.forward;
+        handL = getThumb(handL);
+        handR = getThumb(handR);
 
-        hmd.position += tableEdge.position - ((handL.position + handR.position) / 2);
-        hmd.Rotate(tableEdge.up, Vector3.SignedAngle(l2r, edge, tableEdge.up));
+        Vector3 lpos = handL.position;
+        Vector3 rpos = handR.position;
+        Vector3 mpos = (lpos + rpos)/ 2;
+        Vector3 l2r = rpos - lpos;
+        if (height)
+        {
+            hmd.position += (tableSurface.position - mpos);
+            hmd.Rotate(tableEdge.up, Vector3.SignedAngle(l2r, tableEdge.right, tableEdge.up));
+            return "Höhe kalibriert!";
+        }
+        else
+        {
+            hmd.Rotate(tableEdge.up, Vector3.SignedAngle(l2r, tableEdge.right, tableEdge.up));
+            Vector3 move = tableEdge.position - mpos;
+            move.y = 0;
+            hmd.position += move;
 
-        MenuSceneLoader.calibPosition_Hmd = hmd.position;
-        MenuSceneLoader.calibRotation_Hmd = hmd.rotation;
+            MenuSceneLoader.calibPosition_Hmd = hmd.position;
+            MenuSceneLoader.calibRotation_Hmd = hmd.rotation;
 
-        tableDone = true;
-        return "Tisch kalibriert!";
+            tableDone = true;
+            return "Tisch kalibriert!";
+        }
+    }
+    public static Transform getThumb(Transform hand)
+    {
+        Transform tip = hand.Find("Bones/Hand_WristRoot/Hand_Thumb0/Hand_Thumb1/Hand_Thumb2/Hand_Thumb3/Hand_ThumbTip");
+        if (tip == null)
+            return hand;
+        while (tip.childCount > 0)
+            tip = tip.GetChild(0);
+        return tip;
     }
     public static Transform getFingerTip(Transform hand)
     {
@@ -172,6 +222,14 @@ public class Calibration : MonoBehaviour
         while (tip.childCount > 0)
             tip = tip.GetChild(0);
         return tip;
+    }
+
+    public void showHints(Transform t, bool a)
+    {
+        for (int i = 0; i < t.childCount; i++)
+        {
+            t.GetChild(i).gameObject.SetActive(a);
+        }
     }
     #endregion
 
@@ -195,7 +253,7 @@ public class Calibration : MonoBehaviour
     public void calibrationFinished()
     {
         SceneManager.LoadScene("Main");
-        SceneManager.UnloadSceneAsync("Calibration");
+        //SceneManager.UnloadSceneAsync("Calibration");
     }
     public void setActiveCalibCubes(bool active)
     {

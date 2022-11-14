@@ -47,7 +47,7 @@ namespace Oculus.Interaction
                 _maxGrabPoints = value;
             }
         }
-
+        public bool lookingUpOnGrab = false;
         public Transform Transform => transform;
         public List<Pose> GrabPoints => _selectingPoints;
 
@@ -157,6 +157,11 @@ namespace Oculus.Interaction
             if (!grabbedArUcoId.Contains(transform.GetSiblingIndex()))
             {
                 grabbedArUcoId.Add(transform.GetSiblingIndex());
+            }
+            if (lookingUpOnGrab)
+            {
+                transform.forward = Vector3.up;
+                
             }
             _activeTransformer.BeginTransform();
         }

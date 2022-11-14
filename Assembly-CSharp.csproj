@@ -324,6 +324,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\StartScene\Scripts\StartMenu.cs" />
     <Compile Include="Assets\extOSC\Scripts\OSCValue.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\FurnitureSpawner.cs" />
+    <Compile Include="Assets\Scripts\CalibrationKeyEvents.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Network\OSCTransmitterStandaloneBackend.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\OSCComponent.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\PinchStateModule.cs" />

@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEditor;
 using Oculus.Interaction;
+using System.Linq;
 
 public class OrderAttacher : MonoBehaviour
 {
@@ -98,6 +99,47 @@ public class OrderAttacher : MonoBehaviour
         gameObject.SetActive(false);
         showing = false;
         text.text = "";
+    }
+    public void readFromPosition()
+    {
+        if (rang == null)
+            return;
+        Transform[] sorted = new Transform[rang.order.Length];
+        for (int i = 0; i < sorted.Length; i++)
+        {
+            Transform mostLeft = null;
+            
+            for (int j = 0; j < rang.order.Length; j++)
+            {
+                Transform c = rang.obj_parent.GetChild(j);
+                if (mostLeft == null)
+                    if(!sorted.Contains(c))
+                        mostLeft = c;
+                    else
+                        continue;
+
+
+                if (!sorted.Contains(c) && c.position.x < mostLeft.position.x)
+                    mostLeft = c;
+            }
+            sorted[i] = mostLeft;
+        }
+        for (int i = 0; i < sorted.Length; i++)
+        {
+            Debug.Log(i + ": " + sorted[i].position.x);
+        }
+        for (int i = 0; i < sorted.Length; i++)
+        {
+            for (int j = 0; j < rang.obj_parent.childCount; j++)
+            {
+                if(rang.obj_parent.GetChild(j) == sorted[i])
+                {
+                    rang.set_order(j, i);
+                    break;
+                }
+            }
+        }
+
     }
 
 }
