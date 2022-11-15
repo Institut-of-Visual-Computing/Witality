@@ -110,7 +110,7 @@ public class MainMenuBehaviour : MonoBehaviour {
         }
         else
         {
-            Instantiate(QuestionNotAnsweredPanelPrefab, QuestionnaireCanvas);
+            //Instantiate(QuestionNotAnsweredPanelPrefab, QuestionnaireCanvas);
         }
     }
 

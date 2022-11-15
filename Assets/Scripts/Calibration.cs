@@ -18,6 +18,7 @@ public class Calibration : MonoBehaviour
     public bool tableDone = false, camDone = false;
     public GameObject continueButton, Desk, cameraVisual;
     public static bool needCalibration = true;
+    public int timer_step1, timer_step2, timer_step3;
     private void OnDrawGizmos()
     {
         Gizmos.DrawSphere(getThumb(handL).position, 0.01f);
@@ -55,9 +56,9 @@ public class Calibration : MonoBehaviour
 
             case Table1:
                 showHints(tableSurface,true);
-                info.text = "Bitte die Hände flach auf den Tisch legen!\n";
-                info.text += (int)(6 - timer);
-                if (timer >= 5)
+                info.text = "Bitte die Hände flach auf den echten Tisch legen!\n";
+                info.text += (int)(1 + timer_step1 - timer);
+                if (timer >= timer_step1)
                     SwitchState(Table2);
                 break;
 
@@ -65,14 +66,14 @@ public class Calibration : MonoBehaviour
                 Desk.SetActive(true);
                 info.text = TableCalib(true);
                 showHints(tableSurface, false);
-                SwitchState(Table3);
+                SwitchState(toIdle);
                 break;
 
             case Table3:
                 showHints(tableEdge, true);
-                info.text = "Bitt die Hände flach an die Tischkante halten!\n";
-                info.text += (int)(6 - timer);
-                if (timer >= 5)
+                info.text = "Bitt die Hände flach an die echte Tischkante halten!\n";
+                info.text += (int)(1 + timer_step2 - timer);
+                if (timer >= timer_step2)
                     SwitchState(Table4);
                 break;
 
@@ -86,7 +87,7 @@ public class Calibration : MonoBehaviour
                 cameraVisual.SetActive(true);
                 setActiveCalibCubes(true);
                 info.text = CamCalib(false);
-                info.text += "\n" + (int)(4 - timer);
+                info.text += "\n" + (int)(1 + timer_step3 - timer);
                 for (int i = 0; i < calibCube.Length; i++)
                 {
                     if ((lastCubePos[i] - calibCube[i].position).magnitude > CamPosSensivity || Quaternion.Angle(lastCubeRot[i], calibCube[i].rotation) > CamRotSensivity)
@@ -96,7 +97,7 @@ public class Calibration : MonoBehaviour
                     lastCubeRot[i] = calibCube[i].rotation;
                 }
                 
-                if (timer >= 3)
+                if (timer >= timer_step3)
                     SwitchState(Cam2);
                 break;
 

@@ -48,6 +48,7 @@ namespace Oculus.Interaction
             }
         }
         public bool lookingUpOnGrab = false;
+        public Transform rotationPoint;
         public Transform Transform => transform;
         public List<Pose> GrabPoints => _selectingPoints;
 
@@ -160,7 +161,8 @@ namespace Oculus.Interaction
             }
             if (lookingUpOnGrab)
             {
-                transform.forward = Vector3.up;
+                transform.RotateAround(rotationPoint.position, Vector3.Cross(transform.forward, Vector3.up), Vector3.SignedAngle(transform.forward, Vector3.up, Vector3.Cross(transform.forward, Vector3.up)));
+                //transform.Rotate(Vector3.forward, Vector3.SignedAngle(Vector3.up, transform.up, Vector3.forward));
                 
             }
             _activeTransformer.BeginTransform();

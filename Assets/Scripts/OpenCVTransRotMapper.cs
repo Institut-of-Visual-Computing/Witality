@@ -20,7 +20,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
     Vector3[] lastPos;
     Quaternion[] lastRot;
     float[] lastTimeTracked;
-
+    public bool overrideByHandtracking = true;
     [Header("Read Only")]
     public Transform[] objects;
     public List<int> grabbedIDs;
@@ -92,7 +92,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
             trackingData data = new trackingData();
             string[] msgs = msg.Replace('.', ',').Split(' ');
             data.id = int.Parse(msgs[0]);
-            bool overrideByGrabbable = Grabbable.grabbedArUcoId.Contains(data.id);
+            bool overrideByGrabbable = overrideByHandtracking ? Grabbable.grabbedArUcoId.Contains(data.id): false;
             data.pos = new Vector3(float.Parse(msgs[1]), float.Parse(msgs[2]), float.Parse(msgs[3]));
             data.pos.y *= -1;
             if (upAndFwd)
@@ -154,7 +154,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
     {
         for (int i = 0; i < 50; i++)
         {
-            if (lastTimeTracked[i] == 0 || Grabbable.grabbedArUcoId.Contains(i))
+            if (lastTimeTracked[i] == 0 || (overrideByHandtracking ? Grabbable.grabbedArUcoId.Contains(i) : false))
                 continue;
             if( Time.time - lastTimeTracked[i] > max_seconds)
             {
