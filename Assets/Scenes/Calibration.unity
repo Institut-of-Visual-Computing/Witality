@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.22657107, g: 0.249409, b: 0.31666648, a: 1}
+  m_IndirectSpecularColor: {r: 0.22657299, g: 0.2494092, b: 0.31666586, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -561,7 +561,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247543487}
   m_LocalRotation: {x: -0.0000001767751, y: 0.9238797, z: 0.38268322, w: 0.0000004267732}
-  m_LocalPosition: {x: 0.16125, y: 0.7494, z: 0.511}
+  m_LocalPosition: {x: 0.16125, y: 0.7494, z: 0.812}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -747,7 +747,7 @@ PrefabInstance:
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
         type: 3}
       propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
         type: 3}
@@ -791,6 +791,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
         type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[6].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
+        type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 0}
@@ -831,6 +836,11 @@ PrefabInstance:
       objectReference: {fileID: 823759071}
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
         type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[6].m_Target
+      value: 
+      objectReference: {fileID: 1987494379}
+    - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
+        type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -857,6 +867,11 @@ PrefabInstance:
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
         type: 3}
       propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
+        type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[6].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
@@ -901,6 +916,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
         type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
+      value: clearCamData
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
+        type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: Toggle_Gameobject, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -941,6 +961,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
         type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
+      value: Calibration, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
+        type: 3}
       propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 0
       objectReference: {fileID: 0}
@@ -977,6 +1002,11 @@ PrefabInstance:
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
         type: 3}
       propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
+        type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
@@ -1033,6 +1063,11 @@ PrefabInstance:
     - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
         type: 3}
       propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072896894576282596, guid: 1f83a804d7d83c948bfe708df8bef3b0,
+        type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7745686825160097257, guid: 1f83a804d7d83c948bfe708df8bef3b0,
@@ -1488,12 +1523,14 @@ MonoBehaviour:
   objects_parent: {fileID: 134458598}
   deleteObjectsAfterTime: 1
   deletionTime: 5
-  rot_linear_interpolation: 0.85
+  rot_linear_interpolation: 0
   pos_linear_interpolation: 0
   pos_threshold: 0
   rot_threshold: 0
   upAndFwd: 1
   overrideByHandtracking: 0
+  overrideHeightThreshold: 0.3
+  overrideHeight: 0.743
   objects: []
   grabbedIDs: 
 --- !u!114 &583693959
@@ -1736,7 +1773,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823759071}
   m_LocalRotation: {x: -0, y: -0, z: 1.4210853e-14, w: 1}
-  m_LocalPosition: {x: 0.05688739, y: 0.581, z: 0.6961086}
+  m_LocalPosition: {x: 0.05688739, y: 0.581, z: 0.9971086}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5262,7 +5299,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961542902}
   m_LocalRotation: {x: -0.0000001767751, y: 0.9238797, z: 0.38268322, w: 0.0000004267732}
-  m_LocalPosition: {x: -0, y: 0.7494, z: 0.511}
+  m_LocalPosition: {x: -0, y: 0.7494, z: 0.812}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5527,7 +5564,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016861389}
   m_LocalRotation: {x: -0.0000001767751, y: 0.9238797, z: 0.38268322, w: 0.0000004267732}
-  m_LocalPosition: {x: -0.16125, y: 0.7494, z: 0.511}
+  m_LocalPosition: {x: -0.16125, y: 0.7494, z: 0.812}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6597,7 +6634,7 @@ PrefabInstance:
     - target: {fileID: 7021829363036516598, guid: 45d2d4e5a3d2fcd4aa2e59783c030364,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7021829363036516599, guid: 45d2d4e5a3d2fcd4aa2e59783c030364,
         type: 3}

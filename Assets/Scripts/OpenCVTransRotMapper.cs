@@ -21,6 +21,8 @@ public class OpenCVTransRotMapper : MonoBehaviour
     Quaternion[] lastRot;
     float[] lastTimeTracked;
     public bool overrideByHandtracking = true;
+    public float overrideHeightThreshold = 0.3f;
+    public float overrideHeight = 0.743f;
     [Header("Read Only")]
     public Transform[] objects;
     public List<int> grabbedIDs;
@@ -118,22 +120,33 @@ public class OpenCVTransRotMapper : MonoBehaviour
 
             Vector3 newPos = new Vector3(data.pos.x , data.pos.y , data.pos.z);
             newPos = Camera_origin.position + Camera_origin.rotation * newPos;
-            if(!overrideByGrabbable)    //object in hand
-                if (Vector3.Distance(newPos, o.position) > pos_threshold) //tracked pos threshold to last pos
+            lookingUpBehaviour lookingUpBeh = o.GetComponent<lookingUpBehaviour>();
+            if (lookingUpBeh != null)
+                overrideHeight = lookingUpBeh.optimalHeightForTable;
+            bool isOnTable = Mathf.Abs(o.position.y - overrideHeight) < overrideHeightThreshold;
+            if (!overrideByGrabbable)    //object in hand
+                if (Vector3.Distance(newPos, o.position) > pos_threshold)
+                {  //tracked pos threshold to last pos
                     o.position = Vector3.Lerp(newPos, lastPos[id], pos_linear_interpolation);
+                    if (isOnTable)
+                        o.position += Vector3.up * (o.position.y - overrideHeight);
+                }
 
             lastPos[id] = o.position;
 
             //rotation
             if (!overrideByGrabbable)
             {
-                if (upAndFwd)
+                if (upAndFwd)//using up and fwd vector in python script or euler angles
                 {
 
-                    Quaternion newRot = Quaternion.Lerp(Camera_origin.rotation * Quaternion.LookRotation(data.fwd, data.up), lastRot[id], rot_linear_interpolation);
-                    if (Quaternion.Angle(newRot, o.rotation) > rot_threshold)
-                        o.rotation = newRot;
-                    
+                    if (!isOnTable)
+                    { //otherwise the LookingUpBehaviour Script will rotate the object upwards
+                        Quaternion newRot = Quaternion.Lerp(Camera_origin.rotation * Quaternion.LookRotation(data.fwd, data.up), lastRot[id], rot_linear_interpolation);
+                        if (Quaternion.Angle(newRot, o.rotation) > rot_threshold)
+                            o.rotation = newRot;
+                    }
+
                 }
                 else
                 {

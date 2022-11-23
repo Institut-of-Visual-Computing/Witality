@@ -19,6 +19,8 @@ public class Calibration : MonoBehaviour
     public GameObject continueButton, Desk, cameraVisual;
     public static bool needCalibration = true;
     public int timer_step1, timer_step2, timer_step3;
+    List<Vector3> camCalibPosValues;
+    List<Quaternion> camCalibRotValues;
     private void OnDrawGizmos()
     {
         Gizmos.DrawSphere(getThumb(handL).position, 0.01f);
@@ -40,6 +42,7 @@ public class Calibration : MonoBehaviour
         lastCubePos = new Vector3[calibCube.Length];
         lastCubeRot = new Quaternion[calibCube.Length];
         setActiveCalibCubes(false);
+        clearCamData();
     }
 
     private void Update()
@@ -91,8 +94,10 @@ public class Calibration : MonoBehaviour
                 for (int i = 0; i < calibCube.Length; i++)
                 {
                     if ((lastCubePos[i] - calibCube[i].position).magnitude > CamPosSensivity || Quaternion.Angle(lastCubeRot[i], calibCube[i].rotation) > CamRotSensivity)
+                    {
                         timer = 0;
-
+                        clearCamData();
+                    }
                     lastCubePos[i] = calibCube[i].position;
                     lastCubeRot[i] = calibCube[i].rotation;
                 }
@@ -121,12 +126,22 @@ public class Calibration : MonoBehaviour
         }
     }
     #region Camera Calibration
+    public void clearCamData()
+    {
+        camCalibPosValues = new List<Vector3>();
+        camCalibRotValues = new List<Quaternion>();
+    }
     public string CamCalib(bool save)
     {
         if (save)
         {
+
+            realsense.position = avg_v(camCalibPosValues.ToArray());
+            realsense.rotation = avg_q(camCalibRotValues.ToArray());
+
             MenuSceneLoader.calibPosition_Camera = realsense.position;
             MenuSceneLoader.calibRotation_Camera = realsense.rotation;
+            
             PlayerPrefs.SetFloat("calibration_pos_x", realsense.position.x);
             PlayerPrefs.SetFloat("calibration_pos_y", realsense.position.y);
             PlayerPrefs.SetFloat("calibration_pos_z", realsense.position.z);
@@ -149,6 +164,8 @@ public class Calibration : MonoBehaviour
         realsense.rotation = avg_q(cubeRot) * realsense.rotation;
         realsense.position += avg_v(cubeMove);
 
+        camCalibRotValues.Add(realsense.rotation);
+        camCalibPosValues.Add(realsense.position);
         return "Kalibriere...";
         
     }
