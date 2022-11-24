@@ -44,7 +44,7 @@ namespace Oculus.Interaction
         }
 
         [SerializeField]
-        private ColorState _normalColorState;
+        public ColorState _normalColorState;
 
         [SerializeField]
         private ColorState _hoverColorState;

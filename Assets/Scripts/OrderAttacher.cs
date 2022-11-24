@@ -101,7 +101,13 @@ public class OrderAttacher : MonoBehaviour
         text.text = "";
     }
     
-
+    public void allGreen()
+    {
+        for (int i = 0; i < buttons.childCount; i++)
+        {
+            setDone(true, i);
+        }
+    }
 }
 
 [CustomEditor(typeof(OrderAttacher))]

@@ -21,6 +21,7 @@ public class Calibration : MonoBehaviour
     public int timer_step1, timer_step2, timer_step3;
     List<Vector3> camCalibPosValues;
     List<Quaternion> camCalibRotValues;
+    public GameObject blackScreen;
     private void OnDrawGizmos()
     {
         Gizmos.DrawSphere(getThumb(handL).position, 0.01f);
@@ -36,6 +37,7 @@ public class Calibration : MonoBehaviour
         toIdle,
         Cam1,
         Cam2,
+        ready
     }
     private void Start()
     {
@@ -120,7 +122,11 @@ public class Calibration : MonoBehaviour
                         continueButton.SetActive(true);
                 }
                 break;
-
+            case ready:
+                blackScreen.SetActive(true);
+                if (timer >= 0.5f)
+                    calibrationFinished();
+                break;
             default:
                 return;
         }
@@ -270,6 +276,7 @@ public class Calibration : MonoBehaviour
     }
     public void calibrationFinished()
     {
+        blackScreen.SetActive(true);
         SceneManager.LoadScene("Main");
         //SceneManager.UnloadSceneAsync("Calibration");
     }

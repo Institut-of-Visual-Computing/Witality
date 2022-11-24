@@ -108,7 +108,6 @@
     <Compile Include="Assets\extOSC\Scripts\Editor\OSCWindowsStoreHelper.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Firebase\Editor\FirebaseEnabler.cs" />
     <Compile Include="Assets\extOSC\Scripts\Editor\Drawers\OSCFilterDrawer.cs" />
-    <Compile Include="Assets\Editor\CalibrationEditor.cs" />
     <Compile Include="Assets\Editor\ToggleEnvironmentsEditor.cs" />
     <Compile Include="Assets\extOSC\Scripts\Editor\Windows\OSCWindowConsole.cs" />
     <Compile Include="Assets\extOSC\Scripts\Editor\Panels\OSCPanelControllers.cs" />

@@ -49,6 +49,7 @@ namespace Oculus.Interaction
         }
         public bool lookingUpOnGrab = false;
         public Transform rotationPoint;
+        public bool isGrabbed = false;
         public Transform Transform => transform;
         public List<Pose> GrabPoints => _selectingPoints;
 
@@ -155,6 +156,7 @@ namespace Oculus.Interaction
             {
                 return;
             }
+            isGrabbed = true;
             if (!grabbedArUcoId.Contains(transform.GetSiblingIndex()))
             {
                 grabbedArUcoId.Add(transform.GetSiblingIndex());
@@ -180,6 +182,7 @@ namespace Oculus.Interaction
         private void EndTransform()
         {
             grabbedArUcoId.Remove(transform.GetSiblingIndex());
+            isGrabbed = false;
             if (_activeTransformer == null)
             {
                 return;

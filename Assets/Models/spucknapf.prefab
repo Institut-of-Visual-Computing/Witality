@@ -184,8 +184,7 @@ MonoBehaviour:
   _pointableElement: {fileID: -7570157147475107057}
   _boundsCollider: {fileID: 962510725015663259}
   _colliders:
-  - {fileID: 5739165029783355805}
-  - {fileID: 2313858580343410724}
+  - {fileID: 8813777652374949996}
 --- !u!54 &-769265526943156249
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -222,6 +221,7 @@ MonoBehaviour:
   _maxGrabPoints: -1
   lookingUpOnGrab: 1
   rotationPoint: {fileID: 7471719710760970694}
+  isGrabbed: 0
 --- !u!114 &2930341048794094677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,8 +248,7 @@ GameObject:
   - component: {fileID: 7471719710760970694}
   - component: {fileID: 2953830917077381054}
   - component: {fileID: 4224805749310462120}
-  - component: {fileID: 5739165029783355805}
-  - component: {fileID: 2313858580343410724}
+  - component: {fileID: 8813777652374949996}
   m_Layer: 6
   m_Name: spucknapf
   m_TagString: Untagged
@@ -322,8 +321,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &5739165029783355805
-CapsuleCollider:
+--- !u!64 &8813777652374949996
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -332,21 +331,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 2.41
-  m_Height: 7.39
-  m_Direction: 2
-  m_Center: {x: 0.00874555, y: 0, z: 3.6077287}
---- !u!136 &2313858580343410724
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8474837074103546702}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.54
-  m_Height: 8.09
-  m_Direction: 0
-  m_Center: {x: 0, y: 0, z: 5.05}
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5421578732294578530, guid: a423ccab9092c5f459f7606c2f4179a9, type: 3}
