@@ -17,7 +17,7 @@ public class lookingUpBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.y < belowYThreshold && !grab.isGrabbed)
+        if(transform.position.y < belowYThreshold)
         {
             lookUp();
         }

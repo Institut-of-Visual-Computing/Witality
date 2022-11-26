@@ -121,15 +121,19 @@ public class OpenCVTransRotMapper : MonoBehaviour
             Vector3 newPos = new Vector3(data.pos.x , data.pos.y , data.pos.z);
             newPos = Camera_origin.position + Camera_origin.rotation * newPos;
             lookingUpBehaviour lookingUpBeh = o.GetComponent<lookingUpBehaviour>();
-            if (lookingUpBeh != null)
-                overrideHeight = lookingUpBeh.optimalHeightForTable;
-            bool isOnTable = Mathf.Abs(o.position.y - overrideHeight) < overrideHeightThreshold;
+            float newOverrideHeight = (lookingUpBeh != null) ? lookingUpBeh.optimalHeightForTable : overrideHeight;
+
+            bool isOnTable = Mathf.Abs(o.position.y - newOverrideHeight) < overrideHeightThreshold;
             if (!overrideByGrabbable)    //object in hand
                 if (Vector3.Distance(newPos, o.position) > pos_threshold)
                 {  //tracked pos threshold to last pos
                     o.position = Vector3.Lerp(newPos, lastPos[id], pos_linear_interpolation);
                     if (isOnTable)
-                        o.position += Vector3.up * (o.position.y - overrideHeight);
+                    {
+                        newPos.y = newOverrideHeight;
+                        o.position = newPos;
+                    }
+                        //o.position += Vector3.up * (o.position.y - newOverrideHeight);
                 }
 
             lastPos[id] = o.position;
