@@ -14,8 +14,9 @@ public class QuestionnaireBehaviour : MonoBehaviour
     {
         probandID = MenuSceneLoader.probandID;
         int id = (int)MenuSceneLoader.task;
-        if (id == 5 && MenuSceneLoader.subtask >= 3)
-            id = 6;
+        if (id == 4 && MenuSceneLoader.subtask >= 1)
+            id = 5;
+        Debug.Log("Started Questionnaire " + jsons[id].name);
         mainQuestionnaire.setQuestionaire(jsons[id]);
         apply();
 
