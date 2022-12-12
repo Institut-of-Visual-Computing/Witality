@@ -65,11 +65,12 @@ public class Rangordnung : MonoBehaviour
     }
     public void setText(int child, string value ,string name = "text")
     {
-        obj_parent.GetChild(child).Find("Canvas/" + name).GetComponent<TextMeshProUGUI>().text = value;
+        obj_parent.GetChild(child).Find("Canvas/" + name).GetComponent<TextMeshProUGUI>().text = value == "000" ? "Wasser" : value;
     }
     public string getText(int child, string name = "text")
     {
-        return obj_parent.GetChild(child).Find("Canvas/" + name).GetComponent<TextMeshProUGUI>().text;
+        string text = obj_parent.GetChild(child).Find("Canvas/" + name).GetComponent<TextMeshProUGUI>().text;
+        return text == "Wasser" ? "000" : text;
     }
     public void activateAttacher()
     {

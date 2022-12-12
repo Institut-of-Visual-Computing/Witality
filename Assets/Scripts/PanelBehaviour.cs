@@ -14,6 +14,7 @@ public class PanelBehaviour : MonoBehaviour
     public int a;
     public float posY;
     // Update is called once per frame
+
     void Update()
     {
         a = 0;
@@ -21,7 +22,8 @@ public class PanelBehaviour : MonoBehaviour
             a++;
         if (order.text != "")
             a++;
-
+        if(text.text == "Wasser")
+        { rect1.x = 200; rect2.x = 200;}
         switch (a)
         {
             case 1:

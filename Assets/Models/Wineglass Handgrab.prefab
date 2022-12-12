@@ -372,7 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfd00f0fb75e19419024430a61b540f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  belowYThreshold: 2
+  belowYThreshold: 1
   rotationPoint: {fileID: 9003281638996310299}
   optimalHeightForTable: 0.743
 --- !u!1 &9003281640722179208
@@ -591,6 +591,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9003281639896356353}
     m_Modifications:
+    - target: {fileID: 3567576980121722859, guid: 6e65865bca16a774989028c4aee8a2a3,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567576980121722859, guid: 6e65865bca16a774989028c4aee8a2a3,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5616987680104101985, guid: 6e65865bca16a774989028c4aee8a2a3,
         type: 3}
       propertyPath: m_Pivot.x
@@ -700,6 +710,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5616987680125315496, guid: 6e65865bca16a774989028c4aee8a2a3,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5616987680125315497, guid: 6e65865bca16a774989028c4aee8a2a3,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e65865bca16a774989028c4aee8a2a3, type: 3}

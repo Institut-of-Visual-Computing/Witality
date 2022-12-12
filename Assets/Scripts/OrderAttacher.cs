@@ -83,10 +83,13 @@ public class OrderAttacher : MonoBehaviour
             if(distance < minApllyRadius)
             {
                 rang.set_order(index, chosenInt);
-                setDone(true, chosenInt);
                 chosenInt = -1;
                 text.text = "";
             }
+        }
+        for (int i = 0; i < rang.order.Length; i++)
+        {
+            setDone(rang.order[i] != 0, i);
         }
     }
     public void setDone(bool done, int i)
@@ -101,13 +104,6 @@ public class OrderAttacher : MonoBehaviour
         text.text = "";
     }
     
-    public void allGreen()
-    {
-        for (int i = 0; i < buttons.childCount; i++)
-        {
-            setDone(true, i);
-        }
-    }
 }
 
 [CustomEditor(typeof(OrderAttacher))]
