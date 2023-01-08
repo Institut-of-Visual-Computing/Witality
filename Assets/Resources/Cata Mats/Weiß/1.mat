@@ -91,6 +91,11 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _Fill: 0.09
+    - _Float: 0
+    - _FoamAmount: 0.4
+    - _FoamCutoff: 1
+    - _FoamScale: 15
+    - _FoamSpeed: 0.2
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -100,23 +105,29 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _RippleDensity: 13
+    - _RippleIntensity: 7.7
+    - _RippleSpeed: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _Transparency: 0.1
+    - _Transparency: 0.535
     - _WobbleX: 0
     - _WobbleZ: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.99607843, g: 0.9882353, b: 0.9372549, a: 1}
+    - _Color: {r: 0.6981132, g: 0.6611659, b: 0.53017086, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 1.286275, g: 1.247059, b: 1.247059, a: 0}
+    - _RippleColor: {r: 1, g: 1, b: 1, a: 1}
     - _SideColor: {r: 1, g: 0.6179246, b: 0.8219554, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TopColor: {r: 1, g: 0.5896226, b: 0.73770356, a: 1}
+    - _Vector2: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5692943253782573798
 MonoBehaviour:

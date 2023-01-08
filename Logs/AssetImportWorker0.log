@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19042) 64bit Education' Language: 'de' Physical Memory: 16302 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'de' Physical Memory: 32732 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+D:\Unity\Editors\2021.3.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Labor VC 2019/Desktop/Witality-Android
+C:/Users/paulk/Documents/Witality-Android
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56405
-Successfully changed project path to: C:/Users/Labor VC 2019/Desktop/Witality-Android
-C:/Users/Labor VC 2019/Desktop/Witality-Android
+61233
+Successfully changed project path to: C:/Users/paulk/Documents/Witality-Android
+C:/Users/paulk/Documents/Witality-Android
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,71 +47,71 @@ C:/Users/Labor VC 2019/Desktop/Witality-Android
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 236.16 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.55 ms.
+Refreshing native plugins compatible for Editor in 151.29 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Labor VC 2019/Desktop/Witality-Android/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/Editors/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/paulk/Documents/Witality-Android/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f07)
     Vendor:   NVIDIA
-    VRAM:     11120 MB
-    Driver:   31.0.15.2647
+    VRAM:     8019 MB
+    Driver:   31.0.15.2698
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Mono path[0] = 'D:/Unity/Editors/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editors/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Editors/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009129 seconds.
+Register platform support module: D:/Unity/Editors/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Editors/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003533 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 169.11 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.76 ms.
+Refreshing native plugins compatible for Editor in 179.82 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
+- Completed reload, in  0.758 seconds
 Domain Reload Profiling:
-	ReloadAssembly (848ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (758ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (612ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (31ms)
 			SetupLoadedEditorAssemblies (392ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (63ms)
+				InitializePlatformSupportModulesInManaged (55ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (170ms)
+				RefreshPlugins (180ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013555 seconds.
+Registered in 0.010840 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Labor VC 2019\Desktop\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Labor VC 2019\Desktop\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\paulk\Documents\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\paulk\Documents\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 178.05 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 179.19 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -119,138 +119,44 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.74.0
 Mono: successfully reloaded assembly
-- Completed reload, in  2.076 seconds
+- Completed reload, in  1.577 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2077ms)
-		BeginReloadAssembly (265ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (137ms)
-		EndReloadAssembly (1652ms)
-			LoadAssemblies (176ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (413ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (135ms)
-			SetupLoadedEditorAssemblies (848ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (178ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (376ms)
-				ProcessInitializeOnLoadMethodAttributes (102ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.21 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 6544 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (0.5 MB). Loaded Objects now: 6981.
-Memory consumption went from 262.7 MB to 262.2 MB.
-Total: 6.832300 ms (FindLiveObjects: 0.669100 ms CreateObjectMapping: 1.696500 ms MarkObjects: 4.110800 ms  DeleteObjects: 0.354900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2339580.443733 seconds.
-  path: Assets/Models/Wineglass Handgrab.prefab
-  artifactKey: Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Wineglass Handgrab.prefab using Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56610a5267ccd47d1cb320a03e400ea9') in 0.555506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.529759 seconds.
-  path: Assets/Models/Wineglass Handgrab.prefab
-  artifactKey: Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Wineglass Handgrab.prefab using Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf86a2faef737bd82b73ce4de9c249a') in 0.098202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.152372 seconds.
-  path: Assets/Models/Wineglass Handgrab.prefab
-  artifactKey: Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Wineglass Handgrab.prefab using Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ee895fe51a978abd1a01ba243ae442') in 0.090250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.576912 seconds.
-  path: Assets/Models/Wineglass Handgrab.prefab
-  artifactKey: Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Wineglass Handgrab.prefab using Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0806e482ed607ad82e0086423bbb4ece') in 0.120223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.538035 seconds.
-  path: Assets/Models/Wineglass Handgrab.prefab
-  artifactKey: Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Wineglass Handgrab.prefab using Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0aa7078028575be7cb75caf7af0c0c1') in 0.108200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.103993 seconds.
-  path: Assets/Models/Wineglass Handgrab.prefab
-  artifactKey: Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Wineglass Handgrab.prefab using Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2961e06c4d4c0d35a4c640fd10cd38e9') in 0.102860 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.040755 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Labor VC 2019\Desktop\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Labor VC 2019\Desktop\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.556 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1556ms)
-		BeginReloadAssembly (188ms)
+	ReloadAssembly (1578ms)
+		BeginReloadAssembly (166ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1244ms)
-			LoadAssemblies (179ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1288ms)
+			LoadAssemblies (139ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (527ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (750ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (179ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.07 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 6328 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (475.6 KB). Loaded Objects now: 7044.
-Memory consumption went from 254.1 MB to 253.7 MB.
-Total: 7.224700 ms (FindLiveObjects: 0.505000 ms CreateObjectMapping: 0.403400 ms MarkObjects: 5.815300 ms  DeleteObjects: 0.499400 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 6544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.8 MB). Loaded Objects now: 6987.
+Memory consumption went from 264.1 MB to 263.3 MB.
+Total: 7.706800 ms (FindLiveObjects: 0.720000 ms CreateObjectMapping: 0.787400 ms MarkObjects: 4.915100 ms  DeleteObjects: 1.283100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -263,110 +169,280 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 1558498.276265 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 1 Spätburgunder 983.png
+  artifactKey: Guid(b61901cb34e7f754881682a300ec1eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 1 Spätburgunder 983.png using Guid(b61901cb34e7f754881682a300ec1eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a1aaa8ca73b694bd480e0c2034d55c') in 0.132061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprites/Weinfarben/Rot.png
+  artifactKey: Guid(67640f46837e7ab48905187df818e6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot.png using Guid(67640f46837e7ab48905187df818e6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1732ce912158e9e108eeb100544a183c') in 0.020495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png
+  artifactKey: Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png using Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c5dae7317641135f64d9cf1d60ecc5') in 0.017557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png
+  artifactKey: Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png using Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7df478745f91f9f497dd340661a976d') in 0.015776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 2 Gewürztraminer 364.png
+  artifactKey: Guid(7adeb69c723a580409cfa96a0915fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 2 Gewürztraminer 364.png using Guid(7adeb69c723a580409cfa96a0915fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a356f03dae5715db8083b35ced4436d7') in 0.017210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß.png
+  artifactKey: Guid(72a8566d06c04a34d97469bdd8e7f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß.png using Guid(72a8566d06c04a34d97469bdd8e7f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39094a00facc56d7022dbee6cf2fdea2') in 0.016676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.966809 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(a4165f6a1b452764f81047259318ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(a4165f6a1b452764f81047259318ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26017066039b1a81c37abcd65be91fb') in 0.006061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.692354 seconds.
+  path: Assets/Scenes/Weinfarben.unity
+  artifactKey: Guid(eaeceaf66f532f5498a7a07378c9dfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Weinfarben.unity using Guid(eaeceaf66f532f5498a7a07378c9dfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5f481a492ab1a8909e3f4d25c33d02') in 0.005435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 278.785429 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png
+  artifactKey: Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png using Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197f60eb368f434f3f14fde732dcd86a') in 0.119720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png
+  artifactKey: Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png using Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2214da424c2b42bfffbfa7b917ebb74e') in 0.111509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png
+  artifactKey: Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png using Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4ad9caf9a4d47dfc1972f590bf64c4') in 0.069712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png
+  artifactKey: Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png using Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490693a804e8869b5333baa473ee7f57') in 0.069902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 2 Merlot 644.png
+  artifactKey: Guid(01102f1d1202f604081aeb14fb2678b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 2 Merlot 644.png using Guid(01102f1d1202f604081aeb14fb2678b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7fb260259d8e2333177aa813216a3b4') in 0.063268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png
+  artifactKey: Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png using Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daffb9b1fe5682bf731516dc99e4a0f9') in 0.058726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.336244 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png
+  artifactKey: Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png using Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8eb5274b1372a27a684fc304aa6722') in 0.079460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png
+  artifactKey: Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png using Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a609b1795d12be98999aa19dac28a9') in 0.064069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png
+  artifactKey: Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png using Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303d38a327dd5059248d91fd14ef0206') in 0.062953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 6 Duque de Montebello 597.png
+  artifactKey: Guid(47f64c92eb2c5ee4881dc9cde649cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 6 Duque de Montebello 597.png using Guid(47f64c92eb2c5ee4881dc9cde649cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc01aef2329bc4555f7361cfb844876d') in 0.086987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 2 Merlot 644.png
+  artifactKey: Guid(01102f1d1202f604081aeb14fb2678b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 2 Merlot 644.png using Guid(01102f1d1202f604081aeb14fb2678b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1259124635427b986732c7cc3af10ce9') in 0.065948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß.png
+  artifactKey: Guid(72a8566d06c04a34d97469bdd8e7f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß.png using Guid(72a8566d06c04a34d97469bdd8e7f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bf179f12cbd85882927059b744f41b') in 0.049148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.711310 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png
+  artifactKey: Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png using Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efa0f0406e3abae0ab44049d3a4dfb7') in 0.078626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png
+  artifactKey: Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png using Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a9c88ade73b41e325542464a30379d') in 0.061749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png
+  artifactKey: Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png using Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c93c9226072c7b4d647bad2f5186870') in 0.069625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png
+  artifactKey: Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png using Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b502416485db38b12ec2befaacb508') in 0.079432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 2 Merlot 644.png
+  artifactKey: Guid(01102f1d1202f604081aeb14fb2678b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 2 Merlot 644.png using Guid(01102f1d1202f604081aeb14fb2678b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d98963ebdc970e0f59cceb0b695f40') in 0.067411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png
+  artifactKey: Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png using Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d93400bec874cab2e0ec39eb94cfbd') in 0.053446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.994209 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png
+  artifactKey: Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png using Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0c6756f4da07e4190ee69dea1cc161') in 0.084426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png
+  artifactKey: Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png using Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2ffc5ff747bb595087c77fb163983c') in 0.066805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 4 La belle Loise 597.png
+  artifactKey: Guid(cde86afae6bee584688c3d444fbdf017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 4 La belle Loise 597.png using Guid(cde86afae6bee584688c3d444fbdf017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b38097ca3d29935985bf945c3920314') in 0.078473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 6 Duque de Montebello 597.png
+  artifactKey: Guid(47f64c92eb2c5ee4881dc9cde649cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 6 Duque de Montebello 597.png using Guid(47f64c92eb2c5ee4881dc9cde649cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e80b3226e3eed8c6914fc3aed0f2447') in 0.053984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 2 Gewürztraminer 364.png
+  artifactKey: Guid(7adeb69c723a580409cfa96a0915fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 2 Gewürztraminer 364.png using Guid(7adeb69c723a580409cfa96a0915fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef673565aca9627171a93b8786a8ecb') in 0.064813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png
+  artifactKey: Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png using Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412f68a659b9d2f140966ea4d9a10784') in 0.059602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.517624 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 1 Spätburgunder 983.png
+  artifactKey: Guid(b61901cb34e7f754881682a300ec1eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 1 Spätburgunder 983.png using Guid(b61901cb34e7f754881682a300ec1eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67041fad22653492d83e34bbdc70ac8f') in 0.058605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png
+  artifactKey: Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png using Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb84f7bb63b06510a0d5ac2808bca61') in 0.067444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png
+  artifactKey: Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png using Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d1b2116f1f878d88765f15c0f96357') in 0.075704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png
+  artifactKey: Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png using Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d7b908c87faafd85d5a478f428aa09') in 0.062068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 2 Gewürztraminer 364.png
+  artifactKey: Guid(7adeb69c723a580409cfa96a0915fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 2 Gewürztraminer 364.png using Guid(7adeb69c723a580409cfa96a0915fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd2e584736b395ea87ef62215ceb3c9') in 0.065061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß.png
+  artifactKey: Guid(72a8566d06c04a34d97469bdd8e7f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß.png using Guid(72a8566d06c04a34d97469bdd8e7f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621f684e9f87041041b11e4852cf3a16') in 0.040705 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010257 seconds.
+Registered in 0.009357 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Labor VC 2019\Desktop\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Labor VC 2019\Desktop\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\paulk\Documents\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\paulk\Documents\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.589 seconds
+- Completed reload, in  1.186 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1589ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1308ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (312ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (714ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (147ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.30 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 6329 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (497.1 KB). Loaded Objects now: 7048.
-Memory consumption went from 254.2 MB to 253.7 MB.
-Total: 4.931000 ms (FindLiveObjects: 0.550200 ms CreateObjectMapping: 0.519600 ms MarkObjects: 3.490200 ms  DeleteObjects: 0.369900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013857 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Labor VC 2019\Desktop\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Labor VC 2019\Desktop\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 4.18 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.938 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1939ms)
-		BeginReloadAssembly (175ms)
+	ReloadAssembly (1187ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1634ms)
-			LoadAssemblies (144ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (956ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (478ms)
+			SetupTypeCache (325ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (780ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (425ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (163ms)
-				ProcessInitializeOnLoadAttributes (422ms)
-				ProcessInitializeOnLoadMethodAttributes (148ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 11.35 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 6329 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (489.7 KB). Loaded Objects now: 7052.
-Memory consumption went from 254.2 MB to 253.7 MB.
-Total: 20.931500 ms (FindLiveObjects: 2.659500 ms CreateObjectMapping: 1.476000 ms MarkObjects: 16.330500 ms  DeleteObjects: 0.464400 ms)
+Refreshing native plugins compatible for Editor in 7.24 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 6359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (0.8 MB). Loaded Objects now: 7064.
+Memory consumption went from 253.9 MB to 253.1 MB.
+Total: 4.130800 ms (FindLiveObjects: 0.657900 ms CreateObjectMapping: 0.606700 ms MarkObjects: 2.540000 ms  DeleteObjects: 0.324100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -380,61 +456,639 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 983.474431 seconds.
-  path: Assets/Scenes/Menu
-  artifactKey: Guid(b72175d9ae9a91844896cd16e3d31141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu using Guid(b72175d9ae9a91844896cd16e3d31141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c68bb527d98590e7a069d75d382470e') in 0.018454 seconds 
+  Time since last request: 410.140671 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png
+  artifactKey: Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png using Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c12b4df1577cb97dd6044cfc1f49c3') in 0.092116 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.029546 seconds.
-  path: Assets/Scenes/Menu/LightingData.asset
-  artifactKey: Guid(df565da0d1f3cd14dad698bea67816c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu/LightingData.asset using Guid(df565da0d1f3cd14dad698bea67816c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f5991a74fffec9f75f8edd2cac383f') in 0.017842 seconds 
+  Time since last request: 6.209878 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png
+  artifactKey: Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png using Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6934c465f847a78078e80f54113bb6d4') in 0.072085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.641344 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png
+  artifactKey: Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png using Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002a251d624e7b69a3c9323638524b3c') in 0.071223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.587017 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png
+  artifactKey: Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png using Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df71db54adfaa5792543627feeab9f66') in 0.012526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.071386 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png
+  artifactKey: Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png using Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa692ba5b27fa8aa942683483138cd3') in 0.048939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.989570 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png
+  artifactKey: Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png using Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85425e9e9d773375926437bb791f8b3') in 0.043408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png
+  artifactKey: Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png using Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4835c87bd890730e3742a105597998') in 0.017639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Weinfarben/Rot.png
+  artifactKey: Guid(67640f46837e7ab48905187df818e6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot.png using Guid(67640f46837e7ab48905187df818e6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469a2bd2a041003ab8e63573470224f7') in 0.019659 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Scenes/Menu/Lightmap-0_comp_light.exr
-  artifactKey: Guid(da9f4f08840a66d47b456cd41f0c116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu/Lightmap-0_comp_light.exr using Guid(da9f4f08840a66d47b456cd41f0c116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb69e020cfe409506b42e91150b0529') in 0.058416 seconds 
+  path: Assets/Sprites/Weinfarben/Weiß 4 La belle Loise 597.png
+  artifactKey: Guid(cde86afae6bee584688c3d444fbdf017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 4 La belle Loise 597.png using Guid(cde86afae6bee584688c3d444fbdf017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0be97b290b25a69dbb8041cbb31b46') in 0.016995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png
+  artifactKey: Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png using Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85394fb7aeeb40be9fdfe5a46b6fb927') in 0.020394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 2 Gewürztraminer 364.png
+  artifactKey: Guid(7adeb69c723a580409cfa96a0915fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 2 Gewürztraminer 364.png using Guid(7adeb69c723a580409cfa96a0915fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7ca5f5737507142b56de64c99870e9') in 0.022687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß.png
+  artifactKey: Guid(72a8566d06c04a34d97469bdd8e7f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß.png using Guid(72a8566d06c04a34d97469bdd8e7f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c98504acb33734df7c0db619dda69b') in 0.013232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.997802 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 2 Gewürztraminer 364.png
+  artifactKey: Guid(7adeb69c723a580409cfa96a0915fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 2 Gewürztraminer 364.png using Guid(7adeb69c723a580409cfa96a0915fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cc6c3fd280ab51ad9d87311e570943') in 0.040238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.969089 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png
+  artifactKey: Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png using Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17f7d16cfa1554af5eaa98a09bb50e7') in 0.045201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.685119 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 4 La belle Loise 597.png
+  artifactKey: Guid(cde86afae6bee584688c3d444fbdf017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 4 La belle Loise 597.png using Guid(cde86afae6bee584688c3d444fbdf017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91e4fe1758e5c2bb38848dc8434c981') in 0.040830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.777684 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png
+  artifactKey: Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png using Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0622f0351cc12a7666d49bfaa7f2f43b') in 0.043270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.514935 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 6 Duque de Montebello 597.png
+  artifactKey: Guid(47f64c92eb2c5ee4881dc9cde649cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 6 Duque de Montebello 597.png using Guid(47f64c92eb2c5ee4881dc9cde649cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddfa7e929d114660a5777b0664a21f5') in 0.044636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.831896 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png
+  artifactKey: Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png using Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6af6ed137681b86f88a29d18c1843c') in 0.027448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000796 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png
+  artifactKey: Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png using Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9477675bda6a7a253d28d617cf4692c8') in 0.028794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png
+  artifactKey: Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png using Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ae2d912a4e76d3c707681f0327b7e7') in 0.033607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 6 Duque de Montebello 597.png
+  artifactKey: Guid(47f64c92eb2c5ee4881dc9cde649cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 6 Duque de Montebello 597.png using Guid(47f64c92eb2c5ee4881dc9cde649cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34105a7f615fc2bfcd61ac2afa03c1f7') in 0.028982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.325081 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png
+  artifactKey: Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 5 Linique Charm 597.png using Guid(8d283fe4c12831343822eac9b7d52bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a2061e923e5a37a780a3a0c7311801') in 0.022484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050022 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png
+  artifactKey: Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 1 Riesling 131.png using Guid(f8f86c132898bd344a8ffdb7257436b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1950fbbfffeefe41c51db47cecd8ed') in 0.033407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png
+  artifactKey: Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Weiß 3 Grauburgunder 720.png using Guid(cd11b5e2facd64a44848d225f9a38c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88e403aaedfd997670e342974442e14') in 0.042891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 300.542714 seconds.
+  path: Assets/Models/Probeglass ohne Marker.prefab
+  artifactKey: Guid(7c571d722ec962048a3a6763e285f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Probeglass ohne Marker.prefab using Guid(7c571d722ec962048a3a6763e285f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e92b1e5dac7f739238dbd9f8a5011fe') in 0.248723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Spucki Handgrab.prefab
+  artifactKey: Guid(47c3ff40e9a02ac4597f0f93a90507a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spucki Handgrab.prefab using Guid(47c3ff40e9a02ac4597f0f93a90507a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c170d391040ed2aa8d2ea892cec2c0') in 0.062713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.205810 seconds.
+  path: Assets/Resources/Cata Mats/Wasser.mat
+  artifactKey: Guid(bb6392786719211449c2553951bfa762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Wasser.mat using Guid(bb6392786719211449c2553951bfa762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f331e06e3d8b527a05d1d763dd7808c') in 0.028259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.945075 seconds.
+  path: Assets/Resources/Cata Mats/Weiß/1.mat
+  artifactKey: Guid(cfe5b574467e9f744876d9180cf9b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Weiß/1.mat using Guid(cfe5b574467e9f744876d9180cf9b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4371d264a0ea33aeea32dcc4e4b4f374') in 0.019946 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/Menu/Lightmap-0_comp_shadowmask.png
-  artifactKey: Guid(1e2806bb00552db499c2f5649eead3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu/Lightmap-0_comp_shadowmask.png using Guid(1e2806bb00552db499c2f5649eead3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec187dc72bdfaeedcca62961bd735b41') in 0.095360 seconds 
+  path: Assets/Resources/Cata Mats/Weiß/3.mat
+  artifactKey: Guid(e4c15769027d6814590f84df7621d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Weiß/3.mat using Guid(e4c15769027d6814590f84df7621d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f035990c548a921296c43d1307c9493') in 0.025837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 233.066472 seconds.
+  path: Assets/Resources/Cata Mats/Weiß/1.mat
+  artifactKey: Guid(cfe5b574467e9f744876d9180cf9b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Weiß/1.mat using Guid(cfe5b574467e9f744876d9180cf9b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63baa39023d3953e87fe9a6f02c4a4fd') in 0.017092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Cata Mats/Weiß/3.mat
+  artifactKey: Guid(e4c15769027d6814590f84df7621d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Weiß/3.mat using Guid(e4c15769027d6814590f84df7621d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd77ba42decad0dccb5a59c350b43eff') in 0.017401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 660.607317 seconds.
+  path: Assets/Resources/Cata Mats/Weiß/1.mat
+  artifactKey: Guid(cfe5b574467e9f744876d9180cf9b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Weiß/1.mat using Guid(cfe5b574467e9f744876d9180cf9b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbf860ab7c21dde49d97b12a40cfd1b') in 0.025264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Cata Mats/Weiß/3.mat
+  artifactKey: Guid(e4c15769027d6814590f84df7621d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Weiß/3.mat using Guid(e4c15769027d6814590f84df7621d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6139d545aca1b9b12b98c3092ee4370') in 0.016338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.326408 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c440d8327c94f6cdcbca300bcc865c') in 0.033277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Cata Mats/Rot/3.mat
+  artifactKey: Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/3.mat using Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9605509b2a808192751cc82a71e9c452') in 0.021759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.464635 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 1 Spätburgunder 983.png
+  artifactKey: Guid(b61901cb34e7f754881682a300ec1eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 1 Spätburgunder 983.png using Guid(b61901cb34e7f754881682a300ec1eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7514d0d44c92b775042c50969746a595') in 0.029696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.108649 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 2 Merlot 644.png
+  artifactKey: Guid(01102f1d1202f604081aeb14fb2678b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 2 Merlot 644.png using Guid(01102f1d1202f604081aeb14fb2678b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c68862c56ba205eacee96b40206e5d0') in 0.037162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.371839 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png
+  artifactKey: Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png using Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84564cb69d53001ff51aaf5eb4dba246') in 0.027119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.887002 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png
+  artifactKey: Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png using Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc487fa7f2d7ecd500d8133af61ff22f') in 0.039573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.121980 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png
+  artifactKey: Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 3 Chevalier de Bayard 322.png using Guid(ffece44980de08f4ca4efd0d3d53f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90abca44a6bda200d84b1d5f4faebb4') in 0.024591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png
+  artifactKey: Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weinfarben/Rot 4 Roche de Pierre 322.png using Guid(0bff28fff5ff0af43b2f11a767f40be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03955d2da8935b8b84f0e1cc1f909b20') in 0.043097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 369.465543 seconds.
+  path: Assets/Material/Liquid.shadergraph
+  artifactKey: Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Liquid.shadergraph using Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130d54ed8809c8d2c51ce5c0cf38ffa3') in 0.007226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.143271 seconds.
+  path: Assets/Material/Liquid.shadergraph
+  artifactKey: Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Liquid.shadergraph using Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0de2bbcf4c2b1106bc4e655007d34a6') in 0.002762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.332983 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e973ff7658bd2ceb811a3bcf17a8fca') in 0.026677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.418284 seconds.
+  path: Assets/Material/Liquid.shadergraph
+  artifactKey: Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Liquid.shadergraph using Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12e8c7bfb3063e03c2b56fdffead46a') in 0.002501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037428 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b77422f6988c629798be6028f312fd8') in 0.013489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.587875 seconds.
+  path: Assets/Material/Liquid.shadergraph
+  artifactKey: Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Liquid.shadergraph using Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b340fb24eca5166caf0005f0f81846e4') in 0.002385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.335879 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e7fad111f198b81b932d46ae2ec61b') in 0.024655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.579756 seconds.
+  path: Assets/Material/Liquid.shadergraph
+  artifactKey: Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Liquid.shadergraph using Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2371e06275646d6e5e361aa8448b95d') in 0.002676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406ab21f334582b8ba11e84b4c911874') in 0.014559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.168253 seconds.
+  path: Assets/Material/Liquid.shadergraph
+  artifactKey: Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Liquid.shadergraph using Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c053cc1cd8e57efd9c916b4ad4f3a88b') in 0.003801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.365130 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7116db14e2088bfbbf36826d81748a') in 0.020386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.618856 seconds.
+  path: Assets/Material/Liquid.shadergraph
+  artifactKey: Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Liquid.shadergraph using Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877ff4ec87bd8c5660d30673250a9d63') in 0.002740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92247f91be16631eb23b92608174bf2f') in 0.009520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.541643 seconds.
+  path: Assets/Material/Liquid.shadergraph
+  artifactKey: Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Liquid.shadergraph using Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c528c8360f9f199e7cd0874f7528246') in 0.002760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.196835 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1d0c91780464345334cb1736b49f77') in 0.015944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.665065 seconds.
+  path: Assets/Material/Liquid.shadergraph
+  artifactKey: Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Liquid.shadergraph using Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31db86b8e5cba1ed5eabdbd3a4e198b9') in 0.002820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae95c3a5f282b8bd6ed4c522512dc5e3') in 0.016797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.727806 seconds.
+  path: Assets/Material/Liquid.shadergraph
+  artifactKey: Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Liquid.shadergraph using Guid(30f6220b0cb8b61469a5884e0b7214fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fb5688b2da9b70eac252fa4b8dd3b9') in 0.002356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.190659 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e534890d37a4b83183b54f586a6518') in 0.015206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 232.505478 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3576d368f750600a06be180fa3bbbe') in 0.016882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.971264 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07469e97d003942c9e563c780ad935e7') in 0.014510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.051015 seconds.
+  path: Assets/Material/Depth Fade.shadersubgraph
+  artifactKey: Guid(9f2e2a8db914fe64bbfe3420a2b9987e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Depth Fade.shadersubgraph using Guid(9f2e2a8db914fe64bbfe3420a2b9987e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e8ef5fb152f3e8b4d29c9024c60866') in 0.008314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 348.057736 seconds.
+  path: Assets/Material/Probefill.mat
+  artifactKey: Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Probefill.mat using Guid(a758dfd2592d8554498037cf82ba68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79533e262615bf4c8f5973648bf5f37a') in 0.062507 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010020 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\paulk\Documents\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\paulk\Documents\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1226ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (994ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.39 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 6366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (0.8 MB). Loaded Objects now: 7179.
+Memory consumption went from 257.3 MB to 256.5 MB.
+Total: 3.989000 ms (FindLiveObjects: 0.480700 ms CreateObjectMapping: 0.453000 ms MarkObjects: 2.691200 ms  DeleteObjects: 0.362800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.026905 seconds.
+  path: Assets/Resources/Cata Mats/Wasser.mat
+  artifactKey: Guid(bb6392786719211449c2553951bfa762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Wasser.mat using Guid(bb6392786719211449c2553951bfa762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db816ef189ccde148b90c77c8ee6ad3') in 0.642192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 159.507652 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd60dfba9822a7404db1fcde286e99f') in 0.018620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Cata Mats/Rot/3.mat
+  artifactKey: Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/3.mat using Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e378684bb6605543a92d1eace1811801') in 0.015684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.868414 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3538dc1b130a7959faf1764d08f786f') in 0.111121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/Cata Mats/Rot/3.mat
+  artifactKey: Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/3.mat using Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccae7ef1e451131521ae7b80642bb0ab') in 0.039038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 201.171555 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689d18742762fbe11df6b0923d6fb003') in 0.044096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Resources/Cata Mats/Rot/3.mat
+  artifactKey: Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/3.mat using Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a2f67d8bbd9284b8c6262ec329b663') in 0.051526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.803071 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212c95d55e6515d36aa0d2404798d677') in 0.061012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.353529 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e5a1e8311247a35c6635c70358fe4a') in 0.015532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.003110 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d0c687eb9a3c51b7bd35d75ec1d0a6') in 0.014599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Cata Mats/Rot/3.mat
+  artifactKey: Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/3.mat using Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0747d807ba4f0378f4586a5e025e52') in 0.012041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.654410 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4742027aa7c6a894871f3c0058be73') in 0.092653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/Cata Mats/Rot/3.mat
+  artifactKey: Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/3.mat using Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743ff3c80f65eccc43d41a9b4bfab76b') in 0.040391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.960857 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1cf28694189f99e86609ba7b5c33eb') in 0.013756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Cata Mats/Rot/3.mat
+  artifactKey: Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/3.mat using Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcf762a537de7f5c012198d4f2407ee') in 0.010035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.646926 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d6b47ea499f114661c0c22b4f8df3e') in 0.013029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.865553 seconds.
+  path: Assets/Resources/Cata Mats/Wasser.mat
+  artifactKey: Guid(bb6392786719211449c2553951bfa762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Wasser.mat using Guid(bb6392786719211449c2553951bfa762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c16eedb1307d9e32117cfcb8e32227a') in 0.008317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.513259 seconds.
+  path: Assets/Resources/Cata Mats/Weiß/1.mat
+  artifactKey: Guid(cfe5b574467e9f744876d9180cf9b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Weiß/1.mat using Guid(cfe5b574467e9f744876d9180cf9b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7a13719bdb67678e8df3cc3ca2adb6') in 0.012480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Cata Mats/Weiß/3.mat
+  artifactKey: Guid(e4c15769027d6814590f84df7621d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Weiß/3.mat using Guid(e4c15769027d6814590f84df7621d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5cf49bce73db8d4dd25360b5a8d13e') in 0.016947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.217761 seconds.
+  path: Assets/Resources/Cata Mats/Weiß/1.mat
+  artifactKey: Guid(cfe5b574467e9f744876d9180cf9b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Weiß/1.mat using Guid(cfe5b574467e9f744876d9180cf9b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de58d822f2f24ff849af2a47c11e451a') in 0.013209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Cata Mats/Weiß/3.mat
+  artifactKey: Guid(e4c15769027d6814590f84df7621d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Weiß/3.mat using Guid(e4c15769027d6814590f84df7621d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ece720d2cd015a57019eaed69dbcbd') in 0.013125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.485007 seconds.
+  path: Assets/Resources/Cata Mats/Rot/1.mat
+  artifactKey: Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/1.mat using Guid(81251a89e3c914b47ae0a80b010ebc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cad07b889db19c8f36719e67537125') in 0.011468 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Scenes/Menu/ReflectionProbe-0.exr
-  artifactKey: Guid(1653c5f4d992268418bd971869fd831b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu/ReflectionProbe-0.exr using Guid(1653c5f4d992268418bd971869fd831b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1636cc1c19d60f3ad9f40c5aa78ea5e') in 0.175626 seconds 
+  path: Assets/Resources/Cata Mats/Rot/3.mat
+  artifactKey: Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cata Mats/Rot/3.mat using Guid(b38c88bf46bed5349833e71e585a9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e2fb6237ec06c5da30eb709785e3e7') in 0.011558 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 4.472643 seconds.
-  path: Assets/Models/Probeglass ohne Marker.prefab
-  artifactKey: Guid(7c571d722ec962048a3a6763e285f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Probeglass ohne Marker.prefab using Guid(7c571d722ec962048a3a6763e285f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1a375f87677b741603e1a1ce45a6f6') in 0.083646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Models/Spucki Handgrab.prefab
-  artifactKey: Guid(47c3ff40e9a02ac4597f0f93a90507a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Spucki Handgrab.prefab using Guid(47c3ff40e9a02ac4597f0f93a90507a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533abd98684fdbbaeb18089a2dc15a3a') in 0.092523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Models/Wineglass Handgrab.prefab
-  artifactKey: Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Wineglass Handgrab.prefab using Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d54b38971c4d1e4765258e6a407b6f') in 0.088280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.135195 seconds.
-  path: Assets/Models/Wineglass Handgrab.prefab
-  artifactKey: Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Wineglass Handgrab.prefab using Guid(8bfbbae8ded918c4dbcb95773752ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2bf205980c29fa8ba87cb02b86acf9') in 0.078244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.154943 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(a4165f6a1b452764f81047259318ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(a4165f6a1b452764f81047259318ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e9de68361857d4a0f84e67afb59cfc') in 0.005225 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009794 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\paulk\Documents\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\paulk\Documents\Witality-Android\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1314ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.25 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 6366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (0.7 MB). Loaded Objects now: 7224.
+Memory consumption went from 257.4 MB to 256.6 MB.
+Total: 5.199700 ms (FindLiveObjects: 0.879500 ms CreateObjectMapping: 0.915700 ms MarkObjects: 2.976100 ms  DeleteObjects: 0.427300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
