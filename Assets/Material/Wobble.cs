@@ -18,11 +18,16 @@ public class Wobble : MonoBehaviour
     float wobbleAmountToAddZ;
     float pulse;
     float time = 0.5f;
-
+    float seed;
+    public float rippleSpeed = 1;
+    float seedAdd;
+    float currentVelocity;
     // Use this for initialization
     void Start()
     {
         rend = GetComponent<Renderer>();
+        seed = Random.Range(1, 10);
+        rend.material.SetFloat("_Seed",seed);
     }
     private void Update()
     {
@@ -42,12 +47,15 @@ public class Wobble : MonoBehaviour
 
         // velocity
         velocity = (lastPos - transform.position) / Time.deltaTime;
+        seedAdd = Mathf.SmoothDamp(seedAdd, velocity.magnitude, ref currentVelocity, rippleSpeed);
+        seed += seedAdd;
+        rend.material.SetFloat("_Seed", seed);
         angularVelocity = transform.rotation.eulerAngles - lastRot;
 
 
         // add clamped velocity to wobble
-        wobbleAmountToAddX += Mathf.Clamp((velocity.x + (angularVelocity.z * 0.2f)) * MaxWobble, -MaxWobble, MaxWobble);
-        wobbleAmountToAddZ += Mathf.Clamp((velocity.z + (angularVelocity.x * 0.2f)) * MaxWobble, -MaxWobble, MaxWobble);
+        wobbleAmountToAddX += Mathf.Clamp((velocity.z + (angularVelocity.z * 0.2f)) * MaxWobble, -MaxWobble, MaxWobble);
+        wobbleAmountToAddZ += Mathf.Clamp((velocity.x + (angularVelocity.x * 0.2f)) * MaxWobble, -MaxWobble, MaxWobble);
 
         // keep last position
         lastPos = transform.position;
