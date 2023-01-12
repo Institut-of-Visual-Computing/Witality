@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
+using System.Globalization;
 
 public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
 
@@ -82,7 +83,13 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
         */
         // file:    witality-<id>_task-<task>-<subtask>_room-<room>
         // example: witality-014_task-1-0_room-1
-        fileName = "witality-" + MenuSceneLoader.probandID.ToString("000.") + "_" + MenuSceneLoader.task + "-" + System.Enum.GetName(TaskChanger.Task2Subtask(MenuSceneLoader.task), MenuSceneLoader.subtask) + "_" + ToggleEnvironments.id2name(MenuSceneLoader.environment);
+        fileName = System.DateTime.Today.ToString("d", CultureInfo.GetCultureInfo("fr-FR")) + "_" + MenuSceneLoader.probandID.ToString("000.") + "_"; //fr -> 31/10/2022      de -> 31.10.2022
+        if (MenuSceneLoader.demographic)
+            fileName += "demographic";
+        else if (MainMenuBehaviour.currentlyDoingIPQ)
+            fileName += "ipq";
+        else
+            fileName += MenuSceneLoader.task + "-" + System.Enum.GetName(TaskChanger.Task2Subtask(MenuSceneLoader.task), MenuSceneLoader.subtask) + "_" + ToggleEnvironments.id2name(MenuSceneLoader.environment);
 
         string path = Application.dataPath + "/" + "Logs";
 

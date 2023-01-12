@@ -12,6 +12,7 @@ public class MenuBehaviour : MonoBehaviour
     public TMP_Dropdown task, subtask;
     public TextMeshProUGUI error;
     public Transform codes;
+    public Toggle demo, ipq;
 
     private void Start()
     {
@@ -49,6 +50,8 @@ public class MenuBehaviour : MonoBehaviour
         MenuSceneLoader.probandID = int.Parse(probandID.text);
         MenuSceneLoader.task = (TaskChanger.Task) task.value;
         MenuSceneLoader.subtask = subtask.value;
+        MenuSceneLoader.demographic = demo.isOn;
+        MenuSceneLoader.ipq = ipq.isOn;
         Calibration.needCalibration = withKalibration;
         SceneManager.LoadScene("Calibration");
         //SceneManager.UnloadSceneAsync("Menu");

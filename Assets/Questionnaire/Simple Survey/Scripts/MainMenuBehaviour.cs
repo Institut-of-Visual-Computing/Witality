@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class MainMenuBehaviour : MonoBehaviour {
 
+    public QuestionnaireBehaviour questionnaireBehaviour;
+    public static bool currentlyDoingIPQ;
     /// <summary>
     /// The two questionaires as Text asset in json
     /// </summary>
@@ -50,10 +52,11 @@ public class MainMenuBehaviour : MonoBehaviour {
         return CurrentQuestionaire;
     }
     int QuestionIndex;
+    int automatedTurnOff = -1;
 
     // Use this for initialization
     void Start () {
-
+        currentlyDoingIPQ = false;
         SetLanguage(LanguageDictionary.text);
         //ShowStartScreen();
 
@@ -99,6 +102,8 @@ public class MainMenuBehaviour : MonoBehaviour {
             ShowStartScreen();
         }
         ButtonVisibility();
+        if (index == automatedTurnOff)
+            questionnaireBehaviour.Set(false);
     }
 
     public void NextQuestion()
@@ -129,7 +134,7 @@ public class MainMenuBehaviour : MonoBehaviour {
     {
         //Check if this is the last question, then dispay submit button!
         bool chancelQuestionaire = QuestionIndex == 0;
-        CancelButton.SetActive(chancelQuestionaire);
+        CancelButton.SetActive(false);//chancelQuestionaire);
         PreviousButton.SetActive(!chancelQuestionaire);
 
         //Check if this is the last question, then dispay submit button!
@@ -150,9 +155,24 @@ public class MainMenuBehaviour : MonoBehaviour {
             GameObject SubmitPanel = Instantiate(SubmitPanelPrefab, QuestionnaireCanvas);
             SubmittingBehaviour submittingBehaviour = SubmitPanel.GetComponentInChildren<SubmittingBehaviour>();
             submittingBehaviour.MainBehaviour = this;
-            ShowStartScreen();
-            MainPanel.SetActive(false);
+            if (MenuSceneLoader.demographic)
+            {
+                MenuSceneLoader.demographic = false;
+                questionnaireBehaviour.StartQuestionnaire();
+                ShowStartScreen();
+            }
+            else if (MenuSceneLoader.ipq && !currentlyDoingIPQ)
+            {
+                setQuestionaire(questionnaireBehaviour.ipq, -1);
+                currentlyDoingIPQ = true;
+                ShowStartScreen();
+            }
+            else
+            {
 
+                ShowStartScreen();
+                MainPanel.SetActive(false);
+            }
         }
         else
         {
@@ -173,8 +193,9 @@ public class MainMenuBehaviour : MonoBehaviour {
         PreviousButton.GetComponentInChildren<Text>().text = CurrentDictionary.GetKeyValue("previous");
         CancelButton.GetComponentInChildren<Text>().text = CurrentDictionary.GetKeyValue("cancel");
     }
-    public void setQuestionaire(TextAsset q)
+    public void setQuestionaire(TextAsset q, int autoTurnOff)
     {
+        automatedTurnOff = autoTurnOff;
         MainQuestionaire = q;
         StartQuestionaire();
     }
