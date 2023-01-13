@@ -1,0 +1,249 @@
+{
+  "Questions": [
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Ich fühlte mich im virtuellen Raum anwesend. \n <b>1:</b> Trifft gar nicht zu - <b>7:</b> Trifft völlig zu",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)? \n <b>1:</b> Extrem bewußt - <b>7:</b> Unbewußt",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Ich achtete noch auf die reale Umgebung. \n <b>1:</b> Trifft gar nicht zu - <b>7:</b> Trifft völlig zu",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen. \n <b>1:</b> Trifft gar nicht zu - <b>7:</b> Trifft völlig zu",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Wie sehr glich Ihr Erleben der virtuellen Umgebung dem Erleben einer realen Umgebung? \n <b>1:</b> Überhaupt nicht - <b>7:</b> Vollständig",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    }
+  ]
+}

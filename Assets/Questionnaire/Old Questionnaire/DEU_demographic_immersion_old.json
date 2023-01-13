@@ -2,170 +2,48 @@
   "Questions": [
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
-      "QuestionType": "2",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "Pilzartig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "Nelke",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "Eisbonbon",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "Kokos",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "Pfirsich",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "Blumig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 6,
-          "TextMessage": "Veilchen",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 7,
-          "TextMessage": "Ananas",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 8,
-          "TextMessage": "Orange",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 9,
-          "TextMessage": "Banane",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 10,
-          "TextMessage": "Vanille",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 11,
-          "TextMessage": "Erdig",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Probe",
+      "QuestionTask": "Alter",
       "QuestionType": "1",
       "QuestionElements": [
         {
-          "IndexNumber": 1,
-          "TextMessage": "364",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
-      "QuestionType": "2",
-      "QuestionElements": [
-        {
           "IndexNumber": 0,
-          "TextMessage": "Pilzartig",
+          "TextMessage": "17 oder jünger",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 1,
-          "TextMessage": "Nelke",
+          "TextMessage": "18-24",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 2,
-          "TextMessage": "Eisbonbon",
+          "TextMessage": "25-34",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 3,
-          "TextMessage": "Kokos",
+          "TextMessage": "35-44",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 4,
-          "TextMessage": "Pfirsich",
+          "TextMessage": "45-54",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 5,
-          "TextMessage": "Blumig",
+          "TextMessage": "55-70",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 6,
-          "TextMessage": "Veilchen",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 7,
-          "TextMessage": "Ananas",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 8,
-          "TextMessage": "Orange",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 9,
-          "TextMessage": "Banane",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 10,
-          "TextMessage": "Vanille",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 11,
-          "TextMessage": "Erdig",
+          "TextMessage": "70 oder älter",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -173,91 +51,24 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Probe",
+      "QuestionTask": "Geschlecht",
       "QuestionType": "1",
       "QuestionElements": [
         {
-          "IndexNumber": 2,
-          "TextMessage": "431",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
-      "QuestionType": "2",
-      "QuestionElements": [
-        {
           "IndexNumber": 0,
-          "TextMessage": "Pilzartig",
+          "TextMessage": "Weiblich",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 1,
-          "TextMessage": "Nelke",
+          "TextMessage": "Männlich",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 2,
-          "TextMessage": "Eisbonbon",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "Kokos",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "Pfirsich",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "Blumig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 6,
-          "TextMessage": "Veilchen",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 7,
-          "TextMessage": "Ananas",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 8,
-          "TextMessage": "Orange",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 9,
-          "TextMessage": "Banane",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 10,
-          "TextMessage": "Vanille",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 11,
-          "TextMessage": "Erdig",
+          "TextMessage": "Divers",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -265,91 +76,18 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Probe",
+      "QuestionTask": "Händigkeit",
       "QuestionType": "1",
       "QuestionElements": [
         {
-          "IndexNumber": 3,
-          "TextMessage": "526",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
-      "QuestionType": "2",
-      "QuestionElements": [
-        {
           "IndexNumber": 0,
-          "TextMessage": "Pilzartig",
+          "TextMessage": "Linkshändig",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 1,
-          "TextMessage": "Nelke",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "Eisbonbon",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "Kokos",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "Pfirsich",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "Blumig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 6,
-          "TextMessage": "Veilchen",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 7,
-          "TextMessage": "Ananas",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 8,
-          "TextMessage": "Orange",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 9,
-          "TextMessage": "Banane",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 10,
-          "TextMessage": "Vanille",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 11,
-          "TextMessage": "Erdig",
+          "TextMessage": "Rechtshändig",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -357,91 +95,48 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Probe",
+      "QuestionTask": "Ich fühle mich frisch und ausgeruht. \n <b>1:</b> Trifft gar nicht zu. - <b>7:</b> Trifft völlig zu.",
       "QuestionType": "1",
       "QuestionElements": [
         {
-          "IndexNumber": 4,
-          "TextMessage": "783",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
-      "QuestionType": "2",
-      "QuestionElements": [
-        {
           "IndexNumber": 0,
-          "TextMessage": "Pilzartig",
+          "TextMessage": "1",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 1,
-          "TextMessage": "Nelke",
+          "TextMessage": "2",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 2,
-          "TextMessage": "Eisbonbon",
+          "TextMessage": "3",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 3,
-          "TextMessage": "Kokos",
+          "TextMessage": "4",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 4,
-          "TextMessage": "Pfirsich",
+          "TextMessage": "5",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 5,
-          "TextMessage": "Blumig",
+          "TextMessage": "6",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 6,
-          "TextMessage": "Veilchen",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 7,
-          "TextMessage": "Ananas",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 8,
-          "TextMessage": "Orange",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 9,
-          "TextMessage": "Banane",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 10,
-          "TextMessage": "Vanille",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 11,
-          "TextMessage": "Erdig",
+          "TextMessage": "7",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -449,12 +144,36 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Probe",
+      "QuestionTask": "Wie oft benutzen Sie Virtual Reality (VR)-Headsets?",
       "QuestionType": "1",
       "QuestionElements": [
         {
-          "IndexNumber": 5,
-          "TextMessage": "850",
+          "IndexNumber": 0,
+          "TextMessage": "Täglich",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "Wöchentlich",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "Einige Male im Monat",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "Weniger oft",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "Dies ist mein erstes Mal",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -462,78 +181,257 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
+      "QuestionTask": "Bitte führen Sie die Studie durch.",
       "QuestionType": "2",
       "QuestionElements": [
         {
           "IndexNumber": 0,
-          "TextMessage": "Pilzartig",
+          "TextMessage": "Erledigt.",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Ich fühlte mich im virtuellen Raum anwesend. \n <b>1:</b> Trifft gar nicht zu - <b>7:</b> Trifft völlig zu",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 1,
-          "TextMessage": "Nelke",
+          "TextMessage": "2",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 2,
-          "TextMessage": "Eisbonbon",
+          "TextMessage": "3",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 3,
-          "TextMessage": "Kokos",
+          "TextMessage": "4",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 4,
-          "TextMessage": "Pfirsich",
+          "TextMessage": "5",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 5,
-          "TextMessage": "Blumig",
+          "TextMessage": "6",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 6,
-          "TextMessage": "Veilchen",
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)? \n <b>1:</b> Extrem bewußt - <b>7:</b> Unbewußt",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 7,
-          "TextMessage": "Ananas",
+          "IndexNumber": 1,
+          "TextMessage": "2",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 8,
-          "TextMessage": "Orange",
+          "IndexNumber": 2,
+          "TextMessage": "3",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 9,
-          "TextMessage": "Banane",
+          "IndexNumber": 3,
+          "TextMessage": "4",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 10,
-          "TextMessage": "Vanille",
+          "IndexNumber": 4,
+          "TextMessage": "5",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 11,
-          "TextMessage": "Erdig",
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Ich achtete noch auf die reale Umgebung. \n <b>1:</b> Trifft gar nicht zu - <b>7:</b> Trifft völlig zu",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen. \n <b>1:</b> Trifft gar nicht zu - <b>7:</b> Trifft völlig zu",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Wie sehr glich Ihr Erleben der virtuellen Umgebung dem Erleben einer realen Umgebung? \n <b>1:</b> Überhaupt nicht - <b>7:</b> Vollständig",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "1",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "2",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "3",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "4",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "5",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "6",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "7",
           "IsSelected": false,
           "HasTextInput": false
         }

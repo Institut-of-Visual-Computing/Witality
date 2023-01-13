@@ -1,0 +1,17 @@
+{
+  "Questions": [
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Bitte führen Sie die Studie durch.",
+      "QuestionType": "2",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Erledigt.",
+          "IsSelected": true,
+          "HasTextInput": false
+        }
+      ]
+    }
+  ]
+}
