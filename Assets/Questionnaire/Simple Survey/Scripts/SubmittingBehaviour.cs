@@ -83,7 +83,7 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
         */
         // file:    witality-<id>_task-<task>-<subtask>_room-<room>
         // example: witality-014_task-1-0_room-1
-        fileName = System.DateTime.Today.ToString("d", CultureInfo.GetCultureInfo("fr-FR")) + "_" + MenuSceneLoader.probandID.ToString("000.") + "_"; //fr -> 31/10/2022      de -> 31.10.2022
+        fileName = System.DateTime.Today.ToString("d", CultureInfo.GetCultureInfo("de_DE")) + "_" + MenuSceneLoader.probandID.ToString("000.") + "_"; //fr -> 31/10/2022      de -> 31.10.2022
         if (MenuSceneLoader.demographic)
             fileName += "demographic";
         else if (MainMenuBehaviour.currentlyDoingIPQ)

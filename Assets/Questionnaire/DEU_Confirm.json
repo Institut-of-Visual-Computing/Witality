@@ -12,6 +12,15 @@
           "HasTextInput": false
         }
       ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Studie durchgeführt.",
+      "QuestionType": "2",
+      "QuestionElements": [
+        {
+        }
+      ]
     }
   ]
 }

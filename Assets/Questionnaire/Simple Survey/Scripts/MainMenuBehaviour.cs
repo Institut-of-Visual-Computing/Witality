@@ -1,5 +1,4 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -67,9 +66,9 @@ public class MainMenuBehaviour : MonoBehaviour {
 
     public void ShowStartScreen()
     {
-        MainPanel.SetActive(true);
-        QuestionPanel.SetActive(false);
-        MainCancelButton.SetActive(false);
+        //MainPanel.SetActive(true);
+        //QuestionPanel.SetActive(false);
+        //MainCancelButton.SetActive(false);
     }
 
     void StartQuestionaire()
@@ -159,18 +158,18 @@ public class MainMenuBehaviour : MonoBehaviour {
             {
                 MenuSceneLoader.demographic = false;
                 questionnaireBehaviour.StartQuestionnaire();
-                ShowStartScreen();
+                //ShowStartScreen();
             }
             else if (MenuSceneLoader.ipq && !currentlyDoingIPQ)
             {
                 setQuestionaire(questionnaireBehaviour.ipq, -1);
                 currentlyDoingIPQ = true;
-                ShowStartScreen();
+                //ShowStartScreen();
             }
             else
             {
 
-                ShowStartScreen();
+                //ShowStartScreen();
                 MainPanel.SetActive(false);
             }
         }

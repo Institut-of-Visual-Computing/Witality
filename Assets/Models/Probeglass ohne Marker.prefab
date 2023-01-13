@@ -317,7 +317,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0b57c3edc79dcd94eaa6e319458fba84, type: 2}
+  - {fileID: 2100000, guid: a758dfd2592d8554498037cf82ba68b2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -354,6 +354,7 @@ MonoBehaviour:
   MaxWobble: 0.001
   WobbleSpeed: 1
   Recovery: 1
+  rippleSpeed: 1
 --- !u!1 &6589876730789524763
 GameObject:
   m_ObjectHideFlags: 0

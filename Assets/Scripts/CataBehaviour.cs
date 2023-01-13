@@ -21,7 +21,7 @@ public class CataBehaviour : MonoBehaviour
         for (int x = 0; x < (color == 0 ? 4 : 3); x++)
         {
             int id = x;
-            if(MenuBehaviour.CATA_isJoker( MenuSceneLoader.codes[id] ))
+            if(MenuSceneLoader.codes!= null && MenuBehaviour.CATA_isJoker( MenuSceneLoader.codes[id] ))
             {
                 id = color == 0 ? 4 : 3; //setze joker material auf das passende Glas
             }

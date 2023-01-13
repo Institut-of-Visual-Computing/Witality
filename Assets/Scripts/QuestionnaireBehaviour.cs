@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class QuestionnaireBehaviour : MonoBehaviour
 {
     public int probandID;
@@ -12,8 +11,11 @@ public class QuestionnaireBehaviour : MonoBehaviour
     public TextAsset demographic, ipq;
     public int[] autoTurnOff;
     public MainMenuBehaviour mainQuestionnaire;
-    
 
+    private void Start()
+    {
+        StartQuestionnaire();
+    }
     public void Toggle()
     {
         show_questionnaire = !show_questionnaire;
@@ -42,8 +44,28 @@ public class QuestionnaireBehaviour : MonoBehaviour
         if (MenuSceneLoader.demographic)
             mainQuestionnaire.setQuestionaire(demographic, -1);
         else
-            mainQuestionnaire.setQuestionaire(jsons[id], autoTurnOff[id]);
+        {
+            int offset = 127; //need to be verified
+            string json = jsons[id].ToString();
+            int code_idx = 0;
+            int idx = json.IndexOf("Probe");
+            while(idx != -1)
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    json = ReplaceAt(json, idx + offset + i, MenuSceneLoader.codes[code_idx].ToString()[i]);
+                }
+            }
+            TextAsset newJson = new TextAsset(json);
+            mainQuestionnaire.setQuestionaire(newJson, autoTurnOff[id]);
+        }
+            
         Apply();
 
+    }
+
+    string ReplaceAt(string s, int index, char c)
+    {
+        return s.Substring(0, index) + c + s.Substring(index + 1);
     }
 }
