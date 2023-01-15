@@ -52,7 +52,9 @@ public class Calibration : MonoBehaviour
         //Notfall Tastatur Input wenn Offset zu groﬂ ist
         if (Input.GetKeyDown(KeyCode.C))
             SwitchState(Table1, true);
-        
+        if (Input.GetKeyDown(KeyCode.Return))
+            calibrationFinished();
+
         timer += Time.deltaTime;
         switch (state)
         {

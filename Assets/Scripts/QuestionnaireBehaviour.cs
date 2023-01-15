@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Services.Core;
 using UnityEngine;
 public class QuestionnaireBehaviour : MonoBehaviour
 {
@@ -40,32 +41,57 @@ public class QuestionnaireBehaviour : MonoBehaviour
         if (id == 4 && MenuSceneLoader.subtask >= 1)
             id = 5;
         //Hier sollte die json template eingelesen werden und die codes dann durch MenuSceneLoader.codes ersetzen
-        Debug.Log("Started Questionnaire " + jsons[id].name);
+
         if (MenuSceneLoader.demographic)
+        {
             mainQuestionnaire.setQuestionaire(demographic, -1);
+            Debug.Log("Started Questionnaire Demographic");
+        }
         else
         {
-            int offset = 127; //need to be verified
+
             string json = jsons[id].ToString();
-            int code_idx = 0;
-            int idx = json.IndexOf("Probe");
-            while(idx != -1)
+            string original = jsons[id].ToString();
+            int id_offset = 0, code_idx = 0;
+            int idx = json.IndexOf("***");
+            int[] codes = randomOrder(MenuSceneLoader.codes);
+
+            while (idx != -1 && code_idx < codes.Length)
             {
-                for (int i = 0; i < 3; i++)
-                {
-                    json = ReplaceAt(json, idx + offset + i, MenuSceneLoader.codes[code_idx].ToString()[i]);
-                }
+                if (codes[code_idx] == 0)
+                    code_idx++;
+                original = original.Substring(0, id_offset + idx) + codes[code_idx].ToString("000.") + original.Substring(id_offset + idx + 3);
+
+                json = json.Substring(idx + 3);
+                id_offset += idx + 3;
+                idx = json.IndexOf("***");
+                code_idx++;
             }
-            TextAsset newJson = new TextAsset(json);
+            TextAsset newJson = new TextAsset(original);
             mainQuestionnaire.setQuestionaire(newJson, autoTurnOff[id]);
+            Debug.Log("Started Questionnaire " + jsons[id].name);
         }
             
         Apply();
 
     }
 
-    string ReplaceAt(string s, int index, char c)
+    int[] randomOrder(int[] a)
     {
-        return s.Substring(0, index) + c + s.Substring(index + 1);
+        int[] b = new int[a.Length];
+
+        for (int i = 0; i < a.Length; i++)
+        {
+            b[i] = a[i];
+        }
+        for (int i = 0; i < a.Length; i++)
+        {
+            int tmp = b[i];
+            int r = Random.Range(0, a.Length - 1);
+            b[i] = b[r];
+            b[r] = tmp;
+        }
+        return b;
     }
+
 }

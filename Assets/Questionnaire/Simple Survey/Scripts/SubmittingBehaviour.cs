@@ -15,7 +15,8 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
     public MainMenuBehaviour MainBehaviour;
 
 	// Use this for initialization
-	void Start () {
+	public void Save (MainMenuBehaviour mb) {
+        MainBehaviour = mb;
         CloseButtonText.text = MainMenuBehaviour.CurrentDictionary.GetKeyValue("cancel");
         //activate ths, iif you want to send  data
         InfoText.text = MainMenuBehaviour.CurrentDictionary.GetKeyValue("saved_locally", false);
@@ -81,9 +82,7 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
             fileName = sub;
         }
         */
-        // file:    witality-<id>_task-<task>-<subtask>_room-<room>
-        // example: witality-014_task-1-0_room-1
-        fileName = System.DateTime.Today.ToString("d", CultureInfo.GetCultureInfo("de_DE")) + "_" + MenuSceneLoader.probandID.ToString("000.") + "_"; //fr -> 31/10/2022      de -> 31.10.2022
+        fileName = System.DateTime.Today.ToString("d", CultureInfo.GetCultureInfo("de-DE")) + "_" + MenuSceneLoader.probandID.ToString("000.") + "_"; //fr -> 31/10/2022      de -> 31.10.2022
         if (MenuSceneLoader.demographic)
             fileName += "demographic";
         else if (MainMenuBehaviour.currentlyDoingIPQ)
@@ -96,6 +95,15 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
         if (!Directory.Exists(path))
         {
             var folder = Directory.CreateDirectory(path);
+        }
+        while (File.Exists(path + "/" + fileName + ".json"))
+        {
+            if (fileName[fileName.Length - 1] == ')')
+            {
+                fileName = fileName.Substring(0, fileName.Length - 2) + (int.Parse("" + fileName[fileName.Length - 2])+1).ToString() + ")";
+            }
+            else
+                fileName += "(1)";
         }
 
         string filePath = path + "/" + fileName + ".json";//Application.persistentDataPath + "/"+fileName + ".json";

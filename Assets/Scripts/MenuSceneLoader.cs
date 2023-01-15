@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class MenuSceneLoader : MonoBehaviour
@@ -19,4 +20,27 @@ public class MenuSceneLoader : MonoBehaviour
     }
 
     
+}
+
+[CustomEditor(typeof(MenuSceneLoader))]
+public class MenuSceneLoaderInspector : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        base.OnInspectorGUI();
+        EditorGUILayout.LabelField("Task:\t\t" + MenuSceneLoader.task);
+        EditorGUILayout.LabelField("Subtask:\t" + MenuSceneLoader.subtask);
+        EditorGUILayout.LabelField("Environment:\t" + MenuSceneLoader.environment);
+        EditorGUILayout.LabelField("Proband ID:\t" + MenuSceneLoader.probandID);
+        EditorGUILayout.LabelField("Codes:");
+        if(MenuSceneLoader.codes != null)
+        for (int i = 0; i < MenuSceneLoader.codes.Length; i++)
+        {
+            EditorGUILayout.LabelField("\t"+i+":\t" + MenuSceneLoader.codes[i]);
+        }
+        else
+            EditorGUILayout.LabelField("\t\tNot defined");
+        EditorGUILayout.LabelField("Demographic:\t" + MenuSceneLoader.demographic);
+        EditorGUILayout.LabelField("IPQ:\t\t" + MenuSceneLoader.ipq);
+    }
 }

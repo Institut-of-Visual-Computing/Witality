@@ -11797,7 +11797,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1001 &1781551023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12854,7 +12854,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1962412737
 GameObject:
   m_ObjectHideFlags: 0

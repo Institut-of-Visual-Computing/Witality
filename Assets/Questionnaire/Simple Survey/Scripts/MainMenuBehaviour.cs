@@ -153,7 +153,7 @@ public class MainMenuBehaviour : MonoBehaviour {
         {
             GameObject SubmitPanel = Instantiate(SubmitPanelPrefab, QuestionnaireCanvas);
             SubmittingBehaviour submittingBehaviour = SubmitPanel.GetComponentInChildren<SubmittingBehaviour>();
-            submittingBehaviour.MainBehaviour = this;
+            submittingBehaviour.Save(this);
             if (MenuSceneLoader.demographic)
             {
                 MenuSceneLoader.demographic = false;
@@ -163,6 +163,7 @@ public class MainMenuBehaviour : MonoBehaviour {
             else if (MenuSceneLoader.ipq && !currentlyDoingIPQ)
             {
                 setQuestionaire(questionnaireBehaviour.ipq, -1);
+                Debug.Log("Started Questionnaire IPQ");
                 currentlyDoingIPQ = true;
                 //ShowStartScreen();
             }
@@ -171,6 +172,7 @@ public class MainMenuBehaviour : MonoBehaviour {
 
                 //ShowStartScreen();
                 MainPanel.SetActive(false);
+                questionnaireBehaviour.Set(false);
             }
         }
         else

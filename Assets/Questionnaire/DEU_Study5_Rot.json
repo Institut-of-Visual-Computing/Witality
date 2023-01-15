@@ -2,12 +2,12 @@
   "Questions": [
     {
       "AnswerRequired": true,
-      "QuestionTask": "Probe",
+      "QuestionTask": "Fahren sie mit folgender Probe fort:",
       "QuestionType": "1",
       "QuestionElements": [
         {
           "IndexNumber": 0,
-          "TextMessage": "322",
+          "TextMessage": "***",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -192,202 +192,12 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Probe",
+      "QuestionTask": "Fahren sie mit folgender Probe fort:",
       "QuestionType": "1",
       "QuestionElements": [
         {
           "IndexNumber": 1,
-          "TextMessage": "644",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Farbe",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "Hellrot mit braunem Rand",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "Rubinrot",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "Dunkelrot mit bläul. Reflexen",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Geruch (Mehrfachauswahl möglich)",
-      "QuestionType": "2",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "Fruchtig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "Vegetativ",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "Würzig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "Rauchig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "Dumpf",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "Erdbeere",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 6,
-          "TextMessage": "Kirsche",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 7,
-          "TextMessage": "Dunkle Beeren",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 8,
-          "TextMessage": "Pflaume",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 9,
-          "TextMessage": "Nelke",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 10,
-          "TextMessage": "Vanille",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 11,
-          "TextMessage": "Pfeffer",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 12,
-          "TextMessage": "Holz",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Geschmack (Mehrfachauswahl möglich)",
-      "QuestionType": "2",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "Süß",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "Adstringierend",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "Tannine",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "Sauer",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "Alkoholisch",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "Dezente Säure",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 6,
-          "TextMessage": "Holz",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 7,
-          "TextMessage": "Bitter",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 8,
-          "TextMessage": "Leichte Süße",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 9,
-          "TextMessage": "Dominante Säure",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Probe",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 2,
-          "TextMessage": "983",
+          "TextMessage": "***",
           "IsSelected": false,
           "HasTextInput": false
         }
