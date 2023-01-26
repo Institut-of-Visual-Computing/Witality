@@ -5050,6 +5050,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Questionnaire Toggle
       objectReference: {fileID: 0}
+    - target: {fileID: 332016862117748076, guid: 1f83a804d7d83c948bfe708df8bef3b0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 332016862117748077, guid: 1f83a804d7d83c948bfe708df8bef3b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -9009,7 +9014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1839407855
 Transform:
   m_ObjectHideFlags: 0
