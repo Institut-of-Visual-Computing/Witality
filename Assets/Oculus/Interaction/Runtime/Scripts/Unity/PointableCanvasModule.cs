@@ -23,6 +23,7 @@ using UnityEngine.EventSystems;
 using UnityEngine;
 using UnityEngine.Assertions;
 using System;
+using System.Linq;
 
 namespace Oculus.Interaction
 {
@@ -342,7 +343,7 @@ namespace Oculus.Interaction
             }
             _pointersForDeletion.Clear();
 
-            foreach (Pointer pointer in _pointerMap.Values)
+            foreach (Pointer pointer in _pointerMap.Values.ToList())
             {
                 ProcessPointer(pointer);
             }

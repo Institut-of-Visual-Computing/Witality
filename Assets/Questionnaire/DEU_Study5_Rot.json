@@ -2,20 +2,7 @@
   "Questions": [
     {
       "AnswerRequired": true,
-      "QuestionTask": "Fahren sie mit folgender Probe fort:",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "***",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Farbe",
+      "QuestionTask": "Bitte ordnen Sie der Probe <color=red>***</color> die ensprechende Farbe zu.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -40,7 +27,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Geruch (Mehrfachauswahl möglich)",
+      "QuestionTask": "Bitte ordnen Sie derselben Probe den ensprechenden Geruch zu. \n Mehrfachnennungen sind möglich!",
       "QuestionType": "2",
       "QuestionElements": [
         {
@@ -125,7 +112,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Geschmack (Mehrfachauswahl möglich)",
+      "QuestionTask": "Bitte ordnen Sie derselben Probe den ensprechenden Geschmack zu. Mehrfachnennungen sind möglich!",
       "QuestionType": "2",
       "QuestionElements": [
         {
@@ -192,20 +179,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Fahren sie mit folgender Probe fort:",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 1,
-          "TextMessage": "***",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Farbe",
+      "QuestionTask": "Bitte ordnen Sie der Probe <color=red>***</color> die ensprechende Farbe zu.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -230,7 +204,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Geruch (Mehrfachauswahl möglich)",
+      "QuestionTask": "Bitte ordnen Sie derselben Probe den ensprechenden Geruch zu. Mehrfachnennungen sind möglich!",
       "QuestionType": "2",
       "QuestionElements": [
         {
@@ -315,7 +289,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Geschmack (Mehrfachauswahl möglich)",
+      "QuestionTask": "Bitte ordnen Sie derselben Probe den ensprechenden Geschmack zu. Mehrfachnennungen sind möglich!",
       "QuestionType": "2",
       "QuestionElements": [
         {

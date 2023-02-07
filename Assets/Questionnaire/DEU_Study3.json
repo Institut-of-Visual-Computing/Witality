@@ -2,20 +2,7 @@
   "Questions": [
     {
       "AnswerRequired": true,
-      "QuestionTask": "Fahren sie mit folgender Probe fort:",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "***",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
+      "QuestionTask": "Bitte ordnen Sie der Probe <color=red>***</color> das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
       "QuestionType": "2",
       "QuestionElements": [
         {
@@ -94,20 +81,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Fahren sie mit folgender Probe fort:",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 1,
-          "TextMessage": "***",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
+      "QuestionTask": "Bitte ordnen Sie der Probe <color=red>***</color> das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
       "QuestionType": "2",
       "QuestionElements": [
         {
@@ -186,20 +160,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Fahren sie mit folgender Probe fort:",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 2,
-          "TextMessage": "***",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
+      "QuestionTask": "Bitte ordnen Sie der Probe <color=red>***</color> das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
       "QuestionType": "2",
       "QuestionElements": [
         {
@@ -278,20 +239,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Fahren sie mit folgender Probe fort:",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 3,
-          "TextMessage": "***",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
+      "QuestionTask": "Bitte ordnen Sie der Probe <color=red>***</color> das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
       "QuestionType": "2",
       "QuestionElements": [
         {
@@ -370,20 +318,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Fahren sie mit folgender Probe fort:",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 4,
-          "TextMessage": "***",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
+      "QuestionTask": "Bitte ordnen Sie der Probe <color=red>***</color> das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
       "QuestionType": "2",
       "QuestionElements": [
         {
@@ -462,20 +397,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Fahren sie mit folgender Probe fort:",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 5,
-          "TextMessage": "***",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte ordnen Sie der Probe das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
+      "QuestionTask": "Bitte ordnen Sie der Probe <color=red>***</color> das/die ensprechende(n) Arome(n) zu. Mehrfachnennungen sind möglich!",
       "QuestionType": "2",
       "QuestionElements": [
         {
