@@ -88,6 +88,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _ColorFade: 1.88
     - _ColorLine: -0.9
+    - _ColorWobbleIntensity: 5
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -104,9 +105,11 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RippleDensity: 13
+    - _Ripple: 1
+    - _RippleDensity: 4.5
     - _RippleIntensity: 15
-    - _RippleSpeed: 1
+    - _RippleSpeed: 0.3
+    - _RippleStrength: 1
     - _Seed: 2
     - _Smoothness: 0.707
     - _SmoothnessTextureChannel: 0

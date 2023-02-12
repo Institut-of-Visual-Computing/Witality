@@ -22,6 +22,7 @@ public class Calibration : MonoBehaviour
     List<Vector3> camCalibPosValues;
     List<Quaternion> camCalibRotValues;
     public GameObject blackScreen;
+    public GameObject[] calibTutorials;
     private void OnDrawGizmos()
     {
         Gizmos.DrawSphere(getThumb(handL).position, 0.01f);
@@ -63,6 +64,7 @@ public class Calibration : MonoBehaviour
 
             case Table1:
                 showHints(tableSurface,true);
+                calibTutorials[0].SetActive(true);
                 info.text = "Bitte die Hände flach auf den echten Tisch legen!\n";
                 info.text += (int)(1 + timer_step1 - timer);
                 if (timer >= timer_step1)
@@ -74,12 +76,14 @@ public class Calibration : MonoBehaviour
                 info.text = TableCalib(true);
                 showHints(tableSurface, false);
                 SwitchState(toIdle);
+                calibTutorials[0].SetActive(false);
                 break;
 
             case Table3:
                 showHints(tableEdge, true);
                 info.text = "Bitt die Hände flach an die echte Tischkante halten!\n";
                 info.text += (int)(1 + timer_step2 - timer);
+                calibTutorials[1].SetActive(true);
                 if (timer >= timer_step2)
                     SwitchState(Table4);
                 break;
@@ -88,6 +92,7 @@ public class Calibration : MonoBehaviour
                 info.text = TableCalib(false);
                 showHints(tableEdge, false);
                 SwitchState(toIdle);
+                calibTutorials[1].SetActive(false);
                 break;
 
             case Cam1:
@@ -95,6 +100,8 @@ public class Calibration : MonoBehaviour
                 setActiveCalibCubes(true);
                 info.text = CamCalib(false);
                 info.text += "\n" + (int)(1 + timer_step3 - timer);
+
+                calibTutorials[2].SetActive(true);
                 for (int i = 0; i < calibCube.Length; i++)
                 {
                     if ((lastCubePos[i] - calibCube[i].position).magnitude > CamPosSensivity || Quaternion.Angle(lastCubeRot[i], calibCube[i].rotation) > CamRotSensivity)
@@ -113,6 +120,8 @@ public class Calibration : MonoBehaviour
             case Cam2:
                 info.text = CamCalib(true);
                 SwitchState(toIdle);
+
+                calibTutorials[2].SetActive(false);
                 break;
 
             case toIdle:

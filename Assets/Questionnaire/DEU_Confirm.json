@@ -2,7 +2,7 @@
   "Questions": [
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte führen Sie die Studie durch.",
+      "QuestionTask": "Bitte drücken sie auf <WEITER> und führen Sie danach die Studie durch.",
       "QuestionType": "2",
       "QuestionElements": [
         {

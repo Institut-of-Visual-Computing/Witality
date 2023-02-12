@@ -45,7 +45,7 @@ public class MainMenuBehaviour : MonoBehaviour {
     Questionaire CurrentQuestionaire = new Questionaire();
 
     public static LanguageDictionary CurrentDictionary;
-
+    public static bool taskSubmitted = false;
     public Questionaire GetCurrentQuestionaire()
     {
         return CurrentQuestionaire;
@@ -57,6 +57,7 @@ public class MainMenuBehaviour : MonoBehaviour {
     void Start () {
         currentlyDoingIPQ = false;
         SetLanguage(LanguageDictionary.text);
+        taskSubmitted = false;
         //ShowStartScreen();
 
         //SubmitPanelPrefab.GetComponent<OVRRaycaster>().pointer = QuestionNotAnsweredPanelPrefab.GetComponent<OVRRaycaster>().pointer = QuestPointer;
@@ -101,7 +102,7 @@ public class MainMenuBehaviour : MonoBehaviour {
             ShowStartScreen();
         }
         ButtonVisibility();
-        if (index == automatedTurnOff)
+        if (index == automatedTurnOff && !taskSubmitted)
             questionnaireBehaviour.Set(false);
     }
 
@@ -199,5 +200,9 @@ public class MainMenuBehaviour : MonoBehaviour {
         automatedTurnOff = autoTurnOff;
         MainQuestionaire = q;
         StartQuestionaire();
+    }
+    public void SetSubmitted(bool submitted)
+    {
+        taskSubmitted = submitted;
     }
 }

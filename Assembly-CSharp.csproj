@@ -334,6 +334,7 @@
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventFloat.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandlerTouch.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\RequestCaptureFlow.cs" />
+    <Compile Include="Assets\Scripts\DesktopBehaviour.cs" />
     <Compile Include="Assets\extOSC\Scripts\OSCTransmitter.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Network\OSCReceiverWindowsStoreBackend.cs" />
     <Compile Include="Assets\extOSC\Scripts\UI\OSCMultiplySliders.cs" />

@@ -1,0 +1,26 @@
+{
+  "Questions": [
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Bitte ordnen sie die Proben in ihrer aromatischen Intensität.\nDie schwächste Probe ist links (Nr. 1), die stärkste Probe rechts (Nr.6).\n Drücken sie auf <WEITER> und führen Sie danach die Studie durch.",
+      "QuestionType": "2",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Verstanden.",
+          "IsSelected": true,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Studie durchgeführt.",
+      "QuestionType": "2",
+      "QuestionElements": [
+        {
+        }
+      ]
+    }
+  ]
+}
