@@ -8,7 +8,7 @@ using static Calibration.CalibState;
 public class Calibration : MonoBehaviour
 {
     public Transform[] calibCube, calibCubeShould;
-    public Transform hmd, realsense, handR, handL, tableEdge,tableSurface;
+    public Transform realsense;
     public TextMeshProUGUI info;
     public CalibState state;
     float timer;
@@ -16,25 +16,17 @@ public class Calibration : MonoBehaviour
     Quaternion[] lastCubeRot;
     public float CamPosSensivity, CamRotSensivity;
     public bool tableDone = false, camDone = false;
-    public GameObject continueButton, Desk, cameraVisual;
+    public GameObject continueButton, cameraVisual;
     public static bool needCalibration = true;
     public int timer_step1, timer_step2, timer_step3;
     List<Vector3> camCalibPosValues;
     List<Quaternion> camCalibRotValues;
     public GameObject blackScreen;
     public GameObject[] calibTutorials;
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawSphere(getThumb(handL).position, 0.01f);
-        Gizmos.DrawSphere(getFingerTip(handL).position, 0.01f);
-    }
+    
     public enum CalibState
     {
         Idle,
-        Table1,
-        Table2,
-        Table3,
-        Table4,
         toIdle,
         Cam1,
         Cam2,
@@ -50,50 +42,12 @@ public class Calibration : MonoBehaviour
 
     private void Update()
     {
-        //Notfall Tastatur Input wenn Offset zu groß ist
-        if (Input.GetKeyDown(KeyCode.C))
-            SwitchState(Table1, true);
-        if (Input.GetKeyDown(KeyCode.Return))
-            calibrationFinished();
-
+     
         timer += Time.deltaTime;
         switch (state)
         {
             case Idle:
                 return;
-
-            case Table1:
-                showHints(tableSurface,true);
-                calibTutorials[0].SetActive(true);
-                info.text = "Bitte die Hände flach auf den echten Tisch legen!\n";
-                info.text += (int)(1 + timer_step1 - timer);
-                if (timer >= timer_step1)
-                    SwitchState(Table2);
-                break;
-
-            case Table2:
-                Desk.SetActive(true);
-                info.text = TableCalib(true);
-                showHints(tableSurface, false);
-                SwitchState(toIdle);
-                calibTutorials[0].SetActive(false);
-                break;
-
-            case Table3:
-                showHints(tableEdge, true);
-                info.text = "Bitt die Hände flach an die echte Tischkante halten!\n";
-                info.text += (int)(1 + timer_step2 - timer);
-                calibTutorials[1].SetActive(true);
-                if (timer >= timer_step2)
-                    SwitchState(Table4);
-                break;
-
-            case Table4:
-                info.text = TableCalib(false);
-                showHints(tableEdge, false);
-                SwitchState(toIdle);
-                calibTutorials[1].SetActive(false);
-                break;
 
             case Cam1:
                 cameraVisual.SetActive(true);
@@ -209,55 +163,7 @@ public class Calibration : MonoBehaviour
     }
     #endregion
 
-    #region Table Calibration
-    public string TableCalib(bool height)
-    {
-        handL = getThumb(handL);
-        handR = getThumb(handR);
-
-        Vector3 lpos = handL.position;
-        Vector3 rpos = handR.position;
-        Vector3 mpos = (lpos + rpos)/ 2;
-        Vector3 l2r = rpos - lpos;
-        if (height)
-        {
-            hmd.position += (tableSurface.position - mpos);
-            hmd.Rotate(tableEdge.up, Vector3.SignedAngle(l2r, tableEdge.right, tableEdge.up));
-            return "Höhe kalibriert!";
-        }
-        else
-        {
-            hmd.Rotate(tableEdge.up, Vector3.SignedAngle(l2r, tableEdge.right, tableEdge.up));
-            Vector3 move = tableEdge.position - mpos;
-            move.y = 0;
-            hmd.position += move;
-
-            MenuSceneLoader.calibPosition_Hmd = hmd.position;
-            MenuSceneLoader.calibRotation_Hmd = hmd.rotation;
-
-            tableDone = true;
-            return "Tisch kalibriert!";
-        }
-    }
-    public static Transform getThumb(Transform hand)
-    {
-        Transform tip = hand.Find("Bones/Hand_WristRoot/Hand_Thumb0/Hand_Thumb1/Hand_Thumb2/Hand_Thumb3/Hand_ThumbTip");
-        if (tip == null)
-            return hand;
-        while (tip.childCount > 0)
-            tip = tip.GetChild(0);
-        return tip;
-    }
-    public static Transform getFingerTip(Transform hand)
-    {
-        Transform tip = hand.Find("Bones/Hand_WristRoot/Hand_Index1/Hand_Index2/Hand_Index3/Hand_IndexTip");
-        if (tip == null)
-            return hand;
-        // hand > Bones > Hand_WristRoot > Hand_Index[1,2,3,Tip]
-        while (tip.childCount > 0)
-            tip = tip.GetChild(0);
-        return tip;
-    }
+   
 
     public void showHints(Transform t, bool a)
     {
@@ -266,7 +172,6 @@ public class Calibration : MonoBehaviour
             t.GetChild(i).gameObject.SetActive(a);
         }
     }
-    #endregion
 
     public void SwitchState(int s)
     {
