@@ -1,0 +1,26 @@
+{
+  "Questions": [
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Please sort the samples in their taste intensity.\nStart left with the most neutral(Nr.1) and go to the most intensive (Nr.6) on the right.\nPress <WEITER> and continue the study afterwards.",
+      "QuestionType": "2",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Understood.",
+          "IsSelected": true,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Study completed.",
+      "QuestionType": "2",
+      "QuestionElements": [
+        {
+        }
+      ]
+    }
+  ]
+}

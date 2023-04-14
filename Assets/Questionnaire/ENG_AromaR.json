@@ -2,12 +2,12 @@
   "Questions": [
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte drücken sie auf <WEITER> und führen Sie danach die Studie durch.",
+      "QuestionTask": "Please sort the samples in their aromatic intensity.\nStart left with the weakest(Nr.1) and go to the strongest (Nr.6) on the right.\nPress <WEITER> and continue the study afterwards.",
       "QuestionType": "2",
       "QuestionElements": [
         {
           "IndexNumber": 0,
-          "TextMessage": "Erledigt.",
+          "TextMessage": "Understood.",
           "IsSelected": true,
           "HasTextInput": false
         }
@@ -15,7 +15,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Studie durchgeführt.",
+      "QuestionTask": "Study completed.",
       "QuestionType": "2",
       "QuestionElements": [
         {

@@ -1,0 +1,83 @@
+{
+  "Questions": [
+    {
+      "AnswerRequired": true,
+      "QuestionTask": "Please pick a fitting <color=red>aroma</color> for sample <color=red>***</color>.\n You can choose multiple answers!",
+      "QuestionType": "2",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Pilzartig",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 1,
+          "TextMessage": "Nelke",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "Eisbonbon",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "Kokos",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "Pfirsich",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "Blumig",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "Veilchen",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 7,
+          "TextMessage": "Ananas",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 8,
+          "TextMessage": "Orange",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 9,
+          "TextMessage": "Banane",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 10,
+          "TextMessage": "Vanille",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 11,
+          "TextMessage": "Erdig",
+          "IsSelected": false,
+          "HasTextInput": false
+        }
+      ]
+    }
+  ]
+}

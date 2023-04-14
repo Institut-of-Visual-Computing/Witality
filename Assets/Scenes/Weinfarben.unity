@@ -1365,6 +1365,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1976,6 +1981,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 96d9c9e1d54c43a488f45c604c77c5d0, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -2171,6 +2181,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2345,11 +2360,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9003281639840990496, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 639efc326e5aeda4dae2719e8a26744c, type: 2}
     - target: {fileID: 9003281639840990498, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_IsActive
@@ -2357,8 +2367,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
-      propertyPath: rippleSpeed
-      value: 1
+      propertyPath: rippleLimit
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -2965,6 +2975,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 375c4013a04826f49b2918e9452ba626, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -3059,6 +3074,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -3872,6 +3892,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 724c51e16f34dcb44b194d09da7c7a9b, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -4399,6 +4424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ids: 000000000100000002000000030000000400000005000000
   tracking_receiver: {fileID: 1050185090}
+  calibrationTracker: 0
 --- !u!1001 &618663388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5122,6 +5148,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -5868,6 +5899,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5942,6 +5978,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1045128267}
     m_Modifications:
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -6224,6 +6265,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -6697,7 +6743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1045128267
 Transform:
   m_ObjectHideFlags: 0
@@ -7713,6 +7759,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8002,6 +8053,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 639efc326e5aeda4dae2719e8a26744c, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -8352,6 +8408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ids: 000000000100000002000000030000000400000005000000
   tracking_receiver: {fileID: 1050185090}
+  calibrationTracker: 0
 --- !u!4 &1495634752 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
@@ -8412,6 +8469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ids: 0000000001000000020000000300000004000000050000000600000007000000
   tracking_receiver: {fileID: 1050185090}
+  calibrationTracker: 0
 --- !u!1001 &1509743979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8797,6 +8855,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1499428844}
     m_Modifications:
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -8891,6 +8954,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -9197,6 +9265,10 @@ MonoBehaviour:
   - {fileID: 4900000, guid: e36d2bc151baf344baf26d6c13041dd0, type: 3}
   - {fileID: 4900000, guid: 58e3601b3769f6e43a6645ad86f43463, type: 3}
   - {fileID: 4900000, guid: 086731ae34a729442a4cfca852ba0b40, type: 3}
+  demographic: {fileID: 0}
+  ipq: {fileID: 0}
+  autoTurnOff: 
+  repeatAmount: 
   mainQuestionnaire: {fileID: 644775906}
 --- !u!1 &1576761208
 GameObject:
@@ -9345,6 +9417,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 96d9c9e1d54c43a488f45c604c77c5d0, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -9574,6 +9651,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 724c51e16f34dcb44b194d09da7c7a9b, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -10134,6 +10216,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: dcb1be73ef54f3e40b14388db5bee48b, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -10209,6 +10296,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1839407855}
     m_Modifications:
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -10957,6 +11049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ids: 0000000001000000020000000300000007000000
   tracking_receiver: {fileID: 1050185090}
+  calibrationTracker: 0
 --- !u!114 &1839407857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11288,6 +11381,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 639efc326e5aeda4dae2719e8a26744c, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -11535,6 +11633,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5a20a3ce45cc2624ea1d302f13558b9d, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -11887,7 +11990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2053881968
 Transform:
   m_ObjectHideFlags: 0

@@ -717,7 +717,7 @@ PrefabInstance:
     - target: {fileID: 5508827564466870949, guid: 82a26db1c2d578541a0909dfc9a83197,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5508827564466870950, guid: 82a26db1c2d578541a0909dfc9a83197,
         type: 3}
@@ -1765,6 +1765,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 96d9c9e1d54c43a488f45c604c77c5d0, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2452,6 +2457,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 375c4013a04826f49b2918e9452ba626, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -3175,6 +3185,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 724c51e16f34dcb44b194d09da7c7a9b, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -6556,6 +6571,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 639efc326e5aeda4dae2719e8a26744c, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -7417,6 +7437,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1499428844}
     m_Modifications:
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -7704,16 +7729,26 @@ MonoBehaviour:
   show_questionnaire: 1
   RayL: {fileID: 1999390606}
   RayR: {fileID: 991460644}
-  jsons:
+  jsons_DEU:
   - {fileID: 4900000, guid: b7cd0442b07768e4ca7a1b63648f2a05, type: 3}
   - {fileID: 4900000, guid: d53a0001888b9e549b268ffab11f3003, type: 3}
   - {fileID: 4900000, guid: 33a596ce95129044bb7d0e0c17757b20, type: 3}
   - {fileID: 4900000, guid: e36d2bc151baf344baf26d6c13041dd0, type: 3}
   - {fileID: 4900000, guid: 58e3601b3769f6e43a6645ad86f43463, type: 3}
   - {fileID: 4900000, guid: 086731ae34a729442a4cfca852ba0b40, type: 3}
-  demographic: {fileID: 4900000, guid: e6e8014d95ba9084d9f8409a389eb458, type: 3}
-  ipq: {fileID: 4900000, guid: c3cd41031686771479dad2a255fea8e4, type: 3}
+  jsons_ENG:
+  - {fileID: 4900000, guid: e14afc52a9ab4074796604d39742868a, type: 3}
+  - {fileID: 4900000, guid: 3351b1ca76500304a8bab072caa9f9c9, type: 3}
+  - {fileID: 4900000, guid: 6f353f53d02788149aa6352f22603ef8, type: 3}
+  - {fileID: 4900000, guid: 78cbc2c11a5b7f344a9fb4c6f254a46d, type: 3}
+  - {fileID: 4900000, guid: e26b0c56ca8fe4541a902ce1aa277a65, type: 3}
+  - {fileID: 4900000, guid: d963c0e1e360cd04aa383cbc98273a9e, type: 3}
+  demographic_DEU: {fileID: 4900000, guid: e6e8014d95ba9084d9f8409a389eb458, type: 3}
+  ipq_DEU: {fileID: 4900000, guid: c3cd41031686771479dad2a255fea8e4, type: 3}
+  demographic_ENG: {fileID: 4900000, guid: 20ee7c78965d73f4fbda2cc827f63387, type: 3}
+  ipq_ENG: {fileID: 4900000, guid: 4b645942e878423468939f0af1f37093, type: 3}
   autoTurnOff: 010000000100000001000000ffffffffffffffffffffffff
+  repeatAmount: 010000000100000001000000060000000300000002000000
   mainQuestionnaire: {fileID: 644775906}
 --- !u!1 &1576761208
 GameObject:
@@ -7862,6 +7897,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 96d9c9e1d54c43a488f45c604c77c5d0, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -8008,6 +8048,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 724c51e16f34dcb44b194d09da7c7a9b, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8542,6 +8587,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: dcb1be73ef54f3e40b14388db5bee48b, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -8617,6 +8667,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1839407855}
     m_Modifications:
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9633,6 +9688,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 639efc326e5aeda4dae2719e8a26744c, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9801,6 +9861,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5a20a3ce45cc2624ea1d302f13558b9d, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_RootOrder
@@ -10159,7 +10224,7 @@ MonoBehaviour:
   Sensoriklabor: {fileID: 1510377111}
   Konferenzraum: {fileID: 1245378881}
   Vinothek: {fileID: 1546784384}
-  active: 0
+  active: 1
 --- !u!1 &2108934314
 GameObject:
   m_ObjectHideFlags: 0
@@ -18942,7 +19007,7 @@ PrefabInstance:
     - target: {fileID: 8606621848556510218, guid: 35385a82a07825749994dea77dcc1e7f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8606621848556510218, guid: 35385a82a07825749994dea77dcc1e7f,
         type: 3}

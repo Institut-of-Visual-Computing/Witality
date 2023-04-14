@@ -12,7 +12,7 @@ public class MenuSceneLoader : MonoBehaviour
     public static Vector3 calibPosition_Hmd, calibPosition_Camera;
     public static Quaternion calibRotation_Hmd, calibRotation_Camera;
     public static int[] codes;
-    public static bool demographic, ipq;
+    public static bool demographic, ipq, english = false;
     // Start is called before the first frame update
     void Start()
     {

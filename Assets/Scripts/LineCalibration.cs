@@ -1,4 +1,5 @@
 using Oculus.Interaction.Input;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
@@ -9,15 +10,22 @@ using static LineCalibration.CalibState;
 public class LineCalibration : MonoBehaviour
 {
     [Header("Table")]
-    public float lineResolution = 0.1f;
+    public float lineResolution = 0.1f, minLineLength = 0.3f;
     public OVRHand handL, handR;
     public Transform ovrRig, tableEdge;
     public GameObject tableButton, Desk;
-
-    bool lastPinchL, lastPinchR;
+    public Material calibLineMatGood, calibLineMatBad;
+    public int latency = 50;
+    public float fillRate = 0.01f;
+    float fillRateTimer = 0;
     LineRenderer lr;
     Vector3 tablePos, tableRight;
-    Transform thumb, index;
+    Vector3 pointL, pointR, medianL,medianR;
+    float tableWidth = 0.75f;
+    float tableDepth = 0.8f;
+    bool adjusted = true;
+    List<Vector3> pointsL;
+    List<Vector3> pointsR;
 
 
     [Header("Camera")]
@@ -43,16 +51,16 @@ public class LineCalibration : MonoBehaviour
         camRun,
         ready
     }
-
-
     private void Start()
     {
         lastCubePos = new Vector3[calibCube.Length];
         lastCubeRot = new Quaternion[calibCube.Length];
+        pointsL = new List<Vector3>();
+        pointsR = new List<Vector3>();
         lr = GetComponent<LineRenderer>();
+        lr.positionCount = 5;
         state = table;
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -97,9 +105,11 @@ public class LineCalibration : MonoBehaviour
                     calibrationFinished();
                 break;
         }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            calibrationFinished();
+        }
     }
-
-
     public void SwitchState(int s)
     {
         SwitchState((CalibState)s);
@@ -109,81 +119,67 @@ public class LineCalibration : MonoBehaviour
         state = s;
         stateTimer = 0;
     }
-
     #region Table
     void CheckForPinchStatus()
     {
+
+
         bool pinchL = handL.GetFingerIsPinching(OVRHand.HandFinger.Thumb);
         bool pinchR = handR.GetFingerIsPinching(OVRHand.HandFinger.Thumb);
-
-        if (pinchL && !lastPinchL)
-            StartPinch(true);
-        if (pinchR && !lastPinchR)
-            StartPinch(false);
-
-        if ((pinchL && lastPinchL) || (pinchR && lastPinchR))
-            HoldPinch();
-
-        if ((!pinchL && lastPinchL) || (!pinchR && lastPinchR))
-            EndPinch();
-
-        lastPinchL = pinchL;
-        lastPinchR = pinchR;
-        Debug.DrawLine(tablePos, tablePos + tableRight, Color.red);
-    }
-    void StartPinch(bool left)
-    {
-        lr.positionCount = 1;
-        thumb = getThumb((left ? handL : handR).transform);
-        index = getIndex((left ? handL : handR).transform);
-        lr.SetPosition(0, Pointer());
-        Desk.gameObject.SetActive(false);
-    }
-    void HoldPinch()
-    {
-        Vector3 pos = Pointer();
-
-        if (Vector3.Distance(pos, lr.GetPosition(lr.positionCount - 1)) > lineResolution)
+        pointL = Pointer(handL);
+        pointR = Pointer(handR);
+        fillRateTimer += Time.deltaTime;
+        if(fillRateTimer > fillRate)
         {
-            lr.positionCount++;
-            lr.SetPosition(lr.positionCount - 1, pos);
+            pointsL.Add(pointL);
+            pointsR.Add(pointR);
+            if (pointsL.Count >= latency)
+                pointsL.RemoveAt(0);
+            if (pointsR.Count >= latency)
+                pointsR.RemoveAt(0);
+            medianL = median_v(pointsL);
+            medianR = median_v(pointsR);
         }
-    }
-    void EndPinch()
-    {
-        List<Vector3> nextVectors = new List<Vector3>();
-        List<Vector3> positions = new List<Vector3>();
-        positions.Add(lr.GetPosition(0));
-        for (int i = 1; i < lr.positionCount; i++)
+
+        if (pinchL&&pinchR)
         {
-            nextVectors.Add(lr.GetPosition(i) - lr.GetPosition(i-1));
-            positions.Add(lr.GetPosition(i));
+            adjusted = false;
+            tableButton.SetActive(false);
+
+
+            Desk.SetActive(false);
+
+            Vector3 mid = (medianL + medianR) / 2;
+            Vector3 r = medianR - mid;
+            r.y = 0;
+            r = r.normalized * tableWidth;
+            Vector3 fwd = -Vector3.Cross(Vector3.up, r).normalized * tableDepth;
+            lr.positionCount = 5;
+            lr.SetPosition(0, pointL);
+            lr.SetPosition(1, pointR);
+            lr.SetPosition(2, pointR + fwd);
+            lr.SetPosition(3, pointL + fwd);
+            lr.SetPosition(4, pointL);
+
+            tablePos = mid;
+            tableRight = r;
+
+            lr.material = (Vector3.Distance(pointL, pointR) > 0.4f && Vector3.Distance(pointL, pointR) < 0.7f) ? calibLineMatGood : calibLineMatBad;
         }
-        Vector3 median = median_v(nextVectors);
-        Vector3 pos = avg_v(deletePeaks(positions,median));
-        median.y = 0;
+        else if (!adjusted)
+        {
+            Desk.SetActive(true);
+            Adjust();
+        }
 
-
-        float tableWidth = 0.75f;
-        float tableDepth = 0.8f;
-        Vector3 r = median.normalized * tableWidth;
-        Vector3 fwd = -Vector3.Cross(Vector3.up, median).normalized * tableDepth;
-        lr.positionCount = 5;
-        lr.SetPosition(0, pos - r);
-        lr.SetPosition(1, pos + r);
-        lr.SetPosition(2, pos + r + fwd);
-        lr.SetPosition(3, pos - r + fwd);
-        lr.SetPosition(4, pos - r);
-        tablePos = pos;
-        tableRight = median;
-        Adjust();
     }
-    Vector3 Pointer()
+    Vector3 Pointer(OVRHand h)
     {
-        return (thumb.position + index.position) / 2;
+        return (getThumb(h.transform).position + getIndex(h.transform).position) / 2;
     }
     public void Adjust()
     {
+        adjusted = true;
         ovrRig.position += tableEdge.position - tablePos;
         ovrRig.Rotate(tableEdge.up, Vector3.SignedAngle(tableRight, tableEdge.right, tableEdge.up));
         Desk.SetActive(true);
@@ -196,9 +192,10 @@ public class LineCalibration : MonoBehaviour
         MenuSceneLoader.calibRotation_Hmd = ovrRig.rotation;
         tableButton.SetActive(true);
     }
-
     Vector3 avg_v(List<Vector3> v)
     {
+        if (v.Count == 0)
+            return Vector3.zero;
         Vector3 sum = Vector3.zero;
         for (int i = 0; i < v.Count; i++)
         {
@@ -211,24 +208,18 @@ public class LineCalibration : MonoBehaviour
         if (v.Count == 0)
             return Vector3.zero;
         Vector3 avg = avg_v(v);
-        Vector3 m = v[0];
-        for (int i = 1; i < v.Count; i++)
+        float d = float.MaxValue;
+        Vector3 min = Vector3.zero;
+        for (int i = 0; i < v.Count; i++)
         {
-            if (Vector3.Angle(m, avg) > Vector3.Angle(v[i], avg))
-                m = v[i];
+            float dis = Vector3.Distance(v[i], avg);
+            if ( dis < d)
+            {
+                d = dis;
+                min = v[i];
+            }
         }
-
-        return m;
-    }
-    List<Vector3> deletePeaks(List<Vector3> v, Vector3 dir)
-    {
-        List<Vector3> smooth = new List<Vector3>();
-        for (int i = 1; i < v.Count; i++)
-        {
-            if (Vector3.Angle(dir, v[i] - v[i-1]) < 30)
-                smooth.Add(v[i]);
-        }
-        return smooth;
+        return min;
     }
     public static Transform getThumb(Transform hand)
     {
@@ -249,9 +240,7 @@ public class LineCalibration : MonoBehaviour
             tip = tip.GetChild(0);
         return tip;
     }
-
     #endregion
-
     #region Camera
     void checkForSensivity()
     {

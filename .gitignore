@@ -9,3 +9,4 @@
 *.csproj
 .vs/
 *.~lock*
+/Tracking Software/data/config.txt

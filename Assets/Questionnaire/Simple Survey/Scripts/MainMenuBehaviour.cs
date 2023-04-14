@@ -163,7 +163,7 @@ public class MainMenuBehaviour : MonoBehaviour {
             }
             else if (MenuSceneLoader.ipq && !currentlyDoingIPQ)
             {
-                setQuestionaire(questionnaireBehaviour.ipq, -1);
+                setQuestionaire((MenuSceneLoader.english ? questionnaireBehaviour.ipq_ENG : questionnaireBehaviour.ipq_DEU), -1);
                 Debug.Log("Started Questionnaire IPQ");
                 currentlyDoingIPQ = true;
                 //ShowStartScreen();
