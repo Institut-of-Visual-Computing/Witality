@@ -51,7 +51,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "How much were you aware of the real world, while experiencing the virtual world (i.e. Sounds, other people)?\n <b>1:</b> Strongly aware - <b>7:</b> Totally unaware",
+      "QuestionTask": "How much were you aware of the real world, while experiencing the virtual world?\n (i.e. Sounds, other people)\n <b>1:</b> Strongly aware - <b>7:</b> Totally unaware",
       "QuestionType": "1",
       "QuestionElements": [
         {

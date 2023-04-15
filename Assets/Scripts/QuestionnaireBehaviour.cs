@@ -60,7 +60,7 @@ public class QuestionnaireBehaviour : MonoBehaviour
             {
                 int inner_start = 21, inner_end = 7;    //define manually
                 string inner = ",\n" + json.Substring(inner_start, json.Length - inner_start - inner_end);
-                for (int i = 0; i < repeatAmount[id]; i++)
+                for (int i = 0; i < repeatAmount[id] - 1; i++)
                 {
                     json = json.Insert(json.Length - inner_end, inner);
                 }

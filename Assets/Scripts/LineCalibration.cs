@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using static LineCalibration.CalibState;
@@ -23,7 +24,7 @@ public class LineCalibration : MonoBehaviour
     Vector3 pointL, pointR, medianL,medianR;
     float tableWidth = 0.75f;
     float tableDepth = 0.8f;
-    bool adjusted = true;
+    bool adjusted = true, startDrawing = false;
     List<Vector3> pointsL;
     List<Vector3> pointsR;
 
@@ -140,33 +141,42 @@ public class LineCalibration : MonoBehaviour
             medianL = median_v(pointsL);
             medianR = median_v(pointsR);
         }
-
+        
         if (pinchL&&pinchR)
         {
-            adjusted = false;
-            tableButton.SetActive(false);
+            if (Vector3.Distance(pointL, pointR) < 10)
+                startDrawing = true;
+            if (startDrawing)
+            {
+                adjusted = false;
+                tableButton.SetActive(false);
 
 
-            Desk.SetActive(false);
+                Desk.SetActive(false);
 
-            Vector3 mid = (medianL + medianR) / 2;
-            Vector3 r = medianR - mid;
-            r.y = 0;
-            r = r.normalized * tableWidth;
-            Vector3 fwd = -Vector3.Cross(Vector3.up, r).normalized * tableDepth;
-            lr.positionCount = 5;
-            lr.SetPosition(0, pointL);
-            lr.SetPosition(1, pointR);
-            lr.SetPosition(2, pointR + fwd);
-            lr.SetPosition(3, pointL + fwd);
-            lr.SetPosition(4, pointL);
+                Vector3 mid = (medianL + medianR) / 2;
+                Vector3 r = medianR - mid;
+                r.y = 0;
+                r = r.normalized * tableWidth;
+                Vector3 fwd = -Vector3.Cross(Vector3.up, r).normalized * tableDepth;
+                lr.positionCount = 5;
+                lr.SetPosition(0, medianL);
+                lr.SetPosition(1, medianR);
+                lr.SetPosition(2, medianR + fwd);
+                lr.SetPosition(3, medianL + fwd);
+                lr.SetPosition(4, medianL);
 
-            tablePos = mid;
-            tableRight = r;
+                tablePos = mid;
+                tableRight = r;
 
-            lr.material = (Vector3.Distance(pointL, pointR) > 0.4f && Vector3.Distance(pointL, pointR) < 0.7f) ? calibLineMatGood : calibLineMatBad;
+                lr.material = (Vector3.Distance(pointL, pointR) > 0.4f && Vector3.Distance(pointL, pointR) < 0.85f) ? calibLineMatGood : calibLineMatBad;
+            }
         }
-        else if (!adjusted)
+        else
+        {
+            startDrawing = false;
+        }
+        if (!adjusted && (!pinchL || !pinchR))
         {
             Desk.SetActive(true);
             Adjust();

@@ -4532,6 +4532,7 @@ MonoBehaviour:
   codes: {fileID: 589930670}
   demo: {fileID: 1946418321}
   ipq: {fileID: 1767663189}
+  english: {fileID: 1517381596}
 --- !u!4 &789509267
 Transform:
   m_ObjectHideFlags: 0
