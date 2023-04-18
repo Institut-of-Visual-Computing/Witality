@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfd00f0fb75e19419024430a61b540f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  belowYThreshold: 0.855
+  belowYThreshold: 0.1
   rotationPoint: {fileID: 7471719710760970694}
   optimalHeightForTable: 0.815
 --- !u!1 &8474837074103546702

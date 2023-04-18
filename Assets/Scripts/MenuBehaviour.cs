@@ -22,7 +22,7 @@ public class MenuBehaviour : MonoBehaviour
             task.options.Add(new TMP_Dropdown.OptionData(((TaskChanger.Task)i).ToString()));
         }
         updateSubTask();
-
+        task.value = 4;
     }
 
     public void updateSubTask()

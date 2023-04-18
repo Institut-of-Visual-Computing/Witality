@@ -8,11 +8,11 @@ public class TrackingObjects : MonoBehaviour
     [HideInInspector]
     public int[] ids;
     public OpenCVTransRotMapper tracking_receiver;
-    public bool calibrationTracker = false;
+    public bool usedForCalibration = false;
     private void Start()
     {
         tracking_receiver.Init(transform);
-        if (!calibrationTracker)
+        if (!usedForCalibration)
         {
             for (int i = 0; i < MenuSceneLoader.codes.Length; i++)
             {

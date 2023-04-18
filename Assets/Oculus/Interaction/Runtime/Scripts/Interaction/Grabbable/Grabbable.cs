@@ -179,7 +179,7 @@ namespace Oculus.Interaction
             _activeTransformer.UpdateTransform();
         }
 
-        private void EndTransform()
+        public void EndTransform()
         {
             grabbedArUcoId.Remove(transform.GetSiblingIndex());
             isGrabbed = false;

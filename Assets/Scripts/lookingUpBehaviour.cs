@@ -6,20 +6,20 @@ using UnityEngine;
 public class lookingUpBehaviour : MonoBehaviour
 {
 
-    public float belowYThreshold = 0.78f;
+    public float belowYThreshold = 0.1f;
     public Transform rotationPoint;
     public float optimalHeightForTable = 0.743f;
-    Grabbable grab;
-    private void Start()
-    {
-        grab = GetComponent<Grabbable>();
-    }
+    public bool showThreshold = false;
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.y < belowYThreshold)
+        if(transform.position.y - optimalHeightForTable < belowYThreshold)
         {
             lookUp();
+        }
+        if (showThreshold)
+        {
+            Debug.DrawLine(transform.position, new Vector3(transform.position.x, optimalHeightForTable + belowYThreshold, transform.position.z), Color.red);
         }
     }
 
@@ -28,4 +28,6 @@ public class lookingUpBehaviour : MonoBehaviour
         transform.RotateAround(rotationPoint.position, Vector3.Cross(transform.forward, Vector3.up), Vector3.SignedAngle(transform.forward, Vector3.up, Vector3.Cross(transform.forward, Vector3.up)));
 
     }
+
+    
 }

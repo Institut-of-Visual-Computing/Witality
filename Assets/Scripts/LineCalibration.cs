@@ -183,7 +183,7 @@ public class LineCalibration : MonoBehaviour
         }
 
     }
-    Vector3 Pointer(OVRHand h)
+    public static Vector3 Pointer(OVRHand h)
     {
         return (getThumb(h.transform).position + getIndex(h.transform).position) / 2;
     }
@@ -268,7 +268,7 @@ public class LineCalibration : MonoBehaviour
     public string CamCalib()
     {
 
-        info.text = "Kalibriere Kamera...\n" + (1 + calibTime - stateTimer).ToString("0.0");
+        info.text = "Kalibriere Kamera...\n" + (calibTime - stateTimer).ToString("0.0");
         Quaternion[] cubeRot = new Quaternion[calibCube.Length];
         Vector3[] cubeMove = new Vector3[calibCube.Length];
         for (int i = 0; i < calibCube.Length; i++)
