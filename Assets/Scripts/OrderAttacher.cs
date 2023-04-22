@@ -44,8 +44,8 @@ public class OrderAttacher : MonoBehaviour
             return;
         }
         showing = true;
-        handL = LineCalibration.getIndex(handL);
-        handR = LineCalibration.getIndex(handR);
+        handL = Maths.GetIndex(handL);
+        handR = Maths.GetIndex(handR);
         for (int i = 0; i < buttons.childCount; i++)
         {
             buttons.GetChild(i).gameObject.SetActive(i < rang.obj_parent.childCount);

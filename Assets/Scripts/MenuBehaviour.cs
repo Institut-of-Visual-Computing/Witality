@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using System.Linq;
 using UnityEngine.SceneManagement;
+
 public class MenuBehaviour : MonoBehaviour
 {
     public TMP_InputField probandID;
@@ -13,19 +13,22 @@ public class MenuBehaviour : MonoBehaviour
     public TextMeshProUGUI error;
     public Transform codes;
     public Toggle demo, ipq, english;
+    [Header("Options")]
+    public TMP_InputField pinchDistance;
+    public TMP_InputField posSensivity, rotSensivity;
 
     private void Start()
     {
         task.options.Clear();
         for (int i = 0; i < System.Enum.GetNames(typeof(TaskChanger.Task)).Length; i++)
         {
-            task.options.Add(new TMP_Dropdown.OptionData(((TaskChanger.Task)i).ToString()));
+            task.options.Add(new TMP_Dropdown.OptionData(((TaskChanger.Task)i).ToString().Replace("_"," ").Replace("Rangordnung","R").Replace("Erkennung","E")));
         }
-        updateSubTask();
-        task.value = 4;
+        LoadData();
+        UpdateSubTask();
     }
 
-    public void updateSubTask()
+    public void UpdateSubTask()
     {   
         subtask.options.Clear();
         System.Type t = TaskChanger.Task2Subtask((TaskChanger.Task)task.value);
@@ -35,12 +38,11 @@ public class MenuBehaviour : MonoBehaviour
             subtask.options.Add(new TMP_Dropdown.OptionData(System.Enum.GetName(t,i)));
         }
         subtask.RefreshShownValue();
-        resetCodes();
+        ResetCodes();
 
 
     }
-
-    public void startPressed(bool withKalibration)
+    public void StartPressed(bool withKalibration)
     {
         if(probandID.text == "" ||probandID.text == null)
         {
@@ -57,13 +59,11 @@ public class MenuBehaviour : MonoBehaviour
         SceneManager.LoadScene("Calibration");
         //SceneManager.UnloadSceneAsync("Menu");
     }
-
-    public void toggled(int i)
-    {
-        MenuSceneLoader.environment = i;
-    }
-
-    public void updateCodes()
+    public void Toggled(int i)
+        {
+            MenuSceneLoader.environment = i;
+        }
+    public void UpdateCodes()
     {
         
         for (int i = 0; i < codes.childCount; i++)
@@ -80,7 +80,7 @@ public class MenuBehaviour : MonoBehaviour
             }
         }
     }
-    public void copyInputFieldToCode()
+    public void CopyInputFieldToCode()
     {
         for (int i = 0; i < MenuSceneLoader.codes.Length; i++)
         {
@@ -89,7 +89,7 @@ public class MenuBehaviour : MonoBehaviour
             MenuSceneLoader.codes[i] = v;
         }
     }
-    public void randomizeCode()
+    public void RandomizeCode()
     {
         for (int i = 0; i < MenuSceneLoader.codes.Length; i++)
         {
@@ -98,13 +98,12 @@ public class MenuBehaviour : MonoBehaviour
             MenuSceneLoader.codes[r] = MenuSceneLoader.codes[i];
             MenuSceneLoader.codes[i] = tmp;
         }
-        updateCodes();
+        UpdateCodes();
     }
-   
-    public void resetCodes()
+    public void ResetCodes()
     {
         MenuSceneLoader.codes = getCodes();
-        updateCodes();
+        UpdateCodes();
     }
     int[] getCodes()
     {
@@ -175,5 +174,38 @@ public class MenuBehaviour : MonoBehaviour
     public static bool CATA_isJoker(int i)
     {
         return i == 597 || i == 322;
+    }
+    public void saveOptions()
+    {
+        PlayerPrefs.SetFloat("pos_sensivity_cm", float.Parse(posSensivity.text.Replace(",", ".")));
+        PlayerPrefs.SetInt("rot_sensivity", int.Parse(rotSensivity.text));
+        PlayerPrefs.SetFloat("pinch_distance", float.Parse(pinchDistance.text.Replace(",", ".")));
+        
+        PlayerPrefs.Save();
+    }
+    public void loadOptionValues()
+    {
+        if (!PlayerPrefs.HasKey("pos_sensivity"))
+            return;
+
+        posSensivity.text = PlayerPrefs.GetFloat("pos_sensivity_cm").ToString();
+        rotSensivity.text = PlayerPrefs.GetInt("rot_sensivity").ToString();
+        pinchDistance.text = PlayerPrefs.GetFloat("pinch_distance").ToString();
+    }
+
+    public void LoadData()
+    {
+        probandID.text = PlayerPrefs.GetInt("player_id").ToString();
+        english.isOn = PlayerPrefs.GetInt("english") == 1;
+        task.value = PlayerPrefs.GetInt("task");
+        subtask.value = PlayerPrefs.GetInt("subtask");
+    }
+    public void saveData()
+    {
+        PlayerPrefs.SetInt("player_id", int.Parse(probandID.text));
+        PlayerPrefs.SetInt("english", english.isOn ? 1 : 0);
+        PlayerPrefs.SetInt("task", task.value);
+        PlayerPrefs.SetInt("subtask", subtask.value);
+        PlayerPrefs.Save();
     }
 }

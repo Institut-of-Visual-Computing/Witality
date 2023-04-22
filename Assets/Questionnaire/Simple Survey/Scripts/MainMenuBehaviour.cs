@@ -43,7 +43,7 @@ public class MainMenuBehaviour : MonoBehaviour {
     public Camera CanvasCamera;
     public Transform QuestionnaireCanvas;
     Questionaire CurrentQuestionaire = new Questionaire();
-
+    public GameObject StudyCompleteScreen;
     public static LanguageDictionary CurrentDictionary;
     public static bool taskSubmitted = false;
     public Questionaire GetCurrentQuestionaire()
@@ -174,6 +174,7 @@ public class MainMenuBehaviour : MonoBehaviour {
                 //ShowStartScreen();
                 MainPanel.SetActive(false);
                 questionnaireBehaviour.Set(false);
+                StudyCompleteScreen.SetActive(true);
             }
         }
         else

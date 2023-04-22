@@ -2,6 +2,19 @@
   "Questions": [
     {
       "AnswerRequired": true,
+      "QuestionTask": "Take a look at your environment before answering the following questions.",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Done.",
+          "IsSelected": true,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
       "QuestionTask": "I'm feeling present in the virtual Environment. \n <b>1:</b> Strongly disagree - <b>7:</b> Totally agree",
       "QuestionType": "1",
       "QuestionElements": [

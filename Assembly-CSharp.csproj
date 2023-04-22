@@ -155,6 +155,7 @@
     <Compile Include="Assets\extOSC\Scripts\Components\Informers\OSCTransmitterInformerDouble.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventDateTime.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\BrushController.cs" />
+    <Compile Include="Assets\Scripts\GrabSimulator.cs" />
     <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\SubmittingBehaviour.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Firebase\AnalyticsUI.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventTimeTag.cs" />
@@ -187,6 +188,7 @@
     <Compile Include="Assets\extOSC\Scripts\Components\Ping\OSCPingClient.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionArray.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionBlink.cs" />
+    <Compile Include="Assets\Scripts\SnapToHand.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Packers\OSCPackerColor.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventMessage.cs" />
     <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\MenuScripts\UIAnimationMoveInAndOutBehaviour.cs" />
@@ -370,8 +372,8 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
+    <Compile Include="Assets\Scripts\Maths.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\Scripts\SnapToHand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />

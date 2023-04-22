@@ -885,6 +885,7 @@ MonoBehaviour:
   belowYThreshold: 0.78
   rotationPoint: {fileID: 1835950308}
   optimalHeightForTable: 0.743
+  showThreshold: 0
 --- !u!1 &8886781195106158772
 GameObject:
   m_ObjectHideFlags: 0

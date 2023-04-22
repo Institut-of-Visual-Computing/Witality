@@ -14,7 +14,7 @@ public class Calibration : MonoBehaviour
     float timer;
     Vector3[] lastCubePos;
     Quaternion[] lastCubeRot;
-    public float CamPosSensivity, CamRotSensivity;
+    public float camPosSensivity, camRotSensivity;
     public bool tableDone = false, camDone = false;
     public GameObject continueButton, cameraVisual;
     public static bool needCalibration = true;
@@ -58,7 +58,7 @@ public class Calibration : MonoBehaviour
                 calibTutorials[2].SetActive(true);
                 for (int i = 0; i < calibCube.Length; i++)
                 {
-                    if ((lastCubePos[i] - calibCube[i].position).magnitude > CamPosSensivity || Quaternion.Angle(lastCubeRot[i], calibCube[i].rotation) > CamRotSensivity)
+                    if ((lastCubePos[i] - calibCube[i].position).magnitude > camPosSensivity || Quaternion.Angle(lastCubeRot[i], calibCube[i].rotation) > camRotSensivity)
                     {
                         timer = 0;
                         clearCamData();

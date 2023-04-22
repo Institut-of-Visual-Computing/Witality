@@ -2,6 +2,19 @@
   "Questions": [
     {
       "AnswerRequired": true,
+      "QuestionTask": "Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Verstanden.",
+          "IsSelected": true,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
       "QuestionTask": "Ich fühlte mich im virtuellen Raum anwesend. \n <b>1:</b> Trifft gar nicht zu - <b>7:</b> Trifft völlig zu",
       "QuestionType": "1",
       "QuestionElements": [
