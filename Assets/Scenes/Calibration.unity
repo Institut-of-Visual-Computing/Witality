@@ -1661,6 +1661,8 @@ MonoBehaviour:
   overrideHeightThreshold: 0
   overrideHeight: 0
   inHandOffset: {x: 0, y: 0, z: 0}
+  smoothRotation: 0
+  smoothingMaxDelta: 300
   invertPosXYZRotXYZ: 000100000100
   pos_threshold: 0
   rot_threshold: 0

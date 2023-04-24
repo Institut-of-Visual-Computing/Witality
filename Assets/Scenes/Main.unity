@@ -5793,6 +5793,8 @@ MonoBehaviour:
   overrideHeightThreshold: 0.1
   overrideHeight: 0.743
   inHandOffset: {x: 0, y: 0.03, z: -0.02}
+  smoothRotation: 1
+  smoothingMaxDelta: 360
   invertPosXYZRotXYZ: 000100000100
   pos_threshold: 0.04
   rot_threshold: 15
@@ -5804,7 +5806,6 @@ MonoBehaviour:
   simPos: {x: 0, y: 0, z: 0.3}
   simRot: {x: -90, y: 0, z: 0}
   objects: []
-  standingStillTimer: []
 --- !u!114 &1050185091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5856,7 +5857,8 @@ MonoBehaviour:
   objL: []
   objR: []
   pinchThreshold: 0.07
-  offset: {x: -18.5, y: 15, z: 0}
+  setRotation: 1
+  yawOffset: 25
 --- !u!1 &1111439702
 GameObject:
   m_ObjectHideFlags: 0

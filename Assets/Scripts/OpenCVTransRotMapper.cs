@@ -28,7 +28,9 @@ public class OpenCVTransRotMapper : MonoBehaviour
     public float overrideHeightThreshold = 0.3f;
     public float overrideHeight = 0.743f;
     public Vector3 inHandOffset;
-
+    public bool smoothRotation = true;
+    public float smoothingMaxDelta = 300f;
+    
     [Header("Tracking Parameter")]
     public bool[] invertPosXYZRotXYZ;
     public float pos_threshold = 0.005f, rot_threshold = 5f;
@@ -38,6 +40,8 @@ public class OpenCVTransRotMapper : MonoBehaviour
     float updateRateTimer;
     List<TrackingData>[] buffer;
     GrabSimulator grabSimulator;
+    Quaternion[] smoothRotTarget;
+
     [Header("Tracking Software Simulator")]
     public bool simulate = false;
     public float simRate = 0.1f;
@@ -50,7 +54,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
 
     [Header("Read Only")]
     public Transform[] objects;
-    public float[] standingStillTimer;
+    float[] standingStillTimer;
     Vector3[] standingStillPos;
    
     //Data is send in this format
@@ -72,6 +76,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
         standingStillPos = new Vector3[50];
         standingStillTimer = new float[50];
         buffer = new List<TrackingData>[50];
+        smoothRotTarget = new Quaternion[50];
 
         for (int i = 0; i < objects_parent.childCount; i++)
         {
@@ -111,6 +116,14 @@ public class OpenCVTransRotMapper : MonoBehaviour
         if (simulate)
             SimulateTracking();
 
+        if (smoothRotation)
+        {
+            for (int i = 0; i < 50; i++)
+            {
+                if (objects[i] != null && smoothRotTarget[i] != null && !Grabbable.grabbedArUcoId.Contains(i) && !(grabSimulator.setRotation && grabSimulator.IsGrabbed(objects[i])))
+                    objects[i].rotation = Quaternion.RotateTowards(objects[i].rotation, smoothRotTarget[i], smoothingMaxDelta * Time.deltaTime);
+            }
+        }
         
         updateRateTimer += Time.deltaTime;
         if(updateRateTimer > updateRate)
@@ -270,14 +283,20 @@ public class OpenCVTransRotMapper : MonoBehaviour
         {
             if (Quaternion.Angle(tableRot, o.rotation) > rot_threshold)
             {
-                o.rotation = tableRot;
+                if (smoothRotation)
+                    smoothRotTarget[id] = tableRot;
+                else
+                    o.rotation = tableRot;
             }
         }
         else if (!isGrabbed)
         {
             if (Quaternion.Angle(data.rot, o.rotation) > rot_threshold)
             {
-                o.rotation = data.rot;
+                if (smoothRotation)
+                    smoothRotTarget[id] = data.rot;
+                else
+                    o.rotation = data.rot;
             }
         }
         #endregion

@@ -50,7 +50,7 @@ public class Wobble : MonoBehaviour
         // velocity
         velocity = (lastPos - transform.position) / Time.deltaTime;
         seedAdd = Mathf.SmoothDamp(seedAdd, velocity.magnitude, ref currentVelocity, rippleSpeed);
-        //rippleStrength = Mathf.SmoothDamp(rippleStrength, velocity.magnitude > 0 ? 1 : 0, ref currentVelocity, rippleSpeed);
+        rippleStrength = Mathf.SmoothDamp(rippleStrength, velocity.magnitude > 0 ? 1 : 0, ref currentVelocity, rippleSpeed);
         seed += Mathf.Min(seedAdd, rippleLimit);
         rend.material.SetFloat("_Seed", seed);
         rend.material.SetFloat("_RippleStrength", rippleStrength);

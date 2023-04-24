@@ -12,6 +12,8 @@ public class GrabSimulator : MonoBehaviour
     Vector3 posL, posR;
     public float pinchThreshold=0.035f;
     List<Offset> offset;
+    public bool setRotation = true;
+    public float yawOffset = 25f;
     struct Offset
     {
         public Transform o;
@@ -67,7 +69,8 @@ public class GrabSimulator : MonoBehaviour
     }
     void CopyPosRot(Transform o, bool left)
     {
-        //o.rotation = (left ? rotL : rotR) * GetOffset(o);
+        if (setRotation)
+            o.rotation = (left ? rotL : rotR);// * GetOffset(o);
         Vector3 handle = o.Find("rotation") ? (o.rotation * o.Find("rotation").localPosition) : Vector3.zero;
         o.position = (left ? posL : posR) - handle;
         
@@ -129,13 +132,22 @@ public class GrabSimulator : MonoBehaviour
     Quaternion PinchRot(bool left)
     {
         
-
-        Vector3 fwd = GetWrist(left ? handL.transform : handR.transform).forward.normalized * 0.1f;
-        Vector3 up = Vector3.Cross(indexL.position - thumbL.position, fwd).normalized * 0.1f;
-
-
+        Transform thumb = GetThumb(left ? handL.transform : handR.transform);
+        //Vector3 fwd = GetWrist(left ? handL.transform : handR.transform).forward.normalized * 0.1f;
+        Vector3 fwd = (thumb.forward + thumb.up * -1).normalized * 0.1f;
         if (Vector3.Angle(Vector3.up, fwd) > 90)
             fwd *= -1;
+
+        //Vector3 up = Vector3.Cross((left ? indexL : indexR).position - (left ? thumbL : thumbR).position, fwd).normalized * 0.1f;
+        Vector3 up = thumb.right * (left? -1 : 1);
+
+        Vector3 axis = Vector3.Cross(up, fwd);
+        up = Quaternion.AngleAxis(-yawOffset, axis) * up;
+        fwd = Quaternion.AngleAxis(-yawOffset, axis) * fwd;
+
+        Debug.DrawRay(left ? posL : posR, up, Color.blue);
+        Debug.DrawRay(left ? posL : posR, fwd, Color.red);
+
 
 
         return Quaternion.LookRotation(fwd, up);
@@ -144,7 +156,7 @@ public class GrabSimulator : MonoBehaviour
     {
         Offset off = new Offset();
         off.o = o;
-        off.r = Quaternion.Inverse(left ? rotL : rotR) * o.rotation;
+        off.r = o.rotation * Quaternion.Inverse(left ? rotL : rotR);
 
         offset.Add(off);
     }

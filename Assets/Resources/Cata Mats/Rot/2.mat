@@ -84,8 +84,8 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _ColorFade: 2.07
-    - _ColorLine: -2.54
+    - _ColorFade: 0.24
+    - _ColorLine: -1.88
     - _ColorWobbleIntensity: 20
     - _Cull: 2
     - _Cutoff: 0.5
