@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static MenuBehaviour.SavedDataNames;
+using static MenuBehaviour;
 
 public class CalibrationApplier : MonoBehaviour
 {
@@ -10,35 +12,31 @@ public class CalibrationApplier : MonoBehaviour
     public GrabSimulator grab;
     private void Awake()
     {
-        if (ovrRig)
+        if (PlayerPrefs.HasKey(calib_rig_pos + "_x") && ovrRig)
         {
-            ovrRig.position = MenuSceneLoader.calibPosition_Hmd;
-            ovrRig.rotation = MenuSceneLoader.calibRotation_Hmd;
+            ovrRig.position = PlayerPrefsGetVector3(calib_rig_pos); 
+            ovrRig.rotation = Quaternion.Euler(PlayerPrefsGetVector3(calib_rig_rot));
         }
-        if (PlayerPrefs.HasKey("calibration_pos_x") && realsense)
+        if (PlayerPrefs.HasKey(calib_cam_pos+"_x") && realsense)
         {
-            realsense.position = new Vector3(   PlayerPrefs.GetFloat("calibration_pos_x"),
-                                                PlayerPrefs.GetFloat("calibration_pos_y"),
-                                                PlayerPrefs.GetFloat("calibration_pos_z"));
+            realsense.position = PlayerPrefsGetVector3(calib_cam_pos);
 
-            realsense.rotation = Quaternion.Euler(new Vector3(  PlayerPrefs.GetFloat("calibration_rot_x"),
-                                                                PlayerPrefs.GetFloat("calibration_rot_y"),
-                                                                PlayerPrefs.GetFloat("calibration_rot_z")));
+            realsense.rotation = Quaternion.Euler(PlayerPrefsGetVector3(calib_cam_rot));
         }
-        if (PlayerPrefs.HasKey("pos_sensivity") && tracker)
+        if (PlayerPrefs.HasKey(sensivity_pos) && tracker)
         {
-            tracker.pos_threshold = PlayerPrefs.GetFloat("pos_sensivity_cm") / 100f;
-            tracker.rot_threshold = PlayerPrefs.GetInt("rot_sensivity");
+            tracker.pos_threshold = PlayerPrefs.GetFloat(sensivity_pos) / 100f;
+            tracker.rot_threshold = PlayerPrefs.GetInt(sensivity_rot);
         }
-        if (PlayerPrefs.HasKey("pos_sensivity") && calib)
+        if (PlayerPrefs.HasKey(sensivity_pos) && calib)
         {
-            calib.camPosSensivity = PlayerPrefs.GetFloat("pos_sensivity_cm") / 100f;
-            calib.camRotSensivity = PlayerPrefs.GetInt("rot_sensivity");
-            calib.pinchThreshold = PlayerPrefs.GetFloat("pinch_distance") / 100f;
+            calib.camPosSensivity = PlayerPrefs.GetFloat(sensivity_pos) / 100f;
+            calib.camRotSensivity = PlayerPrefs.GetInt(sensivity_rot);
+            calib.pinchThreshold = PlayerPrefs.GetFloat(pinchDistance) / 100f;
         }
-        if(PlayerPrefs.HasKey("pos_sensivity") && grab)
+        if(PlayerPrefs.HasKey(sensivity_pos) && grab)
         {
-            grab.pinchThreshold = PlayerPrefs.GetFloat("pinch_distance") / 100f;
+            grab.pinchThreshold = PlayerPrefs.GetFloat(pinchDistance) / 100f;
         }
 
     }

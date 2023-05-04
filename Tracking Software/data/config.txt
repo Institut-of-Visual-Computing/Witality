@@ -5,5 +5,5 @@ calibration false
 images false
 udp_ip 127.0.0.1
 udp_port 7001
-kalman false
+kalman true
 upfwd true

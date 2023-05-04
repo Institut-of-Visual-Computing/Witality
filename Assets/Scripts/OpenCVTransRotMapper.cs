@@ -244,7 +244,8 @@ public class OpenCVTransRotMapper : MonoBehaviour
                     else
                         o.position = data.pos;
                 }
-            }else if(o.position.y < newOverrideHeight) //object under table after release
+            }
+            else if(o.position.y < newOverrideHeight) //object under table after release
             {
                 o.position = tablePos;
             }

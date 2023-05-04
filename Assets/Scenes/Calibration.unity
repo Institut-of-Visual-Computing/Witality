@@ -1596,7 +1596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9bb429addac22449ad2472a0313ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ovrRig: {fileID: 0}
+  ovrRig: {fileID: 2060158128}
   realsense: {fileID: 0}
   tracker: {fileID: 0}
   calib: {fileID: 1205270465}
@@ -1674,7 +1674,6 @@ MonoBehaviour:
   simPos: {x: 0, y: 0, z: 0}
   simRot: {x: 0, y: 0, z: 0}
   objects: []
-  standingStillTimer: []
 --- !u!114 &583693959
 MonoBehaviour:
   m_ObjectHideFlags: 0

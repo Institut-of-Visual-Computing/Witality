@@ -9,6 +9,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using static LineCalibration.CalibState;
 using static Maths;
+using static MenuBehaviour;
 public class LineCalibration : MonoBehaviour
 {
     [Header("Table")]
@@ -204,8 +205,10 @@ public class LineCalibration : MonoBehaviour
         lr.positionCount = 0;
 
 
-        MenuSceneLoader.calibPosition_Hmd = ovrRig.position;
-        MenuSceneLoader.calibRotation_Hmd = ovrRig.rotation;
+        PlayerPrefsSetVector3(SavedDataNames.calib_rig_pos, ovrRig.position);
+        PlayerPrefsSetVector3(SavedDataNames.calib_rig_rot, ovrRig.rotation.eulerAngles);
+        PlayerPrefs.Save();
+
         tableButton.SetActive(true);
     }
     void SetPinchTransforms()
@@ -255,15 +258,9 @@ public class LineCalibration : MonoBehaviour
             realsense.position = Avg_v(camCalibPosValues);
             realsense.rotation = Avg_q(camCalibRotValues);
         }
-        MenuSceneLoader.calibPosition_Camera = realsense.position;
-        MenuSceneLoader.calibRotation_Camera = realsense.rotation;
 
-        PlayerPrefs.SetFloat("calibration_pos_x", realsense.position.x);
-        PlayerPrefs.SetFloat("calibration_pos_y", realsense.position.y);
-        PlayerPrefs.SetFloat("calibration_pos_z", realsense.position.z);
-        PlayerPrefs.SetFloat("calibration_rot_x", realsense.rotation.eulerAngles.x);
-        PlayerPrefs.SetFloat("calibration_rot_y", realsense.rotation.eulerAngles.y);
-        PlayerPrefs.SetFloat("calibration_rot_z", realsense.rotation.eulerAngles.z);
+        PlayerPrefsSetVector3(SavedDataNames.calib_cam_pos, realsense.position);
+        PlayerPrefsSetVector3(SavedDataNames.calib_rig_rot, realsense.rotation.eulerAngles);
         PlayerPrefs.Save();
     }
     public void ClearCamData()

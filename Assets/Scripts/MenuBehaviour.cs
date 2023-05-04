@@ -55,7 +55,6 @@ public class MenuBehaviour : MonoBehaviour
         MenuSceneLoader.demographic = demo.isOn;
         MenuSceneLoader.ipq = ipq.isOn;
         MenuSceneLoader.english = english.isOn;
-        Calibration.needCalibration = withKalibration;
         SceneManager.LoadScene("Calibration");
         //SceneManager.UnloadSceneAsync("Menu");
     }
@@ -173,39 +172,72 @@ public class MenuBehaviour : MonoBehaviour
     }
     public static bool CATA_isJoker(int i)
     {
+        //weiﬂ || rot
         return i == 597 || i == 322;
     }
     public void saveOptions()
     {
-        PlayerPrefs.SetFloat("pos_sensivity_cm", float.Parse(posSensivity.text.Replace(",", ".")));
-        PlayerPrefs.SetInt("rot_sensivity", int.Parse(rotSensivity.text));
-        PlayerPrefs.SetFloat("pinch_distance", float.Parse(pinchDistance.text.Replace(",", ".")));
+        PlayerPrefs.SetFloat(SavedDataNames.sensivity_pos, float.Parse(posSensivity.text.Replace(",", ".")));
+        PlayerPrefs.SetInt(SavedDataNames.sensivity_rot, int.Parse(rotSensivity.text));
+        PlayerPrefs.SetFloat(SavedDataNames.pinchDistance, float.Parse(pinchDistance.text.Replace(",", ".")));
         
         PlayerPrefs.Save();
     }
     public void loadOptionValues()
     {
-        if (!PlayerPrefs.HasKey("pos_sensivity"))
+        if (!PlayerPrefs.HasKey(SavedDataNames.sensivity_pos))
             return;
 
-        posSensivity.text = PlayerPrefs.GetFloat("pos_sensivity_cm").ToString();
-        rotSensivity.text = PlayerPrefs.GetInt("rot_sensivity").ToString();
-        pinchDistance.text = PlayerPrefs.GetFloat("pinch_distance").ToString();
+        posSensivity.text = PlayerPrefs.GetFloat(SavedDataNames.sensivity_pos).ToString();
+        rotSensivity.text = PlayerPrefs.GetInt(SavedDataNames.sensivity_pos).ToString();
+        pinchDistance.text = PlayerPrefs.GetFloat(SavedDataNames.pinchDistance).ToString();
     }
 
     public void LoadData()
     {
-        probandID.text = PlayerPrefs.GetInt("player_id").ToString();
-        english.isOn = PlayerPrefs.GetInt("english") == 1;
-        task.value = PlayerPrefs.GetInt("task");
-        subtask.value = PlayerPrefs.GetInt("subtask");
+        probandID.text = PlayerPrefs.GetInt(SavedDataNames.playerID).ToString();
+        english.isOn = PlayerPrefs.GetInt(SavedDataNames.english) == 1;
+        task.value = PlayerPrefs.GetInt(SavedDataNames.task);
+        subtask.value = PlayerPrefs.GetInt(SavedDataNames.subtask);
     }
     public void saveData()
     {
-        PlayerPrefs.SetInt("player_id", int.Parse(probandID.text));
-        PlayerPrefs.SetInt("english", english.isOn ? 1 : 0);
-        PlayerPrefs.SetInt("task", task.value);
-        PlayerPrefs.SetInt("subtask", subtask.value);
+        PlayerPrefs.SetInt(SavedDataNames.playerID, int.Parse(probandID.text));
+        PlayerPrefs.SetInt(SavedDataNames.english, english.isOn ? 1 : 0);
+        PlayerPrefs.SetInt(SavedDataNames.task, task.value);
+        PlayerPrefs.SetInt(SavedDataNames.subtask, subtask.value);
         PlayerPrefs.Save();
+    }
+
+    public struct SavedDataNames
+    {
+        public static string playerID = "player_id";
+        public static string sensivity_pos = "pos_sensivity";
+        public static string sensivity_rot = "rot_sensivity";
+        public static string english = "english";
+        public static string task = "task";
+        public static string subtask = "subtask";
+        public static string pinchDistance = "pinch_distance";
+        public static string calib_cam_pos = "calibration_cam_pos";
+        public static string calib_cam_rot = "calibration_cam_rot";
+        public static string calib_rig_pos = "calibration_rig_pos";
+        public static string calib_rig_rot = "calibration_rig_rot";
+
+    }
+
+    public static void PlayerPrefsSetVector3(string key, Vector3 value)
+    {
+        PlayerPrefs.SetFloat(key + "_x", value.x);
+        PlayerPrefs.SetFloat(key + "_y", value.y);
+        PlayerPrefs.SetFloat(key + "_z", value.z);
+    }
+
+    public static Vector3 PlayerPrefsGetVector3(string key)
+    {
+        Vector3 v = new Vector3();
+        v.x = PlayerPrefs.GetFloat(key + "_x");
+        v.y = PlayerPrefs.GetFloat(key + "_y");
+        v.z = PlayerPrefs.GetFloat(key + "_z");
+        return v;
     }
 }

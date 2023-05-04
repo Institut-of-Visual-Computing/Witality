@@ -17,15 +17,11 @@ public class CataBehaviour : MonoBehaviour
     {
         if (color == -1)
             color = TaskChanger.instance.subtask;
-        string c = color == 0 ? "Weiﬂ" : "Rot";
-        for (int x = 0; x < (color == 0 ? 4 : 3); x++)
+        string weiﬂOderRot = color == 0 ? "Weiﬂ" : "Rot";
+        for (int id = 0; id < (color == 0 ? 4 : 3); id++)
         {
-            int id = x;
-            if(MenuSceneLoader.codes!= null && MenuBehaviour.CATA_isJoker( MenuSceneLoader.codes[id] ))
-            {
-                id = color == 0 ? 4 : 3; //setze joker material auf das passende Glas
-            }
-            transform.GetChild(x).Find("rotation/wine_glass_fill").GetComponent<Renderer>().material = Resources.Load( id == 0 ? "Cata Mats/Wasser" : "Cata Mats/" + c + "/" + id, typeof(Material)) as Material;
+            Renderer r = transform.GetChild(id).Find("rotation/wine_glass_fill").GetComponent<Renderer>();
+            r.material = Resources.Load( id == 0 ? "Cata Mats/Wasser" : "Cata Mats/" + weiﬂOderRot + "/" + MenuSceneLoader.codes[id], typeof(Material)) as Material;
         }
         transform.GetChild(3).gameObject.SetActive(color == 0);
     }
@@ -41,10 +37,12 @@ public class CataBehaviourEditor : Editor
         EditorGUILayout.BeginHorizontal();
         if (GUILayout.Button("White"))
         {
+            MenuSceneLoader.codes = new int[]{ 0, 131, 364, 720 };
             behaviour.load_mats_farbordnung(0);
         }
         if (GUILayout.Button("Red"))
         {
+            MenuSceneLoader.codes = new int[] { 0, 983, 644};
             behaviour.load_mats_farbordnung(1);
         }
         EditorGUILayout.EndHorizontal();

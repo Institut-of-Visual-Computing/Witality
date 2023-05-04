@@ -5,12 +5,10 @@ using UnityEngine;
 
 public class MenuSceneLoader : MonoBehaviour
 {
-    public static TaskChanger.Task task = TaskChanger.Task.Farbe_Rangordnung;
+    public static TaskChanger.Task task = TaskChanger.Task.CATA;
     public static int subtask = 0;
     public static int environment = 1;
-    public static int probandID = 0;
-    public static Vector3 calibPosition_Hmd, calibPosition_Camera;
-    public static Quaternion calibRotation_Hmd, calibRotation_Camera;
+    public static int probandID = 999;
     public static int[] codes;
     public static bool demographic, ipq, english = false;
     // Start is called before the first frame update

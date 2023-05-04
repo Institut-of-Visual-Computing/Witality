@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 1
+  m_Name: 597
   m_Shader: {fileID: -6465566751694194690, guid: 30f6220b0cb8b61469a5884e0b7214fb,
     type: 3}
   m_ValidKeywords: []
@@ -15,7 +15,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
+  m_CustomRenderQueue: 3002
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -84,8 +84,8 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _ColorFade: 0.3
-    - _ColorLine: -2.01
+    - _ColorFade: 0.36
+    - _ColorLine: -2.13
     - _ColorWobbleIntensity: 20
     - _Cull: 2
     - _Cutoff: 0.5
@@ -94,6 +94,7 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _Fill: 0.09
+    - _Float: 0
     - _FoamAmount: 0.4
     - _FoamCutoff: 1
     - _FoamScale: 15
@@ -105,10 +106,10 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
-    - _QueueOffset: 1
+    - _QueueOffset: 2
     - _ReceiveShadows: 1
     - _Ripple: 1
-    - _RippleDensity: 6.61
+    - _RippleDensity: 13
     - _RippleIntensity: 7.7
     - _RippleSpeed: 1
     - _RippleStrength: 1
@@ -118,24 +119,22 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _Transparency: 0.916
-    - _Velocity: 0
+    - _Transparency: 0.545
     - _WobbleX: 0
     - _WobbleZ: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BottomColor: {r: 0.26415092, g: 0.17568529, b: 0.17568529, a: 1}
-    - _Color: {r: 0.3207547, g: 0.16459781, b: 0.15281239, a: 1}
+    - _BottomColor: {r: 0.754717, g: 0.71677923, b: 0.5731577, a: 1}
+    - _Color: {r: 0.764151, g: 0.72323275, b: 0.5586953, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 0}
-    - _LastPos: {r: 0, g: 0, b: 0, a: 0}
-    - _RippleColor: {r: 0.41509432, g: 0.17034532, b: 0.17034532, a: 1}
-    - _Seed: {r: 4.83, g: 1.39, b: 0, a: 0}
+    - _FoamColor: {r: 1.286275, g: 1.247059, b: 1.247059, a: 0}
+    - _RippleColor: {r: 1, g: 1, b: 1, a: 1}
     - _SideColor: {r: 1, g: 0.6179246, b: 0.8219554, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TopColor: {r: 0.7830189, g: 0.2899923, b: 0.22530258, a: 1}
+    - _TopColor: {r: 0.9056604, g: 0.89397657, b: 0.8501246, a: 1}
+    - _Vector2: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5692943253782573798
 MonoBehaviour:

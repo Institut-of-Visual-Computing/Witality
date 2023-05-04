@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 2
+  m_Name: 720
   m_Shader: {fileID: -6465566751694194690, guid: 30f6220b0cb8b61469a5884e0b7214fb,
     type: 3}
   m_ValidKeywords: []
@@ -119,21 +119,21 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _Transparency: 0.549
+    - _Transparency: 0.626
     - _WobbleX: 0
     - _WobbleZ: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BottomColor: {r: 0.7169812, g: 0.6654709, b: 0.5309719, a: 1}
-    - _Color: {r: 0.7075472, g: 0.6580063, b: 0.51731044, a: 1}
+    - _BottomColor: {r: 0.6981132, g: 0.64066327, b: 0.49065503, a: 1}
+    - _Color: {r: 0.6886792, g: 0.6449166, b: 0.5230064, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1.286275, g: 1.247059, b: 1.247059, a: 0}
     - _RippleColor: {r: 0.7264151, g: 0.717375, b: 0.620194, a: 1}
     - _SideColor: {r: 1, g: 0.6179246, b: 0.8219554, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TopColor: {r: 0.9716981, g: 0.9357942, b: 0.75627446, a: 1}
+    - _TopColor: {r: 0.9245283, g: 0.9016836, b: 0.7718939, a: 1}
     - _Vector2: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5692943253782573798
