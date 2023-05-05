@@ -201,6 +201,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6010760b551bdda40b35353b40dddc00, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -398,6 +403,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Probeglass ohne Marker (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143587, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -585,6 +595,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 96d9c9e1d54c43a488f45c604c77c5d0, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -1287,6 +1302,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5a20a3ce45cc2624ea1d302f13558b9d, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -1870,6 +1890,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 96d9c9e1d54c43a488f45c604c77c5d0, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2392,6 +2417,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1474592230}
     m_Modifications:
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -2527,6 +2557,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Probeglass ohne Marker (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143587, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2555,7 +2590,7 @@ PrefabInstance:
     - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: rippleLimit
-      value: 0.2
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -3283,7 +3318,7 @@ PrefabInstance:
     - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: rippleLimit
-      value: 0.2
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -4000,6 +4035,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 724c51e16f34dcb44b194d09da7c7a9b, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -4080,6 +4120,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5a20a3ce45cc2624ea1d302f13558b9d, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -4214,6 +4259,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Probeglass ohne Marker (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143587, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
         type: 3}
@@ -4612,6 +4662,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 639efc326e5aeda4dae2719e8a26744c, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -4785,6 +4840,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 96d9c9e1d54c43a488f45c604c77c5d0, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -5794,7 +5854,6 @@ MonoBehaviour:
   overrideHeight: 0.743
   inHandOffset: {x: 0, y: 0.03, z: -0.02}
   smoothRotation: 1
-  smoothingMaxDelta: 360
   invertPosXYZRotXYZ: 000100000100
   pos_threshold: 0.04
   rot_threshold: 15
@@ -6058,6 +6117,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 375c4013a04826f49b2918e9452ba626, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -6716,7 +6780,7 @@ PrefabInstance:
     - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: rippleLimit
-      value: 0.2
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -7587,7 +7651,7 @@ PrefabInstance:
     - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: rippleLimit
-      value: 0.2
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -8047,7 +8111,7 @@ PrefabInstance:
     - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: rippleLimit
-      value: 0.2
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -8195,6 +8259,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 724c51e16f34dcb44b194d09da7c7a9b, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8592,6 +8661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Probeglass ohne Marker (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143587, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8712,7 +8786,7 @@ PrefabInstance:
     - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: rippleLimit
-      value: 0.2
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -8794,6 +8868,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6010760b551bdda40b35353b40dddc00, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9093,6 +9172,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Probeglass ohne Marker (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143587, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9343,6 +9427,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 375c4013a04826f49b2918e9452ba626, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -9912,6 +10001,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 639efc326e5aeda4dae2719e8a26744c, type: 2}
+    - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: rippleLimit
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 9003281639869349635, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10083,7 +10177,7 @@ PrefabInstance:
     - target: {fileID: 9003281639869349634, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: rippleLimit
-      value: 0.2
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
@@ -10231,6 +10325,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 724c51e16f34dcb44b194d09da7c7a9b, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -13927,6 +14026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Probeglass ohne Marker
+      objectReference: {fileID: 0}
+    - target: {fileID: 6589876730056143587, guid: 7c571d722ec962048a3a6763e285f176,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 6589876730056143595, guid: 7c571d722ec962048a3a6763e285f176,
         type: 3}
@@ -18499,6 +18603,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 639efc326e5aeda4dae2719e8a26744c, type: 2}
+    - target: {fileID: 7339241719901104713, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
+        type: 3}
+      propertyPath: MaxWobble
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7904467617125827098, guid: 6e1f5cf3994f8164a9d52c202408ff6d,
         type: 3}
       propertyPath: m_RootOrder

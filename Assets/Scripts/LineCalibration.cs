@@ -260,7 +260,7 @@ public class LineCalibration : MonoBehaviour
         }
 
         PlayerPrefsSetVector3(SavedDataNames.calib_cam_pos, realsense.position);
-        PlayerPrefsSetVector3(SavedDataNames.calib_rig_rot, realsense.rotation.eulerAngles);
+        PlayerPrefsSetVector3(SavedDataNames.calib_cam_rot, realsense.rotation.eulerAngles);
         PlayerPrefs.Save();
     }
     public void ClearCamData()

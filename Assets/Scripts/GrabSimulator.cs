@@ -11,17 +11,12 @@ public class GrabSimulator : MonoBehaviour
     Quaternion rotL, rotR;
     Vector3 posL, posR;
     public float pinchThreshold=0.035f;
-    List<Offset> offset;
     public bool setRotation = true;
     public float yawOffset = 25f;
     struct Offset
     {
         public Transform o;
         public Quaternion r;
-    }
-    private void Start()
-    {
-        offset = new List<Offset>();
     }
     void Update()
     {
@@ -32,7 +27,7 @@ public class GrabSimulator : MonoBehaviour
 
         for (int i = 0; i < objL.Count; i++)
         {
-            CopyPosRot(objL[i],true);
+            CopyPosRot(objL[i], true);
         }
         for(int i = 0; i < objR.Count; i++)
         {
@@ -59,12 +54,10 @@ public class GrabSimulator : MonoBehaviour
         if (Vector3.Distance(posR, trackedPos) > Vector3.Distance(posL, trackedPos))
         {
             objL.Add(o);
-            NewOffset(o, true);
         }
         else
         {
             objR.Add(o);
-            NewOffset(o, false);
         }
     }
     void CopyPosRot(Transform o, bool left)
@@ -91,14 +84,10 @@ public class GrabSimulator : MonoBehaviour
     {
         if (left)
         {
-            for (int i = 0; i < objL.Count; i++)
-                RemoveOffset(objL[i]);
             objL.Clear();
         }
         else
         {
-            for (int i = 0; i < objR.Count; i++)
-                RemoveOffset(objR[i]);
             objR.Clear();
         }
     }
@@ -106,13 +95,11 @@ public class GrabSimulator : MonoBehaviour
     {
         Release(true);
         Release(false);
-        offset.Clear();
     }
     public void Release(Transform o)
     {
         objL.Remove(o);
         objR.Remove(o);
-        RemoveOffset(o);
     }
     Vector3 PinchPos(bool left)
     {
@@ -151,36 +138,5 @@ public class GrabSimulator : MonoBehaviour
 
 
         return Quaternion.LookRotation(fwd, up);
-    }
-    void NewOffset(Transform o, bool left)
-    {
-        Offset off = new Offset();
-        off.o = o;
-        off.r = o.rotation * Quaternion.Inverse(left ? rotL : rotR);
-
-        offset.Add(off);
-    }
-    Quaternion GetOffset(Transform o)
-    {
-        for (int i = 0; i < offset.Count; i++)
-        {
-            if(offset[i].o == o)
-            {
-                return offset[i].r;
-            }
-        }
-        Debug.Log("Offset not found");
-        return new Quaternion();
-    }
-    void RemoveOffset(Transform o)
-    {
-        for (int i = 0; i < offset.Count; i++)
-        {
-            if (offset[i].o == o)
-            {
-                offset.RemoveAt(i);
-                return;
-            }
-        }
     }
 }

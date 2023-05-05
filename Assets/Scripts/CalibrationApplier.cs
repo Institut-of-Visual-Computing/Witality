@@ -14,29 +14,33 @@ public class CalibrationApplier : MonoBehaviour
     {
         if (PlayerPrefs.HasKey(calib_rig_pos + "_x") && ovrRig)
         {
+            Debug.Log("Applied OVRRig Pos and Rot.");
             ovrRig.position = PlayerPrefsGetVector3(calib_rig_pos); 
             ovrRig.rotation = Quaternion.Euler(PlayerPrefsGetVector3(calib_rig_rot));
         }
-        if (PlayerPrefs.HasKey(calib_cam_pos+"_x") && realsense)
+        if (PlayerPrefs.HasKey(calib_cam_pos + "_x") && realsense)
         {
+            Debug.Log("Applied Realsense Pos and Rot.");
             realsense.position = PlayerPrefsGetVector3(calib_cam_pos);
-
             realsense.rotation = Quaternion.Euler(PlayerPrefsGetVector3(calib_cam_rot));
         }
         if (PlayerPrefs.HasKey(sensivity_pos) && tracker)
         {
-            tracker.pos_threshold = PlayerPrefs.GetFloat(sensivity_pos) / 100f;
+            Debug.Log("Applied Sensivity Values for Tracking.");
+            tracker.pos_threshold = PlayerPrefs.GetInt(sensivity_pos) / 100f;
             tracker.rot_threshold = PlayerPrefs.GetInt(sensivity_rot);
         }
         if (PlayerPrefs.HasKey(sensivity_pos) && calib)
         {
-            calib.camPosSensivity = PlayerPrefs.GetFloat(sensivity_pos) / 100f;
+            Debug.Log("Applied Calibration Values.");
+            calib.camPosSensivity = PlayerPrefs.GetInt(sensivity_pos) / 100f;
             calib.camRotSensivity = PlayerPrefs.GetInt(sensivity_rot);
-            calib.pinchThreshold = PlayerPrefs.GetFloat(pinchDistance) / 100f;
+            calib.pinchThreshold = PlayerPrefs.GetInt(pinchDistance) / 100f;
         }
         if(PlayerPrefs.HasKey(sensivity_pos) && grab)
         {
-            grab.pinchThreshold = PlayerPrefs.GetFloat(pinchDistance) / 100f;
+            Debug.Log("Applied Pinch Distance Value.");
+            grab.pinchThreshold = PlayerPrefs.GetInt(pinchDistance) / 100f;
         }
 
     }

@@ -29,18 +29,16 @@ public class OpenCVTransRotMapper : MonoBehaviour
     public float overrideHeight = 0.743f;
     public Vector3 inHandOffset;
     public bool smoothRotation = true;
-    public float smoothingMaxDelta = 300f;
     
     [Header("Tracking Parameter")]
     public bool[] invertPosXYZRotXYZ;
     public float pos_threshold = 0.005f, rot_threshold = 5f;
-    float[] lastTimeTracked;
     Transform thumbL, thumbR, indexL, indexR;
     public float updateRate = 0.1f;
     float updateRateTimer;
     List<TrackingData>[] buffer;
     GrabSimulator grabSimulator;
-    Quaternion[] smoothRotTarget;
+    public objectInfo[] infos;
 
     [Header("Tracking Software Simulator")]
     public bool simulate = false;
@@ -54,8 +52,6 @@ public class OpenCVTransRotMapper : MonoBehaviour
 
     [Header("Read Only")]
     public Transform[] objects;
-    float[] standingStillTimer;
-    Vector3[] standingStillPos;
    
     //Data is send in this format
     struct TrackingData
@@ -63,6 +59,12 @@ public class OpenCVTransRotMapper : MonoBehaviour
         public int id;
         public Vector3 pos;
         public Quaternion rot;
+    }
+    public struct objectInfo
+    {
+        public float lastTimeTracked, lastTimeGrabbed, standingStillTimer;
+        public Quaternion smoothRotTarget;
+        public Vector3 standingStillPos;
     }
 
     // Start is called before the first frame update
@@ -72,26 +74,20 @@ public class OpenCVTransRotMapper : MonoBehaviour
             objects_parent = t;
         receiver = GetComponent<OSCReceiver>();
         objects = new Transform[50];
-        lastTimeTracked = new float[50];
-        standingStillPos = new Vector3[50];
-        standingStillTimer = new float[50];
         buffer = new List<TrackingData>[50];
-        smoothRotTarget = new Quaternion[50];
+        infos = new objectInfo[50];
 
         for (int i = 0; i < objects_parent.childCount; i++)
         {
-            string n = objects_parent.GetChild(i).Find("id").GetComponent<Renderer>().material.name;
-            n = n.Substring(0, 1);
-            int id = int.Parse(n);
+            int id = int.Parse(objects_parent.GetChild(i).Find("id").GetComponent<Renderer>().material.name.Substring(0, 1));
             objects[id] = objects_parent.GetChild(i);
-            objects[id].position = Vector3.down * 5;
+            objects[id].position = Vector3.down * 5; //start pos off screen
         }
         
         //init UDP
         if (receiver == null)
         {
             Debug.Log("Receiver null!");
-
         }
         else if (!receiver.IsStarted)
         {
@@ -120,8 +116,8 @@ public class OpenCVTransRotMapper : MonoBehaviour
         {
             for (int i = 0; i < 50; i++)
             {
-                if (objects[i] != null && smoothRotTarget[i] != null && !Grabbable.grabbedArUcoId.Contains(i) && !(grabSimulator.setRotation && grabSimulator.IsGrabbed(objects[i])))
-                    objects[i].rotation = Quaternion.RotateTowards(objects[i].rotation, smoothRotTarget[i], smoothingMaxDelta * Time.deltaTime);
+                if (objects[i] != null && infos[i].smoothRotTarget != null && !Grabbable.grabbedArUcoId.Contains(i) && !(grabSimulator.setRotation && grabSimulator.IsGrabbed(objects[i])) && Time.time - infos[i].lastTimeGrabbed > 0.2f)
+                    objects[i].rotation = Quaternion.RotateTowards(objects[i].rotation, infos[i].smoothRotTarget, 360 * Time.deltaTime);
             }
         }
         
@@ -224,7 +220,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
         float newOverrideTreshold = (lookingUpBeh != null) ? lookingUpBeh.belowYThreshold : overrideHeightThreshold;
         bool isOnTable = (data.pos.y - newOverrideHeight) < newOverrideTreshold;
         Vector3 tablePos = VectorNewY(data.pos, newOverrideHeight);
-        bool standingStill = Vector3.Distance(standingStillPos[id], data.pos) < pos_threshold;
+        bool standingStill = Vector3.Distance(infos[id].standingStillPos, data.pos) < pos_threshold;
 
         if (!isGrabbed && !grabSimulator.IsGrabbed(o)) {     //object not in hand
             if (!snapToTable)
@@ -240,7 +236,10 @@ public class OpenCVTransRotMapper : MonoBehaviour
                     //not grabbed & not on table -> position in closest Hand
                     //SetObjectToClosestHand(o, data.pos);
                     if (useGrabSimulatorWhenNotOnTable)
+                    {
                         grabSimulator.Init(o, data.pos);
+                        infos[id].lastTimeGrabbed = Time.time;
+                    }
                     else
                         o.position = data.pos;
                 }
@@ -253,22 +252,22 @@ public class OpenCVTransRotMapper : MonoBehaviour
         else //object in hand
         {
             //auto release when object is tracked further away than 10cm for more than 2 seconds
-            if(autoRelease && Vector3.Distance(o.position, data.pos) > releaseByDistanceThreshold && standingStillTimer[id] > 2f)
+            if(autoRelease && Vector3.Distance(o.position, data.pos) > releaseByDistanceThreshold && infos[id].standingStillTimer > 2f)
             {
                 o.GetComponent<Grabbable>().EndTransform();
                 grabSimulator.Release(o);
-                standingStillTimer[id] = 0;
+                infos[id].standingStillTimer = 0;
 
             }
             if (standingStill)
             {
-                standingStillTimer[id] += Time.time - lastTimeTracked[id];
+                infos[id].standingStillTimer += Time.time - infos[id].lastTimeTracked;
             }
         }
         if (!standingStill)
         {
-            standingStillTimer[id] = 0;
-            standingStillPos[id] = data.pos;
+            infos[id].standingStillTimer = 0;
+            infos[id].standingStillPos = data.pos;
         }
 
 
@@ -285,7 +284,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
             if (Quaternion.Angle(tableRot, o.rotation) > rot_threshold)
             {
                 if (smoothRotation)
-                    smoothRotTarget[id] = tableRot;
+                    infos[id].smoothRotTarget = tableRot;
                 else
                     o.rotation = tableRot;
             }
@@ -295,13 +294,13 @@ public class OpenCVTransRotMapper : MonoBehaviour
             if (Quaternion.Angle(data.rot, o.rotation) > rot_threshold)
             {
                 if (smoothRotation)
-                    smoothRotTarget[id] = data.rot;
+                    infos[id].smoothRotTarget = data.rot;
                 else
                     o.rotation = data.rot;
             }
         }
         #endregion
-        lastTimeTracked[id] = Time.time;
+        infos[id].lastTimeTracked = Time.time;
     }
     Vector3 PinchPos(bool left)
     {
@@ -344,12 +343,12 @@ public class OpenCVTransRotMapper : MonoBehaviour
     {
         for (int i = 0; i < 50; i++)
         {
-            if (lastTimeTracked[i] == 0 || Grabbable.grabbedArUcoId.Contains(i))
+            if (infos[i].lastTimeTracked == 0 || Grabbable.grabbedArUcoId.Contains(i))
                 continue;
-            if (Time.time - lastTimeTracked[i] > max_seconds)
+            if (Time.time - infos[i].lastTimeTracked > max_seconds)
             {
                 objects[i].position = Vector3.down * 5;
-                lastTimeTracked[i] = 0;
+                infos[i].lastTimeTracked = 0;
             }
         }
     }

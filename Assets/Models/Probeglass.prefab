@@ -262,7 +262,8 @@ MonoBehaviour:
   MaxWobble: 0.03
   WobbleSpeed: 1
   Recovery: 1
-  rippleSpeed: 1
+  rippleLimit: 0.14
+  testLimit: 0
 --- !u!1 &7339241720349316718
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,6 +573,7 @@ MonoBehaviour:
   belowYThreshold: 0.78
   rotationPoint: {fileID: 1156657460780845298}
   optimalHeightForTable: 0.743
+  showThreshold: 0
 --- !u!1 &8204553932758239146
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,16 +19,18 @@ public class Wobble : MonoBehaviour
     float pulse;
     float time = 0.5f;
     float seed;
-    public float rippleSpeed = 1;
+    float rippleSpeed = 1;
     public float rippleLimit = 0.05f;
     float seedAdd;
     float currentVelocity;
     float rippleStrength;
+    public bool testLimit = false;
     // Use this for initialization
     void Start()
     {
         rend = GetComponent<Renderer>();
         seed = Random.Range(1, 10);
+        seedAdd = 0;
         rend.material.SetFloat("_Seed",seed);
     }
     private void Update()
@@ -49,11 +51,11 @@ public class Wobble : MonoBehaviour
 
         // velocity
         velocity = (lastPos - transform.position) / Time.deltaTime;
-        seedAdd = Mathf.SmoothDamp(seedAdd, velocity.magnitude, ref currentVelocity, rippleSpeed);
+        seedAdd = Mathf.SmoothDamp(seedAdd, Mathf.Min(rippleLimit, velocity.magnitude), ref currentVelocity, rippleSpeed);
         rippleStrength = Mathf.SmoothDamp(rippleStrength, velocity.magnitude > 0 ? 1 : 0, ref currentVelocity, rippleSpeed);
-        seed += Mathf.Min(seedAdd, rippleLimit);
+        seed += testLimit ? rippleLimit : seedAdd;
         rend.material.SetFloat("_Seed", seed);
-        rend.material.SetFloat("_RippleStrength", rippleStrength);
+        rend.material.SetFloat("_RippleStrength", testLimit ? 1 : rippleStrength);
         angularVelocity = transform.rotation.eulerAngles - lastRot;
 
 

@@ -354,7 +354,8 @@ MonoBehaviour:
   MaxWobble: 0.001
   WobbleSpeed: 1
   Recovery: 1
-  rippleSpeed: 1
+  rippleLimit: 0.14
+  testLimit: 0
 --- !u!1 &6589876730789524763
 GameObject:
   m_ObjectHideFlags: 0

@@ -177,9 +177,9 @@ public class MenuBehaviour : MonoBehaviour
     }
     public void saveOptions()
     {
-        PlayerPrefs.SetFloat(SavedDataNames.sensivity_pos, float.Parse(posSensivity.text.Replace(",", ".")));
+        PlayerPrefs.SetInt(SavedDataNames.sensivity_pos, int.Parse(posSensivity.text));
         PlayerPrefs.SetInt(SavedDataNames.sensivity_rot, int.Parse(rotSensivity.text));
-        PlayerPrefs.SetFloat(SavedDataNames.pinchDistance, float.Parse(pinchDistance.text.Replace(",", ".")));
+        PlayerPrefs.SetInt(SavedDataNames.pinchDistance, int.Parse(pinchDistance.text));
         
         PlayerPrefs.Save();
     }
@@ -188,9 +188,9 @@ public class MenuBehaviour : MonoBehaviour
         if (!PlayerPrefs.HasKey(SavedDataNames.sensivity_pos))
             return;
 
-        posSensivity.text = PlayerPrefs.GetFloat(SavedDataNames.sensivity_pos).ToString();
-        rotSensivity.text = PlayerPrefs.GetInt(SavedDataNames.sensivity_pos).ToString();
-        pinchDistance.text = PlayerPrefs.GetFloat(SavedDataNames.pinchDistance).ToString();
+        posSensivity.text = PlayerPrefs.GetInt(SavedDataNames.sensivity_pos).ToString();
+        rotSensivity.text = PlayerPrefs.GetInt(SavedDataNames.sensivity_rot).ToString();
+        pinchDistance.text = PlayerPrefs.GetInt(SavedDataNames.pinchDistance).ToString();
     }
 
     public void LoadData()
@@ -230,6 +230,7 @@ public class MenuBehaviour : MonoBehaviour
         PlayerPrefs.SetFloat(key + "_x", value.x);
         PlayerPrefs.SetFloat(key + "_y", value.y);
         PlayerPrefs.SetFloat(key + "_z", value.z);
+        Debug.Log("Float Saved: " + value.x + "\t format: " + PlayerPrefs.GetFloat(key + "_x"));
     }
 
     public static Vector3 PlayerPrefsGetVector3(string key)
