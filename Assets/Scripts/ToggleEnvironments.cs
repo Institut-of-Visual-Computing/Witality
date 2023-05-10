@@ -49,6 +49,7 @@ public class ToggleEnvironments : MonoBehaviour
     public void activate(int i)
     {
         active = i;
+        MenuSceneLoader.environment = active;
         set();
     }
 

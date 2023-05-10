@@ -211,7 +211,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "How much did you virtual experience equaled a real world? \n <b>1:</b> Not equal at all - <b>7:</b> Completely equal",
+      "QuestionTask": "How much did your virtual experience equaled a real world? \n <b>1:</b> Not equal at all - <b>7:</b> Completely equal",
       "QuestionType": "1",
       "QuestionElements": [
         {
