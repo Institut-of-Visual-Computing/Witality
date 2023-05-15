@@ -49,6 +49,11 @@ public class MenuBehaviour : MonoBehaviour
             error.text = "ProbandID fehlerhaft!";
             return;
         }
+        if (!sceneToggles.AnyTogglesOn())
+        {
+            error.text = "Szene auswählen!";
+            return;
+        }
         MenuSceneLoader.probandID = int.Parse(probandID.text);
         MenuSceneLoader.task = (TaskChanger.Task) task.value;
         MenuSceneLoader.subtask = subtask.value;
@@ -59,9 +64,9 @@ public class MenuBehaviour : MonoBehaviour
         //SceneManager.UnloadSceneAsync("Menu");
     }
     public void Toggled(int i)
-        {
-            MenuSceneLoader.environment = i;
-        }
+    {
+        MenuSceneLoader.environment = i;
+    }
     public void UpdateCodes()
     {
         
@@ -103,6 +108,28 @@ public class MenuBehaviour : MonoBehaviour
     {
         MenuSceneLoader.codes = getCodes();
         UpdateCodes();
+        UpdateDemoIpqEng();
+    }
+    void UpdateDemoIpqEng()
+    {
+        demo.isOn = subtask.value == 0;
+        ipq.isOn = subtask.value == 1;
+    }
+    public void JokerToggle(int active)
+    {
+        for (int i = 1; i <= 3; i++)
+        {
+            TMP_InputField t = codes.GetChild(i).GetComponent<TMP_InputField>(); 
+            int j = (subtask.value == 0 ? 597 : 322);
+            int c = getCodes()[i];
+
+            int code = active == i ? (t.text == c.ToString() ? j : c)   :   c;
+
+            t.text = code.ToString();
+            MenuSceneLoader.codes[active] = code;
+        }
+        
+        
     }
     int[] getCodes()
     {
@@ -199,6 +226,8 @@ public class MenuBehaviour : MonoBehaviour
         english.isOn = PlayerPrefs.GetInt(SavedDataNames.english) == 1;
         task.value = PlayerPrefs.GetInt(SavedDataNames.task);
         subtask.value = PlayerPrefs.GetInt(SavedDataNames.subtask);
+        MenuSceneLoader.environment = PlayerPrefs.GetInt(SavedDataNames.environment);
+        updateSceneToggles();
     }
     public void saveData()
     {
@@ -206,6 +235,7 @@ public class MenuBehaviour : MonoBehaviour
         PlayerPrefs.SetInt(SavedDataNames.english, english.isOn ? 1 : 0);
         PlayerPrefs.SetInt(SavedDataNames.task, task.value);
         PlayerPrefs.SetInt(SavedDataNames.subtask, subtask.value);
+        PlayerPrefs.SetInt(SavedDataNames.environment, MenuSceneLoader.environment);
         PlayerPrefs.Save();
     }
 
@@ -222,6 +252,7 @@ public class MenuBehaviour : MonoBehaviour
         public static string calib_cam_rot = "calibration_cam_rot";
         public static string calib_rig_pos = "calibration_rig_pos";
         public static string calib_rig_rot = "calibration_rig_rot";
+        public static string environment = "environment";
 
     }
 
@@ -240,5 +271,15 @@ public class MenuBehaviour : MonoBehaviour
         v.y = PlayerPrefs.GetFloat(key + "_y");
         v.z = PlayerPrefs.GetFloat(key + "_z");
         return v;
+    }
+    void updateSceneToggles()
+    {
+        for (int i = 0; i < sceneToggles.transform.childCount; i++)
+        {
+            Toggle t = sceneToggles.transform.GetChild(i).GetComponent<Toggle>();
+            t.isOn = t.name == ToggleEnvironments.id2name(MenuSceneLoader.environment);
+            if (t.isOn)
+                Debug.Log("PlayerPrefab load " + t.name);
+        }
     }
 }

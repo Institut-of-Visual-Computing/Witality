@@ -2,6 +2,19 @@
   "Questions": [
     {
       "AnswerRequired": true,
+      "QuestionTask": "Schauen Sie sich im virtuellen Raum einmal um und finden Sie sich im Raum ein.",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Verstanden.",
+          "IsSelected": true,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
       "QuestionTask": "Alter",
       "QuestionType": "1",
       "QuestionElements": [

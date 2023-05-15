@@ -7,7 +7,7 @@ public class MenuSceneLoader : MonoBehaviour
 {
     public static TaskChanger.Task task = TaskChanger.Task.CATA;
     public static int subtask = 0;
-    public static int environment = 1;
+    public static int environment = 0;
     public static int probandID = 999;
     public static int[] codes;
     public static bool demographic, ipq, english = false;

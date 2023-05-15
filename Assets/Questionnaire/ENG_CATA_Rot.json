@@ -19,7 +19,7 @@
         },
         {
           "IndexNumber": 2,
-          "TextMessage": "deep red with bluish reflections",
+          "TextMessage": "deep red with blue reflection",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -38,73 +38,73 @@
         },
         {
           "IndexNumber": 1,
-          "TextMessage": "vegetal",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "spicy",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "smoke",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "dull",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
           "TextMessage": "strawberry",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 6,
+          "IndexNumber": 2,
           "TextMessage": "cherry",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 7,
+          "IndexNumber": 3,
           "TextMessage": "dark berries",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 8,
+          "IndexNumber": 4,
           "TextMessage": "plum",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 9,
+          "IndexNumber": 5,
+          "TextMessage": "vegetal",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "spicy",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 7,
           "TextMessage": "clove",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 10,
+          "IndexNumber": 8,
           "TextMessage": "vanilla",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 11,
+          "IndexNumber": 9,
           "TextMessage": "pepper",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 12,
+          "IndexNumber": 10,
+          "TextMessage": "smoke",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 11,
           "TextMessage": "wood",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 12,
+          "TextMessage": "dull",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -117,61 +117,61 @@
       "QuestionElements": [
         {
           "IndexNumber": 0,
-          "TextMessage": "sweet",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "astringent",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "tannin",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "acidic",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "high alcohol",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
-          "TextMessage": "low acidity",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 6,
-          "TextMessage": "wood",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 7,
-          "TextMessage": "bitter",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 8,
           "TextMessage": "low sweetness",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 9,
+          "IndexNumber": 1,
+          "TextMessage": "medium sweetness",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 2,
+          "TextMessage": "low acidity",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "medium acidity",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
           "TextMessage": "high acidity",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "bitter",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "high alcohol",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 7,
+          "TextMessage": "astringent",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 8,
+          "TextMessage": "tannin",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 9,
+          "TextMessage": "wood",
           "IsSelected": false,
           "HasTextInput": false
         }

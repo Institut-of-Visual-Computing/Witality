@@ -2,6 +2,19 @@
   "Questions": [
     {
       "AnswerRequired": true,
+      "QuestionTask": "Take a look at your environment and make yourself comfortable with the room.",
+      "QuestionType": "1",
+      "QuestionElements": [
+        {
+          "IndexNumber": 0,
+          "TextMessage": "Done.",
+          "IsSelected": true,
+          "HasTextInput": false
+        }
+      ]
+    },
+    {
+      "AnswerRequired": true,
       "QuestionTask": "Age",
       "QuestionType": "1",
       "QuestionElements": [

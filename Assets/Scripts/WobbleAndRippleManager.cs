@@ -5,7 +5,7 @@ using UnityEditor;
 public class WobbleAndRippleManager : MonoBehaviour
 {
 
-    public float maxWobble, wobbleSpeed, recovery, rippleLimit, rippleDensity = 15, rippleIntensity = 8;
+    public float maxWobble = 0.001f, wobbleSpeed = 1, recovery = 1, rippleLimit = 0.1f, rippleDensity = 15, rippleIntensity = 8, rippleSpeed = 100, rippleThreshold = 0.0001f;
     public bool testLimit,ripple;
 
     public Transform[] objects;
@@ -28,7 +28,8 @@ public class WobbleAndRippleManager : MonoBehaviour
             w.Recovery = recovery;
             w.rippleLimit = rippleLimit;
             w.testLimit = testLimit;
-
+            w.rippleSpeed = rippleSpeed;
+            w.rippleThreshold = rippleThreshold;
 
             Material m = objects[i].GetComponent<Renderer>().material;
             m.SetFloat("_RippleDensity", rippleDensity);
@@ -47,7 +48,10 @@ public class WobbleAndRippleManagerInspector : Editor
 
         if (GUILayout.Button("Write"))
         {
-            ((WobbleAndRippleManager)target).execute();
+            if (Application.isPlaying)
+                ((WobbleAndRippleManager)target).execute();
+            else
+                Debug.Log("Writing only in Playmode.");
         }
     }
 }

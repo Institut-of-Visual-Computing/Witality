@@ -11,7 +11,7 @@ public class MainMenuBehaviour : MonoBehaviour {
     /// </summary>
     [SerializeField] TextAsset MainQuestionaire;
 
-    [SerializeField] TextAsset LanguageDictionary;
+    [SerializeField] public TextAsset LanguageDictionary;
 
     //Containers to put the questins in
     /// <summary>
@@ -188,7 +188,7 @@ public class MainMenuBehaviour : MonoBehaviour {
         StartQuestionaire();
     }
 
-    void SetLanguage(string languageDictionary)
+    public void SetLanguage(string languageDictionary)
     {
         CurrentDictionary = JsonUtility.FromJson<LanguageDictionary>(languageDictionary);
         SubmitButton.GetComponentInChildren<Text>().text = CurrentDictionary.GetKeyValue("submit");
