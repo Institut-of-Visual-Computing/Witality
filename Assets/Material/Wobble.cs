@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Wobble : MonoBehaviour
 {
-    Renderer rend;
+    public Renderer rend;
     Vector3 lastPos;
     Vector3 velocity;
     Vector3 lastRot;
@@ -32,6 +32,7 @@ public class Wobble : MonoBehaviour
         seed = Random.Range(1, 10);
         seedAdd = 0;
         rend.material.SetFloat("_Seed",seed);
+        lastPos = transform.position;
     }
     private void Update()
     {
@@ -50,8 +51,10 @@ public class Wobble : MonoBehaviour
         rend.material.SetFloat("_WobbleZ", wobbleAmountZ);
 
         // velocity
-        velocity = (lastPos - transform.position) / Time.deltaTime;
-        seedAdd = Mathf.SmoothDamp(seedAdd, Mathf.Min(rippleLimit, velocity.magnitude), ref currentVelocity, rippleSpeed);
+        velocity = (lastPos - transform.position) * Time.deltaTime;
+
+        //Ripple
+        seedAdd = Mathf.SmoothDamp(seedAdd, velocity.magnitude > 0 ? rippleLimit : 0, ref currentVelocity, rippleSpeed);
         rippleStrength = Mathf.SmoothDamp(rippleStrength, velocity.magnitude > 0 ? 1 : 0, ref currentVelocity, rippleSpeed);
         seed += testLimit ? rippleLimit : seedAdd;
         rend.material.SetFloat("_Seed", seed);
