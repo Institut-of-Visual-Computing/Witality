@@ -117,4 +117,19 @@ public class Maths
     {
         return new Vector3(v.x, y, v.z);
     }
+    public static Quaternion RotationVertical(Quaternion q)
+    {
+        Vector3 fwd = ZeroVector(q * Vector3.up, false, true, false);
+        return Quaternion.LookRotation(Vector3.up, fwd);
+    }
+    public static Vector3 RandomVector(float deviation)
+    {
+        return new Vector3(Random.Range(-deviation, deviation), Random.Range(-deviation, deviation), Random.Range(-deviation, deviation));
+    }
+
+    public static float FloatMap(float value, float fromA, float fromB, float toA, float toB)
+    {
+        return toA + ((toB - toA) / (fromB - fromA)) * (value - fromA);
+    }
+
 }

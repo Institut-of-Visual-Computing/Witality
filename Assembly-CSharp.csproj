@@ -200,6 +200,7 @@
     <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\QuestionaireMechanics\AdditionalTextInputBehaviour.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventBundle.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventPacket.cs" />
+    <Compile Include="Assets\Scripts\Resetter.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\FlashlightController.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorHelpers.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Informers\OSCTransmitterInformerChar.cs" />
@@ -348,6 +349,7 @@
     <Compile Include="Assets\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionVector2.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableToolsInputRouter.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventString.cs" />
+    <Compile Include="Assets\Scripts\EnglishToggle.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\ObjectManipulator.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventBlob.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector4.cs" />
@@ -374,8 +376,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\Scripts\Maths.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\Scripts\Resetter.cs" />
-    <Compile Include="Assets\Scripts\EnglishToggle.cs" />
+    <Compile Include="Assets\Scripts\CameraBorder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
@@ -429,6 +430,7 @@
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\StylizedOcclusions.shader" />
+    <None Include="Assets\keyword_counts.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_02.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\GlassMask.shader" />

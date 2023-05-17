@@ -117,7 +117,7 @@ public class MenuBehaviour : MonoBehaviour
     }
     public void JokerToggle(int active)
     {
-        for (int i = 1; i <= 3; i++)
+        for (int i = 1; i <= (subtask.value == 0 ? 3 : 2); i++)
         {
             TMP_InputField t = codes.GetChild(i).GetComponent<TMP_InputField>(); 
             int j = (subtask.value == 0 ? 597 : 322);

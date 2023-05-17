@@ -276,8 +276,7 @@ public class OpenCVTransRotMapper : MonoBehaviour
         //-------------------------------------------------------------------------------------------------------
         #region Set Rotation
         //Can be confusing: The ArUcos Fwd and Up are not equal to Unitys Fwd and Up. Up is the Normal of the ArUco Marker. Fwd marking the upside.
-        Vector3 data_fwd = ZeroVector(data.rot * Vector3.up,false,true,false);
-        Quaternion tableRot  = Quaternion.LookRotation(Vector3.up, data_fwd);
+        Quaternion tableRot = RotationVertical(data.rot);
 
         if (isOnTable && snapToTable)
         {
@@ -371,10 +370,6 @@ public class OpenCVTransRotMapper : MonoBehaviour
 
             ProcessData(data);
         }
-    }
-    Vector3 RandomVector(float deviation)
-    {
-        return new Vector3(Random.Range(-deviation, deviation), Random.Range(-deviation, deviation), Random.Range(-deviation, deviation));
     }
     List<Vector3> PosFromBuffer(List<TrackingData> b)
     {

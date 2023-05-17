@@ -13,6 +13,8 @@ public class GrabSimulator : MonoBehaviour
     public float pinchThreshold=0.035f;
     public bool setRotation = true;
     public float yawOffset = 25f;
+    public float tableHeight = 0.743f;
+    public float tableHeightThreshold = 0.1f;
     struct Offset
     {
         public Transform o;
@@ -62,10 +64,22 @@ public class GrabSimulator : MonoBehaviour
     }
     void CopyPosRot(Transform o, bool left)
     {
+        Quaternion q = (left ? rotL : rotR);
+        Vector3 p = (left ? posL : posR);
+
         if (setRotation)
-            o.rotation = (left ? rotL : rotR);// * GetOffset(o);
+        {
+            //linear interpolate as hand gets closer to table
+            float t = Mathf.Clamp01((p.y-tableHeight) / tableHeightThreshold);
+
+            o.rotation = Quaternion.Lerp(RotationVertical(q), q, t);
+        
+        }
         Vector3 handle = o.Find("rotation") ? (o.rotation * o.Find("rotation").localPosition) : Vector3.zero;
-        o.position = (left ? posL : posR) - handle;
+        if (p.y - handle.y <= tableHeight)
+            p.y = tableHeight + handle.y;
+
+        o.position = p - handle;
         
     }
     public int IsGrabbedInt(Transform o)

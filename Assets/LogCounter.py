@@ -50,22 +50,29 @@ keywords = ['Weinkeller', 'Sensoriklabor', 'CATA','Weißwein','Rotwein','131','3
 # Call the function to count keywords in the folder
 result = count_keywords_in_folder(folder_path, keywords)
 
-# Print the keyword counts
-for keyword, count in result.items():
-    print(f"{keyword} occurred {count} times.")
+# Define the output file path
+output_file_path = os.path.join(current_dir, 'keyword_counts.txt')
 
-# Find the lowest count among keywords
-lowest_count = min(result.values())
+# Open the output file in write mode
+with open(output_file_path, 'w') as output_file:
+    # Write the keyword counts to the file
+    for keyword, count in result.items():
+        output_file.write(f"{keyword} occurred {count} times.\n")
 
-# Find the keywords with the lowest count
-keywords_with_lowest_count = [keyword for keyword, count in result.items() if count == lowest_count]
+    # Find the lowest count among keywords
+    lowest_count = min(result.values())
 
-# Print the keyword(s) with the lowest count
-if keywords_with_lowest_count:
-    if len(keywords_with_lowest_count) == 1:
-        print(f"{keywords_with_lowest_count[0]} had the lowest count.")
+    # Find the keywords with the lowest count
+    keywords_with_lowest_count = [keyword for keyword, count in result.items() if count == lowest_count]
+
+    # Write the keyword(s) with the lowest count to the file
+    if keywords_with_lowest_count:
+        if len(keywords_with_lowest_count) == 1:
+            output_file.write(f"{keywords_with_lowest_count[0]} had the lowest count.\n")
+        else:
+            keywords_str = ', '.join(keywords_with_lowest_count)
+            output_file.write(f"{keywords_str} had the lowest count.\n")
     else:
-        keywords_str = ', '.join(keywords_with_lowest_count)
-        print(f"{keywords_str} had the lowest count.")
-else:
-    print("No keywords found.")
+        output_file.write("No keywords found.\n")
+
+print("Output saved to keyword_counts.txt.")
