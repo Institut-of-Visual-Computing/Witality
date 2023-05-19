@@ -364,6 +364,7 @@
     <Compile Include="Assets\extOSC\Scripts\Core\Packers\OSCPackerTrue.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Packers\OSCPacker.cs" />
     <Compile Include="Assets\Scripts\Toggle_Gameobject.cs" />
+    <Compile Include="Assets\Scripts\TransparencyToggler.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventNull.cs" />
     <Compile Include="Assets\Scripts\QuestionnaireBehaviour.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeToolView.cs" />
@@ -377,7 +378,6 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\Scripts\Maths.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\Scripts\TransparencyToggler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
