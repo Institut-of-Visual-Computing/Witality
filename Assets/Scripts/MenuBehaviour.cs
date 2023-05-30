@@ -117,16 +117,17 @@ public class MenuBehaviour : MonoBehaviour
     }
     public void JokerToggle(int active)
     {
-        for (int i = 1; i <= (subtask.value == 0 ? 3 : 2); i++)
+        bool weiﬂ = subtask.value == 0;
+        for (int i = 1; i <= (weiﬂ ? 3 : 2); i++)
         {
             TMP_InputField t = codes.GetChild(i).GetComponent<TMP_InputField>(); 
-            int j = (subtask.value == 0 ? 597 : 322);
+            int j = (weiﬂ ? 597 : 322);
             int c = getCodes()[i];
 
             int code = active == i ? (t.text == c.ToString() ? j : c)   :   c;
 
             t.text = code.ToString();
-            MenuSceneLoader.codes[active] = code;
+            MenuSceneLoader.codes[i] = code;
         }
         
         

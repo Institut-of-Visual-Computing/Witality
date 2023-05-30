@@ -6576,6 +6576,7 @@ MonoBehaviour:
   OVRRig: {fileID: 468101842}
   HMD: {fileID: 1678734981}
   resetButton: 32
+  resetAfterSeconds: 2
 --- !u!1 &941864299
 GameObject:
   m_ObjectHideFlags: 0
@@ -22501,7 +22502,7 @@ PrefabInstance:
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7548
+      value: 0.7547
       objectReference: {fileID: 0}
     - target: {fileID: 9003281639896356353, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}

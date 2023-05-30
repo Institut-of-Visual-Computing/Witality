@@ -43,8 +43,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.04, y: 0.08, z: 0.04}
-  m_Center: {x: 0, y: 0.035, z: 0}
+  m_Size: {x: 0.023676066, y: 0.08, z: 0.023676073}
+  m_Center: {x: -0.0081619695, y: 0.035, z: 0.00007352918}
 --- !u!1 &5988529552281328305
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 1792143729}
   _boundsCollider: {fileID: 699645829}
   _colliders:
-  - {fileID: 1954337057}
+  - {fileID: 218423154745890782}
   - {fileID: 1037550402}
 --- !u!54 &7904467617087300864
 Rigidbody:
@@ -254,7 +254,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: -5280525307430786195, guid: e7d454dd05032c64cad0473754883b82, type: 3}
+  m_Mesh: {fileID: -5280525307430786195, guid: 09c7f84484811284b8289780b4cd5771, type: 3}
 --- !u!1 &6589876730056143597
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,8 +372,7 @@ GameObject:
   - component: {fileID: 6589876730789524760}
   - component: {fileID: 6589876730789524761}
   - component: {fileID: 6589876730789524762}
-  - component: {fileID: 1954337057}
-  - component: {fileID: 7339241721217878872}
+  - component: {fileID: 218423154745890782}
   m_Layer: 6
   m_Name: color_probe_glass glass
   m_TagString: Untagged
@@ -446,7 +445,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1954337057
+--- !u!65 &218423154745890782
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -457,22 +456,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.012093248, y: 0.0064630923, z: 0.019791342}
-  m_Center: {x: 0, y: 0, z: 0.008334718}
---- !u!64 &7339241721217878872
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6589876730789524763}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7660084996065424368, guid: e7d454dd05032c64cad0473754883b82, type: 3}
+  m_Size: {x: 0.0071565066, y: 0.007156508, z: 0.017062576}
+  m_Center: {x: 0.0000053113326, y: -0.000026701606, z: 0.008531288}
 --- !u!1001 &5616987680277615437
 PrefabInstance:
   m_ObjectHideFlags: 0
