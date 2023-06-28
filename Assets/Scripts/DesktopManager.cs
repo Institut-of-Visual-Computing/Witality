@@ -11,13 +11,18 @@ public class DesktopManager : MonoBehaviour
     public KeyCode[] keyEvents;
     public TextMeshProUGUI text;
     public Transform OVRRig;
-
+    FlaschenBehaviour[] bottles;
 
     string defaultText;
 
     private void Start()
     {
         defaultText = text.text;
+        bottles = new FlaschenBehaviour[objects.Length];
+        for (int i = 0; i < objects.Length; i++)
+        {
+            bottles[i] = objects[i].GetComponentInChildren<FlaschenBehaviour>();
+        }
     }
     void Update()
     {
@@ -34,7 +39,10 @@ public class DesktopManager : MonoBehaviour
         }
         for (int i = 0; i < keyEvents.Length; i++)
         {
-            events[i].Invoke();
+            if (Input.GetKeyDown(keyEvents[i]))
+            {
+                events[i].Invoke();
+            }
         }
 
         string ApplyFormat(string input)
@@ -50,10 +58,12 @@ public class DesktopManager : MonoBehaviour
     {
         for (int i = 0; i < objects.Length; i++)
         {
-            Animator a = objects[i].GetComponentInChildren<Animator>();
-            if (a != null)
+            
+            if (bottles[i] != null)
             {
-                a.SetBool("loop", set);
+                if(!set)
+                    bottles[i].EndAnimation();
+                bottles[i].SetPouring(set);
             }
         }
     }

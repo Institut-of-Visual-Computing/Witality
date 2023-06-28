@@ -356,6 +356,7 @@
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector4.cs" />
     <Compile Include="Assets\Scripts\WobbleAndRippleManager.cs" />
     <Compile Include="Assets\Questionnaire\Simple Survey\Scripts\MenuScripts\UIAnimationFadeBehaviour.cs" />
+    <Compile Include="Assets\Scripts\DesktopManager.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\LocomotionTeleport.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventImpulse.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Scripts\OVROverlayCanvas.cs" />
@@ -378,7 +379,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\Scripts\Maths.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\Scripts\DesktopManager.cs" />
+    <Compile Include="Assets\Scripts\FlaschenBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
