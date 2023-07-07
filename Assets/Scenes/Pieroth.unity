@@ -1181,6 +1181,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227580062}
   m_Mesh: {fileID: -7230845352582975302, guid: 09c7f84484811284b8289780b4cd5771, type: 3}
+--- !u!114 &301011671 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8721797051749083486, guid: 78cac12994accab4086dbe837aa61c76,
+    type: 3}
+  m_PrefabInstance: {fileID: 94154924}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &316407364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1996,6 +2008,18 @@ Transform:
   m_Father: {fileID: 395384923}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &683661349 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4859940561821777126, guid: 78cac12994accab4086dbe837aa61c76,
+    type: 3}
+  m_PrefabInstance: {fileID: 94154924}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &696206577
 GameObject:
   m_ObjectHideFlags: 0
@@ -7850,6 +7874,69 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1034083878}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1047529422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1047529424}
+  - component: {fileID: 1047529423}
+  m_Layer: 0
+  m_Name: PierothGlassGrab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1047529423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047529422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dda4e19844fc9845a172e206cec0719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handL: {fileID: 683661349}
+  handR: {fileID: 301011671}
+  glasses:
+  - {fileID: 1884884436}
+  - {fileID: 1759252007}
+  pinchThreshold: 0.035
+  yawOffset: 25
+--- !u!4 &1047529424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047529422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1063271244 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8003958635126207832, guid: d8a0732fe5f47a842920f1ab8ef0d18f,
+    type: 3}
+  m_PrefabInstance: {fileID: 38257564}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f32e8c6b6831842f9abd8194fb4e83f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1070810539
 GameObject:
   m_ObjectHideFlags: 0
@@ -8611,7 +8698,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  keyEvents: 200000000d000000
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1063271244}
+        m_TargetAssemblyTypeName: MainMenuBehaviour, Assembly-CSharp
+        m_MethodName: StartSurvey
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  keyEvents: 200000000d00000071000000
   text: {fileID: 2030629589}
   OVRRig: {fileID: 2108222214}
 --- !u!1 &1420093392
@@ -9669,6 +9770,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Wei\xDFwein"
       objectReference: {fileID: 0}
+    - target: {fileID: 9003281639896356354, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bfbbae8ded918c4dbcb95773752ddb1, type: 3}
 --- !u!4 &1759252007 stripped
@@ -10509,6 +10615,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rotwein
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003281639896356354, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9003281640722179204, guid: 8bfbbae8ded918c4dbcb95773752ddb1,
         type: 3}
