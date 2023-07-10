@@ -170,11 +170,17 @@ public class MainMenuBehaviour : MonoBehaviour {
             }
             else
             {
-
+                if (!MenuSceneLoader.pieroth)
+                {
+                    questionnaireBehaviour.Set(false);
+                    StudyCompleteScreen.SetActive(true);
+                    MainPanel.SetActive(false);
+                }
+                else
+                {
+                    gameObject.SetActive(false);
+                }
                 //ShowStartScreen();
-                MainPanel.SetActive(false);
-                questionnaireBehaviour.Set(false);
-                StudyCompleteScreen.SetActive(true);
             }
         }
         else

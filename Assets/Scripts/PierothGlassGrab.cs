@@ -23,26 +23,29 @@ public class PierothGlassGrab : MonoBehaviour
         if(!SetActiveHand())
             return;
 
-        Vector3 p = GetPos(hand == handL);
         glas.rotation = GetRot(hand == handL);
+        glas.position = GetPos(hand == handL);
 
-        Vector3 handle = glas.Find("rotation") ? (glas.rotation * glas.Find("rotation").localPosition) : Vector3.zero;
+        Debug.DrawLine(thumbL.position, indexL.position,Color.green);
+        Debug.DrawLine(thumbR.position, indexR.position, Color.green);
 
-        glas.position = p - handle;
-         
-        
 
     }
 
     void SetThumbAndIndex()
     {
-        if (!thumbL || !thumbR || !indexL || !indexR)
-        {
-            thumbL = Maths.GetThumb(handL.transform);
+
+        if (!thumbL || thumbL == handL.transform)
+            thumbL = Maths.GetThumb(handL.transform); 
+
+        if (!thumbR || thumbR == handR.transform)
             thumbR = Maths.GetThumb(handR.transform);
+
+        if (!indexL || indexL == handL.transform)
             indexL = Maths.GetIndex(handL.transform);
+
+        if (!indexR || indexR == handR.transform)
             indexR = Maths.GetIndex(handR.transform);
-        }
     }
 
     bool SetActiveGlass()
@@ -62,8 +65,19 @@ public class PierothGlassGrab : MonoBehaviour
         bool pinchingL = Vector3.Distance(thumbL.position, indexL.position) < pinchThreshold;
         bool pinchingR = Vector3.Distance(thumbR.position, indexR.position) < pinchThreshold;
 
-        hand = pinchingR ? handR : (pinchingL ? handL : null);
 
+        if (!pinchingL && !pinchingR)
+            hand = null;
+
+        else if (pinchingL && pinchingR && hand != null)
+            return hand != null;
+
+        else if (pinchingR)
+            hand = handR;
+        else if (pinchingL)
+            hand = handL;
+        else
+            hand = null;
         return hand != null;
     }
 
@@ -87,5 +101,10 @@ public class PierothGlassGrab : MonoBehaviour
 
 
         return Quaternion.LookRotation(fwd, up);
+    }
+    
+    public void AdjustYaw(int value)
+    {
+        yawOffset += value;
     }
 }

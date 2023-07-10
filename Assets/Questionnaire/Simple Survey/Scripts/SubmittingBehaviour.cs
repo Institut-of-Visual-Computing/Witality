@@ -82,14 +82,19 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
             fileName = sub;
         }
         */
-        fileName = System.DateTime.Today.ToString("d", CultureInfo.GetCultureInfo("de-DE")) + "_" + MenuSceneLoader.probandID.ToString("000.") + "_"; //fr -> 31/10/2022      de -> 31.10.2022
-        if (MenuSceneLoader.demographic)
-            fileName += "demographic";
-        else if (MainMenuBehaviour.currentlyDoingIPQ)
-            fileName += "ipq";
+        fileName = System.DateTime.Today.ToString("d", CultureInfo.GetCultureInfo("de-DE")) + "_"; //fr -> 31/10/2022      de -> 31.10.2022
+        if (MenuSceneLoader.pieroth)
+            fileName += "pieroth";
         else
-            fileName += MenuSceneLoader.task + "-" + System.Enum.GetName(TaskChanger.Task2Subtask(MenuSceneLoader.task), MenuSceneLoader.subtask) + "_" + ToggleEnvironments.id2name(MenuSceneLoader.environment);
-
+        {
+            fileName += MenuSceneLoader.probandID.ToString("000.") + "_";
+            if (MenuSceneLoader.demographic)
+                fileName += "demographic";
+            else if (MainMenuBehaviour.currentlyDoingIPQ)
+                fileName += "ipq";
+            else
+                fileName += MenuSceneLoader.task + "-" + System.Enum.GetName(TaskChanger.Task2Subtask(MenuSceneLoader.task), MenuSceneLoader.subtask) + "_" + ToggleEnvironments.id2name(MenuSceneLoader.environment);
+        }
         string path = Application.dataPath + "/" + "Logs";
 
         if (!Directory.Exists(path))

@@ -10,7 +10,7 @@ public class MenuSceneLoader : MonoBehaviour
     public static int environment = 0;
     public static int probandID = 999;
     public static int[] codes;
-    public static bool demographic, ipq, english = false;
+    public static bool demographic, ipq, english = false, pieroth = false;
     // Start is called before the first frame update
     void Start()
     {

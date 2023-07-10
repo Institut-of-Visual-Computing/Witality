@@ -10,7 +10,7 @@ public class DesktopManager : MonoBehaviour
     public UnityEvent[] events;
     public KeyCode[] keyEvents;
     public TextMeshProUGUI text;
-    public Transform OVRRig;
+    public Transform OVRRig,HMD;
     FlaschenBehaviour[] bottles;
 
     string defaultText;
@@ -33,9 +33,10 @@ public class DesktopManager : MonoBehaviour
             if (Input.GetKeyDown(keys[i]))
             {
                 objects[i].SetActive(!objects[i].activeSelf);
-                SetEinschenken(true);
+                if(objects[i].name.Contains("wein"))
+                    SetEinschenken(true);
             }
-            text.text += ApplyFormat(keys[i].ToString()) + ":\t" + objects[i].name + " ist " + (objects[i].activeSelf ? "aktiv." : "ausgeblendet.") + "\n";
+            text.text += ApplyFormat(keys[i].ToString()) + ":\t<color=" + (objects[i].activeSelf ? "green" : "red") + ">" + objects[i].name + "</color>\n";
         }
         for (int i = 0; i < keyEvents.Length; i++)
         {
@@ -48,7 +49,9 @@ public class DesktopManager : MonoBehaviour
         string ApplyFormat(string input)
         {
             string output = input;
-            if (input.Length > 5 && input.Substring(0, 5) == "Alpha")
+            if (input.Contains("Alpha"))
+                output = input.Substring(5);
+            else if(input.Contains("Arrow"))
                 output = input.Substring(5);
             return output;
         }
@@ -70,6 +73,10 @@ public class DesktopManager : MonoBehaviour
 
     public void ResetRig()
     {
-        OVRRig.position -= Maths.VectorNewY(OVRRig.position,0);
+        OVRRig.position -= Maths.VectorNewY(HMD.position,0);
+    }
+    public void Toggle(GameObject g)
+    {
+        g.SetActive(!g.activeSelf);
     }
 }

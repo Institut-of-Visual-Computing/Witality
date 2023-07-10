@@ -79,6 +79,7 @@
     <Compile Include="Assets\extOSC\Scripts\OSCMessage.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportDestination.cs" />
     <Compile Include="Assets\extOSC\Scripts\Mapping\OSCMapValue.cs" />
+    <Compile Include="Assets\Scripts\PierothGlassGrab.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\GrabObject.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Ping\OSCPingServer.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventDouble.cs" />
@@ -380,7 +381,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\Scripts\Maths.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\Scripts\PierothGlassGrab.cs" />
+    <Compile Include="Assets\Scripts\MenuSceneLoaderOverwrite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
