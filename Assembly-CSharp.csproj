@@ -286,6 +286,7 @@
     <Compile Include="Assets\Scripts\MultiArray.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Informers\OSCTransmitterInformer.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventInt.cs" />
+    <Compile Include="Assets\Scripts\MenuSceneLoaderOverwrite.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventLong.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNavMesh.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionMidi.cs" />
@@ -381,7 +382,6 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\Scripts\Maths.cs" />
     <Compile Include="Assets\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\Scripts\MenuSceneLoaderOverwrite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
