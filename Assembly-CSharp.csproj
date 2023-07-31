@@ -352,6 +352,7 @@
     <Compile Include="Assets\extOSC\Scripts\Mapping\OSCMapEnum.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionVector2.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableToolsInputRouter.cs" />
+    <Compile Include="Assets\Scripts\QuestionaireImages.cs" />
     <Compile Include="Assets\extOSC\Scripts\Components\Events\OSCReceiverEventString.cs" />
     <Compile Include="Assets\Scripts\EnglishToggle.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\ObjectManipulator.cs" />

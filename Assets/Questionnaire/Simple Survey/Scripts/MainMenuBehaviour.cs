@@ -46,12 +46,26 @@ public class MainMenuBehaviour : MonoBehaviour {
     public GameObject StudyCompleteScreen;
     public static LanguageDictionary CurrentDictionary;
     public static bool taskSubmitted = false;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            QuestionIndex++;
+            LoadQuestion(QuestionIndex);
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            QuestionIndex--;
+            LoadQuestion(QuestionIndex);
+        }
+    }
     public Questionaire GetCurrentQuestionaire()
     {
         return CurrentQuestionaire;
     }
-    int QuestionIndex;
-    int automatedTurnOff = -1;
+    public int QuestionIndex;
+    public int automatedTurnOff = -1;
 
     // Use this for initialization
     void Start () {
@@ -62,7 +76,8 @@ public class MainMenuBehaviour : MonoBehaviour {
 
         //SubmitPanelPrefab.GetComponent<OVRRaycaster>().pointer = QuestionNotAnsweredPanelPrefab.GetComponent<OVRRaycaster>().pointer = QuestPointer;
         //SubmitPanelPrefab.GetComponent<Canvas>().worldCamera = QuestionNotAnsweredPanelPrefab.GetComponent<Canvas>().worldCamera = CanvasCamera;
-
+        if(MenuSceneLoader.pieroth)
+            StartSurvey();
     }
 
     public void ShowStartScreen()
@@ -103,7 +118,14 @@ public class MainMenuBehaviour : MonoBehaviour {
         }
         ButtonVisibility();
         if (index == automatedTurnOff && !taskSubmitted)
-            questionnaireBehaviour.Set(false);
+        {
+            if(MenuSceneLoader.pieroth)
+                transform.parent.parent.parent.parent.gameObject.SetActive(false);
+            else
+                questionnaireBehaviour.Set(false);
+        
+        }
+        QuestionaireImages.updated = false;
     }
 
     public void NextQuestion()
@@ -189,7 +211,7 @@ public class MainMenuBehaviour : MonoBehaviour {
         }
     }
 
-  public  void StartSurvey()
+    public  void StartSurvey()
     {
         StartQuestionaire();
     }
@@ -208,8 +230,18 @@ public class MainMenuBehaviour : MonoBehaviour {
         MainQuestionaire = q;
         StartQuestionaire();
     }
+    public void SetQuestionaire(TextAsset q)
+    {
+        MainQuestionaire = q;
+        StartQuestionaire();
+    }
     public void SetSubmitted(bool submitted)
     {
         taskSubmitted = submitted;
     }
+    public void SetTurnOff(int i)
+    {
+        automatedTurnOff = i;
+    }
+    
 }
