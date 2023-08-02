@@ -2,12 +2,12 @@
   "Questions": [
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte geben Sie ihre Altersklasse an:",
+      "QuestionTask": "Bitte geben Sie ihre Altersklasse an.",
       "QuestionType": "1",
       "QuestionElements": [
         {
           "IndexNumber": 0,
-          "TextMessage": "24 oder jünger",
+          "TextMessage": "16-24",
           "IsSelected": false,
           "HasTextInput": false
         },
@@ -33,7 +33,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte geben Sie ihr Geschlecht an:",
+      "QuestionTask": "Bitte geben Sie ihr Geschlecht an.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -81,7 +81,7 @@
         },
         {
           "IndexNumber": 3,
-          "TextMessage": "Regelmäßig",
+          "TextMessage": "Wöchentlich",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -89,7 +89,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte wählen Sie die passende Weißwein <color=red>Farbe</color>:",
+      "QuestionTask": "Bitte wählen Sie die passende Weißwein <color=red>Farbe</color>.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -114,7 +114,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte wählen Sie bis zu 4 Attribute zum <color=red>Geruch</color> aus:",
+      "QuestionTask": "Bitte wählen Sie bis zu 4 Attribute zum <color=red>Geruch</color> aus.",
       "QuestionType": "2",
       "QuestionElements": [
         {
@@ -169,7 +169,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie hoch war der Anteil von <color=red>Süße</color> im Geschmack?",
+      "QuestionTask": "Bitte bewerten Sie die <color=red>Süße</color> im Geschmack.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -194,7 +194,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie hoch war der Anteil von <color=red>Säure</color> im Geschmack?",
+      "QuestionTask": "Bitte bewerten Sie die <color=red>Säure</color> im Geschmack.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -219,7 +219,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie hoch war der Anteil von <color=red>Bitterkeit</color> im Geschmack?",
+      "QuestionTask": "Bitte bewerten Sie die <color=red>Bitterkeit</color> im Geschmack.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -244,7 +244,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie hoch war der Anteil von <color=red>Alkohol</color> im Geschmack?",
+      "QuestionTask": "Bitte bewerten Sie den <color=red>Alkohol</color> im Geschmack.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -269,7 +269,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie würden Sie den <color=red>Abgang</color> beschreiben?",
+      "QuestionTask": "Bitte bewerten Sie den <color=red>Abgang</color>.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -294,7 +294,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie würden Sie den <color=red>Gesamteindruck</color> bewerten?",
+      "QuestionTask": "Bitte bewerten Sie den <color=red>Gesamteindruck</color>.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -337,7 +337,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte wählen Sie die passende Rotwein <color=red>Farbe</color>:",
+      "QuestionTask": "Bitte wählen Sie die passende Rotwein <color=red>Farbe</color>.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -362,7 +362,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte wählen Sie bis zu 4 Attribute zum <color=red>Geruch</color> aus:",
+      "QuestionTask": "Bitte wählen Sie bis zu 4 Attribute zum <color=red>Geruch</color> aus.",
       "QuestionType": "2",
       "QuestionElements": [
         {
@@ -417,7 +417,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie hoch war der Anteil von <color=red>Süße</color> im Geschmack?",
+      "QuestionTask": "Bitte bewerten Sie die <color=red>Süße</color> im Geschmack.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -442,7 +442,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie hoch war der Anteil von <color=red>Säure</color> im Geschmack?",
+      "QuestionTask": "Bitte bewerten Sie die <color=red>Säure</color> im Geschmack.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -467,7 +467,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie hoch war der Anteil von <color=red>Bitterkeit</color> im Geschmack?",
+      "QuestionTask": "Bitte bewerten Sie die <color=red>Bitterkeit</color> im Geschmack.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -492,7 +492,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie hoch war der Anteil von <color=red>Alkohol</color> im Geschmack?",
+      "QuestionTask": "Bitte bewerten Sie den <color=red>Alkohol</color> im Geschmack.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -517,7 +517,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie hoch war der Anteil von <color=red>Tannin</color> im Geschmack?",
+      "QuestionTask": "Bitte bewerten Sie das <color=red>Tannin</color> im Geschmack.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -542,7 +542,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie würden Sie den <color=red>Abgang</color> beschreiben?",
+      "QuestionTask": "Bitte bewerten Sie den <color=red>Abgang</color>.",
       "QuestionType": "1",
       "QuestionElements": [
         {
@@ -567,7 +567,7 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Wie würden Sie den <color=red>Gesamteindruck</color> bewerten?",
+      "QuestionTask": "Bitte bewerten Sie den <color=red>Gesamteindruck</color>.",
       "QuestionType": "1",
       "QuestionElements": [
         {
