@@ -14,12 +14,12 @@ public class MenuSceneLoader : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this);   
+        DontDestroyOnLoad(this);
     }
 
     
 }
-
+#if (UNITY_EDITOR)
 [CustomEditor(typeof(MenuSceneLoader))]
 public class MenuSceneLoaderInspector : Editor
 {
@@ -42,3 +42,4 @@ public class MenuSceneLoaderInspector : Editor
         EditorGUILayout.LabelField("IPQ:\t\t" + MenuSceneLoader.ipq);
     }
 }
+#endif

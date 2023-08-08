@@ -38,7 +38,7 @@ public class WobbleAndRippleManager : MonoBehaviour
         }
     }
 }
-
+#if (UNITY_EDITOR)
 [CustomEditor(typeof(WobbleAndRippleManager))]
 public class WobbleAndRippleManagerInspector : Editor
 {
@@ -55,3 +55,4 @@ public class WobbleAndRippleManagerInspector : Editor
         }
     }
 }
+#endif

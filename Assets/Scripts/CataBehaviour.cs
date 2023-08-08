@@ -27,6 +27,7 @@ public class CataBehaviour : MonoBehaviour
     }
 }
 
+#if (UNITY_EDITOR)
 [CustomEditor(typeof(CataBehaviour))]
 public class CataBehaviourEditor : Editor
 {
@@ -48,3 +49,4 @@ public class CataBehaviourEditor : Editor
         EditorGUILayout.EndHorizontal();
     }
 }
+#endif

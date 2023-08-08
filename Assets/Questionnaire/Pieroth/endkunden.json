@@ -169,8 +169,8 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie die <color=red>Süße</color> im Geschmack.",
-      "QuestionType": "1",
+      "QuestionTask": "Bitte bewerten Sie den <color=red>Geschmack</color>.\nEine Auswahl pro Zeile.",
+      "QuestionType": "2",
       "QuestionElements": [
         {
           "IndexNumber": 0,
@@ -189,13 +189,66 @@
           "TextMessage": "viel",
           "IsSelected": false,
           "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "keine\nAngabge",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "wenig",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "mittel",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "viel",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 7,
+          "TextMessage": "keine\nAngabge",
+          "IsSelected": false,
+          "HasTextInput": false
+        },{
+          "IndexNumber": 8,
+          "TextMessage": "wenig",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 9,
+          "TextMessage": "mittel",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 10,
+          "TextMessage": "viel",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 11,
+          "TextMessage": "keine\nAngabge",
+          "IsSelected": false,
+          "HasTextInput": false
         }
       ]
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie die <color=red>Säure</color> im Geschmack.",
-      "QuestionType": "1",
+      "QuestionTask": "Bitte bewerten Sie den <color=red>Geschmack</color>.\nEine Auswahl pro Zeile.",
+      "QuestionType": "2",
       "QuestionElements": [
         {
           "IndexNumber": 0,
@@ -214,79 +267,34 @@
           "TextMessage": "viel",
           "IsSelected": false,
           "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie die <color=red>Bitterkeit</color> im Geschmack.",
-      "QuestionType": "1",
-      "QuestionElements": [
+        },
         {
-          "IndexNumber": 0,
-          "TextMessage": "wenig",
+          "IndexNumber": 3,
+          "TextMessage": "keine\nAngabge",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 1,
-          "TextMessage": "mittel",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "viel",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie den <color=red>Alkohol</color> im Geschmack.",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "wenig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "mittel",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "viel",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie den <color=red>Abgang</color>.",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
+          "IndexNumber": 4,
           "TextMessage": "kurz",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 1,
+          "IndexNumber": 5,
           "TextMessage": "mittel",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 2,
+          "IndexNumber": 6,
           "TextMessage": "lang",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 7,
+          "TextMessage": "keine\nAngabge",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -417,8 +425,8 @@
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie die <color=red>Süße</color> im Geschmack.",
-      "QuestionType": "1",
+      "QuestionTask": "Bitte bewerten Sie den <color=red>Geschmack</color>.\nEine Auswahl pro Zeile.",
+      "QuestionType": "2",
       "QuestionElements": [
         {
           "IndexNumber": 0,
@@ -437,13 +445,67 @@
           "TextMessage": "viel",
           "IsSelected": false,
           "HasTextInput": false
+        },
+        {
+          "IndexNumber": 3,
+          "TextMessage": "keine\nAngabge",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
+          "TextMessage": "wenig",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 5,
+          "TextMessage": "mittel",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "viel",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 7,
+          "TextMessage": "keine\nAngabge",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 8,
+          "TextMessage": "wenig",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 9,
+          "TextMessage": "mittel",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 10,
+          "TextMessage": "viel",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 11,
+          "TextMessage": "keine\nAngabge",
+          "IsSelected": false,
+          "HasTextInput": false
         }
       ]
     },
     {
       "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie die <color=red>Säure</color> im Geschmack.",
-      "QuestionType": "1",
+      "QuestionTask": "Bitte bewerten Sie den <color=red>Geschmack</color>.\nEine Auswahl pro Zeile.",
+      "QuestionType": "2",
       "QuestionElements": [
         {
           "IndexNumber": 0,
@@ -462,104 +524,58 @@
           "TextMessage": "viel",
           "IsSelected": false,
           "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie die <color=red>Bitterkeit</color> im Geschmack.",
-      "QuestionType": "1",
-      "QuestionElements": [
+        },
         {
-          "IndexNumber": 0,
+          "IndexNumber": 3,
+          "TextMessage": "keine\nAngabge",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 4,
           "TextMessage": "wenig",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 1,
+          "IndexNumber": 5,
           "TextMessage": "mittel",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 2,
+          "IndexNumber": 6,
           "TextMessage": "viel",
           "IsSelected": false,
           "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie den <color=red>Alkohol</color> im Geschmack.",
-      "QuestionType": "1",
-      "QuestionElements": [
+        },
         {
-          "IndexNumber": 0,
-          "TextMessage": "wenig",
+          "IndexNumber": 7,
+          "TextMessage": "keine\nAngabge",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 1,
-          "TextMessage": "mittel",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "viel",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie das <color=red>Tannin</color> im Geschmack.",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
-          "TextMessage": "wenig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 1,
-          "TextMessage": "mittel",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "viel",
-          "IsSelected": false,
-          "HasTextInput": false
-        }
-      ]
-    },
-    {
-      "AnswerRequired": true,
-      "QuestionTask": "Bitte bewerten Sie den <color=red>Abgang</color>.",
-      "QuestionType": "1",
-      "QuestionElements": [
-        {
-          "IndexNumber": 0,
+          "IndexNumber": 8,
           "TextMessage": "kurz",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 1,
+          "IndexNumber": 9,
           "TextMessage": "mittel",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 2,
+          "IndexNumber": 10,
           "TextMessage": "lang",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 11,
+          "TextMessage": "keine\nAngabge",
           "IsSelected": false,
           "HasTextInput": false
         }

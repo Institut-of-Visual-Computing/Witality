@@ -105,7 +105,7 @@ public class OrderAttacher : MonoBehaviour
     }
     
 }
-
+#if (UNITY_EDITOR)
 [CustomEditor(typeof(OrderAttacher))]
 public class OrderAttacherEditor : Editor
 {
@@ -143,3 +143,4 @@ public class OrderAttacherEditor : Editor
         EditorGUILayout.EndHorizontal();
     }
 }
+#endif

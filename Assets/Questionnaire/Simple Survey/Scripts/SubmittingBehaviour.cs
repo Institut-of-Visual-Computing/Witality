@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 using System.Globalization;
+using System;
 
 public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
 
@@ -40,6 +41,12 @@ public class SubmittingBehaviour : UI_AbstractMenuBehaviour {
 
             survey += "{\"Questions\":[\"Rangordnung - Abgabe\"],\"Answers\":[\"";
             survey += Rangordnung.instance.order_string(Rangordnung.instance.order);
+            survey += "\"]},";
+        }
+        if (MenuSceneLoader.pieroth)
+        {
+            survey += "{\"Questions\":[\"Zeit in Sekunden\"],\"Answers\":[\"";
+            survey += ((int)Time.time).ToString();
             survey += "\"]},";
         }
 

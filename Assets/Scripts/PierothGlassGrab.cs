@@ -5,6 +5,7 @@ using UnityEngine;
 public class PierothGlassGrab : MonoBehaviour
 {
     public OVRHand handL, handR;
+    public GameObject rayL, rayR;
     OVRHand hand;
     Transform thumbL, thumbR, indexL, indexR;
     public Transform[] glasses;
@@ -17,17 +18,18 @@ public class PierothGlassGrab : MonoBehaviour
     void Update()
     {
         SetThumbAndIndex();
+        rayL.SetActive(glas == null ? true : hand != handL);
+        rayR.SetActive(glas == null ? true : hand != handR);
 
         if (!SetActiveGlass())
             return;
-        if(!SetActiveHand())
+        if (!SetActiveHand())
             return;
 
         glas.rotation = GetRot(hand == handL);
         glas.position = GetPos(hand == handL);
 
-        Debug.DrawLine(thumbL.position, indexL.position,Color.green);
-        Debug.DrawLine(thumbR.position, indexR.position, Color.green);
+        
 
 
     }
@@ -65,6 +67,8 @@ public class PierothGlassGrab : MonoBehaviour
         bool pinchingL = Vector3.Distance(thumbL.position, indexL.position) < pinchThreshold;
         bool pinchingR = Vector3.Distance(thumbR.position, indexR.position) < pinchThreshold;
 
+        Debug.DrawLine(thumbL.position, indexL.position, pinchingL ? Color.green : Color.red);
+        Debug.DrawLine(thumbR.position, indexR.position, pinchingR ? Color.green : Color.red);
 
         if (!pinchingL && !pinchingR)
             hand = null;

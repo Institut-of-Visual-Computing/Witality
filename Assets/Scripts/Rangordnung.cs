@@ -142,7 +142,7 @@ public class Rangordnung : MonoBehaviour
 }
 
 
-
+#if (UNITY_EDITOR)
 [CustomEditor(typeof(Rangordnung))]
 public class RangordnungEditor : Editor
 {
@@ -159,3 +159,4 @@ public class RangordnungEditor : Editor
         }
     }
 }
+#endif

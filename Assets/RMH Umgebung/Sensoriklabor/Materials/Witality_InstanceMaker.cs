@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-
+#if (UNITY_EDITOR)
 [ExecuteInEditMode]
 public class Witality_InstanceMaker : MonoBehaviour
 {
@@ -71,3 +71,4 @@ public class Witality_InstanceMaker : MonoBehaviour
 
     }
 }
+#endif

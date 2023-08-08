@@ -23,7 +23,7 @@ public class Toggle_Gameobject : MonoBehaviour
     
 }
 
-
+#if (UNITY_EDITOR)
 [CustomEditor(typeof(Toggle_Gameobject))]
 public class Toggle_GameobjectEditor : Editor
 {
@@ -42,3 +42,4 @@ public class Toggle_GameobjectEditor : Editor
         }
     }
 }
+#endif

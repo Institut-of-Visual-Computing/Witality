@@ -19,7 +19,7 @@
         },
         {
           "IndexNumber": 2,
-          "TextMessage": "Dunkelrot mit bläulichen Reflexen",
+          "TextMessage": "Dunkelrot mit bläul. Reflexen",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -38,73 +38,73 @@
         },
         {
           "IndexNumber": 1,
-          "TextMessage": "Vegetativ",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 2,
-          "TextMessage": "Würzig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 3,
-          "TextMessage": "Rauchig",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 4,
-          "TextMessage": "Dumpf",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 5,
           "TextMessage": "Erdbeere",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 6,
+          "IndexNumber": 2,
           "TextMessage": "Kirsche",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 7,
+          "IndexNumber": 3,
           "TextMessage": "Dunkle Beeren",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 8,
+          "IndexNumber": 4,
           "TextMessage": "Pflaume",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 9,
+          "IndexNumber": 5,
+          "TextMessage": "Vegetativ",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 6,
+          "TextMessage": "Würzig",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 7,
           "TextMessage": "Nelke",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 10,
+          "IndexNumber": 8,
           "TextMessage": "Vanille",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 11,
+          "IndexNumber": 9,
           "TextMessage": "Pfeffer",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
-          "IndexNumber": 12,
+          "IndexNumber": 10,
+          "TextMessage": "Rauchig",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 11,
           "TextMessage": "Holz",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 12,
+          "TextMessage": "Dumpf",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -117,19 +117,19 @@
       "QuestionElements": [
         {
           "IndexNumber": 0,
-          "TextMessage": "Süß",
+          "TextMessage": "Leichte Süße",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 1,
-          "TextMessage": "Adstringierend",
+          "TextMessage": "Süß",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 2,
-          "TextMessage": "Tannine",
+          "TextMessage": "Dezente Säure",
           "IsSelected": false,
           "HasTextInput": false
         },
@@ -141,37 +141,37 @@
         },
         {
           "IndexNumber": 4,
-          "TextMessage": "Alkoholisch",
+          "TextMessage": "Dominante Säure",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 5,
-          "TextMessage": "Dezente Säure",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 6,
-          "TextMessage": "Holz",
-          "IsSelected": false,
-          "HasTextInput": false
-        },
-        {
-          "IndexNumber": 7,
           "TextMessage": "Bitter",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
+          "IndexNumber": 6,
+          "TextMessage": "Alkoholisch",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
+          "IndexNumber": 7,
+          "TextMessage": "Adstringierend",
+          "IsSelected": false,
+          "HasTextInput": false
+        },
+        {
           "IndexNumber": 8,
-          "TextMessage": "Leichte Säure",
+          "TextMessage": "Tannine",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 9,
-          "TextMessage": "Dominante Säure",
+          "TextMessage": "Holz",
           "IsSelected": false,
           "HasTextInput": false
         }
@@ -184,13 +184,13 @@
       "QuestionElements": [
         {
           "IndexNumber": 0,
-          "TextMessage": "Hochfarben/braun",
+          "TextMessage": "Hochfarben\nBraun",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 1,
-          "TextMessage": "Muffig/dumpf",
+          "TextMessage": "Muffig\nDumpf",
           "IsSelected": false,
           "HasTextInput": false
         },
@@ -208,19 +208,19 @@
         },
         {
           "IndexNumber": 4,
-          "TextMessage": "Ethylacetat/Lösungsmittel",
+          "TextMessage": "Ethylacetat\nLösungsmittel",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 5,
-          "TextMessage": "Vegetativ/grasig",
+          "TextMessage": "Vegetativ\ngrasig",
           "IsSelected": false,
           "HasTextInput": false
         },
         {
           "IndexNumber": 6,
-          "TextMessage": "Biologisch nachteilig verändert",
+          "TextMessage": "Bio. nachteilig verändert",
           "IsSelected": false,
           "HasTextInput": false
         },

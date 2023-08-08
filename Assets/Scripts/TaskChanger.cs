@@ -117,7 +117,7 @@ public class TaskChanger : MonoBehaviour
   
 
 }
-
+#if (UNITY_EDITOR)
 [CustomEditor(typeof(TaskChanger))]
 public class TaskChangerEditor : Editor
 {
@@ -133,3 +133,4 @@ public class TaskChangerEditor : Editor
         }
     }
 }
+#endif

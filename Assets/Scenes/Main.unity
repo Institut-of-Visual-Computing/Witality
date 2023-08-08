@@ -9176,8 +9176,8 @@ MonoBehaviour:
   - {fileID: 4900000, guid: d53a0001888b9e549b268ffab11f3003, type: 3}
   - {fileID: 4900000, guid: 33a596ce95129044bb7d0e0c17757b20, type: 3}
   - {fileID: 4900000, guid: e36d2bc151baf344baf26d6c13041dd0, type: 3}
-  - {fileID: 4900000, guid: 58e3601b3769f6e43a6645ad86f43463, type: 3}
-  - {fileID: 4900000, guid: 086731ae34a729442a4cfca852ba0b40, type: 3}
+  - {fileID: 4900000, guid: d6d4719528531c5438e34a9db11dcf81, type: 3}
+  - {fileID: 4900000, guid: 6361e0d353ded5049bf68c2b0316e68e, type: 3}
   jsons_ENG:
   - {fileID: 4900000, guid: e14afc52a9ab4074796604d39742868a, type: 3}
   - {fileID: 4900000, guid: 3351b1ca76500304a8bab072caa9f9c9, type: 3}
