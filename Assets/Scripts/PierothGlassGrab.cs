@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PierothGlassGrab : MonoBehaviour
 {
     public OVRHand handL, handR;
@@ -13,10 +12,18 @@ public class PierothGlassGrab : MonoBehaviour
     public float pinchThreshold = 0.035f;
     public float yawOffset = 25f;
     
+    public enum HandLockState
+    {
+        dynamic,
+        left,
+        right
+    }
+    public HandLockState handLock;
 
     // Update is called once per frame
     void Update()
     {
+        CheckHandLock();
         SetThumbAndIndex();
         rayL.SetActive(glas == null ? true : hand != handL);
         rayR.SetActive(glas == null ? true : hand != handR);
@@ -29,11 +36,20 @@ public class PierothGlassGrab : MonoBehaviour
         glas.rotation = GetRot(hand == handL);
         glas.position = GetPos(hand == handL);
 
-        
-
+       
 
     }
-
+    void CheckHandLock()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            handLock = handLock == HandLockState.left ? HandLockState.dynamic : HandLockState.left;
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            handLock = handLock == HandLockState.right ? HandLockState.dynamic : HandLockState.right;
+        }
+    }
     void SetThumbAndIndex()
     {
 
@@ -64,25 +80,37 @@ public class PierothGlassGrab : MonoBehaviour
 
     bool SetActiveHand()
     {
-        bool pinchingL = Vector3.Distance(thumbL.position, indexL.position) < pinchThreshold;
-        bool pinchingR = Vector3.Distance(thumbR.position, indexR.position) < pinchThreshold;
+        switch (handLock)
+        {
+            case HandLockState.dynamic:
+                bool pinchingL = Vector3.Distance(thumbL.position, indexL.position) < pinchThreshold;
+                bool pinchingR = Vector3.Distance(thumbR.position, indexR.position) < pinchThreshold;
 
-        Debug.DrawLine(thumbL.position, indexL.position, pinchingL ? Color.green : Color.red);
-        Debug.DrawLine(thumbR.position, indexR.position, pinchingR ? Color.green : Color.red);
+                Debug.DrawLine(thumbL.position, indexL.position, pinchingL ? Color.green : Color.red);
+                Debug.DrawLine(thumbR.position, indexR.position, pinchingR ? Color.green : Color.red);
 
-        if (!pinchingL && !pinchingR)
-            hand = null;
+                if (!pinchingL && !pinchingR)
+                    hand = null;
 
-        else if (pinchingL && pinchingR && hand != null)
-            return hand != null;
+                else if (pinchingL && pinchingR && hand != null)
+                    return hand != null;
 
-        else if (pinchingR)
-            hand = handR;
-        else if (pinchingL)
-            hand = handL;
-        else
-            hand = null;
+                else if (pinchingR)
+                    hand = handR;
+                else if (pinchingL)
+                    hand = handL;
+                else
+                    hand = null;
+                break;
+            case HandLockState.left:
+                hand = handL;
+                break;
+            case HandLockState.right:
+                hand = handR;
+                break;
+        }
         return hand != null;
+        
     }
 
     Vector3 GetPos(bool left)

@@ -12,7 +12,7 @@ public class DesktopManager : MonoBehaviour
     public TextMeshProUGUI text;
     public Transform OVRRig,HMD;
     FlaschenBehaviour[] bottles;
-
+    public PierothGlassGrab glassGrab;
     string defaultText;
 
     private void Start()
@@ -28,6 +28,7 @@ public class DesktopManager : MonoBehaviour
     {
 
         text.text = defaultText+"\n";
+        text.text += "L/R:\t\tHand " + glassGrab.handLock.ToString() + "\n";
         for (int i = 0; i < keys.Length; i++)
         {
             if (Input.GetKeyDown(keys[i]))
