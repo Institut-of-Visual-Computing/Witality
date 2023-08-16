@@ -1,0 +1,20 @@
+Questions;Answers;;;;Indexes;;;
+Please pick a fitting <color=red>color</color> for sample <color=red>364</color>.;medium yellow; ; ; ;1; ; ; 
+"Please pick a fitting <color=red>aroma</color> for the sample.
+ You can choose multiple answers!";fruity;honeydew;apple; ;0;6;8; 
+"Please pick a fitting <color=red>taste</color> for the same sample.
+You can choose multiple answers!";sweet;high acidity; ; ;0;8; ; 
+Please pick a fitting <color=red>color</color> for sample <color=red>597</color>.;medium yellow; ; ; ;1; ; ; 
+"Please pick a fitting <color=red>aroma</color> for the sample.
+ You can choose multiple answers!";fruity;lemon;apple;pear;0;5;8;9
+"Please pick a fitting <color=red>taste</color> for the same sample.
+You can choose multiple answers!";high sweetness;low acidity;bitter; ;1;4;6; 
+Please pick a fitting <color=red>color</color> for sample <color=red>131</color>.;pale yellow; ; ; ;0; ; ; 
+"Please pick a fitting <color=red>aroma</color> for the sample.
+ You can choose multiple answers!";floral;rose;wood; ;1;10;11; 
+"Please pick a fitting <color=red>taste</color> for the same sample.
+You can choose multiple answers!";wood;high acidity; ; ;5;8; ; 
+Proband ID;18; ; ; 
+Studie;CATA; ; ; 
+Studie Variante;Weißwein; ; ; 
+Umgebung;Weinkeller; ; ; 
