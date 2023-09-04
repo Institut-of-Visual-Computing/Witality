@@ -2,6 +2,8 @@ import os
 import json
 import csv
 
+#data -> csv_files
+
 folder= "data"
 
 
@@ -9,6 +11,7 @@ def multireplace(s, l, v):
     for c in l:
         s = s.replace(c,v)
     return s
+
 
 
 # Get the list of all JSON files in the directory
@@ -31,14 +34,13 @@ for json_file in json_files:
         json_data = json.load(f)
 
     counts = []
-    #get max answer nr
+    #Get max answer count
     for dict in json_data["ResultList"]:
         counts += [len(dict["Answers"])]
     
     #print("File max is", max(counts))
     keys=["Questions","Answers","Indexes"]
     keys_head=["Questions"] +["Answers"]+[""] * (max(counts)-1) + ["Indexes"]+[""] * (max(counts)-1)
-    print(keys_head)
     # Create a CSV file
     csv_file = os.path.join(csv_directory, json_file.replace(".json", ".csv"))
     with open(csv_file, "w") as f:
@@ -66,8 +68,6 @@ for json_file in json_files:
                 writer.writerow(line)
 
 #correct Umlaute
-
-#.replace("Ã¤","ä").replace("Ã¼","ü").replace("Ã¶","ö").replace("ÃŸ","ß")
 
 
 # Print a message to the user

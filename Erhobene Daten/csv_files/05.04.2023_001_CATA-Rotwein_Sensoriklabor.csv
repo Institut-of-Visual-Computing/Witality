@@ -1,25 +1,15 @@
-Questions;Answers;;;;;Indexes;;;;
-;;;;;;;;;;
-Bitte ordnen Sie der Probe <color=red>322</color> die entsprechende Farbe zu.;Rubinrot; ; ; ; ;1; ; ; ; 
-;;;;;;;;;;
+Questions;Answers;;;;;Indexes;;;;
+Bitte ordnen Sie der Probe <color=red>322</color> die entsprechende Farbe zu.;Rubinrot; ; ; ; ;1; ; ; ; 
 "Bitte ordnen Sie derselben Probe den entsprechenden Geruch zu.
-Mehrfachnennungen sind möglich!";Fruchtig;Vegetativ; ; ; ;0;2; ; ; 
-;;;;;;;;;;
+Mehrfachnennungen sind möglich!";Fruchtig;Vegetativ; ; ; ;0;2; ; ; 
 "Bitte ordnen Sie derselben Probe den entsprechenden Geschmack zu.
-Mehrfachnennungen sind möglich!";Dezente Säure;Holz;Leichte Süße;Schmelz/Cremig; ;4;5;7;9; 
-;;;;;;;;;;
-Bitte ordnen Sie der Probe <color=red>644</color> die entsprechende Farbe zu.;Hellrot mit braunem Rand; ; ; ; ;0; ; ; ; 
-;;;;;;;;;;
+Mehrfachnennungen sind möglich!";Dezente Säure;Holz;Leichte Süße;Schmelz/Cremig; ;4;5;7;9; 
+Bitte ordnen Sie der Probe <color=red>644</color> die entsprechende Farbe zu.;Hellrot mit braunem Rand; ; ; ; ;0; ; ; ; 
 "Bitte ordnen Sie derselben Probe den entsprechenden Geruch zu.
-Mehrfachnennungen sind möglich!";Vegetativ; ; ; ; ;2; ; ; ; 
-;;;;;;;;;;
+Mehrfachnennungen sind möglich!";Vegetativ; ; ; ; ;2; ; ; ; 
 "Bitte ordnen Sie derselben Probe den entsprechenden Geschmack zu.
-Mehrfachnennungen sind möglich!";Dezente Säure;Holz;Bitter;Leichte Süße;Schmelz/Cremig;4;5;6;7;9
-;;;;;;;;;;
-Proband ID;1; ; ; ; ;;;;;
-;;;;;;;;;;
-Studie;CATA; ; ; ; ;;;;;
-;;;;;;;;;;
-Studie Variante;Rotwein; ; ; ; ;;;;;
-;;;;;;;;;;
-Umgebung;Sensoriklabor; ; ; ; ;;;;;
+Mehrfachnennungen sind möglich!";Dezente Säure;Holz;Bitter;Leichte Süße;Schmelz/Cremig;4;5;6;7;9
+Proband ID;1; ; ; ; 
+Studie;CATA; ; ; ; 
+Studie Variante;Rotwein; ; ; ; 
+Umgebung;Sensoriklabor; ; ; ; 
