@@ -3,98 +3,89 @@ Answers;189
 Total;189
 
 Sensoriklabor Probe 720 Farbe
-Mittleres gelb;21
-Total;21
+Mittleres gelb;9
+Total;9
 
 Sensoriklabor Probe 720 Geruch
-Apfel;5
-Birne;8
-Blumig;2
-ButtrigLaktisch;8
-Dumpf;7
-Fruchtig;4
-Holz;9
-Honigmelone;10
+Apfel;2
+Birne;5
+ButtrigLaktisch;3
+Dumpf;3
+Fruchtig;1
+Holz;4
+Honigmelone;5
 Pfirsich;1
-SchmelzCremig;3
-Total;21
-Vegetativ;4
-Zitrus;4
+Total;9
+Vegetativ;3
+Zitrus;2
 
 Sensoriklabor Probe 720 Geschmack
-Alkoholisch;7
-Bitter;6
-Dezente Säure;10
-Holz;11
-Leichte Süße;11
-Sauer;4
+Alkoholisch;5
+Bitter;3
+Dezente Säure;3
+Holz;5
+Leichte Süße;5
+Sauer;2
 Schmelz/Cremig;2
-SchmelzCremig;15
-Süß;3
-Total;21
+SchmelzCremig;6
+Total;9
 
 Sensoriklabor Probe 364 Farbe
-Hellgelb;6
-Mittleres gelb;13
-Total;19
+Hellgelb;2
+Mittleres gelb;6
+Total;8
 
 Sensoriklabor Probe 364 Geruch
-Apfel;4
-Birne;5
-Blumig;13
-Fruchtig;13
-Honigmelone;7
-Pfirsich;8
-Rose;13
-Total;19
-Vegetativ;2
-Zitrus;5
+Birne;1
+Blumig;7
+Fruchtig;6
+Honigmelone;2
+Pfirsich;4
+Rose;8
+Total;8
+Zitrus;1
 
 Sensoriklabor Probe 364 Geschmack
-Alkoholisch;3
-Bitter;12
-Dezente Säure;9
-Dominante Säure;3
-Leichte Süße;9
-Sauer;5
-SchmelzCremig;6
-Starke Süße;1
-Süß;4
-Total;19
+Alkoholisch;1
+Bitter;7
+Dezente Säure;7
+Leichte Süße;3
+Sauer;1
+SchmelzCremig;2
+Süß;2
+Total;8
 
 Sensoriklabor Probe 131 Farbe
-Gelblich-grün;2
-Hellgelb;14
-Mittleres gelb;5
-Total;21
+Hellgelb;6
+Mittleres gelb;2
+Total;8
 
 Sensoriklabor Probe 131 Geruch
-Apfel;10
-Birne;8
-Blumig;5
-ButtrigLaktisch;5
-Dumpf;2
-Fruchtig;12
-Holz;2
-Honigmelone;4
-Pfirsich;7
-Rose;1
-Total;21
-Vegetativ;7
-Zitrus;11
+Apfel;6
+Birne;4
+Blumig;1
+ButtrigLaktisch;2
+Dumpf;1
+Fruchtig;4
+Holz;1
+Honigmelone;3
+Pfirsich;2
+Total;8
+Vegetativ;2
+Zitrus;4
 
 Sensoriklabor Probe 131 Geschmack
-Alkoholisch;3
-Bitter;4
-Dezente Säure;4
-Dominante Säure;6
-Holz;2
-Leichte Süße;12
-Sauer;12
+Alkoholisch;1
+Bitter;1
+Dezente Säure;2
+Dominante Säure;1
+Holz;1
+Leichte Süße;5
+Sauer;5
 Schmelz/Cremig;1
-SchmelzCremig;8
-Süß;5
-Total;21
+SchmelzCremig;3
+Süß;2
+Total;8
 
 Alter
 18-24;7
@@ -159,139 +150,123 @@ Total;62
 
 Sensoriklabor Probe 597 Farbe
 Hellgelb;2
-Mittleres gelb;3
-Total;5
+Total;2
 
 Sensoriklabor Probe 597 Geruch
-Apfel;1
-Birne;1
-Blumig;3
-ButtrigLaktisch;1
+Blumig;1
 Dumpf;1
-Fruchtig;2
-Holz;2
-Honigmelone;4
+Honigmelone;1
 Pfirsich;1
 Rose;1
-Total;5
-Vegetativ;1
-Zitrus;3
+Total;2
+Zitrus;1
 
 Sensoriklabor Probe 597 Geschmack
-Bitter;2
-Dezente Säure;4
-Holz;2
-Leichte Süße;2
-Sauer;1
-SchmelzCremig;1
-Starke Süße;2
-Süß;2
-Total;5
+Bitter;1
+Dezente Säure;2
+Holz;1
+Leichte Süße;1
+Süß;1
+Total;2
 
 Weinkeller Probe 720 Farbe
-Gelblich-grün;6
-Hellgelb;12
-Mittleres gelb;10
-Total;28
+Gelblich-grün;4
+Hellgelb;6
+Mittleres gelb;2
+Total;12
 
 Weinkeller Probe 720 Geruch
-Apfel;11
-Birne;9
-Blumig;10
-ButtrigLaktisch;5
-Dumpf;6
-Fruchtig;9
-Holz;10
-Honigmelone;4
-Pfirsich;6
-Rose;1
-SchmelzCremig;2
-Total;28
-Vegetativ;7
-Zitrus;12
-
-Weinkeller Probe 720 Geschmack
-Alkoholisch;5
-Bitter;9
-Dezente Säure;16
-Dominante Säure;3
-Holz;12
-Leichte Süße;12
-Sauer;7
-SchmelzCremig;22
-Starke Süße;2
-Süß;10
-Total;28
-
-Weinkeller Probe 364 Farbe
-Gelblich-grün;4
-Hellgelb;19
-Mittleres gelb;8
-Total;31
-
-Weinkeller Probe 364 Geruch
-Apfel;9
-Birne;11
-Blumig;25
-ButtrigLaktisch;3
-Dumpf;1
-Fruchtig;17
-Holz;1
-Honigmelone;13
-Pfirsich;7
-Rose;16
-SchmelzCremig;2
-Total;31
-Vegetativ;4
+Apfel;6
+Birne;3
+Blumig;3
+ButtrigLaktisch;1
+Dumpf;2
+Fruchtig;5
+Holz;4
+Honigmelone;1
+Pfirsich;4
+SchmelzCremig;1
+Total;12
+Vegetativ;2
 Zitrus;6
 
-Weinkeller Probe 364 Geschmack
-Alkoholisch;9
-Bitter;16
-Dezente Säure;16
-Dominante Säure;4
+Weinkeller Probe 720 Geschmack
+Bitter;4
+Dezente Säure;7
+Dominante Säure;1
 Holz;4
-Leichte Süße;11
-Sauer;6
-SchmelzCremig;13
-Starke Süße;4
-Süß;9
-Total;31
+Leichte Süße;6
+Sauer;4
+SchmelzCremig;9
+Starke Süße;1
+Süß;4
+Total;12
+
+Weinkeller Probe 364 Farbe
+Gelblich-grün;1
+Hellgelb;10
+Mittleres gelb;3
+Total;14
+
+Weinkeller Probe 364 Geruch
+Apfel;3
+Birne;5
+Blumig;14
+ButtrigLaktisch;1
+Fruchtig;8
+Honigmelone;7
+Pfirsich;3
+Rose;10
+SchmelzCremig;1
+Total;14
+Vegetativ;1
+Zitrus;1
+
+Weinkeller Probe 364 Geschmack
+Alkoholisch;5
+Bitter;8
+Dezente Säure;7
+Dominante Säure;1
+Holz;1
+Leichte Süße;6
+Sauer;4
+SchmelzCremig;7
+Starke Süße;3
+Süß;2
+Total;14
 
 Weinkeller Probe 131 Farbe
-Gelblich-grün;5
-Hellgelb;25
-Mittleres gelb;2
-Total;32
+Gelblich-grün;1
+Hellgelb;13
+Mittleres gelb;1
+Total;15
 
 Weinkeller Probe 131 Geruch
-Apfel;17
-Birne;8
-Blumig;10
-ButtrigLaktisch;2
-Dumpf;6
-Fruchtig;12
-Holz;4
-Honigmelone;5
-Pfirsich;11
-Rose;3
-SchmelzCremig;1
-Total;32
-Vegetativ;5
-Zitrus;21
+Apfel;4
+Birne;5
+Blumig;4
+ButtrigLaktisch;1
+Dumpf;4
+Fruchtig;8
+Holz;3
+Honigmelone;2
+Pfirsich;5
+Rose;2
+Total;15
+Vegetativ;3
+Zitrus;9
 
 Weinkeller Probe 131 Geschmack
-Alkoholisch;6
-Bitter;8
-Dezente Säure;8
-Dominante Säure;15
-Holz;4
-Leichte Süße;17
-Sauer;8
-SchmelzCremig;5
-Starke Süße;1
-Süß;5
-Total;32
+Alkoholisch;4
+Bitter;5
+Dezente Säure;2
+Dominante Säure;9
+Holz;2
+Leichte Süße;8
+Sauer;3
+SchmelzCremig;2
+Süß;4
+Total;15
 
 Umschauen
 Total;79
@@ -306,38 +281,175 @@ Ich fühle mich frisch und ausgeruht.
 Total;22
 
 Weinkeller Probe 597 Farbe
-Gelblich-grün;5
-Hellgelb;19
-Mittleres gelb;5
-Total;29
+Gelblich-grün;4
+Hellgelb;12
+Mittleres gelb;3
+Total;19
 
 Weinkeller Probe 597 Geruch
-Apfel;11
-Birne;8
-Blumig;9
-ButtrigLaktisch;6
+Apfel;7
+Birne;4
+Blumig;4
+ButtrigLaktisch;3
 Dumpf;4
-Fruchtig;14
+Fruchtig;7
 Holz;3
-Honigmelone;6
-Pfirsich;10
-Rose;5
+Honigmelone;4
+Pfirsich;7
+Rose;2
 SchmelzCremig;3
-Total;29
-Vegetativ;9
-Zitrus;9
+Total;19
+Vegetativ;7
+Zitrus;4
 
 Weinkeller Probe 597 Geschmack
-Alkoholisch;6
-Bitter;10
-Dezente Säure;19
+Alkoholisch;2
+Bitter;6
+Dezente Säure;10
 Holz;1
-Leichte Süße;12
+Leichte Süße;7
+Sauer;5
+SchmelzCremig;11
+Starke Süße;3
+Süß;9
+Total;19
+
+Virtuell Weinkeller Probe 131 Farbe
+Gelblich-grün;6
+Hellgelb;20
+Mittleres gelb;4
+Total;30
+
+Virtuell Weinkeller Probe 131 Geruch
+Apfel;17
+Birne;7
+Blumig;10
+ButtrigLaktisch;4
+Dumpf;3
+Fruchtig;12
+Holz;2
+Honigmelone;4
+Pfirsich;11
+Rose;2
+SchmelzCremig;1
+Total;30
+Vegetativ;7
+Zitrus;19
+
+Virtuell Weinkeller Probe 131 Geschmack
+Alkoholisch;4
+Bitter;6
+Dezente Säure;8
+Dominante Säure;11
+Holz;3
+Leichte Süße;16
+Sauer;12
+SchmelzCremig;8
+Starke Süße;1
+Süß;4
+Total;30
+
+Virtuell Weinkeller Probe 364 Farbe
+Gelblich-grün;3
+Hellgelb;13
+Mittleres gelb;12
+Total;28
+
+Virtuell Weinkeller Probe 364 Geruch
+Apfel;10
+Birne;10
+Blumig;17
+ButtrigLaktisch;2
+Dumpf;1
+Fruchtig;16
+Holz;1
+Honigmelone;11
+Pfirsich;8
+Rose;11
+SchmelzCremig;1
+Total;28
+Vegetativ;5
+Zitrus;9
+
+Virtuell Weinkeller Probe 364 Geschmack
+Alkoholisch;6
+Bitter;13
+Dezente Säure;11
+Dominante Säure;6
+Holz;3
+Leichte Süße;11
 Sauer;6
-SchmelzCremig;15
-Starke Süße;5
-Süß;12
-Total;29
+SchmelzCremig;10
+Starke Süße;2
+Süß;9
+Total;28
+
+Virtuell Weinkeller Probe 720 Farbe
+Gelblich-grün;2
+Hellgelb;6
+Mittleres gelb;20
+Total;28
+
+Virtuell Weinkeller Probe 720 Geruch
+Apfel;8
+Birne;9
+Blumig;9
+ButtrigLaktisch;9
+Dumpf;8
+Fruchtig;7
+Holz;11
+Honigmelone;8
+Pfirsich;2
+Rose;1
+SchmelzCremig;4
+Total;28
+Vegetativ;6
+Zitrus;8
+
+Virtuell Weinkeller Probe 720 Geschmack
+Alkoholisch;7
+Bitter;8
+Dezente Säure;16
+Dominante Säure;2
+Holz;14
+Leichte Süße;12
+Sauer;5
+SchmelzCremig;22
+Starke Süße;1
+Süß;9
+Total;28
+
+Virtuell Weinkeller Probe 597 Farbe
+Gelblich-grün;1
+Hellgelb;7
+Mittleres gelb;5
+Total;13
+
+Virtuell Weinkeller Probe 597 Geruch
+Apfel;5
+Birne;5
+Blumig;7
+ButtrigLaktisch;4
+Fruchtig;9
+Holz;2
+Honigmelone;5
+Pfirsich;3
+Rose;3
+Total;13
+Vegetativ;3
+Zitrus;7
+
+Virtuell Weinkeller Probe 597 Geschmack
+Alkoholisch;4
+Bitter;5
+Dezente Säure;11
+Holz;1
+Leichte Süße;6
+Sauer;2
+SchmelzCremig;5
+Starke Süße;4
+Süß;4
+Total;13
 
 Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.
 Total;13

@@ -187,3 +187,21 @@ def QuestionHasAnswer(q,a):
             return True, i
     return False, -1
 
+environmentList = {
+    "05.04.2023":"Sensoriklabor",
+    "19.04.2023":"Sensoriklabor",
+    "26.04.2023":"Sensoriklabor",
+    "08.05.2023":"Virtuell Weinkeller",
+    "09.05.2023":"Virtuell Weinkeller",
+    "10.05.2023":"Virtuell Weinkeller",
+    "22.05.2023":"Virtuell Weinkeller",
+    "25.05.2023":"Virtuell Weinkeller",
+    "30.05.2023":"Virtuell Weinkeller",
+    "07.06.2023":"Weinkeller",
+    "22.06.2023":"Weinkeller",
+    "23.06.2023":"Weinkeller",
+    "26.06.2023":"Weinkeller",
+    "18.07.2023":"Weinkeller"
+}
+def GetEnvironment(fileName):
+    return environmentList.get(fileName[:10],"No Environment fitting for Date "+fileName[:10])

@@ -24,6 +24,7 @@ for file in csv_files:
             header = lines[0]
             answer_count = int(csvmethods.countEmpties(header)/2+1)
             environment = lines[-2].split(";")[1].replace("\n","")
+            environment = csvmethods.GetEnvironment(file)
             lines_new = []
             prefixline = ""
             if "CATA-W" in file:
