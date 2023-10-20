@@ -1,0 +1,11 @@
+Questions;Answers;;;;;Indexes;;;;
+Please pick a fitting <color=red>color</color> for sample <color=red>644</color>.;ruby; ; ; ; ;1; ; ; ; 
+Please pick a fitting <color=red>aroma</color> for the sample. You can choose multiple answers!;fruity;cherry;dark berries;plum;vegetal;0;2;3;4;5
+Please pick a fitting <color=red>taste</color> for the same sample.You can choose multiple answers!;low sweetness;low acidity;astringent;wood; ;0;2;7;9; 
+Please pick a fitting <color=red>color</color> for sample <color=red>983</color>.;pale red with brown rim; ; ; ; ;0; ; ; ; 
+Please pick a fitting <color=red>aroma</color> for the sample. You can choose multiple answers!;strawberry;vegetal;pepper;smoke; ;1;5;9;10; 
+Please pick a fitting <color=red>taste</color> for the same sample.You can choose multiple answers!;low sweetness;high acidity;high alcohol; ; ;0;4;6; ; 
+Proband ID;16; ; ; ; 
+Studie;CATA; ; ; ; 
+Studie Variante;Rotwein; ; ; ; 
+Umgebung;Weinkeller; ; ; ; 

@@ -1,0 +1,19 @@
+Questions;Answers;;;;Indexes;;;
+Bitte geben Sie ihre Altersklasse an.;25-39; ; ; ;1; ; ; 
+Bitte geben Sie ihr Geschlecht an.;Männlich; ; ; ;1; ; ; 
+Bitte geben Sie ihre VR Erfahrung an.;Wöchentlich; ; ; ;3; ; ; 
+Bitte wählen Sie die passende Weißwein <color=red>Farbe</color>.;strohgelb; ; ; ;1; ; ; 
+Bitte wählen Sie bis zu 4 Attribute zum <color=red>Geruch</color> aus.;Maracuja;Grapefruit;grüne Paprika;verdorbene Eier / Kohl;1;3;4;7
+Bitte bewerten Sie den <color=red>Geschmack</color>.Eine Auswahl pro Zeile.;mittel;viel;mittel; ;1;6;9; 
+Bitte bewerten Sie den <color=red>Geschmack</color>.Eine Auswahl pro Zeile.;wenig;mittel; ; ;0;5; ; 
+Bitte bewerten Sie den <color=red>Gesamteindruck</color>.;akzeptabel; ; ; ;2; ; ; 
+Bitte wählen Sie die passende Rotwein <color=red>Farbe</color>.;granatrot; ; ; ;1; ; ; 
+Bitte wählen Sie bis zu 4 Attribute zum <color=red>Geruch</color> aus.;Brombeere;getrocknete Pflaume;Kiefernadel;Leder;1;2;5;6
+Bitte bewerten Sie den <color=red>Geschmack</color>.Eine Auswahl pro Zeile.;viel;mittel;mittel; ;2;5;9; 
+Bitte bewerten Sie den <color=red>Geschmack</color>.Eine Auswahl pro Zeile.;mittel;mittel;lang; ;1;5;10; 
+Bitte bewerten Sie den <color=red>Gesamteindruck</color>.;sehr gut; ; ; ;4; ; ; 
+Proband ID;999; ; ; 
+Studie;Farbe_Rangordnung; ; ; 
+Studie Variante;Weiß; ; ; 
+Umgebung;Sensoriklabor; ; ; 
+Zeit in Sekunden;290; ; ; 

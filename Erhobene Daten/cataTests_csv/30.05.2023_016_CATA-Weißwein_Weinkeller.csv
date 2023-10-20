@@ -1,0 +1,14 @@
+Questions;Answers;;;;;Indexes;;;;
+Please pick a fitting <color=red>color</color> for sample <color=red>720</color>.;yellow-green; ; ; ; ;2; ; ; ; 
+Please pick a fitting <color=red>aroma</color> for the sample. You can choose multiple answers!;floral;lemon;apple; ; ;0;3;6; ; 
+Please pick a fitting <color=red>taste</color> for the same sample.You can choose multiple answers!;medium sweetness;bitter;high alcohol;buttercream; ;1;6;7;8; 
+Please pick a fitting <color=red>color</color> for sample <color=red>131</color>.;yellow-green; ; ; ; ;2; ; ; ; 
+Please pick a fitting <color=red>aroma</color> for the sample. You can choose multiple answers!;floral;lemon;apple;pear; ;0;3;6;7; 
+Please pick a fitting <color=red>taste</color> for the same sample.You can choose multiple answers!;low sweetness;high acidity;bitter;high alcohol; ;0;5;6;7; 
+Please pick a fitting <color=red>color</color> for sample <color=red>364</color>.;medium yellow; ; ; ; ;1; ; ; ; 
+Please pick a fitting <color=red>aroma</color> for the sample. You can choose multiple answers!;floral;fruity;peach;apple;vegetal;0;2;5;6;8
+Please pick a fitting <color=red>taste</color> for the same sample.You can choose multiple answers!;medium sweetness;high acidity;high alcohol;buttercream; ;1;5;7;8; 
+Proband ID;16; ; ; ; 
+Studie;CATA; ; ; ; 
+Studie Variante;Weißwein; ; ; ; 
+Umgebung;Weinkeller; ; ; ; 
