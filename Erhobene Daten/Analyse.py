@@ -10,7 +10,7 @@ csv_files = os.listdir(csv_folder)
 
 csvmethods.NewOrClearFolder(csv_folder+"_correct")
 
-
+cata_proband = {}
 cata_w = {}   #weiß 
 cata_r = {}   #rot 
 
@@ -25,6 +25,7 @@ for file in csv_files:
             answer_count = int(csvmethods.countEmpties(header)/2+1)
             environment = lines[-2].split(";")[1].replace("\n","")
             environment = csvmethods.GetEnvironment(file)
+            probandID = lines[-8].split(";")[1].replace("\n","")
             lines_new = []
             prefixline = ""
             if "CATA-W" in file:
@@ -43,7 +44,7 @@ for file in csv_files:
                                 line = line[:9] + " Farbe" + line[10:]
                         if(line[6] == "G"):
                             line = line[:6] + lastSample + line[5:]
-                        line = environment + " " + line
+                    line = environment + " " + line
                     line = csvmethods.trimSpace(line)
                     line = ";".join(line.split(";")[:answer_count+1])
                     line = prefixline + line
@@ -56,8 +57,11 @@ for file in csv_files:
                 
                 
             f.close()
-            lines_new[-1] = lines_new[-1][:-1]  #letzte \n löschen
-                
+        lines_new[-1] = lines_new[-1][:-1]  #letzte \n löschen
+        if (probandID in cata_proband):
+            cata_proband[probandID] += ["\n\n"] + lines_new
+        else:
+            cata_proband[probandID] = lines_new
         #zwischenspeichern
     
         with open(os.path.join(csv_folder+"_correct",file.replace(".csv","_correct.csv")),"w") as f:  
@@ -83,6 +87,7 @@ for file in csv_files:
                     
                     questionnaire[question] += [[answer,1]]
 
+
 print("All csv files have been analysed")
 
 questionnaires = [cata_w, cata_r]
@@ -103,4 +108,13 @@ for questionnaire in questionnaires:
     with open (os.path.join("Auswertung", "cata_" +("weiß" if questionnaire == cata_w else "rot") + ".csv"),"w") as f:
         f.writelines(lines)
         f.close()
-        
+
+
+lines = []
+for proband in cata_proband:
+    lines+=["Proband "+ '{:03d}'.format(int(proband)) + "\n"]
+    lines+= cata_proband[proband]+["\n\n\n\n\n\n\n"]
+
+with open (os.path.join("Auswertung","cata_pro_proband.csv"),"w") as f:
+    f.writelines(lines)
+    f.close()

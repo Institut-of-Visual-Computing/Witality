@@ -1,6 +1,6 @@
-Questions
-Answers;189
-Total;189
+Sensoriklabor Questions
+Answers;27
+Total;27
 
 Sensoriklabor Probe 720 Farbe
 Mittleres gelb;9
@@ -87,66 +87,53 @@ SchmelzCremig;3
 Süß;2
 Total;8
 
-Alter
-18-24;7
-25-34;30
-35-44;16
-45-54;2
-55-70;10
-Total;65
+Sensoriklabor Alter
+18-24;2
+25-34;3
+35-44;3
+55-70;1
+Total;9
 
-Geschlecht
-Männlich;45
-Total;65
-Weiblich;20
+Sensoriklabor Geschlecht
+Männlich;9
+Total;9
 
-Händigkeit
-Linkshändig;3
-Rechtshändig;62
-Total;65
+Sensoriklabor Händigkeit
+Linkshändig;1
+Rechtshändig;8
+Total;9
 
-Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig
-1;2
-2;2
-3;1
-4;1
-5;5
-6;20
-7;12
-Total;43
+Sensoriklabor Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig
+5;1
+6;4
+7;2
+Total;7
 
-Wie oft benutzen Sie Virtual Reality (VR)-Headsets?
-Dies ist mein erstes Mal;12
-Einige Männlich im Monat;4
-Total;65
-Weniger oft;49
+Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?
+Dies ist mein erstes Mal;3
+Total;9
+Weniger oft;6
 
-Ich fühlte mich im virtuellen Raum anwesend.
-2;2
+Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.
+6;6
+7;3
+Total;9
+
+Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?
+2;1
 3;2
-4;1
-5;10
-6;28
-7;19
-Total;62
+5;1
+6;4
+7;1
+Total;9
 
-Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?
-2;9
-3;11
-4;5
-5;12
-6;20
-7;5
-Total;62
-
-Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.
-2;2
-3;5
-4;7
-5;16
-6;21
-7;11
-Total;62
+Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.
+2;1
+3;1
+5;2
+6;4
+7;1
+Total;9
 
 Sensoriklabor Probe 597 Farbe
 Hellgelb;2
@@ -168,6 +155,10 @@ Holz;1
 Leichte Süße;1
 Süß;1
 Total;2
+
+Weinkeller Questions
+Answers;60
+Total;60
 
 Weinkeller Probe 720 Farbe
 Gelblich-grün;4
@@ -268,17 +259,62 @@ SchmelzCremig;2
 Süß;4
 Total;15
 
-Umschauen
-Total;79
-Verstanden.;79
+Weinkeller Umschauen
+Total;40
+Verstanden.;40
 
-Ich fühle mich frisch und ausgeruht.
+Weinkeller Alter
+18-24;2
+25-34;9
+35-44;5
+45-54;1
+55-70;3
+Total;20
+
+Weinkeller Geschlecht
+Männlich;14
+Total;20
+Weiblich;6
+
+Weinkeller Händigkeit
+Linkshändig;1
+Rechtshändig;19
+Total;20
+
+Weinkeller Ich fühle mich frisch und ausgeruht.
 2;1
-4;3
-5;3
-6;11
-7;4
-Total;22
+5;1
+6;3
+7;2
+Total;7
+
+Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?
+Einige Männlich im Monat;2
+Total;20
+Weniger oft;18
+
+Weinkeller Ich fühlte mich im virtuellen Raum anwesend.
+5;4
+6;8
+7;8
+Total;20
+
+Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?
+2;3
+3;2
+4;1
+5;5
+6;8
+7;1
+Total;20
+
+Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.
+3;1
+4;2
+5;6
+6;8
+7;3
+Total;20
 
 Weinkeller Probe 597 Farbe
 Gelblich-grün;4
@@ -313,6 +349,19 @@ SchmelzCremig;11
 Starke Süße;3
 Süß;9
 Total;19
+
+Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig
+1;1
+2;1
+4;1
+5;2
+6;6
+7;2
+Total;13
+
+Virtuell Weinkeller Questions
+Answers;102
+Total;102
 
 Virtuell Weinkeller Probe 131 Farbe
 Gelblich-grün;6
@@ -419,6 +468,68 @@ Starke Süße;1
 Süß;9
 Total;28
 
+Virtuell Weinkeller Alter
+18-24;3
+25-34;18
+35-44;8
+45-54;1
+55-70;6
+Total;36
+
+Virtuell Weinkeller Geschlecht
+Männlich;22
+Total;36
+Weiblich;14
+
+Virtuell Weinkeller Händigkeit
+Linkshändig;1
+Rechtshändig;35
+Total;36
+
+Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.
+4;3
+5;2
+6;7
+7;1
+Total;13
+
+Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?
+Dies ist mein erstes Mal;9
+Einige Männlich im Monat;2
+Total;36
+Weniger oft;25
+
+Virtuell Weinkeller Umschauen
+Total;39
+Verstanden.;39
+
+Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.
+2;2
+3;2
+4;1
+5;6
+6;14
+7;8
+Total;33
+
+Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?
+2;5
+3;7
+4;4
+5;6
+6;8
+7;3
+Total;33
+
+Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.
+2;1
+3;3
+4;5
+5;8
+6;9
+7;7
+Total;33
+
 Virtuell Weinkeller Probe 597 Farbe
 Gelblich-grün;1
 Hellgelb;7
@@ -451,7 +562,25 @@ Starke Süße;4
 Süß;4
 Total;13
 
-Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.
-Total;13
-Verstanden.;13
+Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig
+1;1
+2;1
+3;1
+5;2
+6;10
+7;8
+Total;23
+
+Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.
+Total;10
+Verstanden.;10
+
+Sensoriklabor Ich fühle mich frisch und ausgeruht.
+6;1
+7;1
+Total;2
+
+Sensoriklabor Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.
+Total;3
+Verstanden.;3
 
