@@ -1,130 +1,99 @@
 Proband 001
-Sensoriklabor Questions;Answers;;;;
-Sensoriklabor Probe 322 Farbe;Rubinrot;;;;
-Sensoriklabor Probe 322 Geruch;Fruchtig;Vegetativ;;;
-Sensoriklabor Probe 322 Geschmack;Dezente Säure;Holz;Leichte Süße;Schmelz/Cremig;
-Sensoriklabor Probe 644 Farbe;Hellrot mit braunem Rand;;;;
-Sensoriklabor Probe 644 Geruch;Vegetativ;;;;
-Sensoriklabor Probe 644 Geschmack;Dezente Säure;Holz;Bitter;Leichte Süße;Schmelz/Cremig
+W Questions;Answers;;;;;
+W Probe 983 Farbe;Hellrot mit braunem Rand;;;;;
+W Probe 983 Geruch;Fruchtig;Erdbeere;Kirsche;Dunkle Beeren;Würzig;
+W Probe 983 Geschmack;Leichte Süße;Dominante Säure;;;;
+W Probe 322 Farbe;Rubinrot;;;;;
+W Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Vegetativ;Würzig;Pfeffer
+W Probe 322 Geschmack;Süß;Sauer;Tannine;Holz;;
 
-Sensoriklabor Questions;Answers;;;;
-Sensoriklabor Probe 720 Farbe;Mittleres gelb;;;;
-Sensoriklabor Probe 720 Geruch;Fruchtig;Vegetativ;Honigmelone;Apfel;Birne
-Sensoriklabor Probe 720 Geschmack;Sauer;Alkoholisch;Leichte Süße;Schmelz/Cremig;
-Sensoriklabor Probe 364 Farbe;Mittleres gelb;;;;
-Sensoriklabor Probe 364 Geruch;Fruchtig;Blumig;Pfirsich;Birne;Rose
-Sensoriklabor Probe 364 Geschmack;Dezente Säure;Bitter;Leichte Süße;;
-Sensoriklabor Probe 131 Farbe;Mittleres gelb;;;;
-Sensoriklabor Probe 131 Geruch;Vegetativ;Dumpf;Apfel;;
-Sensoriklabor Probe 131 Geschmack;Sauer;Leichte Süße;Schmelz/Cremig;;
+W Questions;Answers;;;;;
+W Probe 720 Farbe;Hellgelb;;;;;
+W Probe 720 Geruch;Blumig;Fruchtig;Zitrus;Apfel;SchmelzCremig;
+W Probe 720 Geschmack;Starke Süße;Sauer;Bitter;SchmelzCremig;;
+W Probe 364 Farbe;Hellgelb;;;;;
+W Probe 364 Geruch;Blumig;Rose;Fruchtig;Zitrus;Pfirsich;Birne
+W Probe 364 Geschmack;Starke Süße;Sauer;SchmelzCremig;;;
+W Probe 131 Farbe;Hellgelb;;;;;
+W Probe 131 Geruch;Fruchtig;Zitrus;Vegetativ;Holz;Dumpf;
+W Probe 131 Geschmack;Süß;Dominante Säure;Bitter;Alkoholisch;;
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Alter;25-34
-Sensoriklabor Geschlecht;Männlich
-Sensoriklabor Händigkeit;Rechtshändig
-Sensoriklabor Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;25-34
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht.;7
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.;7
-Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;6
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Weinkeller Questions;Answers;;;;;
-Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;;
-Weinkeller Probe 983 Geruch;Fruchtig;Erdbeere;Kirsche;Dunkle Beeren;Würzig;
-Weinkeller Probe 983 Geschmack;Leichte Süße;Dominante Säure;;;;
-Weinkeller Probe 322 Farbe;Rubinrot;;;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Vegetativ;Würzig;Pfeffer
-Weinkeller Probe 322 Geschmack;Süß;Sauer;Tannine;Holz;;
+V Questions;Answers;;;;;
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;;;
+V Probe 983 Geruch;Fruchtig;Vegetativ;Würzig;Erdbeere;;
+V Probe 983 Geschmack;Sauer;Leichte Süße;;;;
+V Probe 644 Farbe;Rubinrot;;;;;
+V Probe 644 Geruch;Fruchtig;Würzig;Kirsche;Dunkle Beeren;Pfeffer;Holz
+V Probe 644 Geschmack;Adstringierend;Tannine;Sauer;Holz;Bitter;Leichte Süße
 
-Weinkeller Questions;Answers;;;;;
-Weinkeller Probe 720 Farbe;Hellgelb;;;;;
-Weinkeller Probe 720 Geruch;Blumig;Fruchtig;Zitrus;Apfel;SchmelzCremig;
-Weinkeller Probe 720 Geschmack;Starke Süße;Sauer;Bitter;SchmelzCremig;;
-Weinkeller Probe 364 Farbe;Hellgelb;;;;;
-Weinkeller Probe 364 Geruch;Blumig;Rose;Fruchtig;Zitrus;Pfirsich;Birne
-Weinkeller Probe 364 Geschmack;Starke Süße;Sauer;SchmelzCremig;;;
-Weinkeller Probe 131 Farbe;Hellgelb;;;;;
-Weinkeller Probe 131 Geruch;Fruchtig;Zitrus;Vegetativ;Holz;Dumpf;
-Weinkeller Probe 131 Geschmack;Süß;Dominante Säure;Bitter;Alkoholisch;;
+V Questions;Answers;;;;
+V Probe 131 Farbe;Hellgelb;;;;
+V Probe 131 Geruch;Fruchtig;Zitrus;Honigmelone;Apfel;
+V Probe 131 Geschmack;Starke Süße;Sauer;;;
+V Probe 364 Farbe;Hellgelb;;;;
+V Probe 364 Geruch;Fruchtig;Blumig;Zitrus;Honigmelone;Rose
+V Probe 364 Geschmack;Sauer;Bitter;Leichte Süße;;
+V Probe 720 Farbe;Mittleres gelb;;;;
+V Probe 720 Geruch;Vegetativ;Dumpf;Zitrus;Holz;
+V Probe 720 Geschmack;Holz;Bitter;Leichte Süße;Dominante Säure;SchmelzCremig
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;25-34
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht.;7
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Alter;25-34
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht.;4
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;3
 
-Virtuell Weinkeller Questions;Answers;;;;;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;;
-Virtuell Weinkeller Probe 983 Geruch;Fruchtig;Vegetativ;Würzig;Erdbeere;;
-Virtuell Weinkeller Probe 983 Geschmack;Sauer;Leichte Süße;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Würzig;Kirsche;Dunkle Beeren;Pfeffer;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Adstringierend;Tannine;Sauer;Holz;Bitter;Leichte Süße
+S Questions;Answers;;;;;
+S Probe 720 Farbe;Hellrot mit braunem Rand;;;;;
+S Probe 720 Geruch;Fruchtig;Erdbeere;Dunkle Beeren;;;
+S Probe 720 Geschmack;Dezente Säure;Leichte Süße;;;;
+S Probe 644 Farbe;Rubinrot;;;;;
+S Probe 644 Geruch;Würzig;Rauchig;Kirsche;Nelke;Pfeffer;Holz
+S Probe 644 Geschmack;Adstringierend;Tannine;Alkoholisch;Dezente Säure;Holz;
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 131 Geruch;Fruchtig;Zitrus;Honigmelone;Apfel;
-Virtuell Weinkeller Probe 131 Geschmack;Starke Süße;Sauer;;;
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 364 Geruch;Fruchtig;Blumig;Zitrus;Honigmelone;Rose
-Virtuell Weinkeller Probe 364 Geschmack;Sauer;Bitter;Leichte Süße;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 720 Geruch;Vegetativ;Dumpf;Zitrus;Holz;
-Virtuell Weinkeller Probe 720 Geschmack;Holz;Bitter;Leichte Süße;Dominante Säure;SchmelzCremig
+S Questions;Answers;;;
+S Probe 131 Farbe;Hellgelb;;;
+S Probe 131 Geruch;Fruchtig;Zitrus;Honigmelone;Apfel
+S Probe 131 Geschmack;Süß;Sauer;SchmelzCremig;
+S Probe 720 Farbe;Mittleres gelb;;;
+S Probe 720 Geruch;Vegetativ;Dumpf;Zitrus;Apfel
+S Probe 720 Geschmack;Sauer;Bitter;Leichte Süße;SchmelzCremig
+S Probe 364 Farbe;Mittleres gelb;;;
+S Probe 364 Geruch;Fruchtig;Blumig;Pfirsich;Rose
+S Probe 364 Geschmack;Sauer;Bitter;Leichte Süße;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;4
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+S Questions;Answers
+S Alter;25-34
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht.;7
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;3
-
-Sensoriklabor Questions;Answers;;;;;
-Sensoriklabor Probe 720 Farbe;Hellrot mit braunem Rand;;;;;
-Sensoriklabor Probe 720 Geruch;Fruchtig;Erdbeere;Dunkle Beeren;;;
-Sensoriklabor Probe 720 Geschmack;Dezente Säure;Leichte Süße;;;;
-Sensoriklabor Probe 644 Farbe;Rubinrot;;;;;
-Sensoriklabor Probe 644 Geruch;Würzig;Rauchig;Kirsche;Nelke;Pfeffer;Holz
-Sensoriklabor Probe 644 Geschmack;Adstringierend;Tannine;Alkoholisch;Dezente Säure;Holz;
-
-Sensoriklabor Questions;Answers;;;
-Sensoriklabor Probe 131 Farbe;Hellgelb;;;
-Sensoriklabor Probe 131 Geruch;Fruchtig;Zitrus;Honigmelone;Apfel
-Sensoriklabor Probe 131 Geschmack;Süß;Sauer;SchmelzCremig;
-Sensoriklabor Probe 720 Farbe;Mittleres gelb;;;
-Sensoriklabor Probe 720 Geruch;Vegetativ;Dumpf;Zitrus;Apfel
-Sensoriklabor Probe 720 Geschmack;Sauer;Bitter;Leichte Süße;SchmelzCremig
-Sensoriklabor Probe 364 Farbe;Mittleres gelb;;;
-Sensoriklabor Probe 364 Geruch;Fruchtig;Blumig;Pfirsich;Rose
-Sensoriklabor Probe 364 Geschmack;Sauer;Bitter;Leichte Süße;
-
-Sensoriklabor Questions;Answers
-Sensoriklabor Alter;25-34
-Sensoriklabor Geschlecht;Männlich
-Sensoriklabor Händigkeit;Rechtshändig
-Sensoriklabor Ich fühle mich frisch und ausgeruht.;7
-Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
-
-Sensoriklabor Questions;Answers
-Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.;6
-Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+S Questions;Answers
+S Ich fühlte mich im virtuellen Raum anwesend.;6
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
 
 
@@ -132,132 +101,101 @@ Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann ge
 
 
 Proband 002
-Sensoriklabor Questions;Answers;;
-Sensoriklabor Probe 644 Farbe;Rubinrot;;
-Sensoriklabor Probe 644 Geruch;Fruchtig;Vegetativ;Holz
-Sensoriklabor Probe 644 Geschmack;Sauer;Alkoholisch;Holz
-Sensoriklabor Probe 983 Farbe;Hellrot mit braunem Rand;;
-Sensoriklabor Probe 983 Geruch;Vegetativ;Zitrus;
-Sensoriklabor Probe 983 Geschmack;Sauer;Dominante Säure;
+W Questions;Answers;;;
+W Probe 322 Farbe;Hellrot mit braunem Rand;;;
+W Probe 322 Geruch;Fruchtig;Erdbeere;Würzig;Vanille
+W Probe 322 Geschmack;Süß;Bitter;Tannine;
+W Probe 644 Farbe;Hellrot mit braunem Rand;;;
+W Probe 644 Geruch;Kirsche;Vegetativ;Würzig;Pfeffer
+W Probe 644 Geschmack;Dezente Säure;Adstringierend;Tannine;Holz
 
-Sensoriklabor Questions;Answers;;;
-Sensoriklabor Probe 720 Farbe;Mittleres gelb;;;
-Sensoriklabor Probe 720 Geruch;ButtrigLaktisch;Dumpf;Honigmelone;Birne
-Sensoriklabor Probe 720 Geschmack;Alkoholisch;Leichte Süße;Schmelz/Cremig;
-Sensoriklabor Probe 597 Farbe;Hellgelb;;;
-Sensoriklabor Probe 597 Geruch;Blumig;Honigmelone;Rose;
-Sensoriklabor Probe 597 Geschmack;Süß;Dezente Säure;;
-Sensoriklabor Probe 131 Farbe;Hellgelb;;;
-Sensoriklabor Probe 131 Geruch;Vegetativ;Zitrus;;
-Sensoriklabor Probe 131 Geschmack;Sauer;Alkoholisch;Bitter;Leichte Süße
+W Questions;Answers;;;
+W Probe 131 Farbe;Hellgelb;;;
+W Probe 131 Geruch;Fruchtig;Honigmelone;Birne;ButtrigLaktisch
+W Probe 131 Geschmack;Sauer;Bitter;SchmelzCremig;
+W Probe 720 Farbe;Mittleres gelb;;;
+W Probe 720 Geruch;Pfirsich;Birne;ButtrigLaktisch;Holz
+W Probe 720 Geschmack;Dezente Säure;SchmelzCremig;Holz;
+W Probe 597 Farbe;Hellgelb;;;
+W Probe 597 Geruch;Blumig;Fruchtig;Zitrus;
+W Probe 597 Geschmack;Leichte Süße;Dezente Säure;;
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Alter;18-24
-Sensoriklabor Geschlecht;Männlich
-Sensoriklabor Händigkeit;Rechtshändig
-Sensoriklabor Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;18-24
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;2
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.;6
-Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;5
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;7
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 322 Farbe;Hellrot mit braunem Rand;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Erdbeere;Würzig;Vanille
-Weinkeller Probe 322 Geschmack;Süß;Bitter;Tannine;
-Weinkeller Probe 644 Farbe;Hellrot mit braunem Rand;;;
-Weinkeller Probe 644 Geruch;Kirsche;Vegetativ;Würzig;Pfeffer
-Weinkeller Probe 644 Geschmack;Dezente Säure;Adstringierend;Tannine;Holz
+V Questions;Answers;;;
+V Probe 322 Farbe;Rubinrot;;;
+V Probe 322 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Vanille
+V Probe 322 Geschmack;Tannine;Dezente Säure;;
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;
+V Probe 983 Geruch;Würzig;Rauchig;Dunkle Beeren;Holz
+V Probe 983 Geschmack;Sauer;Alkoholisch;Holz;
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 131 Farbe;Hellgelb;;;
-Weinkeller Probe 131 Geruch;Fruchtig;Honigmelone;Birne;ButtrigLaktisch
-Weinkeller Probe 131 Geschmack;Sauer;Bitter;SchmelzCremig;
-Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Weinkeller Probe 720 Geruch;Pfirsich;Birne;ButtrigLaktisch;Holz
-Weinkeller Probe 720 Geschmack;Dezente Säure;SchmelzCremig;Holz;
-Weinkeller Probe 597 Farbe;Hellgelb;;;
-Weinkeller Probe 597 Geruch;Blumig;Fruchtig;Zitrus;
-Weinkeller Probe 597 Geschmack;Leichte Süße;Dezente Säure;;
+V Questions;Answers;;;
+V Probe 131 Farbe;Hellgelb;;;
+V Probe 131 Geruch;ButtrigLaktisch;Zitrus;Pfirsich;Apfel
+V Probe 131 Geschmack;Alkoholisch;Dezente Säure;Bitter;SchmelzCremig
+V Probe 597 Farbe;Hellgelb;;;
+V Probe 597 Geruch;Fruchtig;Blumig;Zitrus;Rose
+V Probe 597 Geschmack;Süß;Alkoholisch;Dezente Säure;
+V Probe 364 Farbe;Hellgelb;;;
+V Probe 364 Geruch;Fruchtig;ButtrigLaktisch;Honigmelone;Birne
+V Probe 364 Geschmack;Dezente Säure;Holz;SchmelzCremig;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;18-24
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;2
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Alter;18-24
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;2
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;5
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;7
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+V Questions;Answers
+V Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;5
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 322 Farbe;Rubinrot;;;
-Virtuell Weinkeller Probe 322 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Vanille
-Virtuell Weinkeller Probe 322 Geschmack;Tannine;Dezente Säure;;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;
-Virtuell Weinkeller Probe 983 Geruch;Würzig;Rauchig;Dunkle Beeren;Holz
-Virtuell Weinkeller Probe 983 Geschmack;Sauer;Alkoholisch;Holz;
+S Questions;Answers;;;
+S Probe 983 Farbe;Hellrot mit braunem Rand;;;
+S Probe 983 Geruch;Würzig;Kirsche;Nelke;Pfeffer
+S Probe 983 Geschmack;Tannine;Sauer;Holz;Dominante Säure
+S Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;
+S Probe 322 Geruch;Fruchtig;Erdbeere;Vanille;
+S Probe 322 Geschmack;Adstringierend;Tannine;Dezente Säure;Leichte Süße
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;ButtrigLaktisch;Zitrus;Pfirsich;Apfel
-Virtuell Weinkeller Probe 131 Geschmack;Alkoholisch;Dezente Säure;Bitter;SchmelzCremig
-Virtuell Weinkeller Probe 597 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 597 Geruch;Fruchtig;Blumig;Zitrus;Rose
-Virtuell Weinkeller Probe 597 Geschmack;Süß;Alkoholisch;Dezente Säure;
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Fruchtig;ButtrigLaktisch;Honigmelone;Birne
-Virtuell Weinkeller Probe 364 Geschmack;Dezente Säure;Holz;SchmelzCremig;
+S Questions;Answers;;;
+S Probe 364 Farbe;Mittleres gelb;;;
+S Probe 364 Geruch;Fruchtig;Blumig;Honigmelone;Rose
+S Probe 364 Geschmack;Süß;Dezente Säure;SchmelzCremig;
+S Probe 597 Farbe;Hellgelb;;;
+S Probe 597 Geruch;Dumpf;Zitrus;Pfirsich;
+S Probe 597 Geschmack;Dezente Säure;Holz;Bitter;Leichte Süße
+S Probe 720 Farbe;Mittleres gelb;;;
+S Probe 720 Geruch;ButtrigLaktisch;Holz;;
+S Probe 720 Geschmack;Holz;SchmelzCremig;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;18-24
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;2
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+S Questions;Answers
+S Alter;18-24
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;5
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;5
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
-
-Sensoriklabor Questions;Answers;;;
-Sensoriklabor Probe 983 Farbe;Hellrot mit braunem Rand;;;
-Sensoriklabor Probe 983 Geruch;Würzig;Kirsche;Nelke;Pfeffer
-Sensoriklabor Probe 983 Geschmack;Tannine;Sauer;Holz;Dominante Säure
-Sensoriklabor Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;
-Sensoriklabor Probe 322 Geruch;Fruchtig;Erdbeere;Vanille;
-Sensoriklabor Probe 322 Geschmack;Adstringierend;Tannine;Dezente Säure;Leichte Süße
-
-Sensoriklabor Questions;Answers;;;
-Sensoriklabor Probe 364 Farbe;Mittleres gelb;;;
-Sensoriklabor Probe 364 Geruch;Fruchtig;Blumig;Honigmelone;Rose
-Sensoriklabor Probe 364 Geschmack;Süß;Dezente Säure;SchmelzCremig;
-Sensoriklabor Probe 597 Farbe;Hellgelb;;;
-Sensoriklabor Probe 597 Geruch;Dumpf;Zitrus;Pfirsich;
-Sensoriklabor Probe 597 Geschmack;Dezente Säure;Holz;Bitter;Leichte Süße
-Sensoriklabor Probe 720 Farbe;Mittleres gelb;;;
-Sensoriklabor Probe 720 Geruch;ButtrigLaktisch;Holz;;
-Sensoriklabor Probe 720 Geschmack;Holz;SchmelzCremig;;
-
-Sensoriklabor Questions;Answers
-Sensoriklabor Alter;18-24
-Sensoriklabor Geschlecht;Männlich
-Sensoriklabor Händigkeit;Rechtshändig
-Sensoriklabor Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;5
-Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
-
-Sensoriklabor Questions;Answers
-Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.;7
-Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;7
-Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+S Questions;Answers
+S Ich fühlte mich im virtuellen Raum anwesend.;7
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;7
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
 
 
@@ -265,103 +203,103 @@ Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann ge
 
 
 Proband 008
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Vanille;
-Weinkeller Probe 322 Geschmack;Süß;Dezente Säure;Tannine;;
-Weinkeller Probe 983 Farbe;Rubinrot;;;;
-Weinkeller Probe 983 Geruch;Fruchtig;Pflaume;Würzig;Rauchig;Holz
-Weinkeller Probe 983 Geschmack;Dezente Säure;Bitter;Adstringierend;Tannine;Holz
+W Questions;Answers;;;;
+W Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+W Probe 322 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Vanille;
+W Probe 322 Geschmack;Süß;Dezente Säure;Tannine;;
+W Probe 983 Farbe;Rubinrot;;;;
+W Probe 983 Geruch;Fruchtig;Pflaume;Würzig;Rauchig;Holz
+W Probe 983 Geschmack;Dezente Säure;Bitter;Adstringierend;Tannine;Holz
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 131 Farbe;Hellgelb;;;
-Weinkeller Probe 131 Geruch;Fruchtig;Zitrus;Pfirsich;Apfel
-Weinkeller Probe 131 Geschmack;Leichte Süße;Sauer;;
-Weinkeller Probe 597 Farbe;Mittleres gelb;;;
-Weinkeller Probe 597 Geruch;Honigmelone;Birne;ButtrigLaktisch;Holz
-Weinkeller Probe 597 Geschmack;Süß;Dezente Säure;SchmelzCremig;
-Weinkeller Probe 364 Farbe;Mittleres gelb;;;
-Weinkeller Probe 364 Geruch;Blumig;Rose;Fruchtig;
-Weinkeller Probe 364 Geschmack;Starke Süße;Dezente Säure;Bitter;Alkoholisch
+W Questions;Answers;;;
+W Probe 131 Farbe;Hellgelb;;;
+W Probe 131 Geruch;Fruchtig;Zitrus;Pfirsich;Apfel
+W Probe 131 Geschmack;Leichte Süße;Sauer;;
+W Probe 597 Farbe;Mittleres gelb;;;
+W Probe 597 Geruch;Honigmelone;Birne;ButtrigLaktisch;Holz
+W Probe 597 Geschmack;Süß;Dezente Säure;SchmelzCremig;
+W Probe 364 Farbe;Mittleres gelb;;;
+W Probe 364 Geruch;Blumig;Rose;Fruchtig;
+W Probe 364 Geschmack;Starke Süße;Dezente Säure;Bitter;Alkoholisch
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;35-44
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;35-44
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;7
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 644 Geruch;Kirsche;Dunkle Beeren;Würzig;Vanille;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Dezente Säure;Alkoholisch;Adstringierend;Tannine;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 983 Geruch;Fruchtig;Kirsche;Nelke;Pfeffer;
-Virtuell Weinkeller Probe 983 Geschmack;Leichte Süße;Dezente Säure;Bitter;Adstringierend;Tannine
+V Questions;Answers;;;;
+V Probe 644 Farbe;Rubinrot;;;;
+V Probe 644 Geruch;Kirsche;Dunkle Beeren;Würzig;Vanille;Holz
+V Probe 644 Geschmack;Dezente Säure;Alkoholisch;Adstringierend;Tannine;
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+V Probe 983 Geruch;Fruchtig;Kirsche;Nelke;Pfeffer;
+V Probe 983 Geschmack;Leichte Süße;Dezente Säure;Bitter;Adstringierend;Tannine
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 720 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 720 Geruch;Fruchtig;Honigmelone;Birne;;
-Virtuell Weinkeller Probe 720 Geschmack;Leichte Süße;Dezente Säure;SchmelzCremig;;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Rose;Fruchtig;;
-Virtuell Weinkeller Probe 364 Geschmack;Leichte Süße;Dezente Säure;Bitter;Alkoholisch;
-Virtuell Weinkeller Probe 131 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 131 Geruch;Blumig;Fruchtig;Zitrus;Pfirsich;Birne
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;Dominante Säure;;;
+V Questions;Answers;;;;
+V Probe 720 Farbe;Hellgelb;;;;
+V Probe 720 Geruch;Fruchtig;Honigmelone;Birne;;
+V Probe 720 Geschmack;Leichte Süße;Dezente Säure;SchmelzCremig;;
+V Probe 364 Farbe;Mittleres gelb;;;;
+V Probe 364 Geruch;Blumig;Rose;Fruchtig;;
+V Probe 364 Geschmack;Leichte Süße;Dezente Säure;Bitter;Alkoholisch;
+V Probe 131 Farbe;Mittleres gelb;;;;
+V Probe 131 Geruch;Blumig;Fruchtig;Zitrus;Pfirsich;Birne
+V Probe 131 Geschmack;Leichte Süße;Dominante Säure;;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;35-44
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;35-44
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Sensoriklabor Questions;Answers;;;;
-Sensoriklabor Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Sensoriklabor Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Vanille;Holz
-Sensoriklabor Probe 644 Geschmack;Tannine;Alkoholisch;Dezente Säure;Holz;
-Sensoriklabor Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Sensoriklabor Probe 983 Geruch;Fruchtig;Erdbeere;Kirsche;;
-Sensoriklabor Probe 983 Geschmack;Süß;Adstringierend;Dezente Säure;;
+S Questions;Answers;;;;
+S Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+S Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Vanille;Holz
+S Probe 644 Geschmack;Tannine;Alkoholisch;Dezente Säure;Holz;
+S Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+S Probe 983 Geruch;Fruchtig;Erdbeere;Kirsche;;
+S Probe 983 Geschmack;Süß;Adstringierend;Dezente Säure;;
 
-Sensoriklabor Questions;Answers;;;;
-Sensoriklabor Probe 720 Farbe;Mittleres gelb;;;;
-Sensoriklabor Probe 720 Geruch;ButtrigLaktisch;Honigmelone;Birne;Holz;
-Sensoriklabor Probe 720 Geschmack;Dezente Säure;Holz;Leichte Süße;SchmelzCremig;
-Sensoriklabor Probe 364 Farbe;Mittleres gelb;;;;
-Sensoriklabor Probe 364 Geruch;Fruchtig;Blumig;Zitrus;Pfirsich;Rose
-Sensoriklabor Probe 364 Geschmack;Süß;Dezente Säure;Bitter;;
-Sensoriklabor Probe 131 Farbe;Hellgelb;;;;
-Sensoriklabor Probe 131 Geruch;Fruchtig;Zitrus;Pfirsich;Apfel;Birne
-Sensoriklabor Probe 131 Geschmack;Leichte Süße;Dominante Säure;;;
+S Questions;Answers;;;;
+S Probe 720 Farbe;Mittleres gelb;;;;
+S Probe 720 Geruch;ButtrigLaktisch;Honigmelone;Birne;Holz;
+S Probe 720 Geschmack;Dezente Säure;Holz;Leichte Süße;SchmelzCremig;
+S Probe 364 Farbe;Mittleres gelb;;;;
+S Probe 364 Geruch;Fruchtig;Blumig;Zitrus;Pfirsich;Rose
+S Probe 364 Geschmack;Süß;Dezente Säure;Bitter;;
+S Probe 131 Farbe;Hellgelb;;;;
+S Probe 131 Geruch;Fruchtig;Zitrus;Pfirsich;Apfel;Birne
+S Probe 131 Geschmack;Leichte Süße;Dominante Säure;;;
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Alter;35-44
-Sensoriklabor Geschlecht;Männlich
-Sensoriklabor Händigkeit;Rechtshändig
-Sensoriklabor Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+S Questions;Answers
+S Alter;35-44
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.;7
-Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
-Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;2
+S Questions;Answers
+S Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;7
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;2
 
 
 
@@ -369,103 +307,103 @@ Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann ge
 
 
 Proband 016
-Weinkeller Questions;Answers;;;;;
-Weinkeller Probe 322 Farbe;Hellrot mit braunem Rand;;;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Dunkle Beeren;Vegetativ;Vanille
-Weinkeller Probe 322 Geschmack;Süß;Dezente Säure;Bitter;Adstringierend;;
-Weinkeller Probe 983 Farbe;Rubinrot;;;;;
-Weinkeller Probe 983 Geruch;Vegetativ;Nelke;Pfeffer;Dumpf;;
-Weinkeller Probe 983 Geschmack;Leichte Süße;Dominante Säure;Bitter;Alkoholisch;;
+W Questions;Answers;;;;;
+W Probe 322 Farbe;Hellrot mit braunem Rand;;;;;
+W Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Dunkle Beeren;Vegetativ;Vanille
+W Probe 322 Geschmack;Süß;Dezente Säure;Bitter;Adstringierend;;
+W Probe 983 Farbe;Rubinrot;;;;;
+W Probe 983 Geruch;Vegetativ;Nelke;Pfeffer;Dumpf;;
+W Probe 983 Geschmack;Leichte Süße;Dominante Säure;Bitter;Alkoholisch;;
 
-Weinkeller Questions;Answers;;;;;
-Weinkeller Probe 131 Farbe;Gelblich-grün;;;;;
-Weinkeller Probe 131 Geruch;Fruchtig;Zitrus;Holz;;;
-Weinkeller Probe 131 Geschmack;Süß;Dominante Säure;Alkoholisch;;;
-Weinkeller Probe 597 Farbe;Hellgelb;;;;;
-Weinkeller Probe 597 Geruch;Blumig;Apfel;Vegetativ;SchmelzCremig;;
-Weinkeller Probe 597 Geschmack;Starke Süße;Dezente Säure;Alkoholisch;SchmelzCremig;;
-Weinkeller Probe 364 Farbe;Mittleres gelb;;;;;
-Weinkeller Probe 364 Geruch;Blumig;Fruchtig;Honigmelone;Pfirsich;Apfel;Birne
-Weinkeller Probe 364 Geschmack;Leichte Süße;Sauer;Bitter;Alkoholisch;SchmelzCremig;
+W Questions;Answers;;;;;
+W Probe 131 Farbe;Gelblich-grün;;;;;
+W Probe 131 Geruch;Fruchtig;Zitrus;Holz;;;
+W Probe 131 Geschmack;Süß;Dominante Säure;Alkoholisch;;;
+W Probe 597 Farbe;Hellgelb;;;;;
+W Probe 597 Geruch;Blumig;Apfel;Vegetativ;SchmelzCremig;;
+W Probe 597 Geschmack;Starke Süße;Dezente Säure;Alkoholisch;SchmelzCremig;;
+W Probe 364 Farbe;Mittleres gelb;;;;;
+W Probe 364 Geruch;Blumig;Fruchtig;Honigmelone;Pfirsich;Apfel;Birne
+W Probe 364 Geschmack;Leichte Süße;Sauer;Bitter;Alkoholisch;SchmelzCremig;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;25-34
-Weinkeller Geschlecht;Weiblich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht.;7
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;25-34
+W Geschlecht;Weiblich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht.;7
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;6
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexens;;;;
-Virtuell Weinkeller Probe 322 Geruch;Vegetativ;Kirsche;Dunkle Beeren;;
-Virtuell Weinkeller Probe 322 Geschmack;Süß;Dezente Säure;;;
-Virtuell Weinkeller Probe 983 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 983 Geruch;Vegetativ;Rauchig;Dunkle Beeren;Nelke;Holz
-Virtuell Weinkeller Probe 983 Geschmack;Adstringierend;Sauer;Leichte Süße;;
+S Questions;Answers;;;;
+S Probe 322 Farbe;Dunkelrot mit bläul. Reflexens;;;;
+S Probe 322 Geruch;Vegetativ;Kirsche;Dunkle Beeren;;
+S Probe 322 Geschmack;Süß;Dezente Säure;;;
+S Probe 983 Farbe;Rubinrot;;;;
+S Probe 983 Geruch;Vegetativ;Rauchig;Dunkle Beeren;Nelke;Holz
+S Probe 983 Geschmack;Adstringierend;Sauer;Leichte Süße;;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Zitrus;Honigmelone;Apfel;Birne
-Virtuell Weinkeller Probe 364 Geschmack;Alkoholisch;Bitter;Leichte Süße;Dominante Säure
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Dumpf;;;
-Virtuell Weinkeller Probe 720 Geschmack;Dezente Säure;SchmelzCremig;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Blumig;Zitrus;Rose;
-Virtuell Weinkeller Probe 131 Geschmack;Sauer;Alkoholisch;Leichte Süße;
+S Questions;Answers;;;
+S Probe 364 Farbe;Mittleres gelb;;;
+S Probe 364 Geruch;Zitrus;Honigmelone;Apfel;Birne
+S Probe 364 Geschmack;Alkoholisch;Bitter;Leichte Süße;Dominante Säure
+S Probe 720 Farbe;Mittleres gelb;;;
+S Probe 720 Geruch;Dumpf;;;
+S Probe 720 Geschmack;Dezente Säure;SchmelzCremig;;
+S Probe 131 Farbe;Hellgelb;;;
+S Probe 131 Geruch;Blumig;Zitrus;Rose;
+S Probe 131 Geschmack;Sauer;Alkoholisch;Leichte Süße;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;5
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+S Questions;Answers
+S Alter;25-34
+S Geschlecht;Weiblich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht.;5
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+S Questions;Answers
+S Umschauen;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;7
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Pflaume;Vegetativ
-Virtuell Weinkeller Probe 644 Geschmack;Leichte Süße;Dezente Säure;Adstringierend;Holz;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 983 Geruch;Erdbeere;Vegetativ;Pfeffer;Rauchig;
-Virtuell Weinkeller Probe 983 Geschmack;Leichte Süße;Dominante Säure;Alkoholisch;;
+V Questions;Answers;;;;
+V Probe 644 Farbe;Rubinrot;;;;
+V Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Pflaume;Vegetativ
+V Probe 644 Geschmack;Leichte Süße;Dezente Säure;Adstringierend;Holz;
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+V Probe 983 Geruch;Erdbeere;Vegetativ;Pfeffer;Rauchig;
+V Probe 983 Geschmack;Leichte Süße;Dominante Säure;Alkoholisch;;
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 720 Farbe;Gelblich-grün;;;;
-Virtuell Weinkeller Probe 720 Geruch;Blumig;Zitrus;Apfel;;
-Virtuell Weinkeller Probe 720 Geschmack;Süß;Bitter;Alkoholisch;SchmelzCremig;
-Virtuell Weinkeller Probe 131 Farbe;Gelblich-grün;;;;
-Virtuell Weinkeller Probe 131 Geruch;Blumig;Zitrus;Apfel;Birne;
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;Dominante Säure;Bitter;Alkoholisch;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Fruchtig;Pfirsich;Apfel;Vegetativ
-Virtuell Weinkeller Probe 364 Geschmack;Süß;Dominante Säure;Alkoholisch;SchmelzCremig;
+V Questions;Answers;;;;
+V Probe 720 Farbe;Gelblich-grün;;;;
+V Probe 720 Geruch;Blumig;Zitrus;Apfel;;
+V Probe 720 Geschmack;Süß;Bitter;Alkoholisch;SchmelzCremig;
+V Probe 131 Farbe;Gelblich-grün;;;;
+V Probe 131 Geruch;Blumig;Zitrus;Apfel;Birne;
+V Probe 131 Geschmack;Leichte Süße;Dominante Säure;Bitter;Alkoholisch;
+V Probe 364 Farbe;Mittleres gelb;;;;
+V Probe 364 Geruch;Blumig;Fruchtig;Pfirsich;Apfel;Vegetativ
+V Probe 364 Geschmack;Süß;Dominante Säure;Alkoholisch;SchmelzCremig;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;4
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;25-34
+V Geschlecht;Weiblich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht.;4
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;7
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;7
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
 
 
@@ -473,102 +411,102 @@ Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in B
 
 
 Proband 018
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 322 Farbe;deep red with blue reflection;;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Erdbeere;Pflaume;Vegetativ;
-Weinkeller Probe 322 Geschmack;Süß;Bitter;Holz;;
-Weinkeller Probe 644 Farbe;deep red with blue reflection;;;;
-Weinkeller Probe 644 Geruch;Dunkle Beeren;Würzig;Vanille;Rauchig;Holz
-Weinkeller Probe 644 Geschmack;Bitter;Alkoholisch;Tannine;Holz;
+W Questions;Answers;;;;
+W Probe 322 Farbe;deep red with blue reflection;;;;
+W Probe 322 Geruch;Fruchtig;Erdbeere;Pflaume;Vegetativ;
+W Probe 322 Geschmack;Süß;Bitter;Holz;;
+W Probe 644 Farbe;deep red with blue reflection;;;;
+W Probe 644 Geruch;Dunkle Beeren;Würzig;Vanille;Rauchig;Holz
+W Probe 644 Geschmack;Bitter;Alkoholisch;Tannine;Holz;
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 597 Farbe;Hellgelb;;;
-Weinkeller Probe 597 Geruch;Rose;Pfirsich;SchmelzCremig;Holz
-Weinkeller Probe 597 Geschmack;Süß;SchmelzCremig;Holz;
-Weinkeller Probe 364 Farbe;Hellgelb;;;
-Weinkeller Probe 364 Geruch;Blumig;Rose;Honigmelone;
-Weinkeller Probe 364 Geschmack;Starke Süße;Bitter;Holz;
-Weinkeller Probe 131 Farbe;Hellgelb;;;
-Weinkeller Probe 131 Geruch;Blumig;Zitrus;Vegetativ;
-Weinkeller Probe 131 Geschmack;Süß;Dominante Säure;Bitter;
+W Questions;Answers;;;
+W Probe 597 Farbe;Hellgelb;;;
+W Probe 597 Geruch;Rose;Pfirsich;SchmelzCremig;Holz
+W Probe 597 Geschmack;Süß;SchmelzCremig;Holz;
+W Probe 364 Farbe;Hellgelb;;;
+W Probe 364 Geruch;Blumig;Rose;Honigmelone;
+W Probe 364 Geschmack;Starke Süße;Bitter;Holz;
+W Probe 131 Farbe;Hellgelb;;;
+W Probe 131 Geruch;Blumig;Zitrus;Vegetativ;
+W Probe 131 Geschmack;Süß;Dominante Säure;Bitter;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;25-34
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht.;5
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;25-34
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht.;5
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;7
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
-Virtuell Weinkeller Questions;Answers;;
-Virtuell Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexens;;
-Virtuell Weinkeller Probe 644 Geruch;Dunkle Beeren;Vanille;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Tannine;Dezente Säure;Holz
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;
-Virtuell Weinkeller Probe 983 Geruch;Vegetativ;Kirsche;
-Virtuell Weinkeller Probe 983 Geschmack;Süß;Dezente Säure;
+S Questions;Answers;;
+S Probe 644 Farbe;Dunkelrot mit bläul. Reflexens;;
+S Probe 644 Geruch;Dunkle Beeren;Vanille;Holz
+S Probe 644 Geschmack;Tannine;Dezente Säure;Holz
+S Probe 983 Farbe;Hellrot mit braunem Rand;;
+S Probe 983 Geruch;Vegetativ;Kirsche;
+S Probe 983 Geschmack;Süß;Dezente Säure;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Fruchtig;Zitrus;Pfirsich;Apfel
-Virtuell Weinkeller Probe 364 Geschmack;Süß;Bitter;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;SchmelzCremig;Holz;;
-Virtuell Weinkeller Probe 720 Geschmack;Süß;Holz;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Blumig;Vegetativ;;
-Virtuell Weinkeller Probe 131 Geschmack;Süß;Sauer;;
+S Questions;Answers;;;
+S Probe 364 Farbe;Mittleres gelb;;;
+S Probe 364 Geruch;Fruchtig;Zitrus;Pfirsich;Apfel
+S Probe 364 Geschmack;Süß;Bitter;;
+S Probe 720 Farbe;Mittleres gelb;;;
+S Probe 720 Geruch;SchmelzCremig;Holz;;
+S Probe 720 Geschmack;Süß;Holz;;
+S Probe 131 Farbe;Hellgelb;;;
+S Probe 131 Geruch;Blumig;Vegetativ;;
+S Probe 131 Geschmack;Süß;Sauer;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;7
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+S Questions;Answers
+S Alter;25-34
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht.;7
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+S Questions;Answers
+S Umschauen;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;6
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Erdbeere;Vanille;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Adstringierend;Tannine;Holz;
-Virtuell Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexens;;;
-Virtuell Weinkeller Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Pflaume
-Virtuell Weinkeller Probe 322 Geschmack;Tannine;Dezente Säure;;
+V Questions;Answers;;;
+V Probe 644 Farbe;Rubinrot;;;
+V Probe 644 Geruch;Fruchtig;Erdbeere;Vanille;Holz
+V Probe 644 Geschmack;Adstringierend;Tannine;Holz;
+V Probe 322 Farbe;Dunkelrot mit bläul. Reflexens;;;
+V Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Pflaume
+V Probe 322 Geschmack;Tannine;Dezente Säure;;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Fruchtig;Honigmelone;Apfel;
-Virtuell Weinkeller Probe 364 Geschmack;Süß;Dominante Säure;;
-Virtuell Weinkeller Probe 597 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 597 Geruch;Fruchtig;Zitrus;Apfel;Birne
-Virtuell Weinkeller Probe 597 Geschmack;Starke Süße;Dezente Säure;Bitter;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Blumig;Rose;Holz;
-Virtuell Weinkeller Probe 131 Geschmack;Holz;Dominante Säure;;
+V Questions;Answers;;;
+V Probe 364 Farbe;Mittleres gelb;;;
+V Probe 364 Geruch;Fruchtig;Honigmelone;Apfel;
+V Probe 364 Geschmack;Süß;Dominante Säure;;
+V Probe 597 Farbe;Mittleres gelb;;;
+V Probe 597 Geruch;Fruchtig;Zitrus;Apfel;Birne
+V Probe 597 Geschmack;Starke Süße;Dezente Säure;Bitter;
+V Probe 131 Farbe;Hellgelb;;;
+V Probe 131 Geruch;Blumig;Rose;Holz;
+V Probe 131 Geschmack;Holz;Dominante Säure;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Alter;25-34
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht.;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;7
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
 
 
@@ -576,103 +514,103 @@ Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in B
 
 
 Proband 020
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Dunkle Beeren;Vegetativ;Würzig;Pfeffer
-Weinkeller Probe 322 Geschmack;Süß;Dezente Säure;;;
-Weinkeller Probe 983 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Weinkeller Probe 983 Geruch;Würzig;Holz;Dumpf;;
-Weinkeller Probe 983 Geschmack;Sauer;Adstringierend;Tannine;;
+W Questions;Answers;;;;
+W Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+W Probe 322 Geruch;Fruchtig;Dunkle Beeren;Vegetativ;Würzig;Pfeffer
+W Probe 322 Geschmack;Süß;Dezente Säure;;;
+W Probe 983 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+W Probe 983 Geruch;Würzig;Holz;Dumpf;;
+W Probe 983 Geschmack;Sauer;Adstringierend;Tannine;;
 
-Weinkeller Questions;Answers;;
-Weinkeller Probe 720 Farbe;Hellgelb;;
-Weinkeller Probe 720 Geruch;Fruchtig;;
-Weinkeller Probe 720 Geschmack;Süß;Dezente Säure;SchmelzCremig
-Weinkeller Probe 364 Farbe;Hellgelb;;
-Weinkeller Probe 364 Geruch;Blumig;Fruchtig;Apfel
-Weinkeller Probe 364 Geschmack;Leichte Süße;Dezente Säure;
-Weinkeller Probe 597 Farbe;Gelblich-grün;;
-Weinkeller Probe 597 Geruch;Fruchtig;Vegetativ;Dumpf
-Weinkeller Probe 597 Geschmack;Leichte Süße;Dezente Säure;
+W Questions;Answers;;
+W Probe 720 Farbe;Hellgelb;;
+W Probe 720 Geruch;Fruchtig;;
+W Probe 720 Geschmack;Süß;Dezente Säure;SchmelzCremig
+W Probe 364 Farbe;Hellgelb;;
+W Probe 364 Geruch;Blumig;Fruchtig;Apfel
+W Probe 364 Geschmack;Leichte Süße;Dezente Säure;
+W Probe 597 Farbe;Gelblich-grün;;
+W Probe 597 Geruch;Fruchtig;Vegetativ;Dumpf
+W Probe 597 Geschmack;Leichte Süße;Dezente Säure;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;55-70
-Weinkeller Geschlecht;Weiblich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;55-70
+W Geschlecht;Weiblich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;7
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Würzig;Dunkle Beeren;Pflaume;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Adstringierend;Tannine;Alkoholisch;Leichte Süße;Dominante Säure
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 983 Geruch;Vegetativ;Würzig;Rauchig;Dumpf;Holz
-Virtuell Weinkeller Probe 983 Geschmack;Adstringierend;Tannine;Sauer;Holz;
+S Questions;Answers;;;;
+S Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+S Probe 644 Geruch;Fruchtig;Würzig;Dunkle Beeren;Pflaume;Holz
+S Probe 644 Geschmack;Adstringierend;Tannine;Alkoholisch;Leichte Süße;Dominante Säure
+S Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+S Probe 983 Geruch;Vegetativ;Würzig;Rauchig;Dumpf;Holz
+S Probe 983 Geschmack;Adstringierend;Tannine;Sauer;Holz;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Fruchtig;Zitrus;;
-Virtuell Weinkeller Probe 364 Geschmack;Dezente Säure;Leichte Süße;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;ButtrigLaktisch;Dumpf;Honigmelone;
-Virtuell Weinkeller Probe 720 Geschmack;Dezente Säure;Holz;Leichte Süße;SchmelzCremig
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Fruchtig;Blumig;Vegetativ;
-Virtuell Weinkeller Probe 131 Geschmack;Sauer;Dominante Säure;;
+S Questions;Answers;;;
+S Probe 364 Farbe;Mittleres gelb;;;
+S Probe 364 Geruch;Fruchtig;Zitrus;;
+S Probe 364 Geschmack;Dezente Säure;Leichte Süße;;
+S Probe 720 Farbe;Mittleres gelb;;;
+S Probe 720 Geruch;ButtrigLaktisch;Dumpf;Honigmelone;
+S Probe 720 Geschmack;Dezente Säure;Holz;Leichte Süße;SchmelzCremig
+S Probe 131 Farbe;Hellgelb;;;
+S Probe 131 Geruch;Fruchtig;Blumig;Vegetativ;
+S Probe 131 Geschmack;Sauer;Dominante Säure;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;55-70
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+S Questions;Answers
+S Alter;55-70
+S Geschlecht;Weiblich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+S Questions;Answers
+S Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;7
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
-Virtuell Weinkeller Questions;Answers;;;;;
-Virtuell Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Dunkle Beeren;Vegetativ;Würzig;Vanille;Dumpf
-Virtuell Weinkeller Probe 644 Geschmack;Leichte Süße;Sauer;Alkoholisch;Adstringierend;Holz;
-Virtuell Weinkeller Probe 983 Farbe;Rubinrot;;;;;
-Virtuell Weinkeller Probe 983 Geruch;Vegetativ;Würzig;Rauchig;Holz;Dumpf;
-Virtuell Weinkeller Probe 983 Geschmack;Sauer;Alkoholisch;Adstringierend;Tannine;Holz;
+V Questions;Answers;;;;;
+V Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;;
+V Probe 644 Geruch;Fruchtig;Dunkle Beeren;Vegetativ;Würzig;Vanille;Dumpf
+V Probe 644 Geschmack;Leichte Süße;Sauer;Alkoholisch;Adstringierend;Holz;
+V Probe 983 Farbe;Rubinrot;;;;;
+V Probe 983 Geruch;Vegetativ;Würzig;Rauchig;Holz;Dumpf;
+V Probe 983 Geschmack;Sauer;Alkoholisch;Adstringierend;Tannine;Holz;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Apfel;Vegetativ;Dumpf;
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;Dezente Säure;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Vegetativ;ButtrigLaktisch;Holz;Dumpf
-Virtuell Weinkeller Probe 720 Geschmack;Leichte Süße;Dezente Säure;Holz;
-Virtuell Weinkeller Probe 364 Farbe;Gelblich-grün;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Fruchtig;Pfirsich;
-Virtuell Weinkeller Probe 364 Geschmack;Leichte Süße;Dezente Säure;;
+V Questions;Answers;;;
+V Probe 131 Farbe;Hellgelb;;;
+V Probe 131 Geruch;Apfel;Vegetativ;Dumpf;
+V Probe 131 Geschmack;Leichte Süße;Dezente Säure;;
+V Probe 720 Farbe;Mittleres gelb;;;
+V Probe 720 Geruch;Vegetativ;ButtrigLaktisch;Holz;Dumpf
+V Probe 720 Geschmack;Leichte Süße;Dezente Säure;Holz;
+V Probe 364 Farbe;Gelblich-grün;;;
+V Probe 364 Geruch;Blumig;Fruchtig;Pfirsich;
+V Probe 364 Geschmack;Leichte Süße;Dezente Säure;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;55-70
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;55-70
+V Geschlecht;Weiblich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;4
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;4
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
 
 
@@ -680,103 +618,103 @@ Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in B
 
 
 Proband 021
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;
-Weinkeller Probe 644 Geruch;Fruchtig;Würzig;Vanille;Holz
-Weinkeller Probe 644 Geschmack;Leichte Süße;Sauer;Alkoholisch;Tannine
-Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Vegetativ;Würzig;
-Weinkeller Probe 322 Geschmack;Süß;Dezente Säure;Tannine;
+W Questions;Answers;;;
+W Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;
+W Probe 644 Geruch;Fruchtig;Würzig;Vanille;Holz
+W Probe 644 Geschmack;Leichte Süße;Sauer;Alkoholisch;Tannine
+W Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;
+W Probe 322 Geruch;Fruchtig;Vegetativ;Würzig;
+W Probe 322 Geschmack;Süß;Dezente Säure;Tannine;
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 720 Farbe;Gelblich-grün;;;
-Weinkeller Probe 720 Geruch;Honigmelone;Holz;Dumpf;
-Weinkeller Probe 720 Geschmack;Süß;Dezente Säure;SchmelzCremig;Holz
-Weinkeller Probe 131 Farbe;Mittleres gelb;;;
-Weinkeller Probe 131 Geruch;Vegetativ;Holz;Dumpf;
-Weinkeller Probe 131 Geschmack;Leichte Süße;Dezente Säure;Holz;
-Weinkeller Probe 597 Farbe;Mittleres gelb;;;
-Weinkeller Probe 597 Geruch;Fruchtig;Vegetativ;Dumpf;
-Weinkeller Probe 597 Geschmack;Süß;Dezente Säure;SchmelzCremig;
+W Questions;Answers;;;
+W Probe 720 Farbe;Gelblich-grün;;;
+W Probe 720 Geruch;Honigmelone;Holz;Dumpf;
+W Probe 720 Geschmack;Süß;Dezente Säure;SchmelzCremig;Holz
+W Probe 131 Farbe;Mittleres gelb;;;
+W Probe 131 Geruch;Vegetativ;Holz;Dumpf;
+W Probe 131 Geschmack;Leichte Süße;Dezente Säure;Holz;
+W Probe 597 Farbe;Mittleres gelb;;;
+W Probe 597 Geruch;Fruchtig;Vegetativ;Dumpf;
+W Probe 597 Geschmack;Süß;Dezente Säure;SchmelzCremig;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;45-54
-Weinkeller Geschlecht;Weiblich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;5
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;45-54
+W Geschlecht;Weiblich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;5
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;6
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Würzig;Kirsche;Pfeffer;
-Virtuell Weinkeller Probe 644 Geschmack;Adstringierend;Tannine;Alkoholisch;Holz;Dominante Säure
-Virtuell Weinkeller Probe 983 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 983 Geruch;Vegetativ;Würzig;Dumpf;Pfeffer;
-Virtuell Weinkeller Probe 983 Geschmack;Tannine;Alkoholisch;Dezente Säure;;
+S Questions;Answers;;;;
+S Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+S Probe 644 Geruch;Fruchtig;Würzig;Kirsche;Pfeffer;
+S Probe 644 Geschmack;Adstringierend;Tannine;Alkoholisch;Holz;Dominante Säure
+S Probe 983 Farbe;Rubinrot;;;;
+S Probe 983 Geruch;Vegetativ;Würzig;Dumpf;Pfeffer;
+S Probe 983 Geschmack;Tannine;Alkoholisch;Dezente Säure;;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Fruchtig;Honigmelone;Apfel;Holz
-Virtuell Weinkeller Probe 720 Geschmack;Dezente Säure;Holz;Leichte Süße;
-Virtuell Weinkeller Probe 597 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 597 Geruch;Fruchtig;Blumig;Zitrus;Honigmelone
-Virtuell Weinkeller Probe 597 Geschmack;Starke Süße;Dezente Säure;SchmelzCremig;
-Virtuell Weinkeller Probe 131 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Vegetativ;Dumpf;Holz;
-Virtuell Weinkeller Probe 131 Geschmack;Süß;Dezente Säure;SchmelzCremig;
+S Questions;Answers;;;
+S Probe 720 Farbe;Mittleres gelb;;;
+S Probe 720 Geruch;Fruchtig;Honigmelone;Apfel;Holz
+S Probe 720 Geschmack;Dezente Säure;Holz;Leichte Süße;
+S Probe 597 Farbe;Mittleres gelb;;;
+S Probe 597 Geruch;Fruchtig;Blumig;Zitrus;Honigmelone
+S Probe 597 Geschmack;Starke Süße;Dezente Säure;SchmelzCremig;
+S Probe 131 Farbe;Mittleres gelb;;;
+S Probe 131 Geruch;Vegetativ;Dumpf;Holz;
+S Probe 131 Geschmack;Süß;Dezente Säure;SchmelzCremig;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;55-70
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+S Questions;Answers
+S Alter;55-70
+S Geschlecht;Weiblich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+S Questions;Answers
+S Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;7
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Würzig;Pfeffer
-Virtuell Weinkeller Probe 644 Geschmack;Leichte Süße;Dominante Säure;Alkoholisch;Tannine;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 983 Geruch;Vegetativ;Würzig;Pfeffer;Rauchig;
-Virtuell Weinkeller Probe 983 Geschmack;Leichte Süße;Dominante Säure;Alkoholisch;Tannine;
+V Questions;Answers;;;;
+V Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+V Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Würzig;Pfeffer
+V Probe 644 Geschmack;Leichte Süße;Dominante Säure;Alkoholisch;Tannine;
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+V Probe 983 Geruch;Vegetativ;Würzig;Pfeffer;Rauchig;
+V Probe 983 Geschmack;Leichte Süße;Dominante Säure;Alkoholisch;Tannine;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Blumig;Fruchtig;Honigmelone;Apfel
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;Sauer;SchmelzCremig;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Birne;Vegetativ;ButtrigLaktisch;Holz
-Virtuell Weinkeller Probe 720 Geschmack;Süß;Dezente Säure;SchmelzCremig;Holz
-Virtuell Weinkeller Probe 364 Farbe;Gelblich-grün;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Fruchtig;Zitrus;
-Virtuell Weinkeller Probe 364 Geschmack;Süß;Dezente Säure;Bitter;
+V Questions;Answers;;;
+V Probe 131 Farbe;Hellgelb;;;
+V Probe 131 Geruch;Blumig;Fruchtig;Honigmelone;Apfel
+V Probe 131 Geschmack;Leichte Süße;Sauer;SchmelzCremig;
+V Probe 720 Farbe;Mittleres gelb;;;
+V Probe 720 Geruch;Birne;Vegetativ;ButtrigLaktisch;Holz
+V Probe 720 Geschmack;Süß;Dezente Säure;SchmelzCremig;Holz
+V Probe 364 Farbe;Gelblich-grün;;;
+V Probe 364 Geruch;Blumig;Fruchtig;Zitrus;
+V Probe 364 Geschmack;Süß;Dezente Säure;Bitter;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;45-54
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;45-54
+V Geschlecht;Weiblich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
 
 
 
@@ -784,104 +722,104 @@ Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in B
 
 
 Proband 026
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;
-Weinkeller Probe 644 Geruch;Kirsche;Dunkle Beeren;Würzig;Holz
-Weinkeller Probe 644 Geschmack;Sauer;Tannine;Holz;
-Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;
-Weinkeller Probe 322 Geruch;Dunkle Beeren;Pflaume;Rauchig;Dumpf
-Weinkeller Probe 322 Geschmack;Leichte Süße;Dezente Säure;Adstringierend;
+W Questions;Answers;;;
+W Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;
+W Probe 644 Geruch;Kirsche;Dunkle Beeren;Würzig;Holz
+W Probe 644 Geschmack;Sauer;Tannine;Holz;
+W Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;
+W Probe 322 Geruch;Dunkle Beeren;Pflaume;Rauchig;Dumpf
+W Probe 322 Geschmack;Leichte Süße;Dezente Säure;Adstringierend;
 
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 720 Farbe;Hellgelb;;;;
-Weinkeller Probe 720 Geruch;Blumig;Fruchtig;Pfirsich;;
-Weinkeller Probe 720 Geschmack;Süß;Sauer;Bitter;SchmelzCremig;Holz
-Weinkeller Probe 597 Farbe;Hellgelb;;;;
-Weinkeller Probe 597 Geruch;Vegetativ;Dumpf;;;
-Weinkeller Probe 597 Geschmack;Süß;Sauer;Bitter;SchmelzCremig;
-Weinkeller Probe 364 Farbe;Hellgelb;;;;
-Weinkeller Probe 364 Geruch;Blumig;Honigmelone;Vegetativ;ButtrigLaktisch;
-Weinkeller Probe 364 Geschmack;Sauer;Bitter;;;
+W Questions;Answers;;;;
+W Probe 720 Farbe;Hellgelb;;;;
+W Probe 720 Geruch;Blumig;Fruchtig;Pfirsich;;
+W Probe 720 Geschmack;Süß;Sauer;Bitter;SchmelzCremig;Holz
+W Probe 597 Farbe;Hellgelb;;;;
+W Probe 597 Geruch;Vegetativ;Dumpf;;;
+W Probe 597 Geschmack;Süß;Sauer;Bitter;SchmelzCremig;
+W Probe 364 Farbe;Hellgelb;;;;
+W Probe 364 Geruch;Blumig;Honigmelone;Vegetativ;ButtrigLaktisch;
+W Probe 364 Geschmack;Sauer;Bitter;;;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;18-24
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;18-24
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;6
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;
-Virtuell Weinkeller Probe 644 Geruch;Kirsche;Würzig;Rauchig;
-Virtuell Weinkeller Probe 644 Geschmack;Dominante Säure;Adstringierend;Tannine;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;
-Virtuell Weinkeller Probe 983 Geruch;Dunkle Beeren;Dumpf;;
-Virtuell Weinkeller Probe 983 Geschmack;Dezente Säure;Adstringierend;Tannine;Holz
+S Questions;Answers;;;
+S Probe 644 Farbe;Rubinrot;;;
+S Probe 644 Geruch;Kirsche;Würzig;Rauchig;
+S Probe 644 Geschmack;Dominante Säure;Adstringierend;Tannine;
+S Probe 983 Farbe;Hellrot mit braunem Rand;;;
+S Probe 983 Geruch;Dunkle Beeren;Dumpf;;
+S Probe 983 Geschmack;Dezente Säure;Adstringierend;Tannine;Holz
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 131 Farbe;Gelblich-grün;;;
-Virtuell Weinkeller Probe 131 Geruch;Fruchtig;Zitrus;Apfel;
-Virtuell Weinkeller Probe 131 Geschmack;Süß;Dezente Säure;SchmelzCremig;Holz
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Honigmelone;Pfirsich;Birne;ButtrigLaktisch
-Virtuell Weinkeller Probe 364 Geschmack;Süß;Dezente Säure;SchmelzCremig;
-Virtuell Weinkeller Probe 720 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Blumig;Fruchtig;Dumpf;
-Virtuell Weinkeller Probe 720 Geschmack;Leichte Süße;Sauer;SchmelzCremig;Holz
+S Questions;Answers;;;
+S Probe 131 Farbe;Gelblich-grün;;;
+S Probe 131 Geruch;Fruchtig;Zitrus;Apfel;
+S Probe 131 Geschmack;Süß;Dezente Säure;SchmelzCremig;Holz
+S Probe 364 Farbe;Hellgelb;;;
+S Probe 364 Geruch;Honigmelone;Pfirsich;Birne;ButtrigLaktisch
+S Probe 364 Geschmack;Süß;Dezente Säure;SchmelzCremig;
+S Probe 720 Farbe;Hellgelb;;;
+S Probe 720 Geruch;Blumig;Fruchtig;Dumpf;
+S Probe 720 Geschmack;Leichte Süße;Sauer;SchmelzCremig;Holz
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;18-24
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+S Questions;Answers
+S Umschauen;Verstanden.
+S Alter;18-24
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
+S Questions;Answers
+S Umschauen;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;7
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 644 Geruch;Kirsche;Würzig;Nelke;Vanille;Pfeffer
-Virtuell Weinkeller Probe 644 Geschmack;Sauer;Alkoholisch;Tannine;;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 983 Geruch;Erdbeere;Kirsche;Rauchig;;
-Virtuell Weinkeller Probe 983 Geschmack;Leichte Süße;Dezente Säure;Tannine;;
+V Questions;Answers;;;;
+V Probe 644 Farbe;Rubinrot;;;;
+V Probe 644 Geruch;Kirsche;Würzig;Nelke;Vanille;Pfeffer
+V Probe 644 Geschmack;Sauer;Alkoholisch;Tannine;;
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+V Probe 983 Geruch;Erdbeere;Kirsche;Rauchig;;
+V Probe 983 Geschmack;Leichte Süße;Dezente Säure;Tannine;;
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 131 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 131 Geruch;Fruchtig;Zitrus;Pfirsich;Birne;ButtrigLaktisch
-Virtuell Weinkeller Probe 131 Geschmack;Sauer;;;;
-Virtuell Weinkeller Probe 597 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 597 Geruch;Honigmelone;ButtrigLaktisch;Holz;;
-Virtuell Weinkeller Probe 597 Geschmack;Leichte Süße;Dezente Säure;Bitter;Holz;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 720 Geruch;Blumig;Honigmelone;ButtrigLaktisch;Dumpf;
-Virtuell Weinkeller Probe 720 Geschmack;Leichte Süße;Dezente Säure;SchmelzCremig;;
+V Questions;Answers;;;;
+V Probe 131 Farbe;Mittleres gelb;;;;
+V Probe 131 Geruch;Fruchtig;Zitrus;Pfirsich;Birne;ButtrigLaktisch
+V Probe 131 Geschmack;Sauer;;;;
+V Probe 597 Farbe;Mittleres gelb;;;;
+V Probe 597 Geruch;Honigmelone;ButtrigLaktisch;Holz;;
+V Probe 597 Geschmack;Leichte Süße;Dezente Säure;Bitter;Holz;
+V Probe 720 Farbe;Mittleres gelb;;;;
+V Probe 720 Geruch;Blumig;Honigmelone;ButtrigLaktisch;Dumpf;
+V Probe 720 Geschmack;Leichte Süße;Dezente Säure;SchmelzCremig;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;18-24
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;18-24
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
 
 
@@ -889,102 +827,102 @@ Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in B
 
 
 Proband 014
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Nelke;Vanille;Holz;
-Virtuell Weinkeller Probe 644 Geschmack;Sauer;Holz;Leichte Süße;;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 983 Geruch;Fruchtig;Würzig;Erdbeere;Dunkle Beeren;Holz
-Virtuell Weinkeller Probe 983 Geschmack;Süß;Tannine;Sauer;;
+S Questions;Answers;;;;
+S Probe 644 Farbe;Rubinrot;;;;
+S Probe 644 Geruch;Fruchtig;Nelke;Vanille;Holz;
+S Probe 644 Geschmack;Sauer;Holz;Leichte Süße;;
+S Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+S Probe 983 Geruch;Fruchtig;Würzig;Erdbeere;Dunkle Beeren;Holz
+S Probe 983 Geschmack;Süß;Tannine;Sauer;;
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 131 Geruch;Fruchtig;Blumig;Zitrus;Pfirsich;
-Virtuell Weinkeller Probe 131 Geschmack;Süß;Sauer;Dominante Säure;;
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 364 Geruch;Fruchtig;Blumig;Vegetativ;Honigmelone;Birne
-Virtuell Weinkeller Probe 364 Geschmack;Starke Süße;Bitter;SchmelzCremig;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 720 Geruch;SchmelzCremig;Holz;;;
-Virtuell Weinkeller Probe 720 Geschmack;Sauer;Leichte Süße;;;
+S Questions;Answers;;;;
+S Probe 131 Farbe;Hellgelb;;;;
+S Probe 131 Geruch;Fruchtig;Blumig;Zitrus;Pfirsich;
+S Probe 131 Geschmack;Süß;Sauer;Dominante Säure;;
+S Probe 364 Farbe;Hellgelb;;;;
+S Probe 364 Geruch;Fruchtig;Blumig;Vegetativ;Honigmelone;Birne
+S Probe 364 Geschmack;Starke Süße;Bitter;SchmelzCremig;;
+S Probe 720 Farbe;Mittleres gelb;;;;
+S Probe 720 Geruch;SchmelzCremig;Holz;;;
+S Probe 720 Geschmack;Sauer;Leichte Süße;;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;4
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+S Questions;Answers
+S Alter;25-34
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht.;4
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;7
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+S Questions;Answers
+S Umschauen;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;7
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;7
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Würzig;Dunkle Beeren;Pflaume;Nelke
-Virtuell Weinkeller Probe 644 Geschmack;Tannine;Sauer;Leichte Süße;;
-Virtuell Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexens;;;;
-Virtuell Weinkeller Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Dunkle Beeren;
-Virtuell Weinkeller Probe 322 Geschmack;Sauer;Leichte Süße;;;
+V Questions;Answers;;;;
+V Probe 644 Farbe;Rubinrot;;;;
+V Probe 644 Geruch;Fruchtig;Würzig;Dunkle Beeren;Pflaume;Nelke
+V Probe 644 Geschmack;Tannine;Sauer;Leichte Süße;;
+V Probe 322 Farbe;Dunkelrot mit bläul. Reflexens;;;;
+V Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Dunkle Beeren;
+V Probe 322 Geschmack;Sauer;Leichte Süße;;;
 
-Virtuell Weinkeller Questions;Answers;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;
-Virtuell Weinkeller Probe 720 Geruch;Fruchtig;Blumig;
-Virtuell Weinkeller Probe 720 Geschmack;Süß;Sauer;SchmelzCremig
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Pfirsich;Rose
-Virtuell Weinkeller Probe 364 Geschmack;Süß;Dezente Säure;
-Virtuell Weinkeller Probe 597 Farbe;Hellgelb;;
-Virtuell Weinkeller Probe 597 Geruch;Fruchtig;Zitrus;Pfirsich
-Virtuell Weinkeller Probe 597 Geschmack;Starke Süße;Dezente Säure;
+V Questions;Answers;;
+V Probe 720 Farbe;Mittleres gelb;;
+V Probe 720 Geruch;Fruchtig;Blumig;
+V Probe 720 Geschmack;Süß;Sauer;SchmelzCremig
+V Probe 364 Farbe;Hellgelb;;
+V Probe 364 Geruch;Blumig;Pfirsich;Rose
+V Probe 364 Geschmack;Süß;Dezente Säure;
+V Probe 597 Farbe;Hellgelb;;
+V Probe 597 Geruch;Fruchtig;Zitrus;Pfirsich
+V Probe 597 Geschmack;Starke Süße;Dezente Säure;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Alter;25-34
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht.;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;7
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 322 Farbe;deep red with blue reflection;;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Dunkle Beeren;Pflaume
-Weinkeller Probe 322 Geschmack;Süß;Dezente Säure;;;
-Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Weinkeller Probe 983 Geruch;Fruchtig;Erdbeere;Dunkle Beeren;Rauchig;Holz
-Weinkeller Probe 983 Geschmack;Leichte Süße;Dominante Säure;Bitter;Adstringierend;Tannine
+W Questions;Answers;;;;
+W Probe 322 Farbe;deep red with blue reflection;;;;
+W Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Dunkle Beeren;Pflaume
+W Probe 322 Geschmack;Süß;Dezente Säure;;;
+W Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+W Probe 983 Geruch;Fruchtig;Erdbeere;Dunkle Beeren;Rauchig;Holz
+W Probe 983 Geschmack;Leichte Süße;Dominante Säure;Bitter;Adstringierend;Tannine
 
-Weinkeller Questions;Answers;;
-Weinkeller Probe 720 Farbe;Hellgelb;;
-Weinkeller Probe 720 Geruch;Zitrus;Apfel;
-Weinkeller Probe 720 Geschmack;Leichte Süße;Dominante Säure;
-Weinkeller Probe 597 Farbe;Hellgelb;;
-Weinkeller Probe 597 Geruch;Blumig;Zitrus;Pfirsich
-Weinkeller Probe 597 Geschmack;Süß;Sauer;
-Weinkeller Probe 131 Farbe;Hellgelb;;
-Weinkeller Probe 131 Geruch;Rose;Pfirsich;
-Weinkeller Probe 131 Geschmack;Leichte Süße;Dominante Säure;Bitter
+W Questions;Answers;;
+W Probe 720 Farbe;Hellgelb;;
+W Probe 720 Geruch;Zitrus;Apfel;
+W Probe 720 Geschmack;Leichte Süße;Dominante Säure;
+W Probe 597 Farbe;Hellgelb;;
+W Probe 597 Geruch;Blumig;Zitrus;Pfirsich
+W Probe 597 Geschmack;Süß;Sauer;
+W Probe 131 Farbe;Hellgelb;;
+W Probe 131 Geruch;Rose;Pfirsich;
+W Probe 131 Geschmack;Leichte Süße;Dominante Säure;Bitter
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;25-34
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht.;2
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;25-34
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht.;2
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;7
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
 
 
@@ -992,101 +930,101 @@ Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezog
 
 
 Proband 004
-Virtuell Weinkeller Questions;Answers;;;;;
-Virtuell Weinkeller Probe 983 Farbe;Rubinrot;;;;;
-Virtuell Weinkeller Probe 983 Geruch;Würzig;Rauchig;Erdbeere;Vanille;Holz;
-Virtuell Weinkeller Probe 983 Geschmack;Sauer;Holz;Bitter;Leichte Süße;;
-Virtuell Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexens;;;;;
-Virtuell Weinkeller Probe 644 Geruch;Würzig;Kirsche;Dunkle Beeren;Pflaume;Nelke;Vanille
-Virtuell Weinkeller Probe 644 Geschmack;Tannine;Sauer;Leichte Süße;;;
+V Questions;Answers;;;;;
+V Probe 983 Farbe;Rubinrot;;;;;
+V Probe 983 Geruch;Würzig;Rauchig;Erdbeere;Vanille;Holz;
+V Probe 983 Geschmack;Sauer;Holz;Bitter;Leichte Süße;;
+V Probe 644 Farbe;Dunkelrot mit bläul. Reflexens;;;;;
+V Probe 644 Geruch;Würzig;Kirsche;Dunkle Beeren;Pflaume;Nelke;Vanille
+V Probe 644 Geschmack;Tannine;Sauer;Leichte Süße;;;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 720 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Blumig;Zitrus;Pfirsich;Apfel
-Virtuell Weinkeller Probe 720 Geschmack;Süß;Alkoholisch;Dezente Säure;SchmelzCremig
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Zitrus;Honigmelone;Pfirsich;Apfel
-Virtuell Weinkeller Probe 131 Geschmack;Sauer;;;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 364 Geruch;SchmelzCremig;Apfel;Holz;
-Virtuell Weinkeller Probe 364 Geschmack;Süß;Holz;Bitter;SchmelzCremig
+V Questions;Answers;;;
+V Probe 720 Farbe;Hellgelb;;;
+V Probe 720 Geruch;Blumig;Zitrus;Pfirsich;Apfel
+V Probe 720 Geschmack;Süß;Alkoholisch;Dezente Säure;SchmelzCremig
+V Probe 131 Farbe;Hellgelb;;;
+V Probe 131 Geruch;Zitrus;Honigmelone;Pfirsich;Apfel
+V Probe 131 Geschmack;Sauer;;;
+V Probe 364 Farbe;Mittleres gelb;;;
+V Probe 364 Geruch;SchmelzCremig;Apfel;Holz;
+V Probe 364 Geschmack;Süß;Holz;Bitter;SchmelzCremig
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;35-44
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Alter;35-44
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht.;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Sensoriklabor Questions;Answers;;;;;;
-Sensoriklabor Probe 644 Farbe;Dunkelrot mit bläul. Reflexens;;;;;;
-Sensoriklabor Probe 644 Geruch;Fruchtig;Vegetativ;Kirsche;Dunkle Beeren;Nelke;Vanille;Pfeffer
-Sensoriklabor Probe 644 Geschmack;Tannine;Sauer;Leichte Süße;;;;
-Sensoriklabor Probe 983 Farbe;Rubinrot;;;;;;
-Sensoriklabor Probe 983 Geruch;Rauchig;Kirsche;Holz;;;;
-Sensoriklabor Probe 983 Geschmack;Alkoholisch;Holz;Dominante Säure;;;;
+S Questions;Answers;;;;;;
+S Probe 644 Farbe;Dunkelrot mit bläul. Reflexens;;;;;;
+S Probe 644 Geruch;Fruchtig;Vegetativ;Kirsche;Dunkle Beeren;Nelke;Vanille;Pfeffer
+S Probe 644 Geschmack;Tannine;Sauer;Leichte Süße;;;;
+S Probe 983 Farbe;Rubinrot;;;;;;
+S Probe 983 Geruch;Rauchig;Kirsche;Holz;;;;
+S Probe 983 Geschmack;Alkoholisch;Holz;Dominante Säure;;;;
 
-Sensoriklabor Questions;Answers;;;;
-Sensoriklabor Probe 720 Farbe;Mittleres gelb;;;;
-Sensoriklabor Probe 720 Geruch;Zitrus;Honigmelone;Pfirsich;Birne;Holz
-Sensoriklabor Probe 720 Geschmack;Alkoholisch;Holz;SchmelzCremig;;
-Sensoriklabor Probe 364 Farbe;Mittleres gelb;;;;
-Sensoriklabor Probe 364 Geruch;Fruchtig;Blumig;Rose;;
-Sensoriklabor Probe 364 Geschmack;Dezente Säure;Bitter;;;
-Sensoriklabor Probe 131 Farbe;Mittleres gelb;;;;
-Sensoriklabor Probe 131 Geruch;Honigmelone;Pfirsich;Apfel;Birne;
-Sensoriklabor Probe 131 Geschmack;Süß;Sauer;;;
+S Questions;Answers;;;;
+S Probe 720 Farbe;Mittleres gelb;;;;
+S Probe 720 Geruch;Zitrus;Honigmelone;Pfirsich;Birne;Holz
+S Probe 720 Geschmack;Alkoholisch;Holz;SchmelzCremig;;
+S Probe 364 Farbe;Mittleres gelb;;;;
+S Probe 364 Geruch;Fruchtig;Blumig;Rose;;
+S Probe 364 Geschmack;Dezente Säure;Bitter;;;
+S Probe 131 Farbe;Mittleres gelb;;;;
+S Probe 131 Geruch;Honigmelone;Pfirsich;Apfel;Birne;
+S Probe 131 Geschmack;Süß;Sauer;;;
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Alter;35-44
-Sensoriklabor Geschlecht;Männlich
-Sensoriklabor Händigkeit;Rechtshändig
-Sensoriklabor Ich fühle mich frisch und ausgeruht.;6
-Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+S Questions;Answers
+S Alter;35-44
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht.;6
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.;6
-Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+S Questions;Answers
+S Ich fühlte mich im virtuellen Raum anwesend.;6
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Weinkeller Questions;Answers;;;;;;
-Weinkeller Probe 322 Farbe;Rubinrot;;;;;;
-Weinkeller Probe 322 Geruch;Kirsche;Dunkle Beeren;Pflaume;Würzig;Vanille;;
-Weinkeller Probe 322 Geschmack;Süß;Sauer;Bitter;;;;
-Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;;;
-Weinkeller Probe 983 Geruch;Kirsche;Dunkle Beeren;Würzig;Nelke;Pfeffer;Rauchig;Holz
-Weinkeller Probe 983 Geschmack;Leichte Süße;Dominante Säure;Adstringierend;Tannine;;;
+W Questions;Answers;;;;;;
+W Probe 322 Farbe;Rubinrot;;;;;;
+W Probe 322 Geruch;Kirsche;Dunkle Beeren;Pflaume;Würzig;Vanille;;
+W Probe 322 Geschmack;Süß;Sauer;Bitter;;;;
+W Probe 983 Farbe;Hellrot mit braunem Rand;;;;;;
+W Probe 983 Geruch;Kirsche;Dunkle Beeren;Würzig;Nelke;Pfeffer;Rauchig;Holz
+W Probe 983 Geschmack;Leichte Süße;Dominante Säure;Adstringierend;Tannine;;;
 
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 131 Farbe;Hellgelb;;;;
-Weinkeller Probe 131 Geruch;Fruchtig;Zitrus;Pfirsich;Apfel;Birne
-Weinkeller Probe 131 Geschmack;Süß;Dominante Säure;;;
-Weinkeller Probe 597 Farbe;Hellgelb;;;;
-Weinkeller Probe 597 Geruch;Honigmelone;Apfel;Holz;;
-Weinkeller Probe 597 Geschmack;Starke Süße;Sauer;SchmelzCremig;;
-Weinkeller Probe 364 Farbe;Hellgelb;;;;
-Weinkeller Probe 364 Geruch;Blumig;Rose;Fruchtig;Honigmelone;
-Weinkeller Probe 364 Geschmack;Süß;Dezente Säure;Bitter;Alkoholisch;
+W Questions;Answers;;;;
+W Probe 131 Farbe;Hellgelb;;;;
+W Probe 131 Geruch;Fruchtig;Zitrus;Pfirsich;Apfel;Birne
+W Probe 131 Geschmack;Süß;Dominante Säure;;;
+W Probe 597 Farbe;Hellgelb;;;;
+W Probe 597 Geruch;Honigmelone;Apfel;Holz;;
+W Probe 597 Geschmack;Starke Süße;Sauer;SchmelzCremig;;
+W Probe 364 Farbe;Hellgelb;;;;
+W Probe 364 Geruch;Blumig;Rose;Fruchtig;Honigmelone;
+W Probe 364 Geschmack;Süß;Dezente Säure;Bitter;Alkoholisch;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;35-44
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht.;6
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;35-44
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht.;6
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;6
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
 
 
@@ -1094,111 +1032,103 @@ Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezog
 
 
 Proband 010
-Virtuell Weinkeller Questions;Answers;;;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;;;
-Virtuell Weinkeller Probe 644 Geruch;Würzig;Kirsche;Dunkle Beeren;Pflaume;;;
-Virtuell Weinkeller Probe 644 Geschmack;Tannine;Alkoholisch;Holz;Bitter;;;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;;;
-Virtuell Weinkeller Probe 983 Geruch;Vegetativ;Würzig;Rauchig;Dumpf;Pflaume;Pfeffer;Holz
-Virtuell Weinkeller Probe 983 Geschmack;Adstringierend;Tannine;Alkoholisch;Dezente Säure;Leichte Süße;;
+S Questions;Answers;;;;;;
+S Probe 644 Farbe;Rubinrot;;;;;;
+S Probe 644 Geruch;Würzig;Kirsche;Dunkle Beeren;Pflaume;;;
+S Probe 644 Geschmack;Tannine;Alkoholisch;Holz;Bitter;;;
+S Probe 983 Farbe;Hellrot mit braunem Rand;;;;;;
+S Probe 983 Geruch;Vegetativ;Würzig;Rauchig;Dumpf;Pflaume;Pfeffer;Holz
+S Probe 983 Geschmack;Adstringierend;Tannine;Alkoholisch;Dezente Säure;Leichte Süße;;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Fruchtig;ButtrigLaktisch;Zitrus;Apfel
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;Dominante Säure;SchmelzCremig;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Dumpf;Holz;;
-Virtuell Weinkeller Probe 720 Geschmack;Süß;Dezente Säure;Holz;SchmelzCremig
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Pfirsich;Rose;
-Virtuell Weinkeller Probe 364 Geschmack;Süß;Alkoholisch;;
+S Questions;Answers;;;
+S Probe 131 Farbe;Hellgelb;;;
+S Probe 131 Geruch;Fruchtig;ButtrigLaktisch;Zitrus;Apfel
+S Probe 131 Geschmack;Leichte Süße;Dominante Säure;SchmelzCremig;
+S Probe 720 Farbe;Mittleres gelb;;;
+S Probe 720 Geruch;Dumpf;Holz;;
+S Probe 720 Geschmack;Süß;Dezente Säure;Holz;SchmelzCremig
+S Probe 364 Farbe;Hellgelb;;;
+S Probe 364 Geruch;Blumig;Pfirsich;Rose;
+S Probe 364 Geschmack;Süß;Alkoholisch;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;35-44
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;3
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+S Questions;Answers
+S Alter;35-44
+S Geschlecht;Weiblich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;3
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+S Questions;Answers
+S Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;7
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 322 Farbe;Rubinrot;;;;
-Weinkeller Probe 322 Geruch;Erdbeere;Kirsche;Dunkle Beeren;;
-Weinkeller Probe 322 Geschmack;Süß;;;;
-Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Weinkeller Probe 644 Geruch;Dunkle Beeren;Pflaume;Würzig;Pfeffer;Rauchig
-Weinkeller Probe 644 Geschmack;Dominante Säure;Alkoholisch;Tannine;Holz;
+W Questions;Answers;;;;
+W Probe 322 Farbe;Rubinrot;;;;
+W Probe 322 Geruch;Erdbeere;Kirsche;Dunkle Beeren;;
+W Probe 322 Geschmack;Süß;;;;
+W Probe 644 Farbe;Rubinrot;;;;
+W Probe 644 Geruch;Dunkle Beeren;Pflaume;Würzig;Pfeffer;Rauchig
+W Probe 644 Geschmack;Dominante Säure;Alkoholisch;Tannine;Holz;
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 131 Farbe;Hellgelb;;;
-Weinkeller Probe 131 Geruch;Fruchtig;Apfel;Birne;
-Weinkeller Probe 131 Geschmack;Dominante Säure;Alkoholisch;;
-Weinkeller Probe 720 Farbe;Hellgelb;;;
-Weinkeller Probe 720 Geruch;Holz;Dumpf;;
-Weinkeller Probe 720 Geschmack;Leichte Süße;Dezente Säure;SchmelzCremig;Holz
-Weinkeller Probe 597 Farbe;Hellgelb;;;
-Weinkeller Probe 597 Geruch;Vegetativ;;;
-Weinkeller Probe 597 Geschmack;Süß;Dezente Säure;;
+W Questions;Answers;;;
+W Probe 131 Farbe;Hellgelb;;;
+W Probe 131 Geruch;Fruchtig;Apfel;Birne;
+W Probe 131 Geschmack;Dominante Säure;Alkoholisch;;
+W Probe 720 Farbe;Hellgelb;;;
+W Probe 720 Geruch;Holz;Dumpf;;
+W Probe 720 Geschmack;Leichte Süße;Dezente Säure;SchmelzCremig;Holz
+W Probe 597 Farbe;Hellgelb;;;
+W Probe 597 Geruch;Vegetativ;;;
+W Probe 597 Geschmack;Süß;Dezente Säure;;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;35-44
-Weinkeller Geschlecht;Weiblich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;35-44
+W Geschlecht;Weiblich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;7
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 644 Geruch;Kirsche;Dunkle Beeren;Pflaume;Würzig;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Bitter;Alkoholisch;Tannine;Holz;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 983 Geruch;Pfeffer;Rauchig;Dumpf;;
-Virtuell Weinkeller Probe 983 Geschmack;Dezente Säure;Tannine;Holz;;
+V Questions;Answers;;;;
+V Probe 644 Farbe;Rubinrot;;;;
+V Probe 644 Geruch;Kirsche;Dunkle Beeren;Pflaume;Würzig;Holz
+V Probe 644 Geschmack;Bitter;Alkoholisch;Tannine;Holz;
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+V Probe 983 Geruch;Pfeffer;Rauchig;Dumpf;;
+V Probe 983 Geschmack;Dezente Säure;Tannine;Holz;;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Fruchtig;Zitrus;Apfel;Birne
-Virtuell Weinkeller Probe 364 Geschmack;Dominante Säure;Alkoholisch;SchmelzCremig;Holz
-Virtuell Weinkeller Probe 720 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Birne;ButtrigLaktisch;Holz;
-Virtuell Weinkeller Probe 720 Geschmack;Dezente Säure;SchmelzCremig;Holz;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Zitrus;Pfirsich;Apfel;
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;;;
+V Questions;Answers;;;
+V Probe 364 Farbe;Hellgelb;;;
+V Probe 364 Geruch;Fruchtig;Zitrus;Apfel;Birne
+V Probe 364 Geschmack;Dominante Säure;Alkoholisch;SchmelzCremig;Holz
+V Probe 720 Farbe;Hellgelb;;;
+V Probe 720 Geruch;Birne;ButtrigLaktisch;Holz;
+V Probe 720 Geschmack;Dezente Säure;SchmelzCremig;Holz;
+V Probe 131 Farbe;Hellgelb;;;
+V Probe 131 Geruch;Zitrus;Pfirsich;Apfel;
+V Probe 131 Geschmack;Leichte Süße;;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;35-44
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;35-44
+V Geschlecht;Weiblich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;35-44
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
-
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;4
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;4
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
 
 
@@ -1206,102 +1136,102 @@ Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in B
 
 
 Proband 011
-Virtuell Weinkeller Questions;Answers;;;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;;;
-Virtuell Weinkeller Probe 644 Geruch;Würzig;Rauchig;Kirsche;Dunkle Beeren;Nelke;Vanille;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Tannine;Dezente Säure;Holz;Leichte Süße;;;
-Virtuell Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexens;;;;;;
-Virtuell Weinkeller Probe 322 Geruch;Fruchtig;Würzig;Erdbeere;Kirsche;Pflaume;;
-Virtuell Weinkeller Probe 322 Geschmack;Sauer;Leichte Süße;;;;;
+S Questions;Answers;;;;;;
+S Probe 644 Farbe;Rubinrot;;;;;;
+S Probe 644 Geruch;Würzig;Rauchig;Kirsche;Dunkle Beeren;Nelke;Vanille;Holz
+S Probe 644 Geschmack;Tannine;Dezente Säure;Holz;Leichte Süße;;;
+S Probe 322 Farbe;Dunkelrot mit bläul. Reflexens;;;;;;
+S Probe 322 Geruch;Fruchtig;Würzig;Erdbeere;Kirsche;Pflaume;;
+S Probe 322 Geschmack;Sauer;Leichte Süße;;;;;
 
-Virtuell Weinkeller Questions;Answers;;;;;;;
-Virtuell Weinkeller Probe 597 Farbe;Mittleres gelb;;;;;;;
-Virtuell Weinkeller Probe 597 Geruch;Fruchtig;Blumig;Vegetativ;Zitrus;Honigmelone;Apfel;Birne;Holz
-Virtuell Weinkeller Probe 597 Geschmack;Süß;Starke Süße;Sauer;;;;;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;;;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Vegetativ;Apfel;Birne;;;;
-Virtuell Weinkeller Probe 364 Geschmack;Sauer;Leichte Süße;Dominante Säure;;;;;
-Virtuell Weinkeller Probe 131 Farbe;Gelblich-grün;;;;;;;
-Virtuell Weinkeller Probe 131 Geruch;Fruchtig;Zitrus;Honigmelone;Pfirsich;Apfel;Birne;;
-Virtuell Weinkeller Probe 131 Geschmack;Sauer;Leichte Süße;SchmelzCremig;;;;;
+S Questions;Answers;;;;;;;
+S Probe 597 Farbe;Mittleres gelb;;;;;;;
+S Probe 597 Geruch;Fruchtig;Blumig;Vegetativ;Zitrus;Honigmelone;Apfel;Birne;Holz
+S Probe 597 Geschmack;Süß;Starke Süße;Sauer;;;;;
+S Probe 364 Farbe;Mittleres gelb;;;;;;;
+S Probe 364 Geruch;Blumig;Vegetativ;Apfel;Birne;;;;
+S Probe 364 Geschmack;Sauer;Leichte Süße;Dominante Säure;;;;;
+S Probe 131 Farbe;Gelblich-grün;;;;;;;
+S Probe 131 Geruch;Fruchtig;Zitrus;Honigmelone;Pfirsich;Apfel;Birne;;
+S Probe 131 Geschmack;Sauer;Leichte Süße;SchmelzCremig;;;;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;35-44
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+S Questions;Answers
+S Alter;35-44
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht.;6
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;5
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+S Questions;Answers
+S Umschauen;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;5
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Virtuell Weinkeller Questions;Answers;;;;;;
-Virtuell Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexens;;;;;;
-Virtuell Weinkeller Probe 322 Geruch;Fruchtig;Vegetativ;Würzig;Erdbeere;Kirsche;Pflaume;
-Virtuell Weinkeller Probe 322 Geschmack;Süß;Sauer;Leichte Süße;;;;
-Virtuell Weinkeller Probe 983 Farbe;Rubinrot;;;;;;
-Virtuell Weinkeller Probe 983 Geruch;Fruchtig;Würzig;Rauchig;Kirsche;Dunkle Beeren;Nelke;Holz
-Virtuell Weinkeller Probe 983 Geschmack;Sauer;Holz;Leichte Süße;Dominante Säure;;;
+V Questions;Answers;;;;;;
+V Probe 322 Farbe;Dunkelrot mit bläul. Reflexens;;;;;;
+V Probe 322 Geruch;Fruchtig;Vegetativ;Würzig;Erdbeere;Kirsche;Pflaume;
+V Probe 322 Geschmack;Süß;Sauer;Leichte Süße;;;;
+V Probe 983 Farbe;Rubinrot;;;;;;
+V Probe 983 Geruch;Fruchtig;Würzig;Rauchig;Kirsche;Dunkle Beeren;Nelke;Holz
+V Probe 983 Geschmack;Sauer;Holz;Leichte Süße;Dominante Säure;;;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 131 Farbe;Gelblich-grün;;;
-Virtuell Weinkeller Probe 131 Geruch;Blumig;Zitrus;Apfel;Birne
-Virtuell Weinkeller Probe 131 Geschmack;Sauer;Leichte Süße;Dominante Säure;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Blumig;Zitrus;Honigmelone;Apfel
-Virtuell Weinkeller Probe 720 Geschmack;Süß;Sauer;SchmelzCremig;
-Virtuell Weinkeller Probe 597 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 597 Geruch;Blumig;Vegetativ;Honigmelone;Apfel
-Virtuell Weinkeller Probe 597 Geschmack;Süß;Sauer;Leichte Süße;
+V Questions;Answers;;;
+V Probe 131 Farbe;Gelblich-grün;;;
+V Probe 131 Geruch;Blumig;Zitrus;Apfel;Birne
+V Probe 131 Geschmack;Sauer;Leichte Süße;Dominante Säure;
+V Probe 720 Farbe;Mittleres gelb;;;
+V Probe 720 Geruch;Blumig;Zitrus;Honigmelone;Apfel
+V Probe 720 Geschmack;Süß;Sauer;SchmelzCremig;
+V Probe 597 Farbe;Hellgelb;;;
+V Probe 597 Geruch;Blumig;Vegetativ;Honigmelone;Apfel
+V Probe 597 Geschmack;Süß;Sauer;Leichte Süße;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;35-44
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Alter;35-44
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht.;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Weinkeller Questions;Answers;;;;;;;
-Weinkeller Probe 322 Farbe;deep red with blue reflection;;;;;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Pflaume;Würzig;Vanille;Pfeffer;Holz
-Weinkeller Probe 322 Geschmack;Leichte Süße;Sauer;Tannine;Holz;;;;
-Weinkeller Probe 983 Farbe;Rubinrot;;;;;;;
-Weinkeller Probe 983 Geruch;Fruchtig;Kirsche;Pflaume;Vegetativ;Würzig;Dumpf;;
-Weinkeller Probe 983 Geschmack;Leichte Süße;Dominante Säure;;;;;;
+W Questions;Answers;;;;;;;
+W Probe 322 Farbe;deep red with blue reflection;;;;;;;
+W Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;Pflaume;Würzig;Vanille;Pfeffer;Holz
+W Probe 322 Geschmack;Leichte Süße;Sauer;Tannine;Holz;;;;
+W Probe 983 Farbe;Rubinrot;;;;;;;
+W Probe 983 Geruch;Fruchtig;Kirsche;Pflaume;Vegetativ;Würzig;Dumpf;;
+W Probe 983 Geschmack;Leichte Süße;Dominante Säure;;;;;;
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 720 Farbe;Gelblich-grün;;;
-Weinkeller Probe 720 Geruch;Zitrus;Apfel;Birne;Vegetativ
-Weinkeller Probe 720 Geschmack;Leichte Süße;Sauer;SchmelzCremig;
-Weinkeller Probe 597 Farbe;Mittleres gelb;;;
-Weinkeller Probe 597 Geruch;Honigmelone;Pfirsich;Apfel;
-Weinkeller Probe 597 Geschmack;Leichte Süße;Sauer;Bitter;
-Weinkeller Probe 364 Farbe;Mittleres gelb;;;
-Weinkeller Probe 364 Geruch;Blumig;Honigmelone;SchmelzCremig;
-Weinkeller Probe 364 Geschmack;Leichte Süße;Sauer;Bitter;SchmelzCremig
+W Questions;Answers;;;
+W Probe 720 Farbe;Gelblich-grün;;;
+W Probe 720 Geruch;Zitrus;Apfel;Birne;Vegetativ
+W Probe 720 Geschmack;Leichte Süße;Sauer;SchmelzCremig;
+W Probe 597 Farbe;Mittleres gelb;;;
+W Probe 597 Geruch;Honigmelone;Pfirsich;Apfel;
+W Probe 597 Geschmack;Leichte Süße;Sauer;Bitter;
+W Probe 364 Farbe;Mittleres gelb;;;
+W Probe 364 Geruch;Blumig;Honigmelone;SchmelzCremig;
+W Probe 364 Geschmack;Leichte Süße;Sauer;Bitter;SchmelzCremig
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;35-44
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht.;6
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;35-44
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht.;6
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;4
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;6
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;4
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
 
 
@@ -1309,111 +1239,103 @@ Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezog
 
 
 Proband 017
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;
-Virtuell Weinkeller Probe 983 Geruch;Würzig;Dunkle Beeren;Nelke;Holz
-Virtuell Weinkeller Probe 983 Geschmack;Alkoholisch;Dezente Säure;Holz;Bitter
-Virtuell Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Pflaume;Vanille;
-Virtuell Weinkeller Probe 644 Geschmack;Adstringierend;Tannine;Alkoholisch;Holz
+S Questions;Answers;;;
+S Probe 983 Farbe;Hellrot mit braunem Rand;;;
+S Probe 983 Geruch;Würzig;Dunkle Beeren;Nelke;Holz
+S Probe 983 Geschmack;Alkoholisch;Dezente Säure;Holz;Bitter
+S Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;
+S Probe 644 Geruch;Fruchtig;Pflaume;Vanille;
+S Probe 644 Geschmack;Adstringierend;Tannine;Alkoholisch;Holz
 
-Virtuell Weinkeller Questions;Answers;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;
-Virtuell Weinkeller Probe 720 Geruch;Zitrus;Apfel;Birne
-Virtuell Weinkeller Probe 720 Geschmack;Alkoholisch;Bitter;Dominante Säure
-Virtuell Weinkeller Probe 597 Farbe;Hellgelb;;
-Virtuell Weinkeller Probe 597 Geruch;Blumig;Rose;
-Virtuell Weinkeller Probe 597 Geschmack;Alkoholisch;Dezente Säure;Bitter
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;
-Virtuell Weinkeller Probe 364 Geruch;Vegetativ;Zitrus;Apfel
-Virtuell Weinkeller Probe 364 Geschmack;Starke Süße;Dezente Säure;Bitter
+S Questions;Answers;;
+S Probe 720 Farbe;Mittleres gelb;;
+S Probe 720 Geruch;Zitrus;Apfel;Birne
+S Probe 720 Geschmack;Alkoholisch;Bitter;Dominante Säure
+S Probe 597 Farbe;Hellgelb;;
+S Probe 597 Geruch;Blumig;Rose;
+S Probe 597 Geschmack;Alkoholisch;Dezente Säure;Bitter
+S Probe 364 Farbe;Mittleres gelb;;
+S Probe 364 Geruch;Vegetativ;Zitrus;Apfel
+S Probe 364 Geschmack;Starke Süße;Dezente Säure;Bitter
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;5
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+S Questions;Answers
+S Alter;25-34
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;5
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;2
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
+S Questions;Answers
+S Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;2
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Erdbeere;Kirsche;Würzig;
-Virtuell Weinkeller Probe 644 Geschmack;Sauer;Alkoholisch;Adstringierend;Tannine;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 983 Geruch;Pflaume;Würzig;Rauchig;Holz;
-Virtuell Weinkeller Probe 983 Geschmack;Leichte Süße;Dezente Säure;Bitter;Alkoholisch;Holz
+V Questions;Answers;;;;
+V Probe 644 Farbe;Rubinrot;;;;
+V Probe 644 Geruch;Fruchtig;Erdbeere;Kirsche;Würzig;
+V Probe 644 Geschmack;Sauer;Alkoholisch;Adstringierend;Tannine;
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+V Probe 983 Geruch;Pflaume;Würzig;Rauchig;Holz;
+V Probe 983 Geschmack;Leichte Süße;Dezente Säure;Bitter;Alkoholisch;Holz
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Zitrus;Birne;ButtrigLaktisch;
-Virtuell Weinkeller Probe 720 Geschmack;Leichte Süße;Dezente Säure;Bitter;SchmelzCremig
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Rose;Fruchtig;Honigmelone;
-Virtuell Weinkeller Probe 364 Geschmack;Leichte Süße;Sauer;Bitter;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Zitrus;Birne;Vegetativ;
-Virtuell Weinkeller Probe 131 Geschmack;Dominante Säure;Alkoholisch;;
+V Questions;Answers;;;
+V Probe 720 Farbe;Mittleres gelb;;;
+V Probe 720 Geruch;Zitrus;Birne;ButtrigLaktisch;
+V Probe 720 Geschmack;Leichte Süße;Dezente Säure;Bitter;SchmelzCremig
+V Probe 364 Farbe;Hellgelb;;;
+V Probe 364 Geruch;Rose;Fruchtig;Honigmelone;
+V Probe 364 Geschmack;Leichte Süße;Sauer;Bitter;
+V Probe 131 Farbe;Hellgelb;;;
+V Probe 131 Geruch;Zitrus;Birne;Vegetativ;
+V Probe 131 Geschmack;Dominante Säure;Alkoholisch;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;25-34
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
+W Questions;Answers;;;;
+W Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+W Probe 322 Geruch;Erdbeere;Kirsche;Würzig;;
+W Probe 322 Geschmack;Süß;Alkoholisch;Adstringierend;;
+W Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+W Probe 983 Geruch;Dunkle Beeren;Würzig;Nelke;Rauchig;Holz
+W Probe 983 Geschmack;Sauer;Bitter;Alkoholisch;Tannine;Holz
 
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Weinkeller Probe 322 Geruch;Erdbeere;Kirsche;Würzig;;
-Weinkeller Probe 322 Geschmack;Süß;Alkoholisch;Adstringierend;;
-Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Weinkeller Probe 983 Geruch;Dunkle Beeren;Würzig;Nelke;Rauchig;Holz
-Weinkeller Probe 983 Geschmack;Sauer;Bitter;Alkoholisch;Tannine;Holz
+W Questions;Answers;;;
+W Probe 720 Farbe;Hellgelb;;;
+W Probe 720 Geruch;Zitrus;Apfel;Holz;
+W Probe 720 Geschmack;Leichte Süße;Sauer;Bitter;
+W Probe 364 Farbe;Hellgelb;;;
+W Probe 364 Geruch;Blumig;Rose;Birne;
+W Probe 364 Geschmack;Leichte Süße;Dezente Säure;Alkoholisch;SchmelzCremig
+W Probe 597 Farbe;Hellgelb;;;
+W Probe 597 Geruch;Apfel;Vegetativ;ButtrigLaktisch;Dumpf
+W Probe 597 Geschmack;Süß;Bitter;SchmelzCremig;
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 720 Farbe;Hellgelb;;;
-Weinkeller Probe 720 Geruch;Zitrus;Apfel;Holz;
-Weinkeller Probe 720 Geschmack;Leichte Süße;Sauer;Bitter;
-Weinkeller Probe 364 Farbe;Hellgelb;;;
-Weinkeller Probe 364 Geruch;Blumig;Rose;Birne;
-Weinkeller Probe 364 Geschmack;Leichte Süße;Dezente Säure;Alkoholisch;SchmelzCremig
-Weinkeller Probe 597 Farbe;Hellgelb;;;
-Weinkeller Probe 597 Geruch;Apfel;Vegetativ;ButtrigLaktisch;Dumpf
-Weinkeller Probe 597 Geschmack;Süß;Bitter;SchmelzCremig;
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;25-34
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;5
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;25-34
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;5
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
-
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;6
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
 
 
@@ -1421,111 +1343,103 @@ Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezog
 
 
 Proband 019
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 983 Geruch;Kirsche;Dunkle Beeren;Pflaume;Vanille;Holz
-Virtuell Weinkeller Probe 983 Geschmack;Adstringierend;Tannine;Sauer;Alkoholisch;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Würzig;Kirsche;Dunkle Beeren;
-Virtuell Weinkeller Probe 644 Geschmack;Adstringierend;Tannine;Sauer;Alkoholisch;Holz
+S Questions;Answers;;;;
+S Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+S Probe 983 Geruch;Kirsche;Dunkle Beeren;Pflaume;Vanille;Holz
+S Probe 983 Geschmack;Adstringierend;Tannine;Sauer;Alkoholisch;
+S Probe 644 Farbe;Rubinrot;;;;
+S Probe 644 Geruch;Fruchtig;Würzig;Kirsche;Dunkle Beeren;
+S Probe 644 Geschmack;Adstringierend;Tannine;Sauer;Alkoholisch;Holz
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 131 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 131 Geruch;Fruchtig;Pfirsich;Apfel;Birne;
-Virtuell Weinkeller Probe 131 Geschmack;Sauer;Bitter;Leichte Süße;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 720 Geruch;Vegetativ;SchmelzCremig;Apfel;Holz;
-Virtuell Weinkeller Probe 720 Geschmack;Sauer;Alkoholisch;Bitter;SchmelzCremig;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 364 Geruch;Fruchtig;Blumig;Honigmelone;Pfirsich;Rose
-Virtuell Weinkeller Probe 364 Geschmack;Sauer;Dominante Säure;;;
+S Questions;Answers;;;;
+S Probe 131 Farbe;Mittleres gelb;;;;
+S Probe 131 Geruch;Fruchtig;Pfirsich;Apfel;Birne;
+S Probe 131 Geschmack;Sauer;Bitter;Leichte Süße;;
+S Probe 720 Farbe;Mittleres gelb;;;;
+S Probe 720 Geruch;Vegetativ;SchmelzCremig;Apfel;Holz;
+S Probe 720 Geschmack;Sauer;Alkoholisch;Bitter;SchmelzCremig;
+S Probe 364 Farbe;Mittleres gelb;;;;
+S Probe 364 Geruch;Fruchtig;Blumig;Honigmelone;Pfirsich;Rose
+S Probe 364 Geschmack;Sauer;Dominante Säure;;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;5
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+S Questions;Answers
+S Alter;25-34
+S Geschlecht;Weiblich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht.;5
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+S Questions;Answers
+S Umschauen;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;6
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Weinkeller Questions;Answers;;;;;
-Weinkeller Probe 322 Farbe;Rubinrot;;;;;
-Weinkeller Probe 322 Geruch;Kirsche;Dunkle Beeren;Würzig;;;
-Weinkeller Probe 322 Geschmack;Leichte Süße;Sauer;Alkoholisch;Adstringierend;Tannine;Holz
-Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;;
-Weinkeller Probe 983 Geruch;Fruchtig;Dunkle Beeren;Vegetativ;Holz;;
-Weinkeller Probe 983 Geschmack;Leichte Süße;Sauer;Tannine;;;
+W Questions;Answers;;;;;
+W Probe 322 Farbe;Rubinrot;;;;;
+W Probe 322 Geruch;Kirsche;Dunkle Beeren;Würzig;;;
+W Probe 322 Geschmack;Leichte Süße;Sauer;Alkoholisch;Adstringierend;Tannine;Holz
+W Probe 983 Farbe;Hellrot mit braunem Rand;;;;;
+W Probe 983 Geruch;Fruchtig;Dunkle Beeren;Vegetativ;Holz;;
+W Probe 983 Geschmack;Leichte Süße;Sauer;Tannine;;;
 
-Weinkeller Questions;Answers;;;;;;
-Weinkeller Probe 597 Farbe;Hellgelb;;;;;;
-Weinkeller Probe 597 Geruch;Apfel;SchmelzCremig;;;;;
-Weinkeller Probe 597 Geschmack;Leichte Süße;Sauer;SchmelzCremig;;;;
-Weinkeller Probe 364 Farbe;Hellgelb;;;;;;
-Weinkeller Probe 364 Geruch;Blumig;Rose;Fruchtig;Honigmelone;Pfirsich;Apfel;Birne
-Weinkeller Probe 364 Geschmack;Leichte Süße;Dominante Säure;Bitter;;;;
-Weinkeller Probe 131 Farbe;Hellgelb;;;;;;
-Weinkeller Probe 131 Geruch;Zitrus;Dumpf;;;;;
-Weinkeller Probe 131 Geschmack;Leichte Süße;Dominante Säure;Bitter;Alkoholisch;;;
+W Questions;Answers;;;;;;
+W Probe 597 Farbe;Hellgelb;;;;;;
+W Probe 597 Geruch;Apfel;SchmelzCremig;;;;;
+W Probe 597 Geschmack;Leichte Süße;Sauer;SchmelzCremig;;;;
+W Probe 364 Farbe;Hellgelb;;;;;;
+W Probe 364 Geruch;Blumig;Rose;Fruchtig;Honigmelone;Pfirsich;Apfel;Birne
+W Probe 364 Geschmack;Leichte Süße;Dominante Säure;Bitter;;;;
+W Probe 131 Farbe;Hellgelb;;;;;;
+W Probe 131 Geruch;Zitrus;Dumpf;;;;;
+W Probe 131 Geschmack;Leichte Süße;Dominante Säure;Bitter;Alkoholisch;;;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;25-34
-Weinkeller Geschlecht;Weiblich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht.;6
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;25-34
+W Geschlecht;Weiblich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht.;6
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;7
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
-Virtuell Weinkeller Questions;Answers;;;;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Pflaume;Würzig;Nelke;Vanille;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Dominante Säure;Bitter;Alkoholisch;Adstringierend;Tannine;Holz;;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;;;;
-Virtuell Weinkeller Probe 983 Geruch;Kirsche;Dunkle Beeren;Würzig;Vanille;Holz;;;
-Virtuell Weinkeller Probe 983 Geschmack;Leichte Süße;Sauer;Alkoholisch;Holz;;;;
+V Questions;Answers;;;;;;;
+V Probe 644 Farbe;Rubinrot;;;;;;;
+V Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Pflaume;Würzig;Nelke;Vanille;Holz
+V Probe 644 Geschmack;Dominante Säure;Bitter;Alkoholisch;Adstringierend;Tannine;Holz;;
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;;;;;
+V Probe 983 Geruch;Kirsche;Dunkle Beeren;Würzig;Vanille;Holz;;;
+V Probe 983 Geschmack;Leichte Süße;Sauer;Alkoholisch;Holz;;;;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Fruchtig;Apfel;Birne
-Virtuell Weinkeller Probe 364 Geschmack;Leichte Süße;Sauer;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;SchmelzCremig;Dumpf;;
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;Dominante Säure;Bitter;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;SchmelzCremig;Holz;;
-Virtuell Weinkeller Probe 720 Geschmack;Leichte Süße;Dezente Säure;Bitter;Holz
+V Questions;Answers;;;
+V Probe 364 Farbe;Hellgelb;;;
+V Probe 364 Geruch;Blumig;Fruchtig;Apfel;Birne
+V Probe 364 Geschmack;Leichte Süße;Sauer;;
+V Probe 131 Farbe;Hellgelb;;;
+V Probe 131 Geruch;SchmelzCremig;Dumpf;;
+V Probe 131 Geschmack;Leichte Süße;Dominante Säure;Bitter;
+V Probe 720 Farbe;Mittleres gelb;;;
+V Probe 720 Geruch;SchmelzCremig;Holz;;
+V Probe 720 Geschmack;Leichte Süße;Dezente Säure;Bitter;Holz
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;25-34
+V Geschlecht;Weiblich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht.;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
-
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;7
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;7
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
 
 
@@ -1533,101 +1447,101 @@ Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in B
 
 
 Proband 006
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Virtuell Weinkeller Probe 322 Geruch;Vegetativ;Dumpf;Erdbeere;Pflaume;Vanille
-Virtuell Weinkeller Probe 322 Geschmack;Süß;Sauer;Alkoholisch;Bitter;
-Virtuell Weinkeller Probe 983 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 983 Geruch;Würzig;Rauchig;Kirsche;Pfeffer;
-Virtuell Weinkeller Probe 983 Geschmack;Sauer;Alkoholisch;Bitter;;
+V Questions;Answers;;;;
+V Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+V Probe 322 Geruch;Vegetativ;Dumpf;Erdbeere;Pflaume;Vanille
+V Probe 322 Geschmack;Süß;Sauer;Alkoholisch;Bitter;
+V Probe 983 Farbe;Rubinrot;;;;
+V Probe 983 Geruch;Würzig;Rauchig;Kirsche;Pfeffer;
+V Probe 983 Geschmack;Sauer;Alkoholisch;Bitter;;
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 131 Geruch;Blumig;Zitrus;Apfel;;
-Virtuell Weinkeller Probe 131 Geschmack;Sauer;;;;
-Virtuell Weinkeller Probe 597 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 597 Geruch;Fruchtig;ButtrigLaktisch;Pfirsich;Birne;
-Virtuell Weinkeller Probe 597 Geschmack;Alkoholisch;Dezente Säure;Leichte Süße;SchmelzCremig;
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Dumpf;Honigmelone;Birne;Rose
-Virtuell Weinkeller Probe 364 Geschmack;Dezente Säure;Bitter;;;
+V Questions;Answers;;;;
+V Probe 131 Farbe;Hellgelb;;;;
+V Probe 131 Geruch;Blumig;Zitrus;Apfel;;
+V Probe 131 Geschmack;Sauer;;;;
+V Probe 597 Farbe;Hellgelb;;;;
+V Probe 597 Geruch;Fruchtig;ButtrigLaktisch;Pfirsich;Birne;
+V Probe 597 Geschmack;Alkoholisch;Dezente Säure;Leichte Süße;SchmelzCremig;
+V Probe 364 Farbe;Hellgelb;;;;
+V Probe 364 Geruch;Blumig;Dumpf;Honigmelone;Birne;Rose
+V Probe 364 Geschmack;Dezente Säure;Bitter;;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;1
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Alter;25-34
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;1
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;4
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+V Questions;Answers
+V Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;6
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;4
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Sensoriklabor Questions;Answers;;;;
-Sensoriklabor Probe 644 Farbe;Rubinrot;;;;
-Sensoriklabor Probe 644 Geruch;Fruchtig;Würzig;Kirsche;Vanille;Holz
-Sensoriklabor Probe 644 Geschmack;Tannine;Sauer;Holz;;
-Sensoriklabor Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Sensoriklabor Probe 983 Geruch;Vegetativ;Würzig;Rauchig;Kirsche;
-Sensoriklabor Probe 983 Geschmack;Holz;Dominante Säure;;;
+S Questions;Answers;;;;
+S Probe 644 Farbe;Rubinrot;;;;
+S Probe 644 Geruch;Fruchtig;Würzig;Kirsche;Vanille;Holz
+S Probe 644 Geschmack;Tannine;Sauer;Holz;;
+S Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+S Probe 983 Geruch;Vegetativ;Würzig;Rauchig;Kirsche;
+S Probe 983 Geschmack;Holz;Dominante Säure;;;
 
-Sensoriklabor Questions;Answers;;;
-Sensoriklabor Probe 131 Farbe;Hellgelb;;;
-Sensoriklabor Probe 131 Geruch;Blumig;Zitrus;Honigmelone;Apfel
-Sensoriklabor Probe 131 Geschmack;Sauer;;;
-Sensoriklabor Probe 720 Farbe;Mittleres gelb;;;
-Sensoriklabor Probe 720 Geruch;Honigmelone;Birne;;
-Sensoriklabor Probe 720 Geschmack;Alkoholisch;Dezente Säure;Leichte Süße;
-Sensoriklabor Probe 364 Farbe;Hellgelb;;;
-Sensoriklabor Probe 364 Geruch;Fruchtig;Honigmelone;Pfirsich;Rose
-Sensoriklabor Probe 364 Geschmack;Alkoholisch;Dezente Säure;Bitter;
+S Questions;Answers;;;
+S Probe 131 Farbe;Hellgelb;;;
+S Probe 131 Geruch;Blumig;Zitrus;Honigmelone;Apfel
+S Probe 131 Geschmack;Sauer;;;
+S Probe 720 Farbe;Mittleres gelb;;;
+S Probe 720 Geruch;Honigmelone;Birne;;
+S Probe 720 Geschmack;Alkoholisch;Dezente Säure;Leichte Süße;
+S Probe 364 Farbe;Hellgelb;;;
+S Probe 364 Geruch;Fruchtig;Honigmelone;Pfirsich;Rose
+S Probe 364 Geschmack;Alkoholisch;Dezente Säure;Bitter;
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Alter;25-34
-Sensoriklabor Geschlecht;Männlich
-Sensoriklabor Händigkeit;Rechtshändig
-Sensoriklabor Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+S Questions;Answers
+S Alter;25-34
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.;6
-Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+S Questions;Answers
+S Ich fühlte mich im virtuellen Raum anwesend.;6
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Weinkeller Questions;Answers;;;;;
-Weinkeller Probe 322 Farbe;Rubinrot;;;;;
-Weinkeller Probe 322 Geruch;Erdbeere;Pflaume;Dumpf;;;
-Weinkeller Probe 322 Geschmack;Dezente Säure;Bitter;;;;
-Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;;
-Weinkeller Probe 644 Geruch;Dunkle Beeren;Pflaume;Würzig;Pfeffer;Rauchig;Holz
-Weinkeller Probe 644 Geschmack;Tannine;Holz;;;;
+W Questions;Answers;;;;;
+W Probe 322 Farbe;Rubinrot;;;;;
+W Probe 322 Geruch;Erdbeere;Pflaume;Dumpf;;;
+W Probe 322 Geschmack;Dezente Säure;Bitter;;;;
+W Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;;
+W Probe 644 Geruch;Dunkle Beeren;Pflaume;Würzig;Pfeffer;Rauchig;Holz
+W Probe 644 Geschmack;Tannine;Holz;;;;
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 597 Farbe;Gelblich-grün;;;
-Weinkeller Probe 597 Geruch;Honigmelone;Apfel;Birne;
-Weinkeller Probe 597 Geschmack;Süß;Dezente Säure;Bitter;Alkoholisch
-Weinkeller Probe 131 Farbe;Hellgelb;;;
-Weinkeller Probe 131 Geruch;Blumig;Zitrus;;
-Weinkeller Probe 131 Geschmack;Dominante Säure;;;
-Weinkeller Probe 364 Farbe;Hellgelb;;;
-Weinkeller Probe 364 Geruch;Blumig;Rose;Honigmelone;Birne
-Weinkeller Probe 364 Geschmack;Dezente Säure;Bitter;;
+W Questions;Answers;;;
+W Probe 597 Farbe;Gelblich-grün;;;
+W Probe 597 Geruch;Honigmelone;Apfel;Birne;
+W Probe 597 Geschmack;Süß;Dezente Säure;Bitter;Alkoholisch
+W Probe 131 Farbe;Hellgelb;;;
+W Probe 131 Geruch;Blumig;Zitrus;;
+W Probe 131 Geschmack;Dominante Säure;;;
+W Probe 364 Farbe;Hellgelb;;;
+W Probe 364 Geruch;Blumig;Rose;Honigmelone;Birne
+W Probe 364 Geschmack;Dezente Säure;Bitter;;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;25-34
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;1
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;25-34
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;1
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;7
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
 
 
@@ -1635,102 +1549,102 @@ Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezog
 
 
 Proband 007
-Virtuell Weinkeller Questions;Answers;;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;;
-Virtuell Weinkeller Probe 644 Geruch;Vegetativ;Rauchig;Kirsche;Dunkle Beeren;Pfeffer;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Adstringierend;Dezente Säure;Holz;;;
-Virtuell Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;;
-Virtuell Weinkeller Probe 322 Geruch;Dunkle Beeren;Pflaume;;;;
-Virtuell Weinkeller Probe 322 Geschmack;Süß;;;;;
+V Questions;Answers;;;;;
+V Probe 644 Farbe;Rubinrot;;;;;
+V Probe 644 Geruch;Vegetativ;Rauchig;Kirsche;Dunkle Beeren;Pfeffer;Holz
+V Probe 644 Geschmack;Adstringierend;Dezente Säure;Holz;;;
+V Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;;
+V Probe 322 Geruch;Dunkle Beeren;Pflaume;;;;
+V Probe 322 Geschmack;Süß;;;;;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 597 Farbe;Gelblich-grün;;;
-Virtuell Weinkeller Probe 597 Geruch;Fruchtig;Zitrus;Pfirsich;Birne
-Virtuell Weinkeller Probe 597 Geschmack;Dezente Säure;Bitter;Leichte Süße;SchmelzCremig
-Virtuell Weinkeller Probe 364 Farbe;Gelblich-grün;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Zitrus;Rose;
-Virtuell Weinkeller Probe 364 Geschmack;Dezente Säure;;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Zitrus;Pfirsich;;
-Virtuell Weinkeller Probe 131 Geschmack;Dezente Säure;;;
+V Questions;Answers;;;
+V Probe 597 Farbe;Gelblich-grün;;;
+V Probe 597 Geruch;Fruchtig;Zitrus;Pfirsich;Birne
+V Probe 597 Geschmack;Dezente Säure;Bitter;Leichte Süße;SchmelzCremig
+V Probe 364 Farbe;Gelblich-grün;;;
+V Probe 364 Geruch;Blumig;Zitrus;Rose;
+V Probe 364 Geschmack;Dezente Säure;;;
+V Probe 131 Farbe;Hellgelb;;;
+V Probe 131 Geruch;Zitrus;Pfirsich;;
+V Probe 131 Geschmack;Dezente Säure;;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;35-44
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Linkshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Einige Männlich im Monat
+V Questions;Answers
+V Alter;35-44
+V Geschlecht;Männlich
+V Händigkeit;Linkshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Einige Männlich im Monat
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;3
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;3
+V Questions;Answers
+V Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;3
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;3
 
-Weinkeller Questions;Answers;;
-Weinkeller Probe 644 Farbe;Rubinrot;;
-Weinkeller Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren
-Weinkeller Probe 644 Geschmack;Dezente Säure;Adstringierend;
-Weinkeller Probe 322 Farbe;Rubinrot;;
-Weinkeller Probe 322 Geruch;Fruchtig;Kirsche;Vanille
-Weinkeller Probe 322 Geschmack;Leichte Süße;Dezente Säure;
+W Questions;Answers;;
+W Probe 644 Farbe;Rubinrot;;
+W Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren
+W Probe 644 Geschmack;Dezente Säure;Adstringierend;
+W Probe 322 Farbe;Rubinrot;;
+W Probe 322 Geruch;Fruchtig;Kirsche;Vanille
+W Probe 322 Geschmack;Leichte Süße;Dezente Säure;
 
-Weinkeller Questions;Answers;;
-Weinkeller Probe 720 Farbe;Gelblich-grün;;
-Weinkeller Probe 720 Geruch;Apfel;Birne;Vegetativ
-Weinkeller Probe 720 Geschmack;Süß;Dezente Säure;SchmelzCremig
-Weinkeller Probe 597 Farbe;Gelblich-grün;;
-Weinkeller Probe 597 Geruch;Zitrus;Pfirsich;
-Weinkeller Probe 597 Geschmack;Leichte Süße;Dezente Säure;
-Weinkeller Probe 364 Farbe;Gelblich-grün;;
-Weinkeller Probe 364 Geruch;Blumig;Rose;Fruchtig
-Weinkeller Probe 364 Geschmack;Dezente Säure;SchmelzCremig;
+W Questions;Answers;;
+W Probe 720 Farbe;Gelblich-grün;;
+W Probe 720 Geruch;Apfel;Birne;Vegetativ
+W Probe 720 Geschmack;Süß;Dezente Säure;SchmelzCremig
+W Probe 597 Farbe;Gelblich-grün;;
+W Probe 597 Geruch;Zitrus;Pfirsich;
+W Probe 597 Geschmack;Leichte Süße;Dezente Säure;
+W Probe 364 Farbe;Gelblich-grün;;
+W Probe 364 Geruch;Blumig;Rose;Fruchtig
+W Probe 364 Geschmack;Dezente Säure;SchmelzCremig;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;35-44
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Linkshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Einige Männlich im Monat
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;35-44
+W Geschlecht;Männlich
+W Händigkeit;Linkshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Einige Männlich im Monat
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;5
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;5
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Sensoriklabor Questions;Answers;;
-Sensoriklabor Probe 983 Farbe;Hellrot mit braunem Rand;;
-Sensoriklabor Probe 983 Geruch;Fruchtig;Kirsche;Dunkle Beeren
-Sensoriklabor Probe 983 Geschmack;Bitter;Dominante Säure;
-Sensoriklabor Probe 644 Farbe;Rubinrot;;
-Sensoriklabor Probe 644 Geruch;Vegetativ;Dumpf;Kirsche
-Sensoriklabor Probe 644 Geschmack;Adstringierend;Dezente Säure;
+S Questions;Answers;;
+S Probe 983 Farbe;Hellrot mit braunem Rand;;
+S Probe 983 Geruch;Fruchtig;Kirsche;Dunkle Beeren
+S Probe 983 Geschmack;Bitter;Dominante Säure;
+S Probe 644 Farbe;Rubinrot;;
+S Probe 644 Geruch;Vegetativ;Dumpf;Kirsche
+S Probe 644 Geschmack;Adstringierend;Dezente Säure;
 
-Sensoriklabor Questions;Answers;;;
-Sensoriklabor Probe 131 Farbe;Hellgelb;;;
-Sensoriklabor Probe 131 Geruch;Fruchtig;ButtrigLaktisch;Birne;Holz
-Sensoriklabor Probe 131 Geschmack;Dezente Säure;Holz;Leichte Süße;SchmelzCremig
-Sensoriklabor Probe 364 Farbe;Hellgelb;;;
-Sensoriklabor Probe 364 Geruch;Blumig;Rose;;
-Sensoriklabor Probe 364 Geschmack;Dezente Säure;Bitter;;
-Sensoriklabor Probe 720 Farbe;Mittleres gelb;;;
-Sensoriklabor Probe 720 Geruch;Holz;;;
-Sensoriklabor Probe 720 Geschmack;Holz;Bitter;SchmelzCremig;
+S Questions;Answers;;;
+S Probe 131 Farbe;Hellgelb;;;
+S Probe 131 Geruch;Fruchtig;ButtrigLaktisch;Birne;Holz
+S Probe 131 Geschmack;Dezente Säure;Holz;Leichte Süße;SchmelzCremig
+S Probe 364 Farbe;Hellgelb;;;
+S Probe 364 Geruch;Blumig;Rose;;
+S Probe 364 Geschmack;Dezente Säure;Bitter;;
+S Probe 720 Farbe;Mittleres gelb;;;
+S Probe 720 Geruch;Holz;;;
+S Probe 720 Geschmack;Holz;Bitter;SchmelzCremig;
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Alter;35-44
-Sensoriklabor Geschlecht;Männlich
-Sensoriklabor Händigkeit;Linkshändig
-Sensoriklabor Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+S Questions;Answers
+S Alter;35-44
+S Geschlecht;Männlich
+S Händigkeit;Linkshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.;6
-Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;3
+S Questions;Answers
+S Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;6
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;3
 
 
 
@@ -1738,102 +1652,102 @@ Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann ge
 
 
 Proband 009
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Virtuell Weinkeller Probe 322 Geruch;Erdbeere;Dunkle Beeren;Pflaume;Vanille;
-Virtuell Weinkeller Probe 322 Geschmack;Süß;Tannine;Alkoholisch;Dezente Säure;Holz
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 644 Geruch;Vegetativ;Würzig;Kirsche;Vanille;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Adstringierend;Tannine;Alkoholisch;Dezente Säure;Holz
+V Questions;Answers;;;;
+V Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+V Probe 322 Geruch;Erdbeere;Dunkle Beeren;Pflaume;Vanille;
+V Probe 322 Geschmack;Süß;Tannine;Alkoholisch;Dezente Säure;Holz
+V Probe 644 Farbe;Rubinrot;;;;
+V Probe 644 Geruch;Vegetativ;Würzig;Kirsche;Vanille;Holz
+V Probe 644 Geschmack;Adstringierend;Tannine;Alkoholisch;Dezente Säure;Holz
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 597 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 597 Geruch;Fruchtig;ButtrigLaktisch;Apfel;Birne
-Virtuell Weinkeller Probe 597 Geschmack;Alkoholisch;Dezente Säure;Bitter;Leichte Süße
-Virtuell Weinkeller Probe 720 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Vegetativ;Dumpf;Birne;
-Virtuell Weinkeller Probe 720 Geschmack;Starke Süße;Dezente Säure;SchmelzCremig;
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Vegetativ;Rose;
-Virtuell Weinkeller Probe 364 Geschmack;Alkoholisch;Bitter;Leichte Süße;
+V Questions;Answers;;;
+V Probe 597 Farbe;Hellgelb;;;
+V Probe 597 Geruch;Fruchtig;ButtrigLaktisch;Apfel;Birne
+V Probe 597 Geschmack;Alkoholisch;Dezente Säure;Bitter;Leichte Süße
+V Probe 720 Farbe;Hellgelb;;;
+V Probe 720 Geruch;Vegetativ;Dumpf;Birne;
+V Probe 720 Geschmack;Starke Süße;Dezente Säure;SchmelzCremig;
+V Probe 364 Farbe;Hellgelb;;;
+V Probe 364 Geruch;Blumig;Vegetativ;Rose;
+V Probe 364 Geschmack;Alkoholisch;Bitter;Leichte Süße;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;55-70
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Alter;55-70
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;3
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;3
+V Questions;Answers
+V Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;3
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;3
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 322 Farbe;Rubinrot;;;
-Weinkeller Probe 322 Geruch;Erdbeere;Vanille;;
-Weinkeller Probe 322 Geschmack;Leichte Süße;Dezente Säure;Tannine;Holz
-Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;
-Weinkeller Probe 983 Geruch;Kirsche;Würzig;Holz;
-Weinkeller Probe 983 Geschmack;Dezente Säure;Tannine;Holz;
+W Questions;Answers;;;
+W Probe 322 Farbe;Rubinrot;;;
+W Probe 322 Geruch;Erdbeere;Vanille;;
+W Probe 322 Geschmack;Leichte Süße;Dezente Säure;Tannine;Holz
+W Probe 983 Farbe;Hellrot mit braunem Rand;;;
+W Probe 983 Geruch;Kirsche;Würzig;Holz;
+W Probe 983 Geschmack;Dezente Säure;Tannine;Holz;
 
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 364 Farbe;Hellgelb;;;;
-Weinkeller Probe 364 Geruch;Blumig;Rose;;;
-Weinkeller Probe 364 Geschmack;Leichte Süße;Dezente Säure;Alkoholisch;SchmelzCremig;
-Weinkeller Probe 597 Farbe;Hellgelb;;;;
-Weinkeller Probe 597 Geruch;Fruchtig;Pfirsich;Birne;Vegetativ;
-Weinkeller Probe 597 Geschmack;Leichte Süße;Dezente Säure;Bitter;;
-Weinkeller Probe 131 Farbe;Hellgelb;;;;
-Weinkeller Probe 131 Geruch;Fruchtig;Zitrus;Honigmelone;Pfirsich;Apfel
-Weinkeller Probe 131 Geschmack;Leichte Süße;Dominante Säure;SchmelzCremig;;
+W Questions;Answers;;;;
+W Probe 364 Farbe;Hellgelb;;;;
+W Probe 364 Geruch;Blumig;Rose;;;
+W Probe 364 Geschmack;Leichte Süße;Dezente Säure;Alkoholisch;SchmelzCremig;
+W Probe 597 Farbe;Hellgelb;;;;
+W Probe 597 Geruch;Fruchtig;Pfirsich;Birne;Vegetativ;
+W Probe 597 Geschmack;Leichte Süße;Dezente Säure;Bitter;;
+W Probe 131 Farbe;Hellgelb;;;;
+W Probe 131 Geruch;Fruchtig;Zitrus;Honigmelone;Pfirsich;Apfel
+W Probe 131 Geschmack;Leichte Süße;Dominante Säure;SchmelzCremig;;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;55-70
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;55-70
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;7
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;7
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Sensoriklabor Questions;Answers;;;
-Sensoriklabor Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;
-Sensoriklabor Probe 644 Geruch;Dunkle Beeren;Pflaume;Vanille;Holz
-Sensoriklabor Probe 644 Geschmack;Adstringierend;Tannine;Dezente Säure;Holz
-Sensoriklabor Probe 322 Farbe;Hellrot mit braunem Rand;;;
-Sensoriklabor Probe 322 Geruch;Fruchtig;Erdbeere;Vanille;Holz
-Sensoriklabor Probe 322 Geschmack;Tannine;Dezente Säure;Holz;Leichte Süße
+S Questions;Answers;;;
+S Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;
+S Probe 644 Geruch;Dunkle Beeren;Pflaume;Vanille;Holz
+S Probe 644 Geschmack;Adstringierend;Tannine;Dezente Säure;Holz
+S Probe 322 Farbe;Hellrot mit braunem Rand;;;
+S Probe 322 Geruch;Fruchtig;Erdbeere;Vanille;Holz
+S Probe 322 Geschmack;Tannine;Dezente Säure;Holz;Leichte Süße
 
-Sensoriklabor Questions;Answers;;;;
-Sensoriklabor Probe 131 Farbe;Hellgelb;;;;
-Sensoriklabor Probe 131 Geruch;Fruchtig;ButtrigLaktisch;Apfel;Birne;
-Sensoriklabor Probe 131 Geschmack;Dezente Säure;Leichte Süße;SchmelzCremig;;
-Sensoriklabor Probe 364 Farbe;Mittleres gelb;;;;
-Sensoriklabor Probe 364 Geruch;Blumig;Rose;;;
-Sensoriklabor Probe 364 Geschmack;Dezente Säure;Bitter;Leichte Süße;SchmelzCremig;
-Sensoriklabor Probe 720 Farbe;Mittleres gelb;;;;
-Sensoriklabor Probe 720 Geruch;Vegetativ;Dumpf;;;
-Sensoriklabor Probe 720 Geschmack;Alkoholisch;Dezente Säure;Holz;Bitter;SchmelzCremig
+S Questions;Answers;;;;
+S Probe 131 Farbe;Hellgelb;;;;
+S Probe 131 Geruch;Fruchtig;ButtrigLaktisch;Apfel;Birne;
+S Probe 131 Geschmack;Dezente Säure;Leichte Süße;SchmelzCremig;;
+S Probe 364 Farbe;Mittleres gelb;;;;
+S Probe 364 Geruch;Blumig;Rose;;;
+S Probe 364 Geschmack;Dezente Säure;Bitter;Leichte Süße;SchmelzCremig;
+S Probe 720 Farbe;Mittleres gelb;;;;
+S Probe 720 Geruch;Vegetativ;Dumpf;;;
+S Probe 720 Geschmack;Alkoholisch;Dezente Säure;Holz;Bitter;SchmelzCremig
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Alter;55-70
-Sensoriklabor Geschlecht;Männlich
-Sensoriklabor Händigkeit;Rechtshändig
-Sensoriklabor Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+S Questions;Answers
+S Alter;55-70
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Sensoriklabor Questions;Answers
-Sensoriklabor Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.;6
-Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
-Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+S Questions;Answers
+S Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;6
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;6
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
 
 
@@ -1841,103 +1755,103 @@ Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann ge
 
 
 Proband 022
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;
-Virtuell Weinkeller Probe 644 Geruch;Würzig;Kirsche;Dunkle Beeren;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Adstringierend;Tannine;Holz;Bitter
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;
-Virtuell Weinkeller Probe 983 Geruch;Vegetativ;Würzig;Dumpf;
-Virtuell Weinkeller Probe 983 Geschmack;Tannine;Bitter;;
+S Questions;Answers;;;
+S Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;
+S Probe 644 Geruch;Würzig;Kirsche;Dunkle Beeren;Holz
+S Probe 644 Geschmack;Adstringierend;Tannine;Holz;Bitter
+S Probe 983 Farbe;Hellrot mit braunem Rand;;;
+S Probe 983 Geruch;Vegetativ;Würzig;Dumpf;
+S Probe 983 Geschmack;Tannine;Bitter;;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 131 Farbe;Gelblich-grün;;;
-Virtuell Weinkeller Probe 131 Geruch;Vegetativ;Zitrus;Apfel;
-Virtuell Weinkeller Probe 131 Geschmack;Dezente Säure;Leichte Süße;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Virtuell Weinkeller Probe 720 Geruch;Fruchtig;Blumig;Honigmelone;Rose
-Virtuell Weinkeller Probe 720 Geschmack;Dezente Säure;Holz;Leichte Süße;SchmelzCremig
-Virtuell Weinkeller Probe 597 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 597 Geruch;Blumig;ButtrigLaktisch;Honigmelone;Rose
-Virtuell Weinkeller Probe 597 Geschmack;Süß;Dezente Säure;SchmelzCremig;
+S Questions;Answers;;;
+S Probe 131 Farbe;Gelblich-grün;;;
+S Probe 131 Geruch;Vegetativ;Zitrus;Apfel;
+S Probe 131 Geschmack;Dezente Säure;Leichte Süße;;
+S Probe 720 Farbe;Mittleres gelb;;;
+S Probe 720 Geruch;Fruchtig;Blumig;Honigmelone;Rose
+S Probe 720 Geschmack;Dezente Säure;Holz;Leichte Süße;SchmelzCremig
+S Probe 597 Farbe;Hellgelb;;;
+S Probe 597 Geruch;Blumig;ButtrigLaktisch;Honigmelone;Rose
+S Probe 597 Geschmack;Süß;Dezente Säure;SchmelzCremig;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;55-70
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+S Questions;Answers
+S Alter;55-70
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;5
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;4
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;2
+S Questions;Answers
+S Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;5
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;4
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;2
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Vanille;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Leichte Süße;Alkoholisch;Adstringierend;Tannine;
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 983 Geruch;Vegetativ;Würzig;Dumpf;;
-Virtuell Weinkeller Probe 983 Geschmack;Leichte Süße;Dezente Säure;Bitter;Adstringierend;
+V Questions;Answers;;;;
+V Probe 644 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+V Probe 644 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Vanille;Holz
+V Probe 644 Geschmack;Leichte Süße;Alkoholisch;Adstringierend;Tannine;
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+V Probe 983 Geruch;Vegetativ;Würzig;Dumpf;;
+V Probe 983 Geschmack;Leichte Süße;Dezente Säure;Bitter;Adstringierend;
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Rose;Fruchtig;Zitrus;Apfel
-Virtuell Weinkeller Probe 364 Geschmack;Dezente Säure;Sauer;SchmelzCremig;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 720 Geruch;Blumig;Fruchtig;Zitrus;Apfel;
-Virtuell Weinkeller Probe 720 Geschmack;Leichte Süße;Alkoholisch;SchmelzCremig;;
-Virtuell Weinkeller Probe 131 Farbe;Gelblich-grün;;;;
-Virtuell Weinkeller Probe 131 Geruch;Fruchtig;Zitrus;Apfel;Vegetativ;
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;Bitter;SchmelzCremig;;
+V Questions;Answers;;;;
+V Probe 364 Farbe;Mittleres gelb;;;;
+V Probe 364 Geruch;Blumig;Rose;Fruchtig;Zitrus;Apfel
+V Probe 364 Geschmack;Dezente Säure;Sauer;SchmelzCremig;;
+V Probe 720 Farbe;Mittleres gelb;;;;
+V Probe 720 Geruch;Blumig;Fruchtig;Zitrus;Apfel;
+V Probe 720 Geschmack;Leichte Süße;Alkoholisch;SchmelzCremig;;
+V Probe 131 Farbe;Gelblich-grün;;;;
+V Probe 131 Geruch;Fruchtig;Zitrus;Apfel;Vegetativ;
+V Probe 131 Geschmack;Leichte Süße;Bitter;SchmelzCremig;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;55-70
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;55-70
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;5
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;4
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;5
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;4
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 644 Farbe;Rubinrot;;;
-Weinkeller Probe 644 Geruch;Kirsche;Dunkle Beeren;Würzig;
-Weinkeller Probe 644 Geschmack;Dezente Säure;Alkoholisch;Adstringierend;Tannine
-Weinkeller Probe 322 Farbe;Hellrot mit braunem Rand;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;
-Weinkeller Probe 322 Geschmack;Leichte Süße;Adstringierend;Tannine;
+W Questions;Answers;;;
+W Probe 644 Farbe;Rubinrot;;;
+W Probe 644 Geruch;Kirsche;Dunkle Beeren;Würzig;
+W Probe 644 Geschmack;Dezente Säure;Alkoholisch;Adstringierend;Tannine
+W Probe 322 Farbe;Hellrot mit braunem Rand;;;
+W Probe 322 Geruch;Fruchtig;Erdbeere;Kirsche;
+W Probe 322 Geschmack;Leichte Süße;Adstringierend;Tannine;
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 720 Farbe;Mittleres gelb;;;
-Weinkeller Probe 720 Geruch;Blumig;Fruchtig;Zitrus;Pfirsich
-Weinkeller Probe 720 Geschmack;Leichte Süße;Dezente Säure;SchmelzCremig;
-Weinkeller Probe 131 Farbe;Hellgelb;;;
-Weinkeller Probe 131 Geruch;Blumig;Fruchtig;Zitrus;Birne
-Weinkeller Probe 131 Geschmack;Leichte Süße;Sauer;;
-Weinkeller Probe 597 Farbe;Hellgelb;;;
-Weinkeller Probe 597 Geruch;Blumig;Rose;Fruchtig;Pfirsich
-Weinkeller Probe 597 Geschmack;Süß;Dezente Säure;SchmelzCremig;
+W Questions;Answers;;;
+W Probe 720 Farbe;Mittleres gelb;;;
+W Probe 720 Geruch;Blumig;Fruchtig;Zitrus;Pfirsich
+W Probe 720 Geschmack;Leichte Süße;Dezente Säure;SchmelzCremig;
+W Probe 131 Farbe;Hellgelb;;;
+W Probe 131 Geruch;Blumig;Fruchtig;Zitrus;Birne
+W Probe 131 Geschmack;Leichte Süße;Sauer;;
+W Probe 597 Farbe;Hellgelb;;;
+W Probe 597 Geruch;Blumig;Rose;Fruchtig;Pfirsich
+W Probe 597 Geschmack;Süß;Dezente Säure;SchmelzCremig;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;55-70
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;55-70
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;3
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;6
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;5
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;3
 
 
 
@@ -1945,103 +1859,103 @@ Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezog
 
 
 Proband 024
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;
-Virtuell Weinkeller Probe 322 Geruch;Dumpf;Dunkle Beeren;Pflaume;Holz
-Virtuell Weinkeller Probe 322 Geschmack;Tannine;Dezente Säure;Leichte Süße;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Kirsche;Vanille;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Adstringierend;Tannine;Holz;Dominante Säure
+S Questions;Answers;;;
+S Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;
+S Probe 322 Geruch;Dumpf;Dunkle Beeren;Pflaume;Holz
+S Probe 322 Geschmack;Tannine;Dezente Säure;Leichte Süße;
+S Probe 644 Farbe;Rubinrot;;;
+S Probe 644 Geruch;Fruchtig;Kirsche;Vanille;Holz
+S Probe 644 Geschmack;Adstringierend;Tannine;Holz;Dominante Säure
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 720 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 720 Geruch;ButtrigLaktisch;Pfirsich;Birne;Holz;
-Virtuell Weinkeller Probe 720 Geschmack;Alkoholisch;Dezente Säure;Holz;Bitter;SchmelzCremig
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 131 Geruch;Zitrus;Pfirsich;Apfel;;
-Virtuell Weinkeller Probe 131 Geschmack;Dominante Säure;;;;
-Virtuell Weinkeller Probe 597 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 597 Geruch;Fruchtig;Blumig;Vegetativ;Zitrus;Apfel
-Virtuell Weinkeller Probe 597 Geschmack;Dezente Säure;Leichte Süße;SchmelzCremig;;
+S Questions;Answers;;;;
+S Probe 720 Farbe;Hellgelb;;;;
+S Probe 720 Geruch;ButtrigLaktisch;Pfirsich;Birne;Holz;
+S Probe 720 Geschmack;Alkoholisch;Dezente Säure;Holz;Bitter;SchmelzCremig
+S Probe 131 Farbe;Hellgelb;;;;
+S Probe 131 Geruch;Zitrus;Pfirsich;Apfel;;
+S Probe 131 Geschmack;Dominante Säure;;;;
+S Probe 597 Farbe;Mittleres gelb;;;;
+S Probe 597 Geruch;Fruchtig;Blumig;Vegetativ;Zitrus;Apfel
+S Probe 597 Geschmack;Dezente Säure;Leichte Süße;SchmelzCremig;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+S Questions;Answers
+S Alter;25-34
+S Geschlecht;Männlich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;6
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
+S Questions;Answers
+S Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;6
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;7
 
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Pflaume;Vanille
-Weinkeller Probe 322 Geschmack;Süß;Adstringierend;;;
-Weinkeller Probe 983 Farbe;Rubinrot;;;;
-Weinkeller Probe 983 Geruch;Fruchtig;Erdbeere;Kirsche;Vanille;Pfeffer
-Weinkeller Probe 983 Geschmack;Leichte Süße;Dezente Säure;Dominante Säure;Adstringierend;Holz
+W Questions;Answers;;;;
+W Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+W Probe 322 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Pflaume;Vanille
+W Probe 322 Geschmack;Süß;Adstringierend;;;
+W Probe 983 Farbe;Rubinrot;;;;
+W Probe 983 Geruch;Fruchtig;Erdbeere;Kirsche;Vanille;Pfeffer
+W Probe 983 Geschmack;Leichte Süße;Dezente Säure;Dominante Säure;Adstringierend;Holz
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 597 Farbe;Hellgelb;;;
-Weinkeller Probe 597 Geruch;Fruchtig;Zitrus;Pfirsich;ButtrigLaktisch
-Weinkeller Probe 597 Geschmack;Starke Süße;Bitter;SchmelzCremig;
-Weinkeller Probe 131 Farbe;Hellgelb;;;
-Weinkeller Probe 131 Geruch;Blumig;Rose;Pfirsich;Birne
-Weinkeller Probe 131 Geschmack;Leichte Süße;Dezente Säure;;
-Weinkeller Probe 364 Farbe;Hellgelb;;;
-Weinkeller Probe 364 Geruch;Blumig;Rose;Fruchtig;
-Weinkeller Probe 364 Geschmack;Süß;SchmelzCremig;;
+W Questions;Answers;;;
+W Probe 597 Farbe;Hellgelb;;;
+W Probe 597 Geruch;Fruchtig;Zitrus;Pfirsich;ButtrigLaktisch
+W Probe 597 Geschmack;Starke Süße;Bitter;SchmelzCremig;
+W Probe 131 Farbe;Hellgelb;;;
+W Probe 131 Geruch;Blumig;Rose;Pfirsich;Birne
+W Probe 131 Geschmack;Leichte Süße;Dezente Säure;;
+W Probe 364 Farbe;Hellgelb;;;
+W Probe 364 Geruch;Blumig;Rose;Fruchtig;
+W Probe 364 Geschmack;Süß;SchmelzCremig;;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;25-34
-Weinkeller Geschlecht;Männlich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Einige Männlich im Monat
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;25-34
+W Geschlecht;Männlich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;7
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Einige Männlich im Monat
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;5
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;5
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;
-Virtuell Weinkeller Probe 644 Geruch;Kirsche;Dunkle Beeren;Vanille;Holz
-Virtuell Weinkeller Probe 644 Geschmack;Leichte Süße;Dezente Säure;Tannine;Holz
-Virtuell Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;
-Virtuell Weinkeller Probe 983 Geruch;Erdbeere;Kirsche;Pfeffer;
-Virtuell Weinkeller Probe 983 Geschmack;Dominante Säure;Tannine;;
+V Questions;Answers;;;
+V Probe 644 Farbe;Rubinrot;;;
+V Probe 644 Geruch;Kirsche;Dunkle Beeren;Vanille;Holz
+V Probe 644 Geschmack;Leichte Süße;Dezente Säure;Tannine;Holz
+V Probe 983 Farbe;Hellrot mit braunem Rand;;;
+V Probe 983 Geruch;Erdbeere;Kirsche;Pfeffer;
+V Probe 983 Geschmack;Dominante Säure;Tannine;;
 
-Virtuell Weinkeller Questions;Answers;;
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;
-Virtuell Weinkeller Probe 720 Geruch;Honigmelone;Birne;ButtrigLaktisch
-Virtuell Weinkeller Probe 720 Geschmack;Dezente Säure;SchmelzCremig;Holz
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Rose;Fruchtig
-Virtuell Weinkeller Probe 364 Geschmack;Leichte Süße;SchmelzCremig;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;
-Virtuell Weinkeller Probe 131 Geruch;Pfirsich;;
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;Dominante Säure;
+V Questions;Answers;;
+V Probe 720 Farbe;Mittleres gelb;;
+V Probe 720 Geruch;Honigmelone;Birne;ButtrigLaktisch
+V Probe 720 Geschmack;Dezente Säure;SchmelzCremig;Holz
+V Probe 364 Farbe;Hellgelb;;
+V Probe 364 Geruch;Blumig;Rose;Fruchtig
+V Probe 364 Geschmack;Leichte Süße;SchmelzCremig;
+V Probe 131 Farbe;Hellgelb;;
+V Probe 131 Geruch;Pfirsich;;
+V Probe 131 Geschmack;Leichte Süße;Dominante Säure;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Männlich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Einige Männlich im Monat
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;25-34
+V Geschlecht;Männlich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Einige Männlich im Monat
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;5
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;5
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;5
 
 
 
@@ -2049,104 +1963,104 @@ Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in B
 
 
 Proband 025
-Weinkeller Questions;Answers;;;;
-Weinkeller Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
-Weinkeller Probe 322 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Pflaume;Nelke
-Weinkeller Probe 322 Geschmack;Leichte Süße;Dezente Säure;Adstringierend;;
-Weinkeller Probe 983 Farbe;Hellrot mit braunem Rand;;;;
-Weinkeller Probe 983 Geruch;Vegetativ;Würzig;Pfeffer;Rauchig;Dumpf
-Weinkeller Probe 983 Geschmack;Dezente Säure;Adstringierend;Tannine;;
+W Questions;Answers;;;;
+W Probe 322 Farbe;Dunkelrot mit bläul. Reflexen;;;;
+W Probe 322 Geruch;Fruchtig;Kirsche;Dunkle Beeren;Pflaume;Nelke
+W Probe 322 Geschmack;Leichte Süße;Dezente Säure;Adstringierend;;
+W Probe 983 Farbe;Hellrot mit braunem Rand;;;;
+W Probe 983 Geruch;Vegetativ;Würzig;Pfeffer;Rauchig;Dumpf
+W Probe 983 Geschmack;Dezente Säure;Adstringierend;Tannine;;
 
-Weinkeller Questions;Answers;;;
-Weinkeller Probe 720 Farbe;Gelblich-grün;;;
-Weinkeller Probe 720 Geruch;Fruchtig;Zitrus;Pfirsich;Apfel
-Weinkeller Probe 720 Geschmack;Leichte Süße;Dezente Säure;Bitter;
-Weinkeller Probe 131 Farbe;Hellgelb;;;
-Weinkeller Probe 131 Geruch;Dumpf;;;
-Weinkeller Probe 131 Geschmack;Leichte Süße;Holz;;
-Weinkeller Probe 597 Farbe;Gelblich-grün;;;
-Weinkeller Probe 597 Geruch;Fruchtig;Apfel;Birne;
-Weinkeller Probe 597 Geschmack;Leichte Süße;SchmelzCremig;;
+W Questions;Answers;;;
+W Probe 720 Farbe;Gelblich-grün;;;
+W Probe 720 Geruch;Fruchtig;Zitrus;Pfirsich;Apfel
+W Probe 720 Geschmack;Leichte Süße;Dezente Säure;Bitter;
+W Probe 131 Farbe;Hellgelb;;;
+W Probe 131 Geruch;Dumpf;;;
+W Probe 131 Geschmack;Leichte Süße;Holz;;
+W Probe 597 Farbe;Gelblich-grün;;;
+W Probe 597 Geruch;Fruchtig;Apfel;Birne;
+W Probe 597 Geschmack;Leichte Süße;SchmelzCremig;;
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Alter;25-34
-Weinkeller Geschlecht;Weiblich
-Weinkeller Händigkeit;Rechtshändig
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;4
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+W Questions;Answers
+W Umschauen;Verstanden.
+W Alter;25-34
+W Geschlecht;Weiblich
+W Händigkeit;Rechtshändig
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;4
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Weinkeller Questions;Answers
-Weinkeller Umschauen;Verstanden.
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;5
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
+W Questions;Answers
+W Umschauen;Verstanden.
+W Ich fühlte mich im virtuellen Raum anwesend.;5
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;;
-Virtuell Weinkeller Probe 644 Geruch;Kirsche;Dunkle Beeren;Pflaume;Vanille;
-Virtuell Weinkeller Probe 644 Geschmack;Leichte Süße;Bitter;Adstringierend;Tannine;Holz
-Virtuell Weinkeller Probe 322 Farbe;Hellrot mit braunem Rand;;;;
-Virtuell Weinkeller Probe 322 Geruch;Erdbeere;Vegetativ;Würzig;Pfeffer;Rauchig
-Virtuell Weinkeller Probe 322 Geschmack;Leichte Süße;Dezente Säure;Bitter;Adstringierend;
+S Questions;Answers;;;;
+S Probe 644 Farbe;Rubinrot;;;;
+S Probe 644 Geruch;Kirsche;Dunkle Beeren;Pflaume;Vanille;
+S Probe 644 Geschmack;Leichte Süße;Bitter;Adstringierend;Tannine;Holz
+S Probe 322 Farbe;Hellrot mit braunem Rand;;;;
+S Probe 322 Geruch;Erdbeere;Vegetativ;Würzig;Pfeffer;Rauchig
+S Probe 322 Geschmack;Leichte Süße;Dezente Säure;Bitter;Adstringierend;
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;
-Virtuell Weinkeller Probe 644 Geruch;Kirsche;Würzig;Nelke;Vanille
-Virtuell Weinkeller Probe 644 Geschmack;Leichte Süße;Adstringierend;Tannine;
-Virtuell Weinkeller Probe 644 Farbe;Rubinrot;;;
-Virtuell Weinkeller Probe 644 Geruch;Fruchtig;Erdbeere;;
-Virtuell Weinkeller Probe 644 Geschmack;Leichte Süße;Adstringierend;;
+S Questions;Answers;;;;
+S Probe 131 Farbe;Hellgelb;;;;
+S Probe 131 Geruch;Fruchtig;ButtrigLaktisch;;;
+S Probe 131 Geschmack;Leichte Süße;Dezente Säure;Bitter;SchmelzCremig;Holz
+S Probe 720 Farbe;Mittleres gelb;;;;
+S Probe 720 Geruch;Fruchtig;Honigmelone;Birne;ButtrigLaktisch;
+S Probe 720 Geschmack;Süß;Bitter;SchmelzCremig;Holz;
+S Probe 364 Farbe;Mittleres gelb;;;;
+S Probe 364 Geruch;Honigmelone;Pfirsich;Birne;;
+S Probe 364 Geschmack;Leichte Süße;Bitter;SchmelzCremig;;
 
-Virtuell Weinkeller Questions;Answers;;;;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;;
-Virtuell Weinkeller Probe 131 Geruch;Fruchtig;ButtrigLaktisch;;;
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;Dezente Säure;Bitter;SchmelzCremig;Holz
-Virtuell Weinkeller Probe 720 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 720 Geruch;Fruchtig;Honigmelone;Birne;ButtrigLaktisch;
-Virtuell Weinkeller Probe 720 Geschmack;Süß;Bitter;SchmelzCremig;Holz;
-Virtuell Weinkeller Probe 364 Farbe;Mittleres gelb;;;;
-Virtuell Weinkeller Probe 364 Geruch;Honigmelone;Pfirsich;Birne;;
-Virtuell Weinkeller Probe 364 Geschmack;Leichte Süße;Bitter;SchmelzCremig;;
+S Questions;Answers
+S Umschauen;Verstanden.
+S Alter;25-34
+S Geschlecht;Weiblich
+S Händigkeit;Rechtshändig
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers;;;
-Virtuell Weinkeller Probe 720 Farbe;Gelblich-grün;;;
-Virtuell Weinkeller Probe 720 Geruch;Blumig;Zitrus;Apfel;Vegetativ
-Virtuell Weinkeller Probe 720 Geschmack;Süß;Alkoholisch;SchmelzCremig;
-Virtuell Weinkeller Probe 131 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 131 Geruch;Apfel;;;
-Virtuell Weinkeller Probe 131 Geschmack;Leichte Süße;Dezente Säure;;
-Virtuell Weinkeller Probe 364 Farbe;Hellgelb;;;
-Virtuell Weinkeller Probe 364 Geruch;Blumig;Honigmelone;Birne;
-Virtuell Weinkeller Probe 364 Geschmack;Süß;Bitter;SchmelzCremig;
+S Questions;Answers
+S Umschauen;Verstanden.
+S Ich fühlte mich im virtuellen Raum anwesend.;5
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
+V Questions;Answers;;;
+V Probe 644 Farbe;Rubinrot;;;
+V Probe 644 Geruch;Kirsche;Würzig;Nelke;Vanille
+V Probe 644 Geschmack;Leichte Süße;Adstringierend;Tannine;
+V Probe 644 Farbe;Rubinrot;;;
+V Probe 644 Geruch;Fruchtig;Erdbeere;;
+V Probe 644 Geschmack;Leichte Süße;Adstringierend;;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Alter;25-34
-Virtuell Weinkeller Geschlecht;Weiblich
-Virtuell Weinkeller Händigkeit;Rechtshändig
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;5
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Dies ist mein erstes Mal
+V Questions;Answers;;;
+V Probe 720 Farbe;Gelblich-grün;;;
+V Probe 720 Geruch;Blumig;Zitrus;Apfel;Vegetativ
+V Probe 720 Geschmack;Süß;Alkoholisch;SchmelzCremig;
+V Probe 131 Farbe;Hellgelb;;;
+V Probe 131 Geruch;Apfel;;;
+V Probe 131 Geschmack;Leichte Süße;Dezente Säure;;
+V Probe 364 Farbe;Hellgelb;;;
+V Probe 364 Geruch;Blumig;Honigmelone;Birne;
+V Probe 364 Geschmack;Süß;Bitter;SchmelzCremig;
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;5
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
+V Questions;Answers
+V Umschauen;Verstanden.
+V Alter;25-34
+V Geschlecht;Weiblich
+V Händigkeit;Rechtshändig
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;6
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;Weniger oft
 
-Virtuell Weinkeller Questions;Answers
-Virtuell Weinkeller Umschauen;Verstanden.
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.;2
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;2
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;4
+V Questions;Answers
+V Umschauen;Verstanden.
+V Ich fühlte mich im virtuellen Raum anwesend.;5
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;3
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;6
 
 
 

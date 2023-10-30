@@ -1,586 +1,251 @@
-Sensoriklabor Questions
-Answers;27
-Total;27
-
-Sensoriklabor Probe 720 Farbe
-Mittleres gelb;9
-Total;9
-
-Sensoriklabor Probe 720 Geruch
-Apfel;2
-Birne;5
-ButtrigLaktisch;3
-Dumpf;3
-Fruchtig;1
-Holz;4
-Honigmelone;5
-Pfirsich;1
-Total;9
-Vegetativ;3
-Zitrus;2
-
-Sensoriklabor Probe 720 Geschmack
-Alkoholisch;5
-Bitter;3
-Dezente Säure;3
-Holz;5
-Leichte Süße;5
-Sauer;2
-Schmelz/Cremig;2
-SchmelzCremig;6
-Total;9
-
-Sensoriklabor Probe 364 Farbe
-Hellgelb;2
-Mittleres gelb;6
-Total;8
-
-Sensoriklabor Probe 364 Geruch
-Birne;1
-Blumig;7
-Fruchtig;6
-Honigmelone;2
-Pfirsich;4
-Rose;8
-Total;8
-Zitrus;1
-
-Sensoriklabor Probe 364 Geschmack
-Alkoholisch;1
-Bitter;7
-Dezente Säure;7
-Leichte Süße;3
-Sauer;1
-SchmelzCremig;2
-Süß;2
-Total;8
-
-Sensoriklabor Probe 131 Farbe
-Hellgelb;6
-Mittleres gelb;2
-Total;8
-
-Sensoriklabor Probe 131 Geruch
-Apfel;6
-Birne;4
-Blumig;1
-ButtrigLaktisch;2
-Dumpf;1
-Fruchtig;4
-Holz;1
-Honigmelone;3
-Pfirsich;2
-Total;8
-Vegetativ;2
-Zitrus;4
-
-Sensoriklabor Probe 131 Geschmack
-Alkoholisch;1
-Bitter;1
-Dezente Säure;2
-Dominante Säure;1
-Holz;1
-Leichte Süße;5
-Sauer;5
-Schmelz/Cremig;1
-SchmelzCremig;3
-Süß;2
-Total;8
-
-Sensoriklabor Alter
-18-24;2
-25-34;3
-35-44;3
-55-70;1
-Total;9
-
-Sensoriklabor Geschlecht
-Männlich;9
-Total;9
-
-Sensoriklabor Händigkeit
-Linkshändig;1
-Rechtshändig;8
-Total;9
-
-Sensoriklabor Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig
-5;1
-6;4
-7;2
-Total;7
-
-Sensoriklabor Wie oft benutzen Sie Virtual Reality (VR)-Headsets?
-Dies ist mein erstes Mal;3
-Total;9
-Weniger oft;6
-
-Sensoriklabor Ich fühlte mich im virtuellen Raum anwesend.
-6;6
-7;3
-Total;9
-
-Sensoriklabor Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?
-2;1
-3;2
-5;1
-6;4
-7;1
-Total;9
-
-Sensoriklabor Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.
-2;1
-3;1
-5;2
-6;4
-7;1
-Total;9
-
-Sensoriklabor Probe 597 Farbe
-Hellgelb;2
-Total;2
-
-Sensoriklabor Probe 597 Geruch
-Blumig;1
-Dumpf;1
-Honigmelone;1
-Pfirsich;1
-Rose;1
-Total;2
-Zitrus;1
-
-Sensoriklabor Probe 597 Geschmack
-Bitter;1
-Dezente Säure;2
-Holz;1
-Leichte Süße;1
-Süß;1
-Total;2
-
-Weinkeller Questions
-Answers;60
-Total;60
-
-Weinkeller Probe 720 Farbe
-Gelblich-grün;4
-Hellgelb;6
-Mittleres gelb;2
-Total;12
-
-Weinkeller Probe 720 Geruch
-Apfel;6
-Birne;3
-Blumig;3
-ButtrigLaktisch;1
-Dumpf;2
-Fruchtig;5
-Holz;4
-Honigmelone;1
-Pfirsich;4
-SchmelzCremig;1
-Total;12
-Vegetativ;2
-Zitrus;6
-
-Weinkeller Probe 720 Geschmack
-Bitter;4
-Dezente Säure;7
-Dominante Säure;1
-Holz;4
-Leichte Süße;6
-Sauer;4
-SchmelzCremig;9
-Starke Süße;1
-Süß;4
-Total;12
-
-Weinkeller Probe 364 Farbe
-Gelblich-grün;1
-Hellgelb;10
-Mittleres gelb;3
-Total;14
-
-Weinkeller Probe 364 Geruch
-Apfel;3
-Birne;5
-Blumig;14
-ButtrigLaktisch;1
-Fruchtig;8
-Honigmelone;7
-Pfirsich;3
-Rose;10
-SchmelzCremig;1
-Total;14
-Vegetativ;1
-Zitrus;1
-
-Weinkeller Probe 364 Geschmack
-Alkoholisch;5
-Bitter;8
-Dezente Säure;7
-Dominante Säure;1
-Holz;1
-Leichte Süße;6
-Sauer;4
-SchmelzCremig;7
-Starke Süße;3
-Süß;2
-Total;14
-
-Weinkeller Probe 131 Farbe
-Gelblich-grün;1
-Hellgelb;13
-Mittleres gelb;1
-Total;15
-
-Weinkeller Probe 131 Geruch
-Apfel;4
-Birne;5
-Blumig;4
-ButtrigLaktisch;1
-Dumpf;4
-Fruchtig;8
-Holz;3
-Honigmelone;2
-Pfirsich;5
-Rose;2
-Total;15
-Vegetativ;3
-Zitrus;9
-
-Weinkeller Probe 131 Geschmack
-Alkoholisch;4
-Bitter;5
-Dezente Säure;2
-Dominante Säure;9
-Holz;2
-Leichte Süße;8
-Sauer;3
-SchmelzCremig;2
-Süß;4
-Total;15
-
-Weinkeller Umschauen
-Total;40
-Verstanden.;40
-
-Weinkeller Alter
-18-24;2
-25-34;9
-35-44;5
-45-54;1
-55-70;3
-Total;20
-
-Weinkeller Geschlecht
-Männlich;14
-Total;20
-Weiblich;6
-
-Weinkeller Händigkeit
-Linkshändig;1
-Rechtshändig;19
-Total;20
-
-Weinkeller Ich fühle mich frisch und ausgeruht.
-2;1
-5;1
-6;3
-7;2
-Total;7
-
-Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?
-Einige Männlich im Monat;2
-Total;20
-Weniger oft;18
-
-Weinkeller Ich fühlte mich im virtuellen Raum anwesend.
-5;4
-6;8
-7;8
-Total;20
-
-Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?
-2;3
-3;2
-4;1
-5;5
-6;8
-7;1
-Total;20
-
-Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.
-3;1
-4;2
-5;6
-6;8
-7;3
-Total;20
-
-Weinkeller Probe 597 Farbe
-Gelblich-grün;4
-Hellgelb;12
-Mittleres gelb;3
-Total;19
-
-Weinkeller Probe 597 Geruch
-Apfel;7
-Birne;4
-Blumig;4
-ButtrigLaktisch;3
-Dumpf;4
-Fruchtig;7
-Holz;3
-Honigmelone;4
-Pfirsich;7
-Rose;2
-SchmelzCremig;3
-Total;19
-Vegetativ;7
-Zitrus;4
-
-Weinkeller Probe 597 Geschmack
-Alkoholisch;2
-Bitter;6
-Dezente Säure;10
-Holz;1
-Leichte Süße;7
-Sauer;5
-SchmelzCremig;11
-Starke Süße;3
-Süß;9
-Total;19
-
-Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig
-1;1
-2;1
-4;1
-5;2
-6;6
-7;2
-Total;13
-
-Virtuell Weinkeller Questions
-Answers;102
-Total;102
-
-Virtuell Weinkeller Probe 131 Farbe
-Gelblich-grün;6
-Hellgelb;20
-Mittleres gelb;4
-Total;30
-
-Virtuell Weinkeller Probe 131 Geruch
-Apfel;17
-Birne;7
-Blumig;10
-ButtrigLaktisch;4
-Dumpf;3
-Fruchtig;12
-Holz;2
-Honigmelone;4
-Pfirsich;11
-Rose;2
-SchmelzCremig;1
-Total;30
-Vegetativ;7
-Zitrus;19
-
-Virtuell Weinkeller Probe 131 Geschmack
-Alkoholisch;4
-Bitter;6
-Dezente Säure;8
-Dominante Säure;11
-Holz;3
-Leichte Süße;16
-Sauer;12
-SchmelzCremig;8
-Starke Süße;1
-Süß;4
-Total;30
-
-Virtuell Weinkeller Probe 364 Farbe
-Gelblich-grün;3
-Hellgelb;13
-Mittleres gelb;12
-Total;28
-
-Virtuell Weinkeller Probe 364 Geruch
-Apfel;10
-Birne;10
-Blumig;17
-ButtrigLaktisch;2
-Dumpf;1
-Fruchtig;16
-Holz;1
-Honigmelone;11
-Pfirsich;8
-Rose;11
-SchmelzCremig;1
-Total;28
-Vegetativ;5
-Zitrus;9
-
-Virtuell Weinkeller Probe 364 Geschmack
-Alkoholisch;6
-Bitter;13
-Dezente Säure;11
-Dominante Säure;6
-Holz;3
-Leichte Süße;11
-Sauer;6
-SchmelzCremig;10
-Starke Süße;2
-Süß;9
-Total;28
-
-Virtuell Weinkeller Probe 720 Farbe
-Gelblich-grün;2
-Hellgelb;6
-Mittleres gelb;20
-Total;28
-
-Virtuell Weinkeller Probe 720 Geruch
-Apfel;8
-Birne;9
-Blumig;9
-ButtrigLaktisch;9
-Dumpf;8
-Fruchtig;7
-Holz;11
-Honigmelone;8
-Pfirsich;2
-Rose;1
-SchmelzCremig;4
-Total;28
-Vegetativ;6
-Zitrus;8
-
-Virtuell Weinkeller Probe 720 Geschmack
-Alkoholisch;7
-Bitter;8
-Dezente Säure;16
-Dominante Säure;2
-Holz;14
-Leichte Süße;12
-Sauer;5
-SchmelzCremig;22
-Starke Süße;1
-Süß;9
-Total;28
-
-Virtuell Weinkeller Alter
-18-24;3
-25-34;18
-35-44;8
-45-54;1
-55-70;6
-Total;36
-
-Virtuell Weinkeller Geschlecht
-Männlich;22
-Total;36
-Weiblich;14
-
-Virtuell Weinkeller Händigkeit
-Linkshändig;1
-Rechtshändig;35
-Total;36
-
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht.
-4;3
-5;2
-6;7
-7;1
-Total;13
-
-Virtuell Weinkeller Wie oft benutzen Sie Virtual Reality (VR)-Headsets?
-Dies ist mein erstes Mal;9
-Einige Männlich im Monat;2
-Total;36
-Weniger oft;25
-
-Virtuell Weinkeller Umschauen
-Total;39
-Verstanden.;39
-
-Virtuell Weinkeller Ich fühlte mich im virtuellen Raum anwesend.
-2;2
-3;2
-4;1
-5;6
-6;14
-7;8
-Total;33
-
-Virtuell Weinkeller Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?
-2;5
-3;7
-4;4
-5;6
-6;8
-7;3
-Total;33
-
-Virtuell Weinkeller Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.
-2;1
-3;3
-4;5
-5;8
-6;9
-7;7
-Total;33
-
-Virtuell Weinkeller Probe 597 Farbe
-Gelblich-grün;1
-Hellgelb;7
-Mittleres gelb;5
-Total;13
-
-Virtuell Weinkeller Probe 597 Geruch
-Apfel;5
-Birne;5
-Blumig;7
-ButtrigLaktisch;4
-Fruchtig;9
-Holz;2
-Honigmelone;5
-Pfirsich;3
-Rose;3
-Total;13
-Vegetativ;3
-Zitrus;7
-
-Virtuell Weinkeller Probe 597 Geschmack
-Alkoholisch;4
-Bitter;5
-Dezente Säure;11
-Holz;1
-Leichte Süße;6
-Sauer;2
-SchmelzCremig;5
-Starke Süße;4
-Süß;4
-Total;13
-
-Virtuell Weinkeller Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig
-1;1
-2;1
-3;1
-5;2
-6;10
-7;8
-Total;23
-
-Virtuell Weinkeller Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.
-Total;10
-Verstanden.;10
-
-Sensoriklabor Ich fühle mich frisch und ausgeruht.
-6;1
-7;1
-Total;2
-
-Sensoriklabor Schauen sie sich im virtuellen Raum einmal um, um die folgenden Fragen zu beantworten.
-Total;3
-Verstanden.;3
-
+Absolut;;;;;;;;;;;;;;Prozentual;;;;;;;;;;;
+;Sensoriklabor;;;;Weinkeller;;;;Virtuell Weinkeller;;;;;Sensoriklabor;;;;Weinkeller;;;;Virtuell Weinkeller;;;
+Farbe;W Probe 720 Farbe;;W Probe 364 Farbe;;W Probe 131 Farbe;;W Probe 597 Farbe;;V Probe 131 Farbe;;V Probe 364 Farbe;;V Probe 720 Farbe;;S Probe 131 Farbe;;S Probe 364 Farbe;;S Probe 720 Farbe;;V Probe 597 Farbe;;S Probe 597 Farbe;;
+Gelblich-grün;Gelblich-grün;4;Gelblich-grün;1;Gelblich-grün;1;Gelblich-grün;4;Gelblich-grün;3;Gelblich-grün;3;Gelblich-grün;2;Gelblich-grün;3;;;;;Gelblich-grün;1;;;
+Hellgelb;Hellgelb;6;Hellgelb;10;Hellgelb;13;Hellgelb;12;Hellgelb;13;Hellgelb;10;Hellgelb;4;Hellgelb;12;Hellgelb;5;Hellgelb;2;Hellgelb;5;Hellgelb;3;
+Mittleres gelb;Mittleres gelb;2;Mittleres gelb;3;Mittleres gelb;1;Mittleres gelb;3;Mittleres gelb;2;Mittleres gelb;5;Mittleres gelb;10;Mittleres gelb;3;Mittleres gelb;12;Mittleres gelb;17;Mittleres gelb;2;Mittleres gelb;3;
+Total;Total;12;Total;14;Total;15;Total;19;Total;18;Total;18;Total;16;Total;18;Total;17;Total;19;Total;8;Total;6;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+Geruch;W Probe 720 Geruch;;W Probe 364 Geruch;;W Probe 131 Geruch;;W Probe 597 Geruch;;V Probe 131 Geruch;;V Probe 364 Geruch;;V Probe 720 Geruch;;S Probe 131 Geruch;;S Probe 364 Geruch;;S Probe 720 Geruch;;V Probe 597 Geruch;;S Probe 597 Geruch;;
+Apfel;Apfel;6;Apfel;3;Apfel;4;Apfel;7;Apfel;11;Apfel;6;Apfel;5;Apfel;11;Apfel;4;Apfel;4;Apfel;3;Apfel;2;
+Birne;Birne;3;Birne;5;Birne;5;Birne;4;Birne;5;Birne;5;Birne;6;Birne;6;Birne;5;Birne;6;Birne;4;Birne;1;
+Blumig;Blumig;3;Blumig;14;Blumig;4;Blumig;4;Blumig;6;Blumig;13;Blumig;7;Blumig;5;Blumig;10;Blumig;2;Blumig;2;Blumig;5;
+ButtrigLaktisch;ButtrigLaktisch;1;ButtrigLaktisch;1;ButtrigLaktisch;1;ButtrigLaktisch;3;ButtrigLaktisch;2;ButtrigLaktisch;1;ButtrigLaktisch;6;ButtrigLaktisch;4;ButtrigLaktisch;1;ButtrigLaktisch;5;ButtrigLaktisch;3;ButtrigLaktisch;1;
+Dumpf;Dumpf;2;;;Dumpf;4;Dumpf;4;Dumpf;2;Dumpf;1;Dumpf;4;Dumpf;1;;;Dumpf;6;;;Dumpf;1;
+Fruchtig;Fruchtig;5;Fruchtig;8;Fruchtig;8;Fruchtig;7;Fruchtig;5;Fruchtig;12;Fruchtig;3;Fruchtig;11;Fruchtig;9;Fruchtig;4;Fruchtig;6;Fruchtig;3;
+Holz;Holz;4;;;Holz;3;Holz;3;Holz;1;Holz;1;Holz;5;Holz;2;;;Holz;10;Holz;1;Holz;1;
+Honigmelone;Honigmelone;1;Honigmelone;7;Honigmelone;2;Honigmelone;4;Honigmelone;3;Honigmelone;6;Honigmelone;4;Honigmelone;4;Honigmelone;7;Honigmelone;7;Honigmelone;2;Honigmelone;3;
+Pfirsich;Pfirsich;4;Pfirsich;3;Pfirsich;5;Pfirsich;7;Pfirsich;7;Pfirsich;3;Pfirsich;1;Pfirsich;6;Pfirsich;8;Pfirsich;2;Pfirsich;3;Pfirsich;1;
+Rose;;;Rose;10;Rose;2;Rose;2;Rose;1;Rose;9;;;Rose;1;Rose;9;Rose;1;Rose;1;Rose;2;
+SchmelzCremig;SchmelzCremig;1;SchmelzCremig;1;;;SchmelzCremig;3;SchmelzCremig;1;SchmelzCremig;1;SchmelzCremig;1;;;;;SchmelzCremig;3;;;;;
+Total;Total;12;Total;14;Total;15;Total;19;Total;18;Total;18;Total;16;Total;18;Total;17;Total;19;Total;8;Total;6;
+Vegetativ;Vegetativ;2;Vegetativ;1;Vegetativ;3;Vegetativ;7;Vegetativ;3;Vegetativ;2;Vegetativ;5;Vegetativ;4;Vegetativ;3;Vegetativ;3;Vegetativ;1;Vegetativ;2;
+Zitrus;Zitrus;6;Zitrus;1;Zitrus;9;Zitrus;4;Zitrus;12;Zitrus;5;Zitrus;7;Zitrus;10;Zitrus;5;Zitrus;3;Zitrus;4;Zitrus;4;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+Geschmack;W Probe 720 Geschmack;;W Probe 364 Geschmack;;W Probe 131 Geschmack;;W Probe 597 Geschmack;;V Probe 131 Geschmack;;V Probe 364 Geschmack;;V Probe 720 Geschmack;;S Probe 131 Geschmack;;S Probe 364 Geschmack;;S Probe 720 Geschmack;;V Probe 597 Geschmack;;S Probe 597 Geschmack;;
+Alkoholisch;;;Alkoholisch;5;Alkoholisch;4;Alkoholisch;2;Alkoholisch;3;Alkoholisch;4;Alkoholisch;4;Alkoholisch;1;Alkoholisch;3;Alkoholisch;6;Alkoholisch;3;Alkoholisch;1;
+Bitter;Bitter;4;Bitter;8;Bitter;5;Bitter;6;Bitter;4;Bitter;8;Bitter;4;Bitter;2;Bitter;11;Bitter;7;Bitter;4;Bitter;2;
+Dezente Säure;Dezente Säure;7;Dezente Säure;7;Dezente Säure;2;Dezente Säure;10;Dezente Säure;4;Dezente Säure;8;Dezente Säure;10;Dezente Säure;6;Dezente Säure;9;Dezente Säure;9;Dezente Säure;7;Dezente Säure;5;
+Dominante Säure;Dominante Säure;1;Dominante Säure;1;Dominante Säure;9;;;Dominante Säure;7;Dominante Säure;3;Dominante Säure;1;Dominante Säure;5;Dominante Säure;3;Dominante Säure;1;;;;;
+Holz;Holz;4;Holz;1;Holz;2;Holz;1;Holz;1;Holz;3;Holz;6;Holz;3;;;Holz;13;Holz;1;Holz;1;
+Leichte Süße;Leichte Süße;6;Leichte Süße;6;Leichte Süße;8;Leichte Süße;7;Leichte Süße;10;Leichte Süße;7;Leichte Süße;7;Leichte Süße;9;Leichte Süße;6;Leichte Süße;8;Leichte Süße;5;Leichte Süße;2;
+Sauer;Sauer;4;Sauer;4;Sauer;3;Sauer;5;Sauer;6;Sauer;4;Sauer;2;Sauer;9;Sauer;3;Sauer;4;Sauer;1;Sauer;1;
+Schmelz/Cremig;SchmelzCremig;9;SchmelzCremig;7;SchmelzCremig;2;SchmelzCremig;11;SchmelzCremig;3;SchmelzCremig;7;SchmelzCremig;14;SchmelzCremig;8;SchmelzCremig;5;SchmelzCremig;14;SchmelzCremig;2;SchmelzCremig;3;
+Starke Süße;Starke Süße;1;Starke Süße;3;;;Starke Süße;3;Starke Süße;1;;;Starke Süße;1;;;Starke Süße;2;;;Starke Süße;2;Starke Süße;2;
+Süß;Süß;4;Süß;2;Süß;4;Süß;9;;;Süß;6;Süß;6;Süß;6;Süß;5;Süß;3;Süß;2;Süß;2;
+Total;Total;12;Total;14;Total;15;Total;19;Total;18;Total;18;Total;16;Total;18;Total;17;Total;19;Total;8;Total;6;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+W Umschauen;;;;;;;;;;;;;;;;;;;;;;;;;
+Total;40;;;;;;;;;;;;;;;;;;;;;;;;
+Verstanden.;40;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+W Alter;;;;;;;;;;;;;;;;;;;;;;;;;
+18-24;2;;;;;;;;;;;;;;;;;;;;;;;;
+25-34;9;;;;;;;;;;;;;;;;;;;;;;;;
+35-44;5;;;;;;;;;;;;;;;;;;;;;;;;
+45-54;1;;;;;;;;;;;;;;;;;;;;;;;;
+55-70;3;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+W Geschlecht;;;;;;;;;;;;;;;;;;;;;;;;;
+Männlich;14;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+Weiblich;6;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+W Händigkeit;;;;;;;;;;;;;;;;;;;;;;;;;
+Linkshändig;1;;;;;;;;;;;;;;;;;;;;;;;;
+Rechtshändig;19;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+W Ich fühle mich frisch und ausgeruht.;;;;;;;;;;;;;;;;;;;;;;;;;
+2;1;;;;;;;;;;;;;;;;;;;;;;;;
+5;1;;;;;;;;;;;;;;;;;;;;;;;;
+6;3;;;;;;;;;;;;;;;;;;;;;;;;
+7;2;;;;;;;;;;;;;;;;;;;;;;;;
+Total;7;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+W Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;;;;;;;;;;;;;;;;;;;;;;;;;
+Einige Männlich im Monat;2;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+Weniger oft;18;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+W Ich fühlte mich im virtuellen Raum anwesend.;;;;;;;;;;;;;;;;;;;;;;;;;
+5;4;;;;;;;;;;;;;;;;;;;;;;;;
+6;8;;;;;;;;;;;;;;;;;;;;;;;;
+7;8;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+W Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;;;;;;;;;;;;;;;;;;;;;;;;;
+2;3;;;;;;;;;;;;;;;;;;;;;;;;
+3;2;;;;;;;;;;;;;;;;;;;;;;;;
+4;1;;;;;;;;;;;;;;;;;;;;;;;;
+5;5;;;;;;;;;;;;;;;;;;;;;;;;
+6;8;;;;;;;;;;;;;;;;;;;;;;;;
+7;1;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+W Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;;;;;;;;;;;;;;;;;;;;;;;;;
+3;1;;;;;;;;;;;;;;;;;;;;;;;;
+4;2;;;;;;;;;;;;;;;;;;;;;;;;
+5;6;;;;;;;;;;;;;;;;;;;;;;;;
+6;8;;;;;;;;;;;;;;;;;;;;;;;;
+7;3;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+W Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;;;;;;;;;;;;;;;;;;;;;;;;;
+1;1;;;;;;;;;;;;;;;;;;;;;;;;
+2;1;;;;;;;;;;;;;;;;;;;;;;;;
+4;1;;;;;;;;;;;;;;;;;;;;;;;;
+5;2;;;;;;;;;;;;;;;;;;;;;;;;
+6;6;;;;;;;;;;;;;;;;;;;;;;;;
+7;2;;;;;;;;;;;;;;;;;;;;;;;;
+Total;13;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Questions;;;;;;;;;;;;;;;;;;;;;;;;;
+Answers;60;;;;;;;;;;;;;;;;;;;;;;;;
+Total;60;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Alter;;;;;;;;;;;;;;;;;;;;;;;;;
+18-24;2;;;;;;;;;;;;;;;;;;;;;;;;
+25-34;9;;;;;;;;;;;;;;;;;;;;;;;;
+35-44;5;;;;;;;;;;;;;;;;;;;;;;;;
+45-54;1;;;;;;;;;;;;;;;;;;;;;;;;
+55-70;3;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Geschlecht;;;;;;;;;;;;;;;;;;;;;;;;;
+Männlich;14;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+Weiblich;6;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Händigkeit;;;;;;;;;;;;;;;;;;;;;;;;;
+Linkshändig;1;;;;;;;;;;;;;;;;;;;;;;;;
+Rechtshändig;19;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Ich fühle mich frisch und ausgeruht.;;;;;;;;;;;;;;;;;;;;;;;;;
+4;2;;;;;;;;;;;;;;;;;;;;;;;;
+6;5;;;;;;;;;;;;;;;;;;;;;;;;
+Total;7;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;;;;;;;;;;;;;;;;;;;;;;;;;
+Einige Männlich im Monat;2;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+Weniger oft;18;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Umschauen;;;;;;;;;;;;;;;;;;;;;;;;;
+Total;27;;;;;;;;;;;;;;;;;;;;;;;;
+Verstanden.;27;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Ich fühlte mich im virtuellen Raum anwesend.;;;;;;;;;;;;;;;;;;;;;;;;;
+3;2;;;;;;;;;;;;;;;;;;;;;;;;
+4;1;;;;;;;;;;;;;;;;;;;;;;;;
+5;4;;;;;;;;;;;;;;;;;;;;;;;;
+6;11;;;;;;;;;;;;;;;;;;;;;;;;
+7;2;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;;;;;;;;;;;;;;;;;;;;;;;;;
+2;2;;;;;;;;;;;;;;;;;;;;;;;;
+3;3;;;;;;;;;;;;;;;;;;;;;;;;
+4;3;;;;;;;;;;;;;;;;;;;;;;;;
+5;4;;;;;;;;;;;;;;;;;;;;;;;;
+6;6;;;;;;;;;;;;;;;;;;;;;;;;
+7;2;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;;;;;;;;;;;;;;;;;;;;;;;;;
+3;3;;;;;;;;;;;;;;;;;;;;;;;;
+4;2;;;;;;;;;;;;;;;;;;;;;;;;
+5;5;;;;;;;;;;;;;;;;;;;;;;;;
+6;6;;;;;;;;;;;;;;;;;;;;;;;;
+7;4;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Questions;;;;;;;;;;;;;;;;;;;;;;;;;
+Answers;60;;;;;;;;;;;;;;;;;;;;;;;;
+Total;60;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Alter;;;;;;;;;;;;;;;;;;;;;;;;;
+18-24;2;;;;;;;;;;;;;;;;;;;;;;;;
+25-34;9;;;;;;;;;;;;;;;;;;;;;;;;
+35-44;5;;;;;;;;;;;;;;;;;;;;;;;;
+55-70;4;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Geschlecht;;;;;;;;;;;;;;;;;;;;;;;;;
+Männlich;14;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+Weiblich;6;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Händigkeit;;;;;;;;;;;;;;;;;;;;;;;;;
+Linkshändig;1;;;;;;;;;;;;;;;;;;;;;;;;
+Rechtshändig;19;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Ich fühle mich frisch und ausgeruht.;;;;;;;;;;;;;;;;;;;;;;;;;
+4;1;;;;;;;;;;;;;;;;;;;;;;;;
+5;2;;;;;;;;;;;;;;;;;;;;;;;;
+6;2;;;;;;;;;;;;;;;;;;;;;;;;
+7;2;;;;;;;;;;;;;;;;;;;;;;;;
+Total;7;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Wie oft benutzen Sie Virtual Reality (VR)-Headsets?;;;;;;;;;;;;;;;;;;;;;;;;;
+Dies ist mein erstes Mal;10;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+Weniger oft;10;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Umschauen;;;;;;;;;;;;;;;;;;;;;;;;;
+Total;9;;;;;;;;;;;;;;;;;;;;;;;;
+Verstanden.;9;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Ich fühlte mich im virtuellen Raum anwesend.;;;;;;;;;;;;;;;;;;;;;;;;;
+2;1;;;;;;;;;;;;;;;;;;;;;;;;
+5;3;;;;;;;;;;;;;;;;;;;;;;;;
+6;8;;;;;;;;;;;;;;;;;;;;;;;;
+7;8;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, andere Personen)?;;;;;;;;;;;;;;;;;;;;;;;;;
+2;3;;;;;;;;;;;;;;;;;;;;;;;;
+3;6;;;;;;;;;;;;;;;;;;;;;;;;
+4;1;;;;;;;;;;;;;;;;;;;;;;;;
+5;3;;;;;;;;;;;;;;;;;;;;;;;;
+6;5;;;;;;;;;;;;;;;;;;;;;;;;
+7;2;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.;;;;;;;;;;;;;;;;;;;;;;;;;
+2;2;;;;;;;;;;;;;;;;;;;;;;;;
+3;1;;;;;;;;;;;;;;;;;;;;;;;;
+4;2;;;;;;;;;;;;;;;;;;;;;;;;
+5;4;;;;;;;;;;;;;;;;;;;;;;;;
+6;7;;;;;;;;;;;;;;;;;;;;;;;;
+7;4;;;;;;;;;;;;;;;;;;;;;;;;
+Total;20;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+V Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;;;;;;;;;;;;;;;;;;;;;;;;;
+1;1;;;;;;;;;;;;;;;;;;;;;;;;
+2;1;;;;;;;;;;;;;;;;;;;;;;;;
+6;7;;;;;;;;;;;;;;;;;;;;;;;;
+7;4;;;;;;;;;;;;;;;;;;;;;;;;
+Total;13;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+S Ich fühle mich frisch und ausgeruht. 1: Trifft gar nicht -7: Trifft völlig;;;;;;;;;;;;;;;;;;;;;;;;;
+3;1;;;;;;;;;;;;;;;;;;;;;;;;
+5;2;;;;;;;;;;;;;;;;;;;;;;;;
+6;5;;;;;;;;;;;;;;;;;;;;;;;;
+7;5;;;;;;;;;;;;;;;;;;;;;;;;
+Total;13;;;;;;;;;;;;;;;;;;;;;;;;

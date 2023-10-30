@@ -1,7 +1,5 @@
 import os
 import csvmethods
-import json
-import csv
 from Json2Csv import ConvertAllJsonFiles
 
 ConvertAllJsonFiles("cataTests")
@@ -24,8 +22,8 @@ for file in csv_files:
             header = lines[0]
             answer_count = int(csvmethods.countEmpties(header)/2+1)
             environment = lines[-2].split(";")[1].replace("\n","")
-            environment = csvmethods.GetEnvironment(file)
             probandID = lines[-8].split(";")[1].replace("\n","")
+            environment = csvmethods.GetEnvironment(str(int(probandID)),file[:10])
             lines_new = []
             prefixline = ""
             if "CATA-W" in file:

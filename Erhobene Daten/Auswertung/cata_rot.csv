@@ -1,318 +1,37 @@
-Sensoriklabor Questions
-Answers;9
-Total;9
-
-Sensoriklabor Probe 322 Farbe
-Dunkelrot mit bläul. Reflexen;1
-Hellrot mit braunem Rand;1
-Rubinrot;1
-Total;3
-
-Sensoriklabor Probe 322 Geruch
-Erdbeere;2
-Fruchtig;3
-Holz;1
-Total;3
-Vanille;2
-Vegetativ;1
-
-Sensoriklabor Probe 322 Geschmack
-Adstringierend;1
-Dezente Säure;3
-Holz;2
-Leichte Süße;3
-Schmelz/Cremig;1
-Tannine;2
-Total;3
-
-Sensoriklabor Probe 644 Farbe
-Dunkelrot mit bläul. Reflexen;2
-Dunkelrot mit bläul. Reflexens;1
-Hellrot mit braunem Rand;1
-Rubinrot;4
-Total;8
-
-Sensoriklabor Probe 644 Geruch
-Dumpf;1
-Dunkle Beeren;3
-Fruchtig;4
-Holz;5
-Kirsche;5
-Nelke;2
-Pfeffer;2
-Pflaume;1
-Rauchig;1
-Total;8
-Vanille;4
-Vegetativ;4
-Würzig;2
-
-Sensoriklabor Probe 644 Geschmack
-Adstringierend;3
-Alkoholisch;3
-Bitter;1
-Dezente Säure;5
-Holz;6
-Leichte Süße;2
-Sauer;3
-Schmelz/Cremig;1
-Tannine;5
-Total;8
-
-Sensoriklabor Probe 983 Farbe
-Hellrot mit braunem Rand;5
-Rubinrot;1
-Total;6
-
-Sensoriklabor Probe 983 Geruch
-Dunkle Beeren;1
-Erdbeere;1
-Fruchtig;2
-Holz;1
-Kirsche;5
-Nelke;1
-Pfeffer;1
-Rauchig;2
-Total;6
-Vegetativ;2
-Würzig;2
-Zitrus;1
-
-Sensoriklabor Probe 983 Geschmack
-Adstringierend;1
-Alkoholisch;1
-Bitter;1
-Dezente Säure;1
-Dominante Säure;5
-Holz;3
-Sauer;2
-Süß;1
-Tannine;1
-Total;6
-
-Weinkeller Questions
-Answers;20
-Total;20
-
-Weinkeller Probe 983 Farbe
-Dunkelrot mit bläul. Reflexen;1
-Hellrot mit braunem Rand;7
-Rubinrot;4
-Total;12
-
-Weinkeller Probe 983 Geruch
-Dumpf;4
-Dunkle Beeren;5
-Erdbeere;3
-Fruchtig;6
-Holz;7
-Kirsche;5
-Nelke;3
-Pfeffer;4
-Pflaume;2
-Rauchig;5
-Total;12
-Vanille;1
-Vegetativ;4
-Würzig;8
-
-Weinkeller Probe 983 Geschmack
-Adstringierend;6
-Alkoholisch;2
-Bitter;4
-Dezente Säure;4
-Dominante Säure;6
-Holz;4
-Leichte Süße;7
-Sauer;3
-Tannine;8
-Total;12
-
-Weinkeller Probe 322 Farbe
-Dunkelrot mit bläul. Reflexen;7
-Hellrot mit braunem Rand;3
-Rubinrot;7
-Total;20
-deep red with blue reflection;3
-
-Weinkeller Probe 322 Geruch
-Dumpf;2
-Dunkle Beeren;10
-Erdbeere;11
-Fruchtig;13
-Holz;1
-Kirsche;13
-Nelke;1
-Pfeffer;3
-Pflaume;8
-Rauchig;1
-Total;20
-Vanille;8
-Vegetativ;5
-Würzig;8
-
-Weinkeller Probe 322 Geschmack
-Adstringierend;7
-Alkoholisch;2
-Bitter;5
-Dezente Säure;10
-Holz;5
-Leichte Süße;7
-Sauer;4
-Süß;12
-Tannine;8
-Total;20
-
-Weinkeller Probe 644 Farbe
-Dunkelrot mit bläul. Reflexen;3
-Hellrot mit braunem Rand;1
-Rubinrot;3
-Total;8
-deep red with blue reflection;1
-
-Weinkeller Probe 644 Geruch
-Dunkle Beeren;6
-Fruchtig;2
-Holz;4
-Kirsche;4
-Pfeffer;3
-Pflaume;2
-Rauchig;3
-Total;8
-Vanille;2
-Vegetativ;1
-Würzig;7
-
-Weinkeller Probe 644 Geschmack
-Adstringierend;3
-Alkoholisch;4
-Bitter;1
-Dezente Säure;3
-Dominante Säure;1
-Holz;5
-Leichte Süße;1
-Sauer;2
-Tannine;7
-Total;8
-
-Virtuell Weinkeller Questions
-Answers;33
-Total;33
-
-Virtuell Weinkeller Probe 983 Farbe
-Hellrot mit braunem Rand;19
-Rubinrot;6
-Total;25
-
-Virtuell Weinkeller Probe 983 Geruch
-Dumpf;8
-Dunkle Beeren;8
-Erdbeere;6
-Fruchtig;4
-Holz;12
-Kirsche;8
-Nelke;4
-Pfeffer;8
-Pflaume;3
-Rauchig;13
-Total;25
-Vanille;3
-Vegetativ;11
-Würzig;16
-
-Virtuell Weinkeller Probe 983 Geschmack
-Adstringierend;8
-Alkoholisch;11
-Bitter;7
-Dezente Säure;10
-Dominante Säure;4
-Holz;10
-Leichte Süße;12
-Sauer;11
-Süß;2
-Tannine;13
-Total;25
-
-Virtuell Weinkeller Probe 644 Farbe
-Dunkelrot mit bläul. Reflexen;7
-Dunkelrot mit bläul. Reflexens;2
-Rubinrot;21
-Total;30
-
-Virtuell Weinkeller Probe 644 Geruch
-Dumpf;1
-Dunkle Beeren;19
-Erdbeere;3
-Fruchtig;16
-Holz;15
-Kirsche;22
-Nelke;7
-Pfeffer;5
-Pflaume;9
-Rauchig;3
-Total;30
-Vanille;16
-Vegetativ;4
-Würzig;19
-
-Virtuell Weinkeller Probe 644 Geschmack
-Adstringierend;20
-Alkoholisch;14
-Bitter;6
-Dezente Säure;7
-Dominante Säure;6
-Holz;19
-Leichte Süße;14
-Sauer;8
-Tannine;25
-Total;30
-
-Virtuell Weinkeller Probe 322 Farbe
-Dunkelrot mit bläul. Reflexen;4
-Dunkelrot mit bläul. Reflexens;5
-Hellrot mit braunem Rand;1
-Rubinrot;1
-Total;11
-
-Virtuell Weinkeller Probe 322 Geruch
-Dumpf;2
-Dunkle Beeren;6
-Erdbeere;7
-Fruchtig;5
-Holz;1
-Kirsche;6
-Pfeffer;1
-Pflaume;7
-Rauchig;1
-Total;11
-Vanille;3
-Vegetativ;4
-Würzig;3
-
-Virtuell Weinkeller Probe 322 Geschmack
-Adstringierend;1
-Alkoholisch;2
-Bitter;2
-Dezente Säure;6
-Holz;1
-Leichte Süße;5
-Sauer;4
-Süß;5
-Tannine;4
-Total;11
-
-Sensoriklabor Probe 720 Farbe
-Hellrot mit braunem Rand;1
-Total;1
-
-Sensoriklabor Probe 720 Geruch
-Dunkle Beeren;1
-Erdbeere;1
-Fruchtig;1
-Total;1
-
-Sensoriklabor Probe 720 Geschmack
-Dezente Säure;1
-Leichte Süße;1
-Total;1
-
+Absolut;;;;;;;;;;;Prozentual;;;;;;;;
+;Sensoriklabor;;;Weinkeller;;;Virtuell Weinkeller;;;;Sensoriklabor;;;Weinkeller;;;Virtuell Weinkeller;;
+Farbe;322S;644S;983S;322W;644W;983W;322V;644V;983V;;;;;;;;;;
+Dunkelrot mit bläul. Reflexen;4;8;;10;4;1;6;4;;;;;;;;;;;
+Hellrot mit braunem Rand;2;;12;3;1;7;;;11;;;;;;;;;;
+Rubinrot;;10;3;7;3;4;1;14;4;;;;;;;;;;
+Total;6;18;15;20;8;12;7;18;15;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+Geruch;;;;;;;;;;;;;;;;;;;
+Dumpf;1;1;5;2;;4;1;1;3;;;;;;;;;;
+Dunkle Beeren;2;10;6;10;6;5;4;12;3;;;;;;;;;;
+Erdbeere;4;;2;11;;3;5;3;5;;;;;;;;;;
+Fruchtig;3;9;3;13;2;6;4;10;3;;;;;;;;;;
+Holz;2;10;7;1;4;7;;9;6;;;;;;;;;;
+Kirsche;2;13;7;13;4;5;4;14;6;;;;;;;;;;
+Nelke;;4;3;1;;3;;5;2;;;;;;;;;;
+Pfeffer;1;3;3;3;3;4;;4;6;;;;;;;;;;
+Pflaume;2;5;2;8;2;2;5;5;1;;;;;;;;;;
+Rauchig;1;3;5;1;3;5;;1;10;;;;;;;;;;
+Total;6;18;15;20;8;12;7;18;15;;;;;;;;;;
+Vanille;2;10;1;8;2;1;3;10;2;;;;;;;;;;
+Vegetativ;2;2;7;5;1;4;2;4;5;;;;;;;;;;
+Würzig;2;9;8;8;7;8;1;12;10;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+Geschmack;;;;;;;;;;;;;;;;;;;
+Adstringierend;2;11;6;7;3;6;2;12;3;;;;;;;;;;
+Alkoholisch;1;7;5;2;4;2;1;9;7;;;;;;;;;;
+Bitter;;3;3;5;1;4;;3;5;;;;;;;;;;
+Dezente Säure;5;6;6;10;3;4;3;5;5;;;;;;;;;;
+Dominante Säure;;4;4;;1;6;;2;4;;;;;;;;;;
+Holz;1;14;6;5;5;4;1;9;7;;;;;;;;;;
+Leichte Süße;5;5;2;7;1;7;2;10;10;;;;;;;;;;
+Sauer;1;4;5;4;2;3;3;6;7;;;;;;;;;;
+Süß;1;;3;12;;;4;;;;;;;;;;;;
+Tannine;3;16;8;8;7;8;3;14;6;;;;;;;;;;
+Total;6;18;15;20;8;12;7;18;15;;;;;;;;;;
